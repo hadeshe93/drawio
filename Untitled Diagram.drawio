@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-09-14T07:45:47.435Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" etag="aYHwf31Nk5aH61CS2ZJo" version="13.6.10" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2020-09-14T08:11:02.775Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" etag="BUzrezM8qtG84H7iXVhr" version="13.6.10" type="github" pages="3">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="app.ts  - intiation">
     <mxGraphModel dx="1426" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -141,7 +141,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="cdu0zVF1NZ6N_x2V1VSj" name="src/package-feed/feed/feed.vue">
+  <diagram id="cdu0zVF1NZ6N_x2V1VSj" name="feed - init">
     <mxGraphModel dx="1426" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="1dsPmRVok9gqzkrkZN_u-0" />
@@ -275,6 +275,14 @@
         <mxCell id="1dsPmRVok9gqzkrkZN_u-53" value="videoStop" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1dsPmRVok9gqzkrkZN_u-1">
           <mxGeometry x="528.5" y="880" width="123" height="40" as="geometry" />
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="6BMraolIKzoJu8GSK0R9" name="Page-3">
+    <mxGraphModel dx="1426" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="joCWB_RumUDfRScpSwCT-0" />
+        <mxCell id="joCWB_RumUDfRScpSwCT-1" parent="joCWB_RumUDfRScpSwCT-0" />
       </root>
     </mxGraphModel>
   </diagram>
