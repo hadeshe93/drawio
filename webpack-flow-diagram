@@ -1,10 +1,10 @@
-<mxfile host="app.diagrams.net" modified="2020-10-02T12:40:55.678Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36" etag="_8WGcnlD5kR3Kt_AAnQc" version="13.6.10" type="github">
+<mxfile host="app.diagrams.net" modified="2020-10-02T12:44:42.274Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36" etag="zdqz7_0ow3SbQvjee4E1" version="13.6.10" type="github">
   <diagram name="Page-1" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
     <mxGraphModel dx="1186" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="77e6c97f196da883-1" value="webpack compile flow" style="swimlane;html=1;childLayout=stackLayout;startSize=20;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="1" vertex="1">
+        <mxCell id="77e6c97f196da883-1" value="webpack compile flow&amp;nbsp; 编译流程按照下面的钩子调用顺序执行" style="swimlane;html=1;childLayout=stackLayout;startSize=20;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="1" vertex="1">
           <mxGeometry x="70" y="40" width="1440" height="750" as="geometry" />
         </mxCell>
         <mxCell id="77e6c97f196da883-2" value="entry-option" style="swimlane;html=1;startSize=20;" parent="77e6c97f196da883-1" vertex="1">
