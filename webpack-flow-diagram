@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-10-02T12:38:25.238Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36" etag="CkPsHXMoYGqv1iTyosKj" version="13.6.10" type="github">
+<mxfile host="app.diagrams.net" modified="2020-10-02T12:40:55.678Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36" etag="_8WGcnlD5kR3Kt_AAnQc" version="13.6.10" type="github">
   <diagram name="Page-1" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
     <mxGraphModel dx="1186" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
@@ -51,6 +51,15 @@
         </mxCell>
         <mxCell id="ujlsuLUcdMZP2_V7es3W-3" value="emit" style="swimlane;html=1;startSize=20;" vertex="1" parent="1">
           <mxGeometry x="1350" y="60" width="160" height="730" as="geometry" />
+        </mxCell>
+        <mxCell id="ujlsuLUcdMZP2_V7es3W-10" value="遍历 AST，当遇到 require &lt;br&gt;等一些调用表达式时，&lt;br&gt;收集依赖" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="1031" y="81" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ujlsuLUcdMZP2_V7es3W-11" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;所有依赖 build 完成，&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;开始优化&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="1191" y="82" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ujlsuLUcdMZP2_V7es3W-12" value="输出到 dist 目录" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="1350" y="80" width="100" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
