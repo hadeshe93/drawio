@@ -1,1 +1,55 @@
-<mxfile host="app.diagrams.net" modified="2020-10-14T15:59:20.936Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" version="13.7.7" etag="mSElOy9xenaHGjxfyiLG" type="github"><diagram id="DFxcJPOiZ757gL9qCYYY">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-10-14T16:03:16.378Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="zhIEys1s7qtjcgbWzBHA" version="13.7.7" type="github">
+  <diagram id="DFxcJPOiZ757gL9qCYYY" name="Page-1">
+    <mxGraphModel dx="1186" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="21RhCU9XT8rEbvtDIoEi-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="21RhCU9XT8rEbvtDIoEi-1" target="21RhCU9XT8rEbvtDIoEi-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="21RhCU9XT8rEbvtDIoEi-1" value="开始" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="21RhCU9XT8rEbvtDIoEi-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="21RhCU9XT8rEbvtDIoEi-2" target="21RhCU9XT8rEbvtDIoEi-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="21RhCU9XT8rEbvtDIoEi-2" value="创建 Compiler 实例" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="21RhCU9XT8rEbvtDIoEi-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="21RhCU9XT8rEbvtDIoEi-4" target="21RhCU9XT8rEbvtDIoEi-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="21RhCU9XT8rEbvtDIoEi-4" value="调用 compiler.run 开始构建" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="21RhCU9XT8rEbvtDIoEi-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="21RhCU9XT8rEbvtDIoEi-6" target="21RhCU9XT8rEbvtDIoEi-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="21RhCU9XT8rEbvtDIoEi-6" value="创建 Cpmpilation 实例" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="21RhCU9XT8rEbvtDIoEi-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="21RhCU9XT8rEbvtDIoEi-8" target="21RhCU9XT8rEbvtDIoEi-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="21RhCU9XT8rEbvtDIoEi-8" value="基于配置开始创建 Chunk 实例" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="21RhCU9XT8rEbvtDIoEi-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="21RhCU9XT8rEbvtDIoEi-10" target="21RhCU9XT8rEbvtDIoEi-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="21RhCU9XT8rEbvtDIoEi-10" value="使用 Parser 从 Chunk 实例中开始解析依赖" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="524.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="21RhCU9XT8rEbvtDIoEi-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="21RhCU9XT8rEbvtDIoEi-12" target="21RhCU9XT8rEbvtDIoEi-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="21RhCU9XT8rEbvtDIoEi-12" value="使用 Model 和 Dependency 管理代码模块间的关系" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="610" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="21RhCU9XT8rEbvtDIoEi-14" value="使用 Template 基于 Compilation 的数据生成结果代码" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="700" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
