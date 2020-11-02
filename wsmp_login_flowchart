@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-02T11:43:18.568Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="FjWBYEKp79u3hXyxJ9wg" version="13.8.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-02T11:43:33.553Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="dgxtAR9La4gQJ-dWdoF9" version="13.8.1" type="github">
   <diagram id="c_eYXRk_POB2v5sAYSU5" name="Page-1">
     <mxGraphModel dx="1186" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -208,13 +208,13 @@
         <mxCell id="vpqL5hNFPV5XjvOY6uLA-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="vpqL5hNFPV5XjvOY6uLA-76" target="vpqL5hNFPV5XjvOY6uLA-79">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="vpqL5hNFPV5XjvOY6uLA-92" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="vpqL5hNFPV5XjvOY6uLA-76" target="vpqL5hNFPV5XjvOY6uLA-80">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="vpqL5hNFPV5XjvOY6uLA-76" value="调用 this.getLoginInfo&lt;br&gt;以获取登录态变量 this.minicoData" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="921" y="240" width="220" height="40" as="geometry" />
         </mxCell>
         <mxCell id="vpqL5hNFPV5XjvOY6uLA-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="vpqL5hNFPV5XjvOY6uLA-79" target="vpqL5hNFPV5XjvOY6uLA-82">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vpqL5hNFPV5XjvOY6uLA-93" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="vpqL5hNFPV5XjvOY6uLA-79" target="vpqL5hNFPV5XjvOY6uLA-80">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="vpqL5hNFPV5XjvOY6uLA-79" value="调用 this.send 发起网络请求" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
