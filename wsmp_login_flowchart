@@ -1,1 +1,43 @@
-<mxfile host="app.diagrams.net" modified="2020-11-02T09:48:02.927Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" version="13.8.1" etag="2hrAR4kZEKmMKvqUvJI7" type="github"><diagram id="c_eYXRk_POB2v5sAYSU5">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-11-02T09:58:22.794Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="TybweEsoahinSZ3p-SYi" version="13.8.1" type="github">
+  <diagram id="c_eYXRk_POB2v5sAYSU5" name="Page-1">
+    <mxGraphModel dx="1186" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="vpqL5hNFPV5XjvOY6uLA-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vpqL5hNFPV5XjvOY6uLA-1" target="vpqL5hNFPV5XjvOY6uLA-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vpqL5hNFPV5XjvOY6uLA-1" value="Minico.prototyp.login" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="235" y="50" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vpqL5hNFPV5XjvOY6uLA-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vpqL5hNFPV5XjvOY6uLA-2" target="vpqL5hNFPV5XjvOY6uLA-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vpqL5hNFPV5XjvOY6uLA-2" value="wx.login &lt;br&gt;获取登录凭证 code" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="235" y="130" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vpqL5hNFPV5XjvOY6uLA-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vpqL5hNFPV5XjvOY6uLA-4" target="vpqL5hNFPV5XjvOY6uLA-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vpqL5hNFPV5XjvOY6uLA-4" value="minico/oauth20&lt;br&gt;带 code &amp;amp; appid 请求业务后台，进行登录，换取 token 和 openid" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="230" y="210" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vpqL5hNFPV5XjvOY6uLA-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vpqL5hNFPV5XjvOY6uLA-6" target="vpqL5hNFPV5XjvOY6uLA-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vpqL5hNFPV5XjvOY6uLA-6" value="登录鉴权成功？" style="rhombus;whiteSpace=wrap;html=1;rounded=1;strokeWidth=2;arcSize=14;" vertex="1" parent="1">
+          <mxGeometry x="237.5" y="310" width="125" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vpqL5hNFPV5XjvOY6uLA-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vpqL5hNFPV5XjvOY6uLA-8" target="vpqL5hNFPV5XjvOY6uLA-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vpqL5hNFPV5XjvOY6uLA-8" value="赋值内存变量 this.minicoData" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="235" y="430" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vpqL5hNFPV5XjvOY6uLA-11" value="wx.setStorageSync&lt;br&gt;写入本地缓存" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="235" y="510" width="130" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
