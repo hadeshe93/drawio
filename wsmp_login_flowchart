@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-02T11:36:18.196Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="OdlXhuTZQhpwMjCdSdn6" version="13.8.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-02T11:43:10.880Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="EY_n79N06lMGNASVM576" version="13.8.1" type="github">
   <diagram id="c_eYXRk_POB2v5sAYSU5" name="Page-1">
     <mxGraphModel dx="1186" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -199,17 +199,50 @@
         <mxCell id="vpqL5hNFPV5XjvOY6uLA-73" value="结束" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="645" y="560" width="100" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="vpqL5hNFPV5XjvOY6uLA-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="vpqL5hNFPV5XjvOY6uLA-75" target="vpqL5hNFPV5XjvOY6uLA-76">
+        <mxCell id="vpqL5hNFPV5XjvOY6uLA-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="vpqL5hNFPV5XjvOY6uLA-75" target="vpqL5hNFPV5XjvOY6uLA-85">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="vpqL5hNFPV5XjvOY6uLA-75" value="Minico.prototyp.weapp" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="1020" y="50" width="170" height="40" as="geometry" />
+        <mxCell id="vpqL5hNFPV5XjvOY6uLA-75" value="Minico.prototyp.webapp" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="946" y="50" width="170" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="vpqL5hNFPV5XjvOY6uLA-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="vpqL5hNFPV5XjvOY6uLA-76" target="vpqL5hNFPV5XjvOY6uLA-26">
+        <mxCell id="vpqL5hNFPV5XjvOY6uLA-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="vpqL5hNFPV5XjvOY6uLA-76" target="vpqL5hNFPV5XjvOY6uLA-79">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="vpqL5hNFPV5XjvOY6uLA-76" value="调用 this.getLoginInfo&lt;br&gt;以获取登录态变量 this.minicoData" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="995" y="130" width="220" height="40" as="geometry" />
+          <mxGeometry x="921" y="240" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vpqL5hNFPV5XjvOY6uLA-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="vpqL5hNFPV5XjvOY6uLA-79" target="vpqL5hNFPV5XjvOY6uLA-82">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vpqL5hNFPV5XjvOY6uLA-79" value="调用 this.send 发起网络请求" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="946" y="320" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vpqL5hNFPV5XjvOY6uLA-80" value="Minico.prototyp.send" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1294" y="50" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vpqL5hNFPV5XjvOY6uLA-82" value="结束" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="981" y="400" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="vpqL5hNFPV5XjvOY6uLA-87" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="vpqL5hNFPV5XjvOY6uLA-85" target="vpqL5hNFPV5XjvOY6uLA-76">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vpqL5hNFPV5XjvOY6uLA-89" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="vpqL5hNFPV5XjvOY6uLA-85" target="vpqL5hNFPV5XjvOY6uLA-79">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="880" y="170" />
+              <mxPoint x="880" y="300" />
+              <mxPoint x="1031" y="300" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vpqL5hNFPV5XjvOY6uLA-85" value="入参 param.withCredentials 是否为真？" style="rhombus;whiteSpace=wrap;html=1;rounded=1;strokeWidth=2;arcSize=14;" vertex="1" parent="1">
+          <mxGeometry x="957.25" y="130" width="147.5" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vpqL5hNFPV5XjvOY6uLA-90" value="Y" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="210" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="vpqL5hNFPV5XjvOY6uLA-91" value="N" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="921" y="150" width="40" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
