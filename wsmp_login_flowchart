@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-02T10:03:40.794Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="7whacXx9nFEQRVLqi1Fx" version="13.8.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-02T10:04:28.986Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="Vh97A04WaLAc_XqxHMVB" version="13.8.1" type="github">
   <diagram id="c_eYXRk_POB2v5sAYSU5" name="Page-1">
     <mxGraphModel dx="1186" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -73,6 +73,9 @@
         </mxCell>
         <mxCell id="vpqL5hNFPV5XjvOY6uLA-21" value="code 不为空" style="rhombus;whiteSpace=wrap;html=1;rounded=1;strokeWidth=2;arcSize=14;" vertex="1" parent="1">
           <mxGeometry x="237.5" y="330" width="125" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vpqL5hNFPV5XjvOY6uLA-26" value="Minico.prototyp.getLoginInfo" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="610" y="50" width="170" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
