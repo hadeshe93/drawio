@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-03T02:58:55.084Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="h9X-QlBJWHlgQHBMuZiL" version="13.8.1" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2020-11-03T02:59:10.252Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="208b8Iu8aXZITjyWfs13" version="13.8.1" type="github" pages="2">
   <diagram id="c_eYXRk_POB2v5sAYSU5" name="minico 层">
     <mxGraphModel dx="1186" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -478,6 +478,9 @@
         <mxCell id="O-Jzustdq4L8LQ4-bUsU-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="Umroz8s6Un31DesV6YGO-1" source="O-Jzustdq4L8LQ4-bUsU-34" target="O-Jzustdq4L8LQ4-bUsU-36">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="O-Jzustdq4L8LQ4-bUsU-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="Umroz8s6Un31DesV6YGO-1" source="O-Jzustdq4L8LQ4-bUsU-34" target="O-Jzustdq4L8LQ4-bUsU-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="O-Jzustdq4L8LQ4-bUsU-34" value="登录成功？" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="Umroz8s6Un31DesV6YGO-1">
           <mxGeometry x="270" y="1180" width="100" height="100" as="geometry" />
         </mxCell>
@@ -485,7 +488,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="O-Jzustdq4L8LQ4-bUsU-35" value="重放业务请求" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="Umroz8s6Un31DesV6YGO-1">
-          <mxGeometry x="10" y="1140" width="180" height="40" as="geometry" />
+          <mxGeometry x="10" y="1210" width="180" height="40" as="geometry" />
         </mxCell>
         <mxCell id="O-Jzustdq4L8LQ4-bUsU-36" value="reject" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="Umroz8s6Un31DesV6YGO-1">
           <mxGeometry x="350" y="1330" width="180" height="40" as="geometry" />
