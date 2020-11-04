@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-04T11:30:55.618Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="oESqhXPGQTTgLvGB6X1Q" version="13.8.1" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2020-11-04T11:50:58.370Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="MKvW8svfHXCa3QdYorPj" version="13.8.1" type="github" pages="3">
   <diagram id="c_eYXRk_POB2v5sAYSU5" name="minico 层">
     <mxGraphModel dx="1186" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -552,6 +552,69 @@
       <root>
         <mxCell id="IquGZmozlr90M-9dMYLj-0" />
         <mxCell id="IquGZmozlr90M-9dMYLj-1" parent="IquGZmozlr90M-9dMYLj-0" />
+        <mxCell id="Ow7d-FLzj7IlF21Y2EOc-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="IquGZmozlr90M-9dMYLj-1" source="Ow7d-FLzj7IlF21Y2EOc-0" target="Ow7d-FLzj7IlF21Y2EOc-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ow7d-FLzj7IlF21Y2EOc-0" value="start 方法" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="IquGZmozlr90M-9dMYLj-1">
+          <mxGeometry x="325" y="60" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ow7d-FLzj7IlF21Y2EOc-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="IquGZmozlr90M-9dMYLj-1" source="Ow7d-FLzj7IlF21Y2EOc-1" target="Ow7d-FLzj7IlF21Y2EOc-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ow7d-FLzj7IlF21Y2EOc-1" value="执行&amp;nbsp;prepareEntryData 方法" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="IquGZmozlr90M-9dMYLj-1">
+          <mxGeometry x="290" y="130" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ow7d-FLzj7IlF21Y2EOc-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="IquGZmozlr90M-9dMYLj-1" source="Ow7d-FLzj7IlF21Y2EOc-4" target="Ow7d-FLzj7IlF21Y2EOc-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ow7d-FLzj7IlF21Y2EOc-4" value="从入口 query 参数获取 feedId 和&amp;nbsp;feedAccesstoken&lt;br&gt;并更新到 store 中" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="IquGZmozlr90M-9dMYLj-1">
+          <mxGeometry x="290" y="200" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Ow7d-FLzj7IlF21Y2EOc-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="IquGZmozlr90M-9dMYLj-1" source="Ow7d-FLzj7IlF21Y2EOc-6" target="Ow7d-FLzj7IlF21Y2EOc-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ow7d-FLzj7IlF21Y2EOc-6" value="阻塞式获取到 weishiId 相关信息" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="IquGZmozlr90M-9dMYLj-1">
+          <mxGeometry x="290" y="280" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ow7d-FLzj7IlF21Y2EOc-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="IquGZmozlr90M-9dMYLj-1" source="Ow7d-FLzj7IlF21Y2EOc-8" target="Ow7d-FLzj7IlF21Y2EOc-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ow7d-FLzj7IlF21Y2EOc-8" value="阻塞式 getFeedDetail" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="IquGZmozlr90M-9dMYLj-1">
+          <mxGeometry x="290" y="350" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ow7d-FLzj7IlF21Y2EOc-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="IquGZmozlr90M-9dMYLj-1" source="Ow7d-FLzj7IlF21Y2EOc-10" target="Ow7d-FLzj7IlF21Y2EOc-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ow7d-FLzj7IlF21Y2EOc-10" value="从 feedDetail 中解析出index_json_url" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="IquGZmozlr90M-9dMYLj-1">
+          <mxGeometry x="290" y="420" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ow7d-FLzj7IlF21Y2EOc-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="IquGZmozlr90M-9dMYLj-1" source="Ow7d-FLzj7IlF21Y2EOc-12" target="Ow7d-FLzj7IlF21Y2EOc-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ow7d-FLzj7IlF21Y2EOc-12" value="根据 url 阻塞式获取 json 互动数据" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="IquGZmozlr90M-9dMYLj-1">
+          <mxGeometry x="280" y="490" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ow7d-FLzj7IlF21Y2EOc-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="IquGZmozlr90M-9dMYLj-1" source="Ow7d-FLzj7IlF21Y2EOc-14" target="Ow7d-FLzj7IlF21Y2EOc-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ow7d-FLzj7IlF21Y2EOc-14" value="使用&amp;nbsp;bulkGetVidsURL 接口将 vids 换成 url" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="IquGZmozlr90M-9dMYLj-1">
+          <mxGeometry x="280" y="564.5" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ow7d-FLzj7IlF21Y2EOc-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="IquGZmozlr90M-9dMYLj-1" source="Ow7d-FLzj7IlF21Y2EOc-16" target="Ow7d-FLzj7IlF21Y2EOc-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ow7d-FLzj7IlF21Y2EOc-16" value="对每个 vid 逐个进行视频 url 清晰度算法选择" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="IquGZmozlr90M-9dMYLj-1">
+          <mxGeometry x="280" y="630" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ow7d-FLzj7IlF21Y2EOc-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="IquGZmozlr90M-9dMYLj-1" source="Ow7d-FLzj7IlF21Y2EOc-19" target="Ow7d-FLzj7IlF21Y2EOc-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ow7d-FLzj7IlF21Y2EOc-19" value="也替换 feedDetail 里面的视频 url，然后更新回 store" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="IquGZmozlr90M-9dMYLj-1">
+          <mxGeometry x="280" y="700" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ow7d-FLzj7IlF21Y2EOc-21" value="结束" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="IquGZmozlr90M-9dMYLj-1">
+          <mxGeometry x="340" y="770" width="80" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
