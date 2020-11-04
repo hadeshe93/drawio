@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-04T11:50:58.370Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="MKvW8svfHXCa3QdYorPj" version="13.8.1" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2020-11-04T11:51:40.641Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="8MigGcblqMUqtTnR-9f8" version="13.8.1" type="github" pages="3">
   <diagram id="c_eYXRk_POB2v5sAYSU5" name="minico 层">
     <mxGraphModel dx="1186" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -603,7 +603,7 @@
         <mxCell id="Ow7d-FLzj7IlF21Y2EOc-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="IquGZmozlr90M-9dMYLj-1" source="Ow7d-FLzj7IlF21Y2EOc-16" target="Ow7d-FLzj7IlF21Y2EOc-19">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Ow7d-FLzj7IlF21Y2EOc-16" value="对每个 vid 逐个进行视频 url 清晰度算法选择" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="IquGZmozlr90M-9dMYLj-1">
+        <mxCell id="Ow7d-FLzj7IlF21Y2EOc-16" value="对每个 vid 逐个进行视频 url 清晰度算法选择，并更新回源数据中" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="IquGZmozlr90M-9dMYLj-1">
           <mxGeometry x="280" y="630" width="200" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Ow7d-FLzj7IlF21Y2EOc-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="IquGZmozlr90M-9dMYLj-1" source="Ow7d-FLzj7IlF21Y2EOc-19" target="Ow7d-FLzj7IlF21Y2EOc-21">
