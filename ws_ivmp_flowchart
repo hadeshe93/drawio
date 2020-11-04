@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-04T11:58:56.017Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="3lEiJxYsgLJhtTDxp_cW" version="13.8.1" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2020-11-04T12:16:03.923Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="SubWlV8CGSawkXcl9g4w" version="13.8.1" type="github" pages="3">
   <diagram id="c_eYXRk_POB2v5sAYSU5" name="minico 层">
     <mxGraphModel dx="1186" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -633,8 +633,20 @@
         <mxCell id="Ow7d-FLzj7IlF21Y2EOc-24" value="执行 start 方法" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="IquGZmozlr90M-9dMYLj-1">
           <mxGeometry x="100" y="130" width="110" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="Ow7d-FLzj7IlF21Y2EOc-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="IquGZmozlr90M-9dMYLj-1" source="Ow7d-FLzj7IlF21Y2EOc-28" target="Ow7d-FLzj7IlF21Y2EOc-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="Ow7d-FLzj7IlF21Y2EOc-28" value="执行 bootstrap 方法" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="IquGZmozlr90M-9dMYLj-1">
           <mxGeometry x="405" y="770" width="190" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ow7d-FLzj7IlF21Y2EOc-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="IquGZmozlr90M-9dMYLj-1" source="Ow7d-FLzj7IlF21Y2EOc-32" target="Ow7d-FLzj7IlF21Y2EOc-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ow7d-FLzj7IlF21Y2EOc-32" value="是否正在启动？" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="IquGZmozlr90M-9dMYLj-1">
+          <mxGeometry x="430" y="840" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Ow7d-FLzj7IlF21Y2EOc-34" value="等待 prepareEntryData 方法执行完毕&lt;br&gt;和&lt;br&gt;mpPlayer 已经准备好" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="IquGZmozlr90M-9dMYLj-1">
+          <mxGeometry x="391.25" y="940" width="217.5" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
