@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-03T03:10:33.637Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="Dw1OUDRjy9fPFfUln97S" version="13.8.1" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2020-11-04T11:30:55.618Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="oESqhXPGQTTgLvGB6X1Q" version="13.8.1" type="github" pages="3">
   <diagram id="c_eYXRk_POB2v5sAYSU5" name="minico 层">
     <mxGraphModel dx="1186" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -364,7 +364,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="q5e8vFToIGaPJfxCxVAk" name="requestor 层">
-    <mxGraphModel dx="1186" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1426" dy="826" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="Umroz8s6Un31DesV6YGO-0" />
         <mxCell id="Umroz8s6Un31DesV6YGO-1" parent="Umroz8s6Un31DesV6YGO-0" />
@@ -544,6 +544,14 @@
         <mxCell id="O-Jzustdq4L8LQ4-bUsU-74" value="N" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="Umroz8s6Un31DesV6YGO-1">
           <mxGeometry x="370" y="1450" width="40" height="20" as="geometry" />
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="fx2LDw1MxNTOiTYtp_Og" name="应用层">
+    <mxGraphModel dx="1426" dy="826" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="IquGZmozlr90M-9dMYLj-0" />
+        <mxCell id="IquGZmozlr90M-9dMYLj-1" parent="IquGZmozlr90M-9dMYLj-0" />
       </root>
     </mxGraphModel>
   </diagram>
