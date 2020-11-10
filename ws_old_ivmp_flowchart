@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-10T03:05:23.081Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="NX5y0FCuUKq-IgjcAH9J" version="13.8.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-10T03:05:49.218Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="_rWnDeKoMA4EdXQcP1oD" version="13.8.1" type="github">
   <diagram id="36oOoDrCphKBhhJTfvPP" name="视频UI适配逻辑">
     <mxGraphModel dx="1426" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -36,6 +36,12 @@
         </mxCell>
         <mxCell id="ojBwO-obHFJEci-bC3OM-12" value="设置到 view 层" style="whiteSpace=wrap;html=1;rounded=1;strokeWidth=2;arcSize=14;" vertex="1" parent="1">
           <mxGeometry x="585" y="530" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ojBwO-obHFJEci-bC3OM-14" value="Y" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="646" y="280" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ojBwO-obHFJEci-bC3OM-15" value="N" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="537.5" y="220" width="40" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
