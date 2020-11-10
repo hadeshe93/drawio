@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-10T03:05:13.659Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="D4glBdOhlwM56ATpv6uS" version="13.8.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-10T03:05:23.081Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="NX5y0FCuUKq-IgjcAH9J" version="13.8.1" type="github">
   <diagram id="36oOoDrCphKBhhJTfvPP" name="视频UI适配逻辑">
     <mxGraphModel dx="1426" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -7,7 +7,7 @@
         <mxCell id="ojBwO-obHFJEci-bC3OM-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ojBwO-obHFJEci-bC3OM-1" target="ojBwO-obHFJEci-bC3OM-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ojBwO-obHFJEci-bC3OM-1" value="获取到分享下发的从参数" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="ojBwO-obHFJEci-bC3OM-1" value="获取到分享下发的参数" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="570" y="120" width="150" height="40" as="geometry" />
         </mxCell>
         <mxCell id="ojBwO-obHFJEci-bC3OM-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ojBwO-obHFJEci-bC3OM-4" target="ojBwO-obHFJEci-bC3OM-6">
