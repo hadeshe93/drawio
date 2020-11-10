@@ -1,1 +1,43 @@
-<mxfile host="app.diagrams.net" modified="2020-11-10T02:58:47.962Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" version="13.8.1" etag="EKq3tFotyGoVH83C4ndf" type="github"><diagram id="36oOoDrCphKBhhJTfvPP">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-11-10T03:05:13.659Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="D4glBdOhlwM56ATpv6uS" version="13.8.1" type="github">
+  <diagram id="36oOoDrCphKBhhJTfvPP" name="视频UI适配逻辑">
+    <mxGraphModel dx="1426" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ojBwO-obHFJEci-bC3OM-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ojBwO-obHFJEci-bC3OM-1" target="ojBwO-obHFJEci-bC3OM-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ojBwO-obHFJEci-bC3OM-1" value="获取到分享下发的从参数" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="570" y="120" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ojBwO-obHFJEci-bC3OM-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ojBwO-obHFJEci-bC3OM-4" target="ojBwO-obHFJEci-bC3OM-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ojBwO-obHFJEci-bC3OM-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ojBwO-obHFJEci-bC3OM-4" target="ojBwO-obHFJEci-bC3OM-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ojBwO-obHFJEci-bC3OM-4" value="参数中是否有 v_width 和 v_height ?" style="rhombus;whiteSpace=wrap;html=1;rounded=1;strokeWidth=2;arcSize=14;" vertex="1" parent="1">
+          <mxGeometry x="577.5" y="200" width="135" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ojBwO-obHFJEci-bC3OM-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ojBwO-obHFJEci-bC3OM-6" target="ojBwO-obHFJEci-bC3OM-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ojBwO-obHFJEci-bC3OM-6" value="执行算法，计算 videoWrapper 的宽高" style="whiteSpace=wrap;html=1;rounded=1;strokeWidth=2;arcSize=14;" vertex="1" parent="1">
+          <mxGeometry x="585" y="430" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ojBwO-obHFJEci-bC3OM-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ojBwO-obHFJEci-bC3OM-8" target="ojBwO-obHFJEci-bC3OM-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ojBwO-obHFJEci-bC3OM-8" value="(等待 getFeedDetail 完毕)&lt;br&gt;从 feedDetail 中获取视频源的 width 和 height" style="whiteSpace=wrap;html=1;rounded=1;strokeWidth=2;arcSize=14;" vertex="1" parent="1">
+          <mxGeometry x="360" y="300" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ojBwO-obHFJEci-bC3OM-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="ojBwO-obHFJEci-bC3OM-6" target="ojBwO-obHFJEci-bC3OM-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ojBwO-obHFJEci-bC3OM-12" value="设置到 view 层" style="whiteSpace=wrap;html=1;rounded=1;strokeWidth=2;arcSize=14;" vertex="1" parent="1">
+          <mxGeometry x="585" y="530" width="120" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
