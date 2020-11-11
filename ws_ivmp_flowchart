@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-10T02:57:41.890Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="sPZ1xkDW9msnfiQRqhrt" version="13.8.1" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2020-11-11T02:44:54.950Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="v487pX_YhreRitYOPr0f" version="13.8.1" type="github" pages="4">
   <diagram id="c_eYXRk_POB2v5sAYSU5" name="minico 层">
     <mxGraphModel dx="1186" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -667,7 +667,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="uIT5MC_qQHu23wd_BYOl" name="视频UI适配逻辑">
+  <diagram id="uIT5MC_qQHu23wd_BYOl" name="互动组件层-TP组件">
     <mxGraphModel dx="1426" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="cNhUMmISQKAQxL4nunqP-0" />
