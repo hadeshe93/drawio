@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-11T02:57:46.270Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="FoDs_3iiH-D20lzq0chB" version="13.8.1" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2020-11-11T03:14:52.476Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="VoMfRYPhFoTTcRR7I8wV" version="13.8.1" type="github" pages="5">
   <diagram id="c_eYXRk_POB2v5sAYSU5" name="minico 层">
     <mxGraphModel dx="1426" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -676,40 +676,52 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="sjO6hDRPyAiqpXkVJkIX-2" value="babel-plugin-ivcomponent" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="sjO6hDRPyAiqpXkVJkIX-1">
-          <mxGeometry x="120" y="240" width="150" height="40" as="geometry" />
+          <mxGeometry x="50" y="160" width="150" height="40" as="geometry" />
         </mxCell>
         <mxCell id="sjO6hDRPyAiqpXkVJkIX-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="sjO6hDRPyAiqpXkVJkIX-1" source="sjO6hDRPyAiqpXkVJkIX-3" target="sjO6hDRPyAiqpXkVJkIX-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="sjO6hDRPyAiqpXkVJkIX-3" value="visitor: { ExportDefaultDeclaration&amp;nbsp;}" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="sjO6hDRPyAiqpXkVJkIX-1">
-          <mxGeometry x="310" y="240" width="210" height="40" as="geometry" />
+          <mxGeometry x="240" y="160" width="210" height="40" as="geometry" />
         </mxCell>
         <mxCell id="sjO6hDRPyAiqpXkVJkIX-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="sjO6hDRPyAiqpXkVJkIX-1" source="sjO6hDRPyAiqpXkVJkIX-7" target="sjO6hDRPyAiqpXkVJkIX-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="sjO6hDRPyAiqpXkVJkIX-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="sjO6hDRPyAiqpXkVJkIX-1" source="sjO6hDRPyAiqpXkVJkIX-7" target="sjO6hDRPyAiqpXkVJkIX-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="sjO6hDRPyAiqpXkVJkIX-7" value="addDefualtProps" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="sjO6hDRPyAiqpXkVJkIX-1">
-          <mxGeometry x="590" y="240" width="150" height="40" as="geometry" />
+          <mxGeometry x="520" y="160" width="150" height="40" as="geometry" />
         </mxCell>
         <mxCell id="sjO6hDRPyAiqpXkVJkIX-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="sjO6hDRPyAiqpXkVJkIX-1" source="sjO6hDRPyAiqpXkVJkIX-8" target="sjO6hDRPyAiqpXkVJkIX-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="sjO6hDRPyAiqpXkVJkIX-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="sjO6hDRPyAiqpXkVJkIX-1" source="sjO6hDRPyAiqpXkVJkIX-8" target="sjO6hDRPyAiqpXkVJkIX-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="sjO6hDRPyAiqpXkVJkIX-8" value="addMixin" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="sjO6hDRPyAiqpXkVJkIX-1">
-          <mxGeometry x="590" y="300" width="150" height="40" as="geometry" />
+          <mxGeometry x="520" y="220" width="150" height="40" as="geometry" />
         </mxCell>
         <mxCell id="sjO6hDRPyAiqpXkVJkIX-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="sjO6hDRPyAiqpXkVJkIX-1" source="sjO6hDRPyAiqpXkVJkIX-9" target="sjO6hDRPyAiqpXkVJkIX-10">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="sjO6hDRPyAiqpXkVJkIX-9" value="组合组件代码字符串" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="sjO6hDRPyAiqpXkVJkIX-1">
-          <mxGeometry x="590" y="360" width="150" height="40" as="geometry" />
+          <mxGeometry x="520" y="280" width="150" height="40" as="geometry" />
         </mxCell>
         <mxCell id="sjO6hDRPyAiqpXkVJkIX-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="sjO6hDRPyAiqpXkVJkIX-1" source="sjO6hDRPyAiqpXkVJkIX-10" target="sjO6hDRPyAiqpXkVJkIX-11">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="sjO6hDRPyAiqpXkVJkIX-10" value="用bablePaser解析代码字符串，得到语法树" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="sjO6hDRPyAiqpXkVJkIX-1">
-          <mxGeometry x="590" y="420" width="150" height="40" as="geometry" />
+          <mxGeometry x="520" y="340" width="150" height="40" as="geometry" />
         </mxCell>
         <mxCell id="sjO6hDRPyAiqpXkVJkIX-11" value="将新语法树中的程序实体替换掉原来的" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="sjO6hDRPyAiqpXkVJkIX-1">
-          <mxGeometry x="590" y="480" width="150" height="40" as="geometry" />
+          <mxGeometry x="520" y="400" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="sjO6hDRPyAiqpXkVJkIX-18" value="&lt;h1&gt;&lt;font style=&quot;font-size: 20px&quot;&gt;添加默认props&lt;/font&gt;&lt;/h1&gt;&lt;p&gt;x: 横坐标&lt;br&gt;y: 纵坐标&lt;br&gt;width: 组件宽&lt;br&gt;height: 组件高&lt;br&gt;startTime: 出现时间&lt;br&gt;endTime: 结束时间&lt;/p&gt;" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="sjO6hDRPyAiqpXkVJkIX-1">
+          <mxGeometry x="742" y="20" width="170" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="sjO6hDRPyAiqpXkVJkIX-19" value="&lt;h1&gt;&lt;font style=&quot;font-size: 20px&quot;&gt;添加默认mixin&lt;/font&gt;&lt;/h1&gt;&lt;p&gt;1. 提供 show 方法&lt;br&gt;2. 提供 hide 方法&lt;br&gt;3. 提供 updateRect 方法（小程序不使用）&lt;br&gt;4. 提供 proxy 方法&lt;/p&gt;" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="sjO6hDRPyAiqpXkVJkIX-1">
+          <mxGeometry x="940" y="20" width="170" height="140" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
