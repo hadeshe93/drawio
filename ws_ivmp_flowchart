@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-11T03:55:04.069Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="OG4ugrz6oSxX-3CHZmic" version="13.8.1" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2020-11-11T03:55:40.030Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="saLNhMbTvtAa9ew5h_ED" version="13.8.1" type="github" pages="5">
   <diagram id="c_eYXRk_POB2v5sAYSU5" name="minico 层">
     <mxGraphModel dx="1426" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -928,6 +928,12 @@
         </mxCell>
         <mxCell id="2GeSrbIEFJmId2dFmbry-84" value="组件调用 fetch 库通过应用层去实现的环节" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="cNhUMmISQKAQxL4nunqP-1">
           <mxGeometry x="30" width="230" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="2GeSrbIEFJmId2dFmbry-85" value="" style="whiteSpace=wrap;html=1;aspect=fixed;strokeColor=#d6b656;fillColor=#fff2cc;" vertex="1" parent="cNhUMmISQKAQxL4nunqP-1">
+          <mxGeometry x="280" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2GeSrbIEFJmId2dFmbry-86" value="组件调用 fetch 库直接发送请求的环节" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="cNhUMmISQKAQxL4nunqP-1">
+          <mxGeometry x="310" width="210" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
