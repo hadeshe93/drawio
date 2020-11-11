@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-11T06:42:55.080Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="7i7KFo8DnS2txM3CeEJI" version="13.8.1" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2020-11-11T06:53:02.826Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="2aOTCy0XhbHnSv74Yl70" version="13.8.1" type="github" pages="5">
   <diagram id="c_eYXRk_POB2v5sAYSU5" name="minico 层">
     <mxGraphModel dx="1426" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1066,6 +1066,9 @@
         <mxCell id="2GeSrbIEFJmId2dFmbry-140" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="cNhUMmISQKAQxL4nunqP-1" source="2GeSrbIEFJmId2dFmbry-136" target="2GeSrbIEFJmId2dFmbry-138">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="2GeSrbIEFJmId2dFmbry-142" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="cNhUMmISQKAQxL4nunqP-1" source="2GeSrbIEFJmId2dFmbry-136" target="2GeSrbIEFJmId2dFmbry-141">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="2GeSrbIEFJmId2dFmbry-136" value="判断是否在端内？" style="rhombus;whiteSpace=wrap;html=1;strokeColor=#000000;" vertex="1" parent="cNhUMmISQKAQxL4nunqP-1">
           <mxGeometry x="1925" y="255" width="130" height="80" as="geometry" />
         </mxCell>
@@ -1074,6 +1077,18 @@
         </mxCell>
         <mxCell id="2GeSrbIEFJmId2dFmbry-139" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="cNhUMmISQKAQxL4nunqP-1" source="2GeSrbIEFJmId2dFmbry-94" target="2GeSrbIEFJmId2dFmbry-136">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2GeSrbIEFJmId2dFmbry-144" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="cNhUMmISQKAQxL4nunqP-1" source="2GeSrbIEFJmId2dFmbry-141" target="2GeSrbIEFJmId2dFmbry-143">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2GeSrbIEFJmId2dFmbry-141" value="显示分享结局卡DOM" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;" vertex="1" parent="cNhUMmISQKAQxL4nunqP-1">
+          <mxGeometry x="1920" y="385" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2GeSrbIEFJmId2dFmbry-143" value="makeScreenshot&lt;br&gt;组装字符串&amp;amp;调用截图服务" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;" vertex="1" parent="cNhUMmISQKAQxL4nunqP-1">
+          <mxGeometry x="1915" y="450" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2GeSrbIEFJmId2dFmbry-145" value="picGenerator&lt;br&gt;调截图服务接口" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;" vertex="1" parent="cNhUMmISQKAQxL4nunqP-1">
+          <mxGeometry x="2125" y="450" width="150" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
