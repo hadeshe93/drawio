@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-11T06:34:56.357Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="CP5FUgyqtOPLBWOpBn9J" version="13.8.1" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2020-11-11T06:35:06.938Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="TJhdVGDNl0iQlJusku1T" version="13.8.1" type="github" pages="5">
   <diagram id="c_eYXRk_POB2v5sAYSU5" name="minico 层">
     <mxGraphModel dx="1426" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1041,6 +1041,9 @@
         </mxCell>
         <mxCell id="2GeSrbIEFJmId2dFmbry-118" value="短链转二维码图片base64" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;" vertex="1" parent="cNhUMmISQKAQxL4nunqP-1">
           <mxGeometry x="2723.5" y="420" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2GeSrbIEFJmId2dFmbry-125" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="cNhUMmISQKAQxL4nunqP-1" source="2GeSrbIEFJmId2dFmbry-123" target="2GeSrbIEFJmId2dFmbry-124">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="2GeSrbIEFJmId2dFmbry-123" value="updateInteractiveLabel" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;" vertex="1" parent="cNhUMmISQKAQxL4nunqP-1">
           <mxGeometry x="2320" y="260" width="140" height="30" as="geometry" />
