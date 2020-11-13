@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-13T03:04:12.430Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="Cne_k8YJok1vudEz0rfA" version="13.8.1" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2020-11-13T06:49:00.046Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="6QCy8eqHMqzexICZ6CPr" version="13.8.1" type="github" pages="6">
   <diagram id="c_eYXRk_POB2v5sAYSU5" name="minico 层">
     <mxGraphModel dx="1426" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -668,7 +668,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="zwkob4z7_v6p5FoPMyU-" name="互动组件层-基础">
-    <mxGraphModel dx="1426" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1426" dy="826" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="sjO6hDRPyAiqpXkVJkIX-0" />
         <mxCell id="sjO6hDRPyAiqpXkVJkIX-1" parent="sjO6hDRPyAiqpXkVJkIX-0" />
@@ -1115,7 +1115,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="hof4A7gHdXp_Ar2rPMV1" name="互动组件层-TP2组件">
-    <mxGraphModel dx="1426" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1426" dy="826" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="b1C6oiGtIvlsvW4UzEoE-0" />
         <mxCell id="b1C6oiGtIvlsvW4UzEoE-1" parent="b1C6oiGtIvlsvW4UzEoE-0" />
