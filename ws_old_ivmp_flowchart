@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-13T12:33:41.070Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="yi0mH8XQwIYJHAfHIr-Y" version="13.8.1" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2020-11-13T12:34:15.173Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="0-I6fZNt5o7mDc4mB7Gb" version="13.8.1" type="github" pages="5">
   <diagram id="36oOoDrCphKBhhJTfvPP" name="视频UI适配逻辑">
     <mxGraphModel dx="1426" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -276,6 +276,9 @@
         <mxCell id="uuYqBXo7TaOWMPVK4-ix-15" value="旧互动没用到" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="uuYqBXo7TaOWMPVK4-ix-1">
           <mxGeometry x="790" y="210" width="140" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="wBsFJ6LUXHv88-wB_tN3-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="uuYqBXo7TaOWMPVK4-ix-1" source="uuYqBXo7TaOWMPVK4-ix-16" target="wBsFJ6LUXHv88-wB_tN3-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="uuYqBXo7TaOWMPVK4-ix-16" value="旧互动有用到" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="uuYqBXo7TaOWMPVK4-ix-1">
           <mxGeometry x="790" y="280" width="140" height="40" as="geometry" />
         </mxCell>
@@ -332,6 +335,9 @@
         </mxCell>
         <mxCell id="wBsFJ6LUXHv88-wB_tN3-17" value="「小程序后台」&lt;br&gt;开发-&amp;gt;运维中心-&amp;gt;性能监控-&amp;gt;业务数据监控" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="uuYqBXo7TaOWMPVK4-ix-1">
           <mxGeometry x="1210" y="345" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="wBsFJ6LUXHv88-wB_tN3-19" value="「小程序后台」&lt;br&gt;开发-&amp;gt;运维中心-&amp;gt;性能监控-&amp;gt;小程序测速" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="uuYqBXo7TaOWMPVK4-ix-1">
+          <mxGeometry x="1210" y="275" width="160" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
