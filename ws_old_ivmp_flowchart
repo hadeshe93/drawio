@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-13T12:19:48.091Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="lnfgfqIMgGBS0GBMJyyW" version="13.8.1" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2020-11-13T12:20:00.466Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="sny-p8K6iEKjuTR1cg-S" version="13.8.1" type="github" pages="5">
   <diagram id="36oOoDrCphKBhhJTfvPP" name="视频UI适配逻辑">
     <mxGraphModel dx="1426" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -185,7 +185,7 @@
         <mxCell id="Oqw8vN2KwRxUpw_-Q18_-16" value="console.log()&lt;br&gt;本地日志打印" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Oqw8vN2KwRxUpw_-Q18_-1">
           <mxGeometry x="930" y="500" width="180" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Oqw8vN2KwRxUpw_-Q18_-21" value="wx.reportPerformance&lt;br&gt;微信性能测速上报" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Oqw8vN2KwRxUpw_-Q18_-1">
+        <mxCell id="Oqw8vN2KwRxUpw_-Q18_-21" value="wx.reportPerformance&lt;br&gt;微信性能测速上报&lt;br&gt;1002" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Oqw8vN2KwRxUpw_-Q18_-1">
           <mxGeometry x="930" y="564.5" width="180" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Oqw8vN2KwRxUpw_-Q18_-23" value="抽样上报" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Oqw8vN2KwRxUpw_-Q18_-1">
