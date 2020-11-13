@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-13T12:20:00.466Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="sny-p8K6iEKjuTR1cg-S" version="13.8.1" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2020-11-13T12:20:08.805Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="YVFdreKhdNnaTOOR4esw" version="13.8.1" type="github" pages="5">
   <diagram id="36oOoDrCphKBhhJTfvPP" name="视频UI适配逻辑">
     <mxGraphModel dx="1426" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -211,7 +211,7 @@
         <mxCell id="BS9nmChmJXMTz5IVso6E-3" value="reporter.boss.reportStat&lt;br&gt;上报boss" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="S84Q1fbvVQzFL_isb-f_-1">
           <mxGeometry x="600" y="380" width="160" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="BS9nmChmJXMTz5IVso6E-4" value="wx.reportPerformance&lt;br&gt;上报微信 1001" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="S84Q1fbvVQzFL_isb-f_-1">
+        <mxCell id="BS9nmChmJXMTz5IVso6E-4" value="wx.reportPerformance&lt;br&gt;上报微信 &lt;br&gt;1001" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="S84Q1fbvVQzFL_isb-f_-1">
           <mxGeometry x="600" y="450" width="160" height="40" as="geometry" />
         </mxCell>
       </root>
