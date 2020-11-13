@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-13T02:39:09.222Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="7JAxvP28BxsnO4pW2H7z" version="13.8.1" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2020-11-13T02:39:15.495Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="ZwFTaIbXfnxr_2R01txQ" version="13.8.1" type="github" pages="6">
   <diagram id="c_eYXRk_POB2v5sAYSU5" name="minico 层">
     <mxGraphModel dx="1426" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1177,8 +1177,14 @@
         <mxCell id="1OEeqIZnlDiS7GEP94iq-10" value="+ lifehook: mounted" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="1OEeqIZnlDiS7GEP94iq-7">
           <mxGeometry y="60" width="160" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="1OEeqIZnlDiS7GEP94iq-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="b1C6oiGtIvlsvW4UzEoE-1" source="1OEeqIZnlDiS7GEP94iq-11" target="1OEeqIZnlDiS7GEP94iq-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="1OEeqIZnlDiS7GEP94iq-11" value="监听video的timeupdate事件" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;" vertex="1" parent="b1C6oiGtIvlsvW4UzEoE-1">
           <mxGeometry x="1160" y="160" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1OEeqIZnlDiS7GEP94iq-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="b1C6oiGtIvlsvW4UzEoE-1" source="1OEeqIZnlDiS7GEP94iq-12" target="1OEeqIZnlDiS7GEP94iq-13">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="1OEeqIZnlDiS7GEP94iq-12" value="initData()&lt;br&gt;初始化数据" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;" vertex="1" parent="b1C6oiGtIvlsvW4UzEoE-1">
           <mxGeometry x="1160" y="220" width="160" height="30" as="geometry" />
