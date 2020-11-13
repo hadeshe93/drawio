@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-13T12:33:21.392Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="OFRjskm32velkLJSX2Lv" version="13.8.1" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2020-11-13T12:33:41.070Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="yi0mH8XQwIYJHAfHIr-Y" version="13.8.1" type="github" pages="5">
   <diagram id="36oOoDrCphKBhhJTfvPP" name="视频UI适配逻辑">
     <mxGraphModel dx="1426" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -330,8 +330,8 @@
         <mxCell id="wBsFJ6LUXHv88-wB_tN3-13" value="直接调用 api" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="uuYqBXo7TaOWMPVK4-ix-1">
           <mxGeometry x="790" y="610" width="140" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="wBsFJ6LUXHv88-wB_tN3-17" value="开发-&amp;gt;运维中心-&amp;gt;性能监控-&amp;gt;业务数据监控" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="uuYqBXo7TaOWMPVK4-ix-1">
-          <mxGeometry x="1210" y="350" width="160" height="40" as="geometry" />
+        <mxCell id="wBsFJ6LUXHv88-wB_tN3-17" value="「小程序后台」&lt;br&gt;开发-&amp;gt;运维中心-&amp;gt;性能监控-&amp;gt;业务数据监控" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="uuYqBXo7TaOWMPVK4-ix-1">
+          <mxGeometry x="1210" y="345" width="160" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
