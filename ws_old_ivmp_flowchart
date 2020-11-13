@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-13T12:00:51.767Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="vU6owmTkzf1gplJfcFa0" version="13.8.1" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2020-11-13T12:01:04.696Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="OX_I5rzyBD0dEHri1jlc" version="13.8.1" type="github" pages="3">
   <diagram id="36oOoDrCphKBhhJTfvPP" name="视频UI适配逻辑">
     <mxGraphModel dx="1426" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -117,7 +117,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="OjQeJNsWERYPlsTd8WNF" name="首帧播放耗时">
+  <diagram id="OjQeJNsWERYPlsTd8WNF" name="首帧播放耗时上报">
     <mxGraphModel dx="1426" dy="826" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="Oqw8vN2KwRxUpw_-Q18_-0" />
