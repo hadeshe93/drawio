@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-13T12:28:12.124Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="LtblcfAANbMTzs23KJ-0" version="13.8.1" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2020-11-13T12:30:51.727Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="Qqza0aBUagrWNtitS5nM" version="13.8.1" type="github" pages="5">
   <diagram id="36oOoDrCphKBhhJTfvPP" name="视频UI适配逻辑">
     <mxGraphModel dx="1426" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -297,6 +297,12 @@
         <mxCell id="wBsFJ6LUXHv88-wB_tN3-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="uuYqBXo7TaOWMPVK4-ix-1" source="uuYqBXo7TaOWMPVK4-ix-18" target="wBsFJ6LUXHv88-wB_tN3-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="wBsFJ6LUXHv88-wB_tN3-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="uuYqBXo7TaOWMPVK4-ix-1" source="uuYqBXo7TaOWMPVK4-ix-18" target="wBsFJ6LUXHv88-wB_tN3-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wBsFJ6LUXHv88-wB_tN3-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="uuYqBXo7TaOWMPVK4-ix-1" source="uuYqBXo7TaOWMPVK4-ix-18" target="wBsFJ6LUXHv88-wB_tN3-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="uuYqBXo7TaOWMPVK4-ix-18" value="旧互动有用到" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="uuYqBXo7TaOWMPVK4-ix-1">
           <mxGeometry x="790" y="420" width="140" height="40" as="geometry" />
         </mxCell>
@@ -314,6 +320,12 @@
         </mxCell>
         <mxCell id="wBsFJ6LUXHv88-wB_tN3-4" value="set_clipboard_data&lt;br&gt;调起剪贴板设置&lt;br&gt;1006" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="uuYqBXo7TaOWMPVK4-ix-1">
           <mxGeometry x="990" y="670" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wBsFJ6LUXHv88-wB_tN3-12" value="utils/mp-report/index.js&lt;br&gt;封装调用" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="uuYqBXo7TaOWMPVK4-ix-1">
+          <mxGeometry x="790" y="545" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wBsFJ6LUXHv88-wB_tN3-13" value="直接调用 api" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="uuYqBXo7TaOWMPVK4-ix-1">
+          <mxGeometry x="790" y="610" width="140" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
