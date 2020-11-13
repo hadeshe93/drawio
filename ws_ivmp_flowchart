@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-13T02:57:29.275Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="E2K3lr0qM4WOO8Xue0hR" version="13.8.1" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2020-11-13T02:58:36.686Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="nQCgSRTBYlvMVW4sslMc" version="13.8.1" type="github" pages="6">
   <diagram id="c_eYXRk_POB2v5sAYSU5" name="minico 层">
     <mxGraphModel dx="1426" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1183,7 +1183,7 @@
         <mxCell id="1OEeqIZnlDiS7GEP94iq-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="b1C6oiGtIvlsvW4UzEoE-1" source="1OEeqIZnlDiS7GEP94iq-11" target="1OEeqIZnlDiS7GEP94iq-12">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="jMo6d_AQbjb_dPOQSLyD-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;dashed=1;" edge="1" parent="b1C6oiGtIvlsvW4UzEoE-1" source="1OEeqIZnlDiS7GEP94iq-11" target="jMo6d_AQbjb_dPOQSLyD-4">
+        <mxCell id="jMo6d_AQbjb_dPOQSLyD-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;dashed=1;dashPattern=1 2;" edge="1" parent="b1C6oiGtIvlsvW4UzEoE-1" source="1OEeqIZnlDiS7GEP94iq-11" target="jMo6d_AQbjb_dPOQSLyD-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="1OEeqIZnlDiS7GEP94iq-11" value="监听video的timeupdate事件" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;" vertex="1" parent="b1C6oiGtIvlsvW4UzEoE-1">
@@ -1206,6 +1206,15 @@
         </mxCell>
         <mxCell id="1OEeqIZnlDiS7GEP94iq-12" value="initData()" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;" vertex="1" parent="b1C6oiGtIvlsvW4UzEoE-1">
           <mxGeometry x="1160" y="220" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jMo6d_AQbjb_dPOQSLyD-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;dashPattern=1 2;" edge="1" parent="b1C6oiGtIvlsvW4UzEoE-1" source="1OEeqIZnlDiS7GEP94iq-13" target="jMo6d_AQbjb_dPOQSLyD-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1610" y="295" />
+              <mxPoint x="1610" y="90" />
+              <mxPoint x="2200" y="90" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="1OEeqIZnlDiS7GEP94iq-13" value="监听updateTP2Answer事件" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;" vertex="1" parent="b1C6oiGtIvlsvW4UzEoE-1">
           <mxGeometry x="1160" y="280" width="160" height="30" as="geometry" />
