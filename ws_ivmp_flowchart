@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-13T02:59:02.057Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="WIEkFn2NX8Z73LfkrcvF" version="13.8.1" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2020-11-13T02:59:21.594Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="pPwTu08PjFdm3lsX7K9C" version="13.8.1" type="github" pages="6">
   <diagram id="c_eYXRk_POB2v5sAYSU5" name="minico 层">
     <mxGraphModel dx="1426" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1288,7 +1288,7 @@
         <mxCell id="jMo6d_AQbjb_dPOQSLyD-10" value="await this.getResult()" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;" vertex="1" parent="b1C6oiGtIvlsvW4UzEoE-1">
           <mxGeometry x="1160" y="480" width="160" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="jMo6d_AQbjb_dPOQSLyD-16" value="WSVotingTrpc" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;" vertex="1" parent="b1C6oiGtIvlsvW4UzEoE-1">
+        <mxCell id="jMo6d_AQbjb_dPOQSLyD-16" value="WSVotingTrpc" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;" vertex="1" parent="b1C6oiGtIvlsvW4UzEoE-1">
           <mxGeometry x="1410" y="420" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="jMo6d_AQbjb_dPOQSLyD-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="b1C6oiGtIvlsvW4UzEoE-1" source="jMo6d_AQbjb_dPOQSLyD-17" target="jMo6d_AQbjb_dPOQSLyD-20">
