@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-13T03:03:55.726Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="kZynYhY9L4wBBH_wIHiY" version="13.8.1" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2020-11-13T03:04:05.680Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="tKgqVLTKuGC11DINPoR-" version="13.8.1" type="github" pages="6">
   <diagram id="c_eYXRk_POB2v5sAYSU5" name="minico 层">
     <mxGraphModel dx="1426" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1264,6 +1264,9 @@
         <mxCell id="jMo6d_AQbjb_dPOQSLyD-5" value="大于组件 startTime 则显示&lt;br&gt;否则隐藏" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;" vertex="1" parent="b1C6oiGtIvlsvW4UzEoE-1">
           <mxGeometry x="1410" y="220" width="160" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="jMo6d_AQbjb_dPOQSLyD-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="b1C6oiGtIvlsvW4UzEoE-1" source="jMo6d_AQbjb_dPOQSLyD-6" target="jMo6d_AQbjb_dPOQSLyD-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="jMo6d_AQbjb_dPOQSLyD-6" value="updateTP2Answer&lt;br&gt;事件回调函数" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;" vertex="1" parent="b1C6oiGtIvlsvW4UzEoE-1">
           <mxGeometry x="2120" y="160" width="160" height="30" as="geometry" />
         </mxCell>
@@ -1311,6 +1314,9 @@
         </mxCell>
         <mxCell id="jMo6d_AQbjb_dPOQSLyD-22" value="broadcast updateTP2Answer事件" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;" vertex="1" parent="b1C6oiGtIvlsvW4UzEoE-1">
           <mxGeometry x="1410" y="680" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jMo6d_AQbjb_dPOQSLyD-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="b1C6oiGtIvlsvW4UzEoE-1" source="jMo6d_AQbjb_dPOQSLyD-27" target="jMo6d_AQbjb_dPOQSLyD-29">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="jMo6d_AQbjb_dPOQSLyD-27" value="找到用户选择过的答案" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;" vertex="1" parent="b1C6oiGtIvlsvW4UzEoE-1">
           <mxGeometry x="2120" y="220" width="160" height="30" as="geometry" />
