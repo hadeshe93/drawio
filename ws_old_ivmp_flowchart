@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-12T07:30:28.132Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="FcdmV_g_dcSn-mxHEqRy" version="13.8.1" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2020-11-13T11:49:16.529Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="93FH5VU3h5ttDurD44YU" version="13.8.1" type="github" pages="3">
   <diagram id="36oOoDrCphKBhhJTfvPP" name="视频UI适配逻辑">
     <mxGraphModel dx="1426" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -47,7 +47,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="tLUWceMRKuupct9QOu0D" name="获取分享链接逻辑">
-    <mxGraphModel dx="1426" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1426" dy="826" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="j9U4Y5sJt7PN_LZkoQ7V-0" />
         <mxCell id="j9U4Y5sJt7PN_LZkoQ7V-1" parent="j9U4Y5sJt7PN_LZkoQ7V-0" />
@@ -113,6 +113,35 @@
         </mxCell>
         <mxCell id="j9U4Y5sJt7PN_LZkoQ7V-11" value="+ field: share_info.body_map[0].url" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="j9U4Y5sJt7PN_LZkoQ7V-8">
           <mxGeometry y="60" width="300" height="26" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="OjQeJNsWERYPlsTd8WNF" name="首帧播放耗时">
+    <mxGraphModel dx="1426" dy="826" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="Oqw8vN2KwRxUpw_-Q18_-0" />
+        <mxCell id="Oqw8vN2KwRxUpw_-Q18_-1" parent="Oqw8vN2KwRxUpw_-Q18_-0" />
+        <mxCell id="Oqw8vN2KwRxUpw_-Q18_-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="Oqw8vN2KwRxUpw_-Q18_-1" source="Oqw8vN2KwRxUpw_-Q18_-2" target="Oqw8vN2KwRxUpw_-Q18_-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Oqw8vN2KwRxUpw_-Q18_-2" value="bindplaying&lt;br&gt;首帧播放，就会触发" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Oqw8vN2KwRxUpw_-Q18_-1">
+          <mxGeometry x="330" y="160" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Oqw8vN2KwRxUpw_-Q18_-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="Oqw8vN2KwRxUpw_-Q18_-1" source="Oqw8vN2KwRxUpw_-Q18_-3" target="Oqw8vN2KwRxUpw_-Q18_-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Oqw8vN2KwRxUpw_-Q18_-3" value="interact-index.js" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Oqw8vN2KwRxUpw_-Q18_-1">
+          <mxGeometry x="330" y="80" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Oqw8vN2KwRxUpw_-Q18_-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="Oqw8vN2KwRxUpw_-Q18_-1" source="Oqw8vN2KwRxUpw_-Q18_-5" target="Oqw8vN2KwRxUpw_-Q18_-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Oqw8vN2KwRxUpw_-Q18_-5" value="initWhenReady()" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Oqw8vN2KwRxUpw_-Q18_-1">
+          <mxGeometry x="330" y="240" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Oqw8vN2KwRxUpw_-Q18_-6" value="whenPlaying()" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Oqw8vN2KwRxUpw_-Q18_-1">
+          <mxGeometry x="330" y="320" width="120" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
