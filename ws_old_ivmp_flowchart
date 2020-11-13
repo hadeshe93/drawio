@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-13T12:15:37.816Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="a5aysqBXgQMRSwEVUrLM" version="13.8.1" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2020-11-13T12:19:48.091Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="lnfgfqIMgGBS0GBMJyyW" version="13.8.1" type="github" pages="5">
   <diagram id="36oOoDrCphKBhhJTfvPP" name="视频UI适配逻辑">
     <mxGraphModel dx="1426" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -194,6 +194,29 @@
       </root>
     </mxGraphModel>
   </diagram>
+  <diagram id="ANj7e0A9D6CGCvMFzFQb" name="getFeedDetail耗时上报">
+    <mxGraphModel dx="1426" dy="826" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="S84Q1fbvVQzFL_isb-f_-0" />
+        <mxCell id="S84Q1fbvVQzFL_isb-f_-1" parent="S84Q1fbvVQzFL_isb-f_-0" />
+        <mxCell id="BS9nmChmJXMTz5IVso6E-0" value="preload()" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="S84Q1fbvVQzFL_isb-f_-1">
+          <mxGeometry x="400" y="260" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BS9nmChmJXMTz5IVso6E-1" value="getWeishiIDAndFeed()" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="S84Q1fbvVQzFL_isb-f_-1">
+          <mxGeometry x="380" y="340" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BS9nmChmJXMTz5IVso6E-2" value="reportReqMergeStatus()" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="S84Q1fbvVQzFL_isb-f_-1">
+          <mxGeometry x="380" y="410" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BS9nmChmJXMTz5IVso6E-3" value="reporter.boss.reportStat&lt;br&gt;上报boss" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="S84Q1fbvVQzFL_isb-f_-1">
+          <mxGeometry x="600" y="380" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BS9nmChmJXMTz5IVso6E-4" value="wx.reportPerformance&lt;br&gt;上报微信 1001" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="S84Q1fbvVQzFL_isb-f_-1">
+          <mxGeometry x="600" y="450" width="160" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
   <diagram id="0bRGV3bcipO549Gakxpr" name="利用微信api上报梳理">
     <mxGraphModel dx="1426" dy="826" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -250,14 +273,6 @@
         <mxCell id="uuYqBXo7TaOWMPVK4-ix-18" value="旧互动有用到" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="uuYqBXo7TaOWMPVK4-ix-1">
           <mxGeometry x="790" y="420" width="140" height="40" as="geometry" />
         </mxCell>
-      </root>
-    </mxGraphModel>
-  </diagram>
-  <diagram id="ANj7e0A9D6CGCvMFzFQb" name="getFeedDetail耗时上报">
-    <mxGraphModel dx="1426" dy="826" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
-      <root>
-        <mxCell id="S84Q1fbvVQzFL_isb-f_-0" />
-        <mxCell id="S84Q1fbvVQzFL_isb-f_-1" parent="S84Q1fbvVQzFL_isb-f_-0" />
       </root>
     </mxGraphModel>
   </diagram>
