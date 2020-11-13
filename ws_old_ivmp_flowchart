@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-13T12:01:04.696Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="OX_I5rzyBD0dEHri1jlc" version="13.8.1" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2020-11-13T12:06:24.462Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="6-02Mbtj5OmpeEtfxvWR" version="13.8.1" type="github" pages="4">
   <diagram id="36oOoDrCphKBhhJTfvPP" name="视频UI适配逻辑">
     <mxGraphModel dx="1426" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -190,6 +190,20 @@
         </mxCell>
         <mxCell id="Oqw8vN2KwRxUpw_-Q18_-23" value="抽样上报" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Oqw8vN2KwRxUpw_-Q18_-1">
           <mxGeometry x="710" y="400" width="150" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="0bRGV3bcipO549Gakxpr" name="利用微信api上报梳理">
+    <mxGraphModel dx="1426" dy="826" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="uuYqBXo7TaOWMPVK4-ix-0" />
+        <mxCell id="uuYqBXo7TaOWMPVK4-ix-1" parent="uuYqBXo7TaOWMPVK4-ix-0" />
+        <mxCell id="uuYqBXo7TaOWMPVK4-ix-2" value="微信 api" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="uuYqBXo7TaOWMPVK4-ix-1">
+          <mxGeometry x="340" y="280" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uuYqBXo7TaOWMPVK4-ix-3" value="wx.getRealtimeLogManager&lt;br&gt;实时日志上报" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="uuYqBXo7TaOWMPVK4-ix-1">
+          <mxGeometry x="530" y="210" width="200" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
