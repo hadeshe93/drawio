@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-13T12:06:24.462Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="6-02Mbtj5OmpeEtfxvWR" version="13.8.1" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2020-11-13T12:11:44.597Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="EMa6Se6EEFw88EZXAKAM" version="13.8.1" type="github" pages="4">
   <diagram id="36oOoDrCphKBhhJTfvPP" name="视频UI适配逻辑">
     <mxGraphModel dx="1426" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -199,11 +199,41 @@
       <root>
         <mxCell id="uuYqBXo7TaOWMPVK4-ix-0" />
         <mxCell id="uuYqBXo7TaOWMPVK4-ix-1" parent="uuYqBXo7TaOWMPVK4-ix-0" />
+        <mxCell id="uuYqBXo7TaOWMPVK4-ix-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="uuYqBXo7TaOWMPVK4-ix-1" source="uuYqBXo7TaOWMPVK4-ix-2" target="uuYqBXo7TaOWMPVK4-ix-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uuYqBXo7TaOWMPVK4-ix-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="uuYqBXo7TaOWMPVK4-ix-1" source="uuYqBXo7TaOWMPVK4-ix-2" target="uuYqBXo7TaOWMPVK4-ix-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uuYqBXo7TaOWMPVK4-ix-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="uuYqBXo7TaOWMPVK4-ix-1" source="uuYqBXo7TaOWMPVK4-ix-2" target="uuYqBXo7TaOWMPVK4-ix-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uuYqBXo7TaOWMPVK4-ix-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="uuYqBXo7TaOWMPVK4-ix-1" source="uuYqBXo7TaOWMPVK4-ix-2" target="uuYqBXo7TaOWMPVK4-ix-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="uuYqBXo7TaOWMPVK4-ix-2" value="微信 api" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="uuYqBXo7TaOWMPVK4-ix-1">
-          <mxGeometry x="340" y="280" width="120" height="40" as="geometry" />
+          <mxGeometry x="340" y="310" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uuYqBXo7TaOWMPVK4-ix-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="uuYqBXo7TaOWMPVK4-ix-1" source="uuYqBXo7TaOWMPVK4-ix-3" target="uuYqBXo7TaOWMPVK4-ix-4">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="uuYqBXo7TaOWMPVK4-ix-3" value="wx.getRealtimeLogManager&lt;br&gt;实时日志上报" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="uuYqBXo7TaOWMPVK4-ix-1">
           <mxGeometry x="530" y="210" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uuYqBXo7TaOWMPVK4-ix-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="uuYqBXo7TaOWMPVK4-ix-1" source="uuYqBXo7TaOWMPVK4-ix-4" target="uuYqBXo7TaOWMPVK4-ix-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uuYqBXo7TaOWMPVK4-ix-4" value="wx.reportPerformance&lt;br&gt;测速上报" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="uuYqBXo7TaOWMPVK4-ix-1">
+          <mxGeometry x="530" y="280" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uuYqBXo7TaOWMPVK4-ix-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="uuYqBXo7TaOWMPVK4-ix-1" source="uuYqBXo7TaOWMPVK4-ix-5" target="uuYqBXo7TaOWMPVK4-ix-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uuYqBXo7TaOWMPVK4-ix-5" value="wx.reportMonitor&lt;br&gt;自定义业务数据监控上报" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="uuYqBXo7TaOWMPVK4-ix-1">
+          <mxGeometry x="530" y="350" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uuYqBXo7TaOWMPVK4-ix-6" value="wx.reportAnalytics&lt;br&gt;自定义分析数据上报" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="uuYqBXo7TaOWMPVK4-ix-1">
+          <mxGeometry x="530" y="420" width="200" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
