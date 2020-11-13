@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-13T11:49:16.529Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="93FH5VU3h5ttDurD44YU" version="13.8.1" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2020-11-13T11:51:35.550Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="3msCBts_XzMf41p8pGSL" version="13.8.1" type="github" pages="3">
   <diagram id="36oOoDrCphKBhhJTfvPP" name="视频UI适配逻辑">
     <mxGraphModel dx="1426" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -140,8 +140,20 @@
         <mxCell id="Oqw8vN2KwRxUpw_-Q18_-5" value="initWhenReady()" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Oqw8vN2KwRxUpw_-Q18_-1">
           <mxGeometry x="330" y="240" width="120" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="Oqw8vN2KwRxUpw_-Q18_-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="Oqw8vN2KwRxUpw_-Q18_-1" source="Oqw8vN2KwRxUpw_-Q18_-6" target="Oqw8vN2KwRxUpw_-Q18_-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="Oqw8vN2KwRxUpw_-Q18_-6" value="whenPlaying()" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Oqw8vN2KwRxUpw_-Q18_-1">
           <mxGeometry x="330" y="320" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Oqw8vN2KwRxUpw_-Q18_-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="Oqw8vN2KwRxUpw_-Q18_-1" source="Oqw8vN2KwRxUpw_-Q18_-9" target="Oqw8vN2KwRxUpw_-Q18_-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Oqw8vN2KwRxUpw_-Q18_-9" value="reportPlayerTimeout()" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Oqw8vN2KwRxUpw_-Q18_-1">
+          <mxGeometry x="500" y="320" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Oqw8vN2KwRxUpw_-Q18_-10" value="reportFeedPlay()" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Oqw8vN2KwRxUpw_-Q18_-1">
+          <mxGeometry x="500" y="400" width="150" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
