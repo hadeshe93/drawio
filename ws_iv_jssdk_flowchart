@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-16T08:44:12.480Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" etag="dtyoq3858ksfGQ_Gi_cc" version="13.9.9" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-16T08:44:18.639Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" etag="ThaB4P7ozg9S3icfAKvf" version="13.9.9" type="github">
   <diagram id="3ZUS03sQAt6wBw0ZQohS" name="互动组件层显隐逻辑">
     <mxGraphModel dx="1426" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -126,9 +126,6 @@
         </mxCell>
         <mxCell id="ISb-qVso5BFI-jdKPIoy-50" value="this.iframeContainer.style.zIndex = &#39;&#39;;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1227" y="490" width="210" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="ISb-qVso5BFI-jdKPIoy-51" value="vueInstance.compsShow = true" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1237" y="230" width="210" height="40" as="geometry" />
         </mxCell>
         <mxCell id="ISb-qVso5BFI-jdKPIoy-52" value="this.iframeContainer.style.zIndex = &#39;-1000&#39;;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1227" y="610" width="243" height="40" as="geometry" />
