@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-16T11:20:18.274Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" etag="xynD6siJSW566mGf3vOX" version="13.9.7" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2020-11-16T11:21:14.098Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" etag="XU5erP8g7MFe5KC5NYa7" version="13.9.7" type="github" pages="7">
   <diagram id="c_eYXRk_POB2v5sAYSU5" name="minico 层">
     <mxGraphModel dx="1426" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -662,6 +662,9 @@
         </mxCell>
         <mxCell id="Ow7d-FLzj7IlF21Y2EOc-38" value="执行&amp;nbsp;initIvInstance 方法&lt;br&gt;初始化 ivInstance 实例" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="IquGZmozlr90M-9dMYLj-1" vertex="1">
           <mxGeometry x="1430" y="849.5" width="190" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4KrgWHGvxv7CVa4ovkoe-1" value="handlerWidgetVideoReady&lt;br&gt;等待video组件与mpPlayerIns实例化完毕" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="IquGZmozlr90M-9dMYLj-1">
+          <mxGeometry x="100" y="240" width="230" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
