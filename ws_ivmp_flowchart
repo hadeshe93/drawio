@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-16T09:05:16.745Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" etag="7UgxFpywuOkcaaVvX9Mb" version="13.9.7" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2020-11-16T09:08:03.142Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" etag="ZUyU_-pEnObpevcn1Sc6" version="13.9.7" type="github" pages="7">
   <diagram id="c_eYXRk_POB2v5sAYSU5" name="minico 层">
     <mxGraphModel dx="1426" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1367,8 +1367,8 @@
         <mxCell id="Tf_WgDRc5HNwsENyRlxB-8" value="" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;direction=west;rotation=0;flipH=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="Tf_WgDRc5HNwsENyRlxB-1">
           <mxGeometry x="430" y="200" width="170" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="Tf_WgDRc5HNwsENyRlxB-9" value="应用播控层 + 居中播放按钮" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Tf_WgDRc5HNwsENyRlxB-1">
-          <mxGeometry x="440" y="200" width="150" height="20" as="geometry" />
+        <mxCell id="Tf_WgDRc5HNwsENyRlxB-9" value="应用播控层" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Tf_WgDRc5HNwsENyRlxB-1">
+          <mxGeometry x="440" y="200" width="90" height="20" as="geometry" />
         </mxCell>
         <mxCell id="Tf_WgDRc5HNwsENyRlxB-10" value="" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;direction=west;rotation=0;flipH=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="Tf_WgDRc5HNwsENyRlxB-1">
           <mxGeometry x="460" y="230" width="170" height="200" as="geometry" />
@@ -1379,13 +1379,13 @@
         <mxCell id="Tf_WgDRc5HNwsENyRlxB-12" value="" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;direction=west;rotation=0;flipH=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="Tf_WgDRc5HNwsENyRlxB-1">
           <mxGeometry x="490" y="260" width="170" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="Tf_WgDRc5HNwsENyRlxB-13" value="赞转评等交互层" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Tf_WgDRc5HNwsENyRlxB-1">
+        <mxCell id="Tf_WgDRc5HNwsENyRlxB-13" value="dialog 层" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Tf_WgDRc5HNwsENyRlxB-1">
           <mxGeometry x="500" y="260" width="90" height="20" as="geometry" />
         </mxCell>
         <mxCell id="Tf_WgDRc5HNwsENyRlxB-14" value="" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;direction=west;rotation=0;flipH=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="Tf_WgDRc5HNwsENyRlxB-1">
           <mxGeometry x="520" y="290" width="170" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="Tf_WgDRc5HNwsENyRlxB-15" value="video 元素层" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Tf_WgDRc5HNwsENyRlxB-1">
+        <mxCell id="Tf_WgDRc5HNwsENyRlxB-15" value="赞转评等交互层" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Tf_WgDRc5HNwsENyRlxB-1">
           <mxGeometry x="530" y="290" width="90" height="20" as="geometry" />
         </mxCell>
       </root>
