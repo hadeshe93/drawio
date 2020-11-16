@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-16T08:24:39.966Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" etag="dq6Yu6_81D6Ri00PlIjW" version="13.9.9" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-16T08:24:55.248Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" etag="DWdvXo3K9Jt-N858EsNy" version="13.9.9" type="github">
   <diagram id="3ZUS03sQAt6wBw0ZQohS" name="Page-1">
     <mxGraphModel dx="1426" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -46,7 +46,7 @@
         <mxCell id="ISb-qVso5BFI-jdKPIoy-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="ISb-qVso5BFI-jdKPIoy-9" target="ISb-qVso5BFI-jdKPIoy-12">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ISb-qVso5BFI-jdKPIoy-15" value="小程序应用层实例" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ISb-qVso5BFI-jdKPIoy-15" value="小程序应用层实例&lt;br&gt;this === vueInstance" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="920" y="360" width="210" height="40" as="geometry" />
         </mxCell>
       </root>
