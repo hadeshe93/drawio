@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-16T08:44:03.609Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" etag="efftbwHbJSddpE-pV2cp" version="13.9.9" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-16T08:44:12.480Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" etag="dtyoq3858ksfGQ_Gi_cc" version="13.9.9" type="github">
   <diagram id="3ZUS03sQAt6wBw0ZQohS" name="互动组件层显隐逻辑">
     <mxGraphModel dx="1426" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -7,7 +7,7 @@
         <mxCell id="ISb-qVso5BFI-jdKPIoy-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ISb-qVso5BFI-jdKPIoy-1" target="ISb-qVso5BFI-jdKPIoy-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ISb-qVso5BFI-jdKPIoy-1" value="小程序MpChannel.ts" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ISb-qVso5BFI-jdKPIoy-1" value="小程序: MpChannel.ts" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="827" y="90" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="ISb-qVso5BFI-jdKPIoy-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ISb-qVso5BFI-jdKPIoy-4" target="ISb-qVso5BFI-jdKPIoy-6">
