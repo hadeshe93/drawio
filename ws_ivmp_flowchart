@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-16T11:27:15.376Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" etag="XFvo368Okm_pJrnpnDb0" version="13.9.7" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2020-11-17T06:58:09.098Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" etag="W34KR1ccQgnC9jN-H4Ri" version="13.9.7" type="github" pages="7">
   <diagram id="c_eYXRk_POB2v5sAYSU5" name="minico 层">
     <mxGraphModel dx="1426" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1369,7 +1369,7 @@
         <mxCell id="Tf_WgDRc5HNwsENyRlxB-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="Tf_WgDRc5HNwsENyRlxB-1" source="Tf_WgDRc5HNwsENyRlxB-8" target="Tf_WgDRc5HNwsENyRlxB-16">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Tf_WgDRc5HNwsENyRlxB-8" value="" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;direction=west;rotation=0;flipH=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="Tf_WgDRc5HNwsENyRlxB-1">
+        <mxCell id="Tf_WgDRc5HNwsENyRlxB-8" value="" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;direction=west;rotation=0;flipH=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="Tf_WgDRc5HNwsENyRlxB-1">
           <mxGeometry x="430" y="200" width="170" height="200" as="geometry" />
         </mxCell>
         <mxCell id="Tf_WgDRc5HNwsENyRlxB-9" value="应用播控层" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Tf_WgDRc5HNwsENyRlxB-1">
