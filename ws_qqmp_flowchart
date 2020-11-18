@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-18T03:59:31.771Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" etag="27JmIjlMp5BcYMDIGXA2" version="13.9.7" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-18T03:59:56.716Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" etag="fFEGzGn0Lj3idPUtfciz" version="13.9.7" type="github">
   <diagram id="5rXcQ7Tj9j4CbVMdjdPX" name="新用户注册逻辑">
     <mxGraphModel dx="1426" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -14,7 +14,10 @@
           <mxGeometry x="280" y="360" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="aUWOzJc4CcUK_YC4kPFd-4" value="设置splash标志位为true&lt;br&gt;(commit mutation)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="260" y="470" width="140" height="40" as="geometry" />
+          <mxGeometry x="250" y="470" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="aUWOzJc4CcUK_YC4kPFd-5" value="reject 将回包数据" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="544.5" width="140" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
