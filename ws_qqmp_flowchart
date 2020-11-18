@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-18T07:40:30.804Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" etag="zpJ3Ki9-byKbPhmu2-uv" version="13.9.7" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-18T07:40:59.374Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" etag="Irm_JNXy-GUwq2Niv3AN" version="13.9.7" type="github">
   <diagram id="5rXcQ7Tj9j4CbVMdjdPX" name="新用户注册逻辑">
     <mxGraphModel dx="1426" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -40,7 +40,7 @@
         <mxCell id="aUWOzJc4CcUK_YC4kPFd-5" value="reject 将回包数据" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="250" y="544.5" width="140" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="aUWOzJc4CcUK_YC4kPFd-10" value="非微信小程序逻辑" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="aUWOzJc4CcUK_YC4kPFd-10" value="非微信小程序逻辑" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="50" y="470" width="140" height="40" as="geometry" />
         </mxCell>
         <mxCell id="aUWOzJc4CcUK_YC4kPFd-12" value="resolve(undefined)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
