@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-18T07:42:01.049Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" etag="bdbPhHgobGI32glgZC_R" version="13.9.7" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2020-11-18T07:42:58.512Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" etag="e7OLcd37DRuRg1ypg28g" version="13.9.7" type="github" pages="6">
   <diagram id="36oOoDrCphKBhhJTfvPP" name="视频UI适配逻辑">
     <mxGraphModel dx="1426" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -364,6 +364,9 @@
       <root>
         <mxCell id="OqWXmMWJwulvF6iGvgAN-0" />
         <mxCell id="OqWXmMWJwulvF6iGvgAN-1" parent="OqWXmMWJwulvF6iGvgAN-0" />
+        <mxCell id="OqWXmMWJwulvF6iGvgAN-2" value="checkSplash()&lt;br&gt;检查是否为新用户" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="OqWXmMWJwulvF6iGvgAN-1">
+          <mxGeometry x="240" y="80" width="120" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
