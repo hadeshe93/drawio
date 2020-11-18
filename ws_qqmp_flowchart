@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-11-18T07:41:30.503Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" etag="3oDO-VgAcpgOoePrcaCn" version="13.9.7" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-18T08:18:04.046Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" etag="S7UQr6H7lkVg44WR_qP1" version="13.9.7" type="github">
   <diagram id="5rXcQ7Tj9j4CbVMdjdPX" name="新用户注册逻辑">
-    <mxGraphModel dx="1426" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1426" dy="737" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -61,7 +61,7 @@
         <mxCell id="aUWOzJc4CcUK_YC4kPFd-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="aUWOzJc4CcUK_YC4kPFd-18" target="aUWOzJc4CcUK_YC4kPFd-20">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="aUWOzJc4CcUK_YC4kPFd-18" value="展示微信官方confirm框" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="aUWOzJc4CcUK_YC4kPFd-18" value="展示微信官方confirm框&lt;br&gt;(微信api内部自己控制的)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="480" y="640" width="140" height="40" as="geometry" />
         </mxCell>
         <mxCell id="aUWOzJc4CcUK_YC4kPFd-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="aUWOzJc4CcUK_YC4kPFd-20" target="aUWOzJc4CcUK_YC4kPFd-23">
