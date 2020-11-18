@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-11-13T12:38:02.430Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="IpYXISlHtDIXbpvoJH9S" version="13.8.1" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2020-11-18T07:42:01.049Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" etag="bdbPhHgobGI32glgZC_R" version="13.9.7" type="github" pages="6">
   <diagram id="36oOoDrCphKBhhJTfvPP" name="视频UI适配逻辑">
-    <mxGraphModel dx="1426" dy="826" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1426" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -356,6 +356,14 @@
         <mxCell id="wBsFJ6LUXHv88-wB_tN3-23" value="「小程序后台」&lt;br&gt;统计-&amp;gt;自定义分析" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="uuYqBXo7TaOWMPVK4-ix-1">
           <mxGeometry x="1210" y="415" width="160" height="50" as="geometry" />
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="-SXH6DVSCPBcCiPBXzzZ" name="新用户注册逻辑">
+    <mxGraphModel dx="1426" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="OqWXmMWJwulvF6iGvgAN-0" />
+        <mxCell id="OqWXmMWJwulvF6iGvgAN-1" parent="OqWXmMWJwulvF6iGvgAN-0" />
       </root>
     </mxGraphModel>
   </diagram>
