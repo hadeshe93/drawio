@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-18T08:01:48.667Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" etag="Gskk5fDw40Aevhy88szY" version="13.9.7" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2020-11-18T08:17:54.737Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" etag="rKlLhS6NFWSuA3es5acz" version="13.9.7" type="github" pages="6">
   <diagram id="36oOoDrCphKBhhJTfvPP" name="视频UI适配逻辑">
     <mxGraphModel dx="1426" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -394,8 +394,50 @@
         <mxCell id="OqWXmMWJwulvF6iGvgAN-6" value="置位标志位 showLogin" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="OqWXmMWJwulvF6iGvgAN-1">
           <mxGeometry x="440" y="340" width="120" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="OqWXmMWJwulvF6iGvgAN-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="OqWXmMWJwulvF6iGvgAN-1" source="OqWXmMWJwulvF6iGvgAN-7" target="OqWXmMWJwulvF6iGvgAN-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="OqWXmMWJwulvF6iGvgAN-7" value="splash 组件自动展示" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="OqWXmMWJwulvF6iGvgAN-1">
           <mxGeometry x="440" y="420" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="OqWXmMWJwulvF6iGvgAN-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="OqWXmMWJwulvF6iGvgAN-1" source="OqWXmMWJwulvF6iGvgAN-14" target="OqWXmMWJwulvF6iGvgAN-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OqWXmMWJwulvF6iGvgAN-14" value="用户点击「微信登录」按钮&lt;br&gt;type=&quot;getUserInfo&quot;&lt;br&gt;bindgetuserinfo=&quot;getUserInfo&quot;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="OqWXmMWJwulvF6iGvgAN-1">
+          <mxGeometry x="395" y="500" width="210" height="55.5" as="geometry" />
+        </mxCell>
+        <mxCell id="OqWXmMWJwulvF6iGvgAN-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="OqWXmMWJwulvF6iGvgAN-1" source="OqWXmMWJwulvF6iGvgAN-16" target="OqWXmMWJwulvF6iGvgAN-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OqWXmMWJwulvF6iGvgAN-16" value="展示微信官方confirm框&lt;br&gt;(微信api内部自己控制的)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="OqWXmMWJwulvF6iGvgAN-1">
+          <mxGeometry x="430" y="595.5" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="OqWXmMWJwulvF6iGvgAN-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="OqWXmMWJwulvF6iGvgAN-1" source="OqWXmMWJwulvF6iGvgAN-18" target="OqWXmMWJwulvF6iGvgAN-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OqWXmMWJwulvF6iGvgAN-18" value="用户是否点击允许按钮？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="OqWXmMWJwulvF6iGvgAN-1">
+          <mxGeometry x="460" y="665.5" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="OqWXmMWJwulvF6iGvgAN-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="OqWXmMWJwulvF6iGvgAN-1" source="OqWXmMWJwulvF6iGvgAN-20" target="OqWXmMWJwulvF6iGvgAN-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OqWXmMWJwulvF6iGvgAN-20" value="registerWeishiId&lt;br&gt;回调中注册新用户id" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="OqWXmMWJwulvF6iGvgAN-1">
+          <mxGeometry x="430" y="775.5" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="OqWXmMWJwulvF6iGvgAN-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="OqWXmMWJwulvF6iGvgAN-1" source="OqWXmMWJwulvF6iGvgAN-22" target="OqWXmMWJwulvF6iGvgAN-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OqWXmMWJwulvF6iGvgAN-22" value="触发register-success事件" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="OqWXmMWJwulvF6iGvgAN-1">
+          <mxGeometry x="430" y="845.5" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="OqWXmMWJwulvF6iGvgAN-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;dashed=1;" edge="1" parent="OqWXmMWJwulvF6iGvgAN-1" source="OqWXmMWJwulvF6iGvgAN-24" target="OqWXmMWJwulvF6iGvgAN-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OqWXmMWJwulvF6iGvgAN-24" value="设置splash标志位为false&lt;br&gt;(commit mutation)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="OqWXmMWJwulvF6iGvgAN-1">
+          <mxGeometry x="430" y="915.5" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="OqWXmMWJwulvF6iGvgAN-25" value="v-if 隐藏 splash 组件" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="OqWXmMWJwulvF6iGvgAN-1">
+          <mxGeometry x="640" y="915.5" width="140" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
