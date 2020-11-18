@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-18T07:44:20.977Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" etag="o0ayKrihx4P6cS651i3r" version="13.9.7" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2020-11-18T07:44:41.644Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" etag="aRyrJSfKqX98h3CE-AvU" version="13.9.7" type="github" pages="6">
   <diagram id="36oOoDrCphKBhhJTfvPP" name="视频UI适配逻辑">
     <mxGraphModel dx="1426" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -375,6 +375,9 @@
         </mxCell>
         <mxCell id="OqWXmMWJwulvF6iGvgAN-5" value="暂停视频播放" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="OqWXmMWJwulvF6iGvgAN-1">
           <mxGeometry x="440" y="260" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="OqWXmMWJwulvF6iGvgAN-6" value="置位标志位 showLogin" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="OqWXmMWJwulvF6iGvgAN-1">
+          <mxGeometry x="440" y="340" width="120" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
