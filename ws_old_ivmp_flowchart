@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-18T08:26:43.561Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" etag="lAWZGd2QFCxERSvc3ayK" version="13.9.7" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2020-11-18T08:27:32.081Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" etag="nJ6O-IlXzVJUlzLiS_1I" version="13.9.7" type="github" pages="6">
   <diagram id="36oOoDrCphKBhhJTfvPP" name="视频UI适配逻辑">
     <mxGraphModel dx="1426" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -438,6 +438,12 @@
         </mxCell>
         <mxCell id="OqWXmMWJwulvF6iGvgAN-25" value="v-if 隐藏 splash 组件" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="OqWXmMWJwulvF6iGvgAN-1">
           <mxGeometry x="640" y="915.5" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="OqWXmMWJwulvF6iGvgAN-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;dashed=1;" edge="1" parent="OqWXmMWJwulvF6iGvgAN-1" source="OqWXmMWJwulvF6iGvgAN-27" target="OqWXmMWJwulvF6iGvgAN-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OqWXmMWJwulvF6iGvgAN-27" value="在一些需要登录态的场景或者回调中都需要执行 checkSplash" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="OqWXmMWJwulvF6iGvgAN-1">
+          <mxGeometry x="30" y="80" width="120" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
