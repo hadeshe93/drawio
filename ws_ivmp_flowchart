@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-24T12:15:40.709Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" etag="y_iAsGcBWOFwIqUIhrgk" version="13.9.7" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2020-11-24T12:16:52.422Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" etag="cAEkhi0Tc7XP8eVV_zGU" version="13.9.7" type="github" pages="8">
   <diagram id="c_eYXRk_POB2v5sAYSU5" name="minico 层">
     <mxGraphModel dx="1426" dy="826" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1510,6 +1510,9 @@
         </mxCell>
         <mxCell id="hq6e5nTry_MvglVCfLQO-2" value="getIvConfig&lt;br&gt;获取互动配置信息" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;" vertex="1" parent="25_svGnrOF19sPQSeD-v-1">
           <mxGeometry x="560" y="770" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hq6e5nTry_MvglVCfLQO-5" value="等动画播放结束&lt;br&gt;通知显示 TP3Close 和 TP3Result" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;" vertex="1" parent="25_svGnrOF19sPQSeD-v-1">
+          <mxGeometry x="560" y="950" width="140" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
