@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-24T12:17:38.840Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" etag="J9vFuSmEAsjYUfuQ1pO9" version="13.9.7" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2020-11-24T12:19:06.079Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" etag="GerRCfA5gbeXZAiCwwLv" version="13.9.7" type="github" pages="8">
   <diagram id="c_eYXRk_POB2v5sAYSU5" name="minico 层">
     <mxGraphModel dx="1426" dy="826" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1434,6 +1434,14 @@
         <mxCell id="tjUwBSUehpWr3oO7VDDB-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="25_svGnrOF19sPQSeD-v-1" source="tjUwBSUehpWr3oO7VDDB-6" target="tjUwBSUehpWr3oO7VDDB-29">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="hq6e5nTry_MvglVCfLQO-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="25_svGnrOF19sPQSeD-v-1" source="tjUwBSUehpWr3oO7VDDB-6" target="hq6e5nTry_MvglVCfLQO-16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="420" y="470" />
+              <mxPoint x="420" y="1055" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="tjUwBSUehpWr3oO7VDDB-6" value="判断 ugcData.hasVote 是否已经投过票？" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="25_svGnrOF19sPQSeD-v-1">
           <mxGeometry x="560" y="430" width="140" height="80" as="geometry" />
         </mxCell>
@@ -1478,11 +1486,28 @@
         <mxCell id="tjUwBSUehpWr3oO7VDDB-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="25_svGnrOF19sPQSeD-v-1" source="tjUwBSUehpWr3oO7VDDB-25" target="tjUwBSUehpWr3oO7VDDB-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="hq6e5nTry_MvglVCfLQO-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="25_svGnrOF19sPQSeD-v-1" source="tjUwBSUehpWr3oO7VDDB-25" target="hq6e5nTry_MvglVCfLQO-16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="330" y="360" />
+              <mxPoint x="330" y="1055" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="tjUwBSUehpWr3oO7VDDB-25" value="判断是否可见？" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="25_svGnrOF19sPQSeD-v-1">
           <mxGeometry x="560" y="320" width="140" height="80" as="geometry" />
         </mxCell>
         <mxCell id="tjUwBSUehpWr3oO7VDDB-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="25_svGnrOF19sPQSeD-v-1" source="tjUwBSUehpWr3oO7VDDB-29" target="tjUwBSUehpWr3oO7VDDB-7">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hq6e5nTry_MvglVCfLQO-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="25_svGnrOF19sPQSeD-v-1" source="tjUwBSUehpWr3oO7VDDB-29" target="hq6e5nTry_MvglVCfLQO-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="520" y="1020" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="490" y="580" />
+              <mxPoint x="490" y="1055" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="tjUwBSUehpWr3oO7VDDB-29" value="是否已经通知过其他组件？" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="25_svGnrOF19sPQSeD-v-1">
           <mxGeometry x="560" y="540" width="140" height="80" as="geometry" />
@@ -1514,6 +1539,9 @@
         <mxCell id="hq6e5nTry_MvglVCfLQO-2" value="getIvConfig&lt;br&gt;获取互动配置信息" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;" vertex="1" parent="25_svGnrOF19sPQSeD-v-1">
           <mxGeometry x="560" y="770" width="140" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="hq6e5nTry_MvglVCfLQO-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="25_svGnrOF19sPQSeD-v-1" source="hq6e5nTry_MvglVCfLQO-5" target="hq6e5nTry_MvglVCfLQO-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="hq6e5nTry_MvglVCfLQO-5" value="等动画播放结束&lt;br&gt;通知显示 TP3Close 和 TP3Result" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;" vertex="1" parent="25_svGnrOF19sPQSeD-v-1">
           <mxGeometry x="560" y="950" width="140" height="50" as="geometry" />
         </mxCell>
@@ -1525,6 +1553,9 @@
         </mxCell>
         <mxCell id="hq6e5nTry_MvglVCfLQO-11" value="N" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="25_svGnrOF19sPQSeD-v-1">
           <mxGeometry x="630" y="620" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="hq6e5nTry_MvglVCfLQO-16" value="结束" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;" vertex="1" parent="25_svGnrOF19sPQSeD-v-1">
+          <mxGeometry x="560" y="1040" width="140" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
