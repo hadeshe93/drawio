@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-24T12:14:15.154Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" etag="gtg777QyqeO_3ZGsa_OY" version="13.9.7" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2020-11-24T12:14:24.148Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" etag="Jt__M0HKnt7V6umHUXFO" version="13.9.7" type="github" pages="8">
   <diagram id="c_eYXRk_POB2v5sAYSU5" name="minico 层">
     <mxGraphModel dx="1426" dy="826" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1493,7 +1493,7 @@
         <mxCell id="tjUwBSUehpWr3oO7VDDB-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="25_svGnrOF19sPQSeD-v-1" source="tjUwBSUehpWr3oO7VDDB-32" target="tjUwBSUehpWr3oO7VDDB-34">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="tjUwBSUehpWr3oO7VDDB-32" value="getUserInfo&lt;br&gt;获取用户信息" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#d6b656;fillColor=#fff2cc;" vertex="1" parent="25_svGnrOF19sPQSeD-v-1">
+        <mxCell id="tjUwBSUehpWr3oO7VDDB-32" value="getUserInfo&lt;br&gt;获取用户信息" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;" vertex="1" parent="25_svGnrOF19sPQSeD-v-1">
           <mxGeometry x="560" y="710" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="tjUwBSUehpWr3oO7VDDB-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="25_svGnrOF19sPQSeD-v-1" source="tjUwBSUehpWr3oO7VDDB-34" target="tjUwBSUehpWr3oO7VDDB-35">
