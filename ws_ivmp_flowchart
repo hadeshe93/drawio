@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-24T12:19:19.950Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" etag="f8Ec4pjj3qQoSyMe_2_5" version="13.9.7" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2020-11-24T12:22:34.630Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" etag="Kib107G83b7acNeWoBv_" version="13.9.7" type="github" pages="8">
   <diagram id="c_eYXRk_POB2v5sAYSU5" name="minico 层">
     <mxGraphModel dx="1426" dy="826" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1562,6 +1562,20 @@
         </mxCell>
         <mxCell id="hq6e5nTry_MvglVCfLQO-22" value="N" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="25_svGnrOF19sPQSeD-v-1">
           <mxGeometry x="520" y="340" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="tV1Uve4xGOw4f1-yNEiS-0" value="TP3Result" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="25_svGnrOF19sPQSeD-v-1">
+          <mxGeometry x="910" y="100" width="160" height="90" as="geometry">
+            <mxRectangle x="310" y="120" width="100" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tV1Uve4xGOw4f1-yNEiS-1" value="+ props: text 答案文案" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="tV1Uve4xGOw4f1-yNEiS-0">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="tV1Uve4xGOw4f1-yNEiS-2" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="tV1Uve4xGOw4f1-yNEiS-0">
+          <mxGeometry y="52" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="tV1Uve4xGOw4f1-yNEiS-3" value="+ lifehook: mounted" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="tV1Uve4xGOw4f1-yNEiS-0">
+          <mxGeometry y="60" width="160" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
