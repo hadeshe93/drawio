@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-25T03:38:53.235Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" etag="KOVDyAudoU8q--6E299D" version="13.9.7" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2020-11-25T03:39:06.179Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" etag="lca_1hrL2cDR79EWhMp_" version="13.9.7" type="github" pages="8">
   <diagram id="c_eYXRk_POB2v5sAYSU5" name="minico 层">
     <mxGraphModel dx="1426" dy="826" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1787,6 +1787,9 @@
         <mxCell id="UnlIp1kONV4NOsvPMWQX-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="25_svGnrOF19sPQSeD-v-1" source="UnlIp1kONV4NOsvPMWQX-0" target="UnlIp1kONV4NOsvPMWQX-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="UnlIp1kONV4NOsvPMWQX-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="25_svGnrOF19sPQSeD-v-1" source="UnlIp1kONV4NOsvPMWQX-0" target="UnlIp1kONV4NOsvPMWQX-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="UnlIp1kONV4NOsvPMWQX-0" value="监听 showByIds 事件" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;" vertex="1" parent="25_svGnrOF19sPQSeD-v-1">
           <mxGeometry x="2630" y="130" width="140" height="30" as="geometry" />
         </mxCell>
@@ -1800,16 +1803,16 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="UnlIp1kONV4NOsvPMWQX-6" value="判断通知的是否自己？" style="rhombus;whiteSpace=wrap;html=1;strokeColor=#000000;" vertex="1" parent="25_svGnrOF19sPQSeD-v-1">
-          <mxGeometry x="2920" y="120" width="80" height="80" as="geometry" />
+          <mxGeometry x="2920" y="105" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="UnlIp1kONV4NOsvPMWQX-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="25_svGnrOF19sPQSeD-v-1" source="UnlIp1kONV4NOsvPMWQX-7" target="UnlIp1kONV4NOsvPMWQX-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="UnlIp1kONV4NOsvPMWQX-7" value="取消监听 showByIds 事件" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;" vertex="1" parent="25_svGnrOF19sPQSeD-v-1">
-          <mxGeometry x="2890" y="220" width="140" height="30" as="geometry" />
+          <mxGeometry x="2890" y="205" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="UnlIp1kONV4NOsvPMWQX-8" value="显示" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;" vertex="1" parent="25_svGnrOF19sPQSeD-v-1">
-          <mxGeometry x="2890" y="270" width="140" height="30" as="geometry" />
+          <mxGeometry x="2890" y="255" width="140" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
