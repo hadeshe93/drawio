@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-25T06:10:46.370Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" etag="U1cZrUakv4qK_yDhI5Ad" version="13.9.7" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2020-11-25T06:14:57.202Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" etag="SlJGO2CqWrF_cBrwyuf6" version="13.9.7" type="github" pages="8">
   <diagram id="c_eYXRk_POB2v5sAYSU5" name="minico 层">
     <mxGraphModel dx="1426" dy="826" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1890,6 +1890,32 @@
         </mxCell>
         <mxCell id="UnlIp1kONV4NOsvPMWQX-35" value="getTPResult()" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="25_svGnrOF19sPQSeD-v-1">
           <mxGeometry x="3020" y="555" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="UnlIp1kONV4NOsvPMWQX-40" value="判断 this.clickDidsabled&lt;br&gt;或者&lt;br&gt;this.lock.sharePanel&lt;br&gt;是否有一个为 truthy ?" style="rhombus;whiteSpace=wrap;html=1;strokeColor=#000000;" vertex="1" parent="25_svGnrOF19sPQSeD-v-1">
+          <mxGeometry x="2620" y="260" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="UnlIp1kONV4NOsvPMWQX-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="25_svGnrOF19sPQSeD-v-1" source="8mDbAj9RzVSThFGDX-Er-5" target="UnlIp1kONV4NOsvPMWQX-40">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2580" y="205" />
+              <mxPoint x="2580" y="300" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UnlIp1kONV4NOsvPMWQX-42" value="this.lock.sharePanel = true&lt;br&gt;加锁" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;" vertex="1" parent="25_svGnrOF19sPQSeD-v-1">
+          <mxGeometry x="2610" y="380" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UnlIp1kONV4NOsvPMWQX-43" value="显示分享卡" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;" vertex="1" parent="25_svGnrOF19sPQSeD-v-1">
+          <mxGeometry x="2610" y="440" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UnlIp1kONV4NOsvPMWQX-44" value="await&amp;nbsp;makeScreenshot&lt;br&gt;等待截图服务调用完成" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;" vertex="1" parent="25_svGnrOF19sPQSeD-v-1">
+          <mxGeometry x="2610" y="500" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UnlIp1kONV4NOsvPMWQX-45" value="显示分享卡关闭按钮" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;" vertex="1" parent="25_svGnrOF19sPQSeD-v-1">
+          <mxGeometry x="2610" y="560" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UnlIp1kONV4NOsvPMWQX-46" value="this.lock.sharePanel = false&lt;br&gt;去锁" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;" vertex="1" parent="25_svGnrOF19sPQSeD-v-1">
+          <mxGeometry x="2610" y="620" width="180" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
