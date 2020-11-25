@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-25T03:29:02.662Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" etag="ip_XiyZVav325-4rIEP6" version="13.9.7" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2020-11-25T03:29:46.782Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" etag="ojFbLDt7BN0nXSQaKsoM" version="13.9.7" type="github" pages="8">
   <diagram id="c_eYXRk_POB2v5sAYSU5" name="minico 层">
     <mxGraphModel dx="1426" dy="826" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1742,6 +1742,15 @@
         </mxCell>
         <mxCell id="QtJSI3Qy6JHOsgWfU1Nf-31" value="broadcast updateTP3Answer 事件&lt;br&gt;通知答案组件更新比例数据" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;" vertex="1" parent="25_svGnrOF19sPQSeD-v-1">
           <mxGeometry x="1135" y="920" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QtJSI3Qy6JHOsgWfU1Nf-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="25_svGnrOF19sPQSeD-v-1" source="tV1Uve4xGOw4f1-yNEiS-3" target="QtJSI3Qy6JHOsgWfU1Nf-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QtJSI3Qy6JHOsgWfU1Nf-35" value="N" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="25_svGnrOF19sPQSeD-v-1">
+          <mxGeometry x="1229" y="320" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="QtJSI3Qy6JHOsgWfU1Nf-36" value="N" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="25_svGnrOF19sPQSeD-v-1">
+          <mxGeometry x="1229" y="425" width="40" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
