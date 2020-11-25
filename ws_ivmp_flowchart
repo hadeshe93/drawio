@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-25T04:00:07.754Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" etag="hEoKnonH58NYJzW5Mm1-" version="13.9.7" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2020-11-25T06:10:46.370Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" etag="U1cZrUakv4qK_yDhI5Ad" version="13.9.7" type="github" pages="8">
   <diagram id="c_eYXRk_POB2v5sAYSU5" name="minico 层">
     <mxGraphModel dx="1426" dy="826" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1843,7 +1843,7 @@
         <mxCell id="UnlIp1kONV4NOsvPMWQX-13" value="await this.getResult()" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;" vertex="1" parent="25_svGnrOF19sPQSeD-v-1">
           <mxGeometry x="2860" y="354.5" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="UnlIp1kONV4NOsvPMWQX-14" value="设置允许点击变量" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;" vertex="1" parent="25_svGnrOF19sPQSeD-v-1">
+        <mxCell id="UnlIp1kONV4NOsvPMWQX-14" value="this.clickDidsabled = false&lt;br&gt;设置允许点击变量" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;" vertex="1" parent="25_svGnrOF19sPQSeD-v-1">
           <mxGeometry x="2860" y="415" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="UnlIp1kONV4NOsvPMWQX-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="25_svGnrOF19sPQSeD-v-1" source="UnlIp1kONV4NOsvPMWQX-18" target="UnlIp1kONV4NOsvPMWQX-19">
