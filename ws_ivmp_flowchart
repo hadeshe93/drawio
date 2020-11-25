@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-25T06:15:08.084Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" etag="ZIyO4f12dPfZHfRduUgx" version="13.9.7" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2020-11-25T06:17:05.421Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" etag="e35iO5dF1HEVQxgwlheH" version="13.9.7" type="github" pages="8">
   <diagram id="c_eYXRk_POB2v5sAYSU5" name="minico 层">
     <mxGraphModel dx="1426" dy="826" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1770,7 +1770,7 @@
           <mxGeometry x="1120" y="365" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="8mDbAj9RzVSThFGDX-Er-0" value="TP3Result" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="25_svGnrOF19sPQSeD-v-1">
-          <mxGeometry x="2220" y="99.5" width="310" height="180" as="geometry">
+          <mxGeometry x="2220" y="99.5" width="310" height="150" as="geometry">
             <mxRectangle x="310" y="120" width="100" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -1786,11 +1786,8 @@
         <mxCell id="8mDbAj9RzVSThFGDX-Er-5" value="+ method: handleShareBtnClick" style="text;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=#000000;" vertex="1" parent="8mDbAj9RzVSThFGDX-Er-0">
           <mxGeometry y="90" width="310" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="8mDbAj9RzVSThFGDX-Er-6" value="+ method: onResultCardCloseBtnClick 结局卡点击关闭" style="text;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=#000000;" vertex="1" parent="8mDbAj9RzVSThFGDX-Er-0">
+        <mxCell id="8mDbAj9RzVSThFGDX-Er-7" value="+ method: handleCloseBtnClick 分享卡点击关闭" style="text;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=#000000;" vertex="1" parent="8mDbAj9RzVSThFGDX-Er-0">
           <mxGeometry y="120" width="310" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="8mDbAj9RzVSThFGDX-Er-7" value="+ method: onShareCardCloseBtnClick 分享卡点击关闭" style="text;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=#000000;" vertex="1" parent="8mDbAj9RzVSThFGDX-Er-0">
-          <mxGeometry y="150" width="310" height="30" as="geometry" />
         </mxCell>
         <mxCell id="UnlIp1kONV4NOsvPMWQX-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="25_svGnrOF19sPQSeD-v-1" source="UnlIp1kONV4NOsvPMWQX-0" target="UnlIp1kONV4NOsvPMWQX-3">
           <mxGeometry relative="1" as="geometry" />
@@ -1931,6 +1928,12 @@
         </mxCell>
         <mxCell id="UnlIp1kONV4NOsvPMWQX-46" value="this.lock.sharePanel = false&lt;br&gt;去锁" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;" vertex="1" parent="25_svGnrOF19sPQSeD-v-1">
           <mxGeometry x="2610" y="620" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UnlIp1kONV4NOsvPMWQX-52" value="this.showShareCard = false&lt;br&gt;隐藏分享卡" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;" vertex="1" parent="25_svGnrOF19sPQSeD-v-1">
+          <mxGeometry x="2610" y="700" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UnlIp1kONV4NOsvPMWQX-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="25_svGnrOF19sPQSeD-v-1" source="8mDbAj9RzVSThFGDX-Er-7" target="UnlIp1kONV4NOsvPMWQX-52">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
