@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-26T11:58:46.101Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" etag="cEoYXalkj5X7lr7dPObF" version="13.9.9" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2020-11-26T11:59:33.807Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" etag="DxaGPat-NFMwFeNHL1aW" version="13.9.9" type="github" pages="2">
   <diagram id="3ZUS03sQAt6wBw0ZQohS" name="互动组件层显隐逻辑">
     <mxGraphModel dx="1426" dy="826" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -147,6 +147,9 @@
       <root>
         <mxCell id="dRJratIFVB5w3fVIxHu9-0" />
         <mxCell id="dRJratIFVB5w3fVIxHu9-1" parent="dRJratIFVB5w3fVIxHu9-0" />
+        <mxCell id="GEKgzzTdiYIhEhrPvGe8-27" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;dashed=1;" vertex="1" parent="dRJratIFVB5w3fVIxHu9-1">
+          <mxGeometry x="1140" y="70" width="200" height="170" as="geometry" />
+        </mxCell>
         <mxCell id="GEKgzzTdiYIhEhrPvGe8-0" value="InteractVideo" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="dRJratIFVB5w3fVIxHu9-1">
           <mxGeometry x="200" y="110" width="160" height="86" as="geometry" />
         </mxCell>
@@ -230,6 +233,9 @@
         </mxCell>
         <mxCell id="GEKgzzTdiYIhEhrPvGe8-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="dRJratIFVB5w3fVIxHu9-1" source="GEKgzzTdiYIhEhrPvGe8-7" target="GEKgzzTdiYIhEhrPvGe8-19">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GEKgzzTdiYIhEhrPvGe8-28" value="小程序应用层中的 MpPlayer 类" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="dRJratIFVB5w3fVIxHu9-1">
+          <mxGeometry x="1140" y="220" width="190" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
