@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-26T11:48:49.105Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" etag="lFuEGhGUeGT7CkH76Ay-" version="13.9.9" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2020-11-26T11:50:20.111Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" etag="elvfTxw65Jo09_dhEjnT" version="13.9.9" type="github" pages="2">
   <diagram id="3ZUS03sQAt6wBw0ZQohS" name="互动组件层显隐逻辑">
     <mxGraphModel dx="1426" dy="826" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -160,7 +160,7 @@
           <mxGeometry y="60" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="GEKgzzTdiYIhEhrPvGe8-4" value="WsPlayerMp" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="dRJratIFVB5w3fVIxHu9-1">
-          <mxGeometry x="660" y="499" width="160" height="86" as="geometry" />
+          <mxGeometry x="880" y="110" width="160" height="86" as="geometry" />
         </mxCell>
         <mxCell id="GEKgzzTdiYIhEhrPvGe8-5" value="+ field: player" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="GEKgzzTdiYIhEhrPvGe8-4">
           <mxGeometry y="26" width="160" height="26" as="geometry" />
@@ -172,7 +172,7 @@
           <mxGeometry y="60" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="GEKgzzTdiYIhEhrPvGe8-8" value="packages/adapter-player/src/wsPlayerMp/index.ts" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="dRJratIFVB5w3fVIxHu9-1">
-          <mxGeometry x="410" y="110" width="320" height="86" as="geometry" />
+          <mxGeometry x="460" y="110" width="320" height="86" as="geometry" />
         </mxCell>
         <mxCell id="GEKgzzTdiYIhEhrPvGe8-9" value="+ class: WsPlayerMp" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="GEKgzzTdiYIhEhrPvGe8-8">
           <mxGeometry y="26" width="320" height="26" as="geometry" />
@@ -182,6 +182,15 @@
         </mxCell>
         <mxCell id="GEKgzzTdiYIhEhrPvGe8-11" value="+ function: createPlayer" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="GEKgzzTdiYIhEhrPvGe8-8">
           <mxGeometry y="60" width="320" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="GEKgzzTdiYIhEhrPvGe8-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="dRJratIFVB5w3fVIxHu9-1" source="GEKgzzTdiYIhEhrPvGe8-1" target="GEKgzzTdiYIhEhrPvGe8-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GEKgzzTdiYIhEhrPvGe8-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="dRJratIFVB5w3fVIxHu9-1" source="GEKgzzTdiYIhEhrPvGe8-9" target="GEKgzzTdiYIhEhrPvGe8-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GEKgzzTdiYIhEhrPvGe8-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="dRJratIFVB5w3fVIxHu9-1" source="GEKgzzTdiYIhEhrPvGe8-11" target="GEKgzzTdiYIhEhrPvGe8-4">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
