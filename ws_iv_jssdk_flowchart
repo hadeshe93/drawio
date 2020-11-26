@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-26T11:55:32.129Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" etag="dqyKJkMSoIYHrDC9CrLG" version="13.9.9" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2020-11-26T11:58:46.101Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" etag="cEoYXalkj5X7lr7dPObF" version="13.9.9" type="github" pages="2">
   <diagram id="3ZUS03sQAt6wBw0ZQohS" name="互动组件层显隐逻辑">
     <mxGraphModel dx="1426" dy="826" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -162,13 +162,13 @@
         <mxCell id="GEKgzzTdiYIhEhrPvGe8-4" value="WsPlayerMp" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="dRJratIFVB5w3fVIxHu9-1">
           <mxGeometry x="880" y="110" width="160" height="112" as="geometry" />
         </mxCell>
-        <mxCell id="GEKgzzTdiYIhEhrPvGe8-5" value="+ field: player" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="GEKgzzTdiYIhEhrPvGe8-4">
+        <mxCell id="GEKgzzTdiYIhEhrPvGe8-5" value="+ field: playerInstance" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="GEKgzzTdiYIhEhrPvGe8-4">
           <mxGeometry y="26" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="GEKgzzTdiYIhEhrPvGe8-6" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="GEKgzzTdiYIhEhrPvGe8-4">
           <mxGeometry y="52" width="160" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="GEKgzzTdiYIhEhrPvGe8-7" value="+ field: playerInstance" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="GEKgzzTdiYIhEhrPvGe8-4">
+        <mxCell id="GEKgzzTdiYIhEhrPvGe8-7" value="+ field: player" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="GEKgzzTdiYIhEhrPvGe8-4">
           <mxGeometry y="60" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="GEKgzzTdiYIhEhrPvGe8-17" value="+ method: constructor" style="text;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=#000000;" vertex="1" parent="GEKgzzTdiYIhEhrPvGe8-4">
@@ -206,6 +206,30 @@
         </mxCell>
         <mxCell id="GEKgzzTdiYIhEhrPvGe8-16" value="实际上 InteractVideo 实例上的 player 属性就是 WsPlayerMp 实例" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="dRJratIFVB5w3fVIxHu9-1">
           <mxGeometry x="410" y="30" width="400" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="GEKgzzTdiYIhEhrPvGe8-18" value="MpPlayer" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="dRJratIFVB5w3fVIxHu9-1">
+          <mxGeometry x="1160" y="110" width="160" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="GEKgzzTdiYIhEhrPvGe8-19" value="+ field: ctx" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="GEKgzzTdiYIhEhrPvGe8-18">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="GEKgzzTdiYIhEhrPvGe8-20" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="GEKgzzTdiYIhEhrPvGe8-18">
+          <mxGeometry y="52" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="GEKgzzTdiYIhEhrPvGe8-21" value=" " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="GEKgzzTdiYIhEhrPvGe8-18">
+          <mxGeometry y="60" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="GEKgzzTdiYIhEhrPvGe8-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="dRJratIFVB5w3fVIxHu9-1" source="GEKgzzTdiYIhEhrPvGe8-5" target="GEKgzzTdiYIhEhrPvGe8-18">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1070" y="149" />
+              <mxPoint x="1070" y="90" />
+              <mxPoint x="1240" y="90" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GEKgzzTdiYIhEhrPvGe8-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="dRJratIFVB5w3fVIxHu9-1" source="GEKgzzTdiYIhEhrPvGe8-7" target="GEKgzzTdiYIhEhrPvGe8-19">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
