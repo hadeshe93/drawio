@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-25T08:04:33.116Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" etag="qWFmiGEWi1yBRS8Ycr8P" version="13.9.7" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2020-11-26T06:39:07.734Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" etag="9xMcpcu0U18aCCTMLxo0" version="13.9.7" type="github" pages="8">
   <diagram id="c_eYXRk_POB2v5sAYSU5" name="minico 层">
     <mxGraphModel dx="1426" dy="826" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -675,46 +675,88 @@
         <mxCell id="Tf_WgDRc5HNwsENyRlxB-0" />
         <mxCell id="Tf_WgDRc5HNwsENyRlxB-1" parent="Tf_WgDRc5HNwsENyRlxB-0" />
         <mxCell id="Tf_WgDRc5HNwsENyRlxB-3" value="" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;direction=west;rotation=0;flipH=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="Tf_WgDRc5HNwsENyRlxB-1" vertex="1">
-          <mxGeometry x="400" y="170" width="170" height="200" as="geometry" />
+          <mxGeometry x="90" y="170" width="170" height="200" as="geometry" />
         </mxCell>
         <mxCell id="Tf_WgDRc5HNwsENyRlxB-6" value="video 元素层" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="Tf_WgDRc5HNwsENyRlxB-1" vertex="1">
-          <mxGeometry x="410" y="170" width="90" height="20" as="geometry" />
+          <mxGeometry x="100" y="170" width="90" height="20" as="geometry" />
         </mxCell>
         <mxCell id="Tf_WgDRc5HNwsENyRlxB-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="Tf_WgDRc5HNwsENyRlxB-1" source="Tf_WgDRc5HNwsENyRlxB-8" target="Tf_WgDRc5HNwsENyRlxB-16" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Tf_WgDRc5HNwsENyRlxB-8" value="" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;direction=west;rotation=0;flipH=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="Tf_WgDRc5HNwsENyRlxB-1" vertex="1">
-          <mxGeometry x="430" y="200" width="170" height="200" as="geometry" />
+          <mxGeometry x="120" y="200" width="170" height="200" as="geometry" />
         </mxCell>
         <mxCell id="Tf_WgDRc5HNwsENyRlxB-9" value="应用播控层" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="Tf_WgDRc5HNwsENyRlxB-1" vertex="1">
-          <mxGeometry x="440" y="200" width="90" height="20" as="geometry" />
+          <mxGeometry x="130" y="200" width="90" height="20" as="geometry" />
         </mxCell>
         <mxCell id="Tf_WgDRc5HNwsENyRlxB-10" value="" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;direction=west;rotation=0;flipH=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="Tf_WgDRc5HNwsENyRlxB-1" vertex="1">
-          <mxGeometry x="460" y="230" width="170" height="200" as="geometry" />
+          <mxGeometry x="150" y="230" width="170" height="200" as="geometry" />
         </mxCell>
         <mxCell id="Tf_WgDRc5HNwsENyRlxB-11" value="互动组件层" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="Tf_WgDRc5HNwsENyRlxB-1" vertex="1">
-          <mxGeometry x="470" y="230" width="90" height="20" as="geometry" />
+          <mxGeometry x="160" y="230" width="90" height="20" as="geometry" />
         </mxCell>
         <mxCell id="Tf_WgDRc5HNwsENyRlxB-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="Tf_WgDRc5HNwsENyRlxB-1" source="Tf_WgDRc5HNwsENyRlxB-12" target="Tf_WgDRc5HNwsENyRlxB-17" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Tf_WgDRc5HNwsENyRlxB-12" value="" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;direction=west;rotation=0;flipH=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="Tf_WgDRc5HNwsENyRlxB-1" vertex="1">
-          <mxGeometry x="490" y="260" width="170" height="200" as="geometry" />
+          <mxGeometry x="180" y="260" width="170" height="200" as="geometry" />
         </mxCell>
         <mxCell id="Tf_WgDRc5HNwsENyRlxB-13" value="dialog 层" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="Tf_WgDRc5HNwsENyRlxB-1" vertex="1">
-          <mxGeometry x="500" y="260" width="90" height="20" as="geometry" />
+          <mxGeometry x="190" y="260" width="90" height="20" as="geometry" />
         </mxCell>
         <mxCell id="Tf_WgDRc5HNwsENyRlxB-14" value="" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;direction=west;rotation=0;flipH=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="Tf_WgDRc5HNwsENyRlxB-1" vertex="1">
-          <mxGeometry x="520" y="290" width="170" height="200" as="geometry" />
+          <mxGeometry x="210" y="290" width="170" height="200" as="geometry" />
         </mxCell>
         <mxCell id="Tf_WgDRc5HNwsENyRlxB-15" value="赞转评等交互层" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="Tf_WgDRc5HNwsENyRlxB-1" vertex="1">
-          <mxGeometry x="530" y="290" width="90" height="20" as="geometry" />
+          <mxGeometry x="220" y="290" width="90" height="20" as="geometry" />
         </mxCell>
         <mxCell id="Tf_WgDRc5HNwsENyRlxB-16" value="播放按钮组件&lt;br&gt;loading 态组件" style="rounded=1;whiteSpace=wrap;html=1;align=left;" parent="Tf_WgDRc5HNwsENyRlxB-1" vertex="1">
-          <mxGeometry x="920" y="206" width="120" height="30" as="geometry" />
+          <mxGeometry x="440" y="206" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Tf_WgDRc5HNwsENyRlxB-17" value="评论列表的面板组件" style="rounded=1;whiteSpace=wrap;html=1;align=left;" parent="Tf_WgDRc5HNwsENyRlxB-1" vertex="1">
-          <mxGeometry x="920" y="266" width="120" height="30" as="geometry" />
+          <mxGeometry x="440" y="266" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rAWajo0Q7PHJwTCo4glo-28" value="" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;direction=west;rotation=0;flipH=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="Tf_WgDRc5HNwsENyRlxB-1">
+          <mxGeometry x="670" y="170" width="170" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="rAWajo0Q7PHJwTCo4glo-29" value="video 元素层" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Tf_WgDRc5HNwsENyRlxB-1">
+          <mxGeometry x="680" y="170" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="rAWajo0Q7PHJwTCo4glo-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="Tf_WgDRc5HNwsENyRlxB-1" source="rAWajo0Q7PHJwTCo4glo-31" target="rAWajo0Q7PHJwTCo4glo-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rAWajo0Q7PHJwTCo4glo-31" value="" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;direction=west;rotation=0;flipH=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="Tf_WgDRc5HNwsENyRlxB-1">
+          <mxGeometry x="700" y="200" width="170" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="rAWajo0Q7PHJwTCo4glo-32" value="应用播控层" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Tf_WgDRc5HNwsENyRlxB-1">
+          <mxGeometry x="710" y="200" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="rAWajo0Q7PHJwTCo4glo-33" value="" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;direction=west;rotation=0;flipH=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="Tf_WgDRc5HNwsENyRlxB-1">
+          <mxGeometry x="730" y="230" width="170" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="rAWajo0Q7PHJwTCo4glo-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="Tf_WgDRc5HNwsENyRlxB-1" source="rAWajo0Q7PHJwTCo4glo-36" target="rAWajo0Q7PHJwTCo4glo-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rAWajo0Q7PHJwTCo4glo-38" value="" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;direction=west;rotation=0;flipH=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="Tf_WgDRc5HNwsENyRlxB-1">
+          <mxGeometry x="760" y="260" width="170" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="rAWajo0Q7PHJwTCo4glo-39" value="赞转评等交互层" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Tf_WgDRc5HNwsENyRlxB-1">
+          <mxGeometry x="730" y="230" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="rAWajo0Q7PHJwTCo4glo-40" value="播放按钮组件&lt;br&gt;loading 态组件" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="Tf_WgDRc5HNwsENyRlxB-1">
+          <mxGeometry x="1020" y="206" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rAWajo0Q7PHJwTCo4glo-41" value="评论列表的面板组件" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="Tf_WgDRc5HNwsENyRlxB-1">
+          <mxGeometry x="990" y="286" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rAWajo0Q7PHJwTCo4glo-36" value="" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;direction=west;rotation=0;flipH=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="Tf_WgDRc5HNwsENyRlxB-1">
+          <mxGeometry x="790" y="280" width="170" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="rAWajo0Q7PHJwTCo4glo-37" value="dialog 层" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Tf_WgDRc5HNwsENyRlxB-1">
+          <mxGeometry x="790" y="280" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="rAWajo0Q7PHJwTCo4glo-34" value="互动组件层" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Tf_WgDRc5HNwsENyRlxB-1">
+          <mxGeometry x="760" y="260" width="90" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
