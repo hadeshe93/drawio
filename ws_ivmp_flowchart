@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-26T06:39:16.144Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" etag="EyeVvQ03jy3W_SGjGTEt" version="13.9.7" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2020-11-26T06:39:28.071Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" etag="mqTGgIvTebkBhs5iC3yo" version="13.9.7" type="github" pages="8">
   <diagram id="c_eYXRk_POB2v5sAYSU5" name="minico 层">
     <mxGraphModel dx="1426" dy="826" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -741,7 +741,7 @@
           <mxGeometry x="760" y="260" width="170" height="200" as="geometry" />
         </mxCell>
         <mxCell id="rAWajo0Q7PHJwTCo4glo-39" value="赞转评等交互层" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Tf_WgDRc5HNwsENyRlxB-1">
-          <mxGeometry x="730" y="230" width="90" height="20" as="geometry" />
+          <mxGeometry x="750" y="230" width="90" height="20" as="geometry" />
         </mxCell>
         <mxCell id="rAWajo0Q7PHJwTCo4glo-40" value="播放按钮组件&lt;br&gt;loading 态组件" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="Tf_WgDRc5HNwsENyRlxB-1">
           <mxGeometry x="1020" y="206" width="120" height="30" as="geometry" />
