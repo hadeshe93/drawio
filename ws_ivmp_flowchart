@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-26T09:27:13.951Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" etag="haUVrOvVKesRjerO3D3O" version="13.9.7" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2020-11-26T09:31:46.454Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" etag="PXiQdNEFg2UmUacIzHDQ" version="13.9.7" type="github" pages="8">
   <diagram id="c_eYXRk_POB2v5sAYSU5" name="minico 层">
     <mxGraphModel dx="1426" dy="826" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1778,6 +1778,17 @@
         </mxCell>
         <mxCell id="QtJSI3Qy6JHOsgWfU1Nf-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="25_svGnrOF19sPQSeD-v-1" source="QtJSI3Qy6JHOsgWfU1Nf-17" target="QtJSI3Qy6JHOsgWfU1Nf-18">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JEaNYCJB2LG57lqZVQxQ-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#dae8fc;strokeColor=#6c8ebf;dashed=1;" edge="1" parent="25_svGnrOF19sPQSeD-v-1" source="QtJSI3Qy6JHOsgWfU1Nf-17" target="UnlIp1kONV4NOsvPMWQX-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2490" y="450" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="2550" y="645" />
+              <mxPoint x="2550" y="360" />
+              <mxPoint x="2610" y="360" />
+              <mxPoint x="2610" y="205" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="QtJSI3Qy6JHOsgWfU1Nf-17" value="broadcast initTP3Result 事件&lt;br&gt;通知结局卡组件可以获取数据了" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;" vertex="1" parent="25_svGnrOF19sPQSeD-v-1">
           <mxGeometry x="1135" y="630" width="190" height="30" as="geometry" />
