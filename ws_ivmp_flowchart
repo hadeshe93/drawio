@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-26T07:18:26.247Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" etag="ty4Ib3JeAjUPWf3ov_XI" version="13.9.7" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2020-11-26T07:19:59.392Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" etag="TuRTGAudtrlPrnE7Rq_c" version="13.9.7" type="github" pages="8">
   <diagram id="c_eYXRk_POB2v5sAYSU5" name="minico 层">
     <mxGraphModel dx="1426" dy="826" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1924,10 +1924,10 @@
         <mxCell id="UnlIp1kONV4NOsvPMWQX-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="25_svGnrOF19sPQSeD-v-1" source="UnlIp1kONV4NOsvPMWQX-24" target="UnlIp1kONV4NOsvPMWQX-26">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="UnlIp1kONV4NOsvPMWQX-24" value="await this.getShortLink&lt;br&gt;获取分享短链" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;" vertex="1" parent="25_svGnrOF19sPQSeD-v-1">
+        <mxCell id="UnlIp1kONV4NOsvPMWQX-24" value="await this.getShortLink&lt;br&gt;获取分享短链" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#d6b656;fillColor=#fff2cc;" vertex="1" parent="25_svGnrOF19sPQSeD-v-1">
           <mxGeometry x="3340" y="475" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="UnlIp1kONV4NOsvPMWQX-26" value="转成二维码base64" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;" vertex="1" parent="25_svGnrOF19sPQSeD-v-1">
+        <mxCell id="UnlIp1kONV4NOsvPMWQX-26" value="await 转成二维码base64" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;" vertex="1" parent="25_svGnrOF19sPQSeD-v-1">
           <mxGeometry x="3340" y="530" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="UnlIp1kONV4NOsvPMWQX-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="25_svGnrOF19sPQSeD-v-1" source="UnlIp1kONV4NOsvPMWQX-29" target="UnlIp1kONV4NOsvPMWQX-30">
