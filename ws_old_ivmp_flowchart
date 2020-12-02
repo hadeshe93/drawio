@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-02T09:49:03.737Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" etag="WzjWur-SliWgxNEdJZbO" version="13.9.7" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2020-12-02T09:49:40.519Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" etag="ylqx3HbuCFscorxOZGX5" version="13.9.7" type="github" pages="7">
   <diagram id="36oOoDrCphKBhhJTfvPP" name="视频UI适配逻辑">
     <mxGraphModel dx="1426" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -459,6 +459,9 @@
       <root>
         <mxCell id="ZnOnkiPdsSpx4ttufrJs-0" />
         <mxCell id="ZnOnkiPdsSpx4ttufrJs-1" parent="ZnOnkiPdsSpx4ttufrJs-0" />
+        <mxCell id="ZnOnkiPdsSpx4ttufrJs-67" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="ZnOnkiPdsSpx4ttufrJs-1">
+          <mxGeometry x="720" y="40" width="830" height="600" as="geometry" />
+        </mxCell>
         <mxCell id="ZnOnkiPdsSpx4ttufrJs-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="ZnOnkiPdsSpx4ttufrJs-1" source="ZnOnkiPdsSpx4ttufrJs-2" target="ZnOnkiPdsSpx4ttufrJs-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -615,6 +618,9 @@
         </mxCell>
         <mxCell id="ZnOnkiPdsSpx4ttufrJs-66" value="目前自由编辑小程序里面还没有实现这部分" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="ZnOnkiPdsSpx4ttufrJs-1">
           <mxGeometry x="801.25" y="80" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZnOnkiPdsSpx4ttufrJs-68" value="核心流程图" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="ZnOnkiPdsSpx4ttufrJs-1">
+          <mxGeometry x="1470" y="620" width="70" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
