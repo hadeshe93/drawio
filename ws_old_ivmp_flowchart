@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-02T06:20:43.705Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" etag="DV2i2eNqWJAuDvUhC8XD" version="13.9.7" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2020-12-02T06:28:13.763Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" etag="Oqj-ieExF9fePAMcd6uh" version="13.9.7" type="github" pages="7">
   <diagram id="36oOoDrCphKBhhJTfvPP" name="视频UI适配逻辑">
     <mxGraphModel dx="1426" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -471,20 +471,44 @@
         <mxCell id="ZnOnkiPdsSpx4ttufrJs-4" value="触发 error 事件" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="ZnOnkiPdsSpx4ttufrJs-1">
           <mxGeometry x="370" y="230" width="110" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ZnOnkiPdsSpx4ttufrJs-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="ZnOnkiPdsSpx4ttufrJs-1" source="ZnOnkiPdsSpx4ttufrJs-5" target="ZnOnkiPdsSpx4ttufrJs-9">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="ZnOnkiPdsSpx4ttufrJs-5" value="执行 bindvideoerror 回调" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="ZnOnkiPdsSpx4ttufrJs-1">
           <mxGeometry x="370" y="290" width="110" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ZnOnkiPdsSpx4ttufrJs-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="ZnOnkiPdsSpx4ttufrJs-1" source="ZnOnkiPdsSpx4ttufrJs-9" target="ZnOnkiPdsSpx4ttufrJs-11">
+        <mxCell id="ZnOnkiPdsSpx4ttufrJs-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="ZnOnkiPdsSpx4ttufrJs-1" source="ZnOnkiPdsSpx4ttufrJs-14" target="ZnOnkiPdsSpx4ttufrJs-22">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ZnOnkiPdsSpx4ttufrJs-9" value="相关数据上报" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="ZnOnkiPdsSpx4ttufrJs-1">
-          <mxGeometry x="370" y="350" width="110" height="30" as="geometry" />
+        <mxCell id="ZnOnkiPdsSpx4ttufrJs-14" value="相关数据上报" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="ZnOnkiPdsSpx4ttufrJs-1">
+          <mxGeometry x="565" y="290" width="110" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ZnOnkiPdsSpx4ttufrJs-11" value="this.showCommonErrorPage()&lt;br&gt;展示通用错误页" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="ZnOnkiPdsSpx4ttufrJs-1">
-          <mxGeometry x="335" y="410" width="180" height="30" as="geometry" />
+        <mxCell id="ZnOnkiPdsSpx4ttufrJs-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="ZnOnkiPdsSpx4ttufrJs-1" source="ZnOnkiPdsSpx4ttufrJs-18" target="ZnOnkiPdsSpx4ttufrJs-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZnOnkiPdsSpx4ttufrJs-18" value="是否为不支持的 mixed render ?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="ZnOnkiPdsSpx4ttufrJs-1">
+          <mxGeometry x="580" y="410" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ZnOnkiPdsSpx4ttufrJs-20" value="相关数据上报" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="ZnOnkiPdsSpx4ttufrJs-1">
+          <mxGeometry x="565" y="520" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZnOnkiPdsSpx4ttufrJs-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="ZnOnkiPdsSpx4ttufrJs-1" source="ZnOnkiPdsSpx4ttufrJs-22" target="ZnOnkiPdsSpx4ttufrJs-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZnOnkiPdsSpx4ttufrJs-22" value="置位&amp;nbsp;this.hasPlayerError" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="ZnOnkiPdsSpx4ttufrJs-1">
+          <mxGeometry x="547.5" y="350" width="145" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZnOnkiPdsSpx4ttufrJs-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="ZnOnkiPdsSpx4ttufrJs-1" source="ZnOnkiPdsSpx4ttufrJs-25" target="ZnOnkiPdsSpx4ttufrJs-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZnOnkiPdsSpx4ttufrJs-25" value="视频是否正在播放？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="ZnOnkiPdsSpx4ttufrJs-1">
+          <mxGeometry x="430" y="495" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ZnOnkiPdsSpx4ttufrJs-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="ZnOnkiPdsSpx4ttufrJs-1" source="ZnOnkiPdsSpx4ttufrJs-26" target="ZnOnkiPdsSpx4ttufrJs-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZnOnkiPdsSpx4ttufrJs-26" value="复位&amp;nbsp;this.hasPlayerError" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="ZnOnkiPdsSpx4ttufrJs-1">
+          <mxGeometry x="402.5" y="600" width="135" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZnOnkiPdsSpx4ttufrJs-27" value="this.handleVideoException()" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="ZnOnkiPdsSpx4ttufrJs-1">
+          <mxGeometry x="391.25" y="660" width="157.5" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
