@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-02T09:42:07.737Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" etag="dyFNwhcewFommyKx5Glj" version="13.9.7" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2020-12-02T09:46:16.467Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" etag="FIDzggPll3Z7dJ16_gGQ" version="13.9.7" type="github" pages="7">
   <diagram id="36oOoDrCphKBhhJTfvPP" name="视频UI适配逻辑">
     <mxGraphModel dx="1426" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -560,11 +560,38 @@
         <mxCell id="ZnOnkiPdsSpx4ttufrJs-44" value="Y" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="ZnOnkiPdsSpx4ttufrJs-1">
           <mxGeometry x="620" y="780" width="40" height="20" as="geometry" />
         </mxCell>
+        <mxCell id="ZnOnkiPdsSpx4ttufrJs-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="ZnOnkiPdsSpx4ttufrJs-1" source="ZnOnkiPdsSpx4ttufrJs-45" target="ZnOnkiPdsSpx4ttufrJs-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZnOnkiPdsSpx4ttufrJs-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="ZnOnkiPdsSpx4ttufrJs-1" source="ZnOnkiPdsSpx4ttufrJs-45" target="ZnOnkiPdsSpx4ttufrJs-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="ZnOnkiPdsSpx4ttufrJs-45" value="视频是否起播？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="ZnOnkiPdsSpx4ttufrJs-1">
-          <mxGeometry x="1040" y="280" width="80" height="80" as="geometry" />
+          <mxGeometry x="1110" y="270" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ZnOnkiPdsSpx4ttufrJs-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="ZnOnkiPdsSpx4ttufrJs-1" source="ZnOnkiPdsSpx4ttufrJs-46" target="ZnOnkiPdsSpx4ttufrJs-49">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ZnOnkiPdsSpx4ttufrJs-46" value="&lt;span&gt;this.handleVideoException()&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="ZnOnkiPdsSpx4ttufrJs-1">
-          <mxGeometry x="1007.5" y="390" width="182.5" height="30" as="geometry" />
+          <mxGeometry x="880" y="390" width="182.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZnOnkiPdsSpx4ttufrJs-47" value="&lt;span&gt;通过 binderror 回调拿到错误信息并展示在 PageError 组件&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="ZnOnkiPdsSpx4ttufrJs-1">
+          <mxGeometry x="1230" y="390" width="182.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZnOnkiPdsSpx4ttufrJs-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="ZnOnkiPdsSpx4ttufrJs-1" source="ZnOnkiPdsSpx4ttufrJs-49" target="ZnOnkiPdsSpx4ttufrJs-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZnOnkiPdsSpx4ttufrJs-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="ZnOnkiPdsSpx4ttufrJs-1" source="ZnOnkiPdsSpx4ttufrJs-49" target="ZnOnkiPdsSpx4ttufrJs-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZnOnkiPdsSpx4ttufrJs-49" value="是否用的是入口预加载参数？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="ZnOnkiPdsSpx4ttufrJs-1">
+          <mxGeometry x="931.25" y="450" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ZnOnkiPdsSpx4ttufrJs-52" value="用接口返回的数据重试" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="ZnOnkiPdsSpx4ttufrJs-1">
+          <mxGeometry x="840" y="560" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZnOnkiPdsSpx4ttufrJs-54" value="直接展示PageError组件，信息为「视频播放失败」" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="ZnOnkiPdsSpx4ttufrJs-1">
+          <mxGeometry x="1011.25" y="560" width="158.75" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
