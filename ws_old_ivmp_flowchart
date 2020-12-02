@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-18T08:56:16.336Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" etag="otnjgrrSWKtVaQdNNbBX" version="13.9.7" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2020-12-02T03:55:16.131Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" etag="ebsA4snapsVqEZL0SC5w" version="13.9.7" type="github" pages="7">
   <diagram id="36oOoDrCphKBhhJTfvPP" name="视频UI适配逻辑">
     <mxGraphModel dx="1426" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -360,7 +360,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="-SXH6DVSCPBcCiPBXzzZ" name="新用户注册逻辑">
-    <mxGraphModel dx="1426" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1426" dy="826" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="OqWXmMWJwulvF6iGvgAN-0" />
         <mxCell id="OqWXmMWJwulvF6iGvgAN-1" parent="OqWXmMWJwulvF6iGvgAN-0" />
@@ -451,6 +451,14 @@
         <mxCell id="OqWXmMWJwulvF6iGvgAN-30" value="&lt;span&gt;getWeishiPersonid 的返回码是否为 -5007&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="OqWXmMWJwulvF6iGvgAN-1">
           <mxGeometry x="460" y="150" width="80" height="80" as="geometry" />
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="nNMTR78nraFqLkvsBYdl" name="视频加载失败逻辑">
+    <mxGraphModel dx="1426" dy="826" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="ZnOnkiPdsSpx4ttufrJs-0" />
+        <mxCell id="ZnOnkiPdsSpx4ttufrJs-1" parent="ZnOnkiPdsSpx4ttufrJs-0" />
       </root>
     </mxGraphModel>
   </diagram>
