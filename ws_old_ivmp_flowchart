@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-02T06:31:24.150Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" etag="3v9pozmXZzUANZriXI6D" version="13.9.7" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2020-12-02T06:56:48.182Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" etag="_VFxL8ajmFbu9EJmYXy6" version="13.9.7" type="github" pages="7">
   <diagram id="36oOoDrCphKBhhJTfvPP" name="视频UI适配逻辑">
     <mxGraphModel dx="1426" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -544,6 +544,12 @@
         </mxCell>
         <mxCell id="ZnOnkiPdsSpx4ttufrJs-37" value="相关数据上报" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="ZnOnkiPdsSpx4ttufrJs-1">
           <mxGeometry x="565" y="870" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZnOnkiPdsSpx4ttufrJs-40" value="Y" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="ZnOnkiPdsSpx4ttufrJs-1">
+          <mxGeometry x="620" y="490" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ZnOnkiPdsSpx4ttufrJs-41" value="N" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="ZnOnkiPdsSpx4ttufrJs-1">
+          <mxGeometry x="540" y="430" width="40" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
