@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-02T09:46:16.467Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" etag="FIDzggPll3Z7dJ16_gGQ" version="13.9.7" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2020-12-02T09:47:22.723Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" etag="zSkye8yvXJkqHIOQPaiL" version="13.9.7" type="github" pages="7">
   <diagram id="36oOoDrCphKBhhJTfvPP" name="视频UI适配逻辑">
     <mxGraphModel dx="1426" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -587,11 +587,14 @@
         <mxCell id="ZnOnkiPdsSpx4ttufrJs-49" value="是否用的是入口预加载参数？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="ZnOnkiPdsSpx4ttufrJs-1">
           <mxGeometry x="931.25" y="450" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="ZnOnkiPdsSpx4ttufrJs-52" value="用接口返回的数据重试" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="ZnOnkiPdsSpx4ttufrJs-1">
+        <mxCell id="ZnOnkiPdsSpx4ttufrJs-52" value="用接口返回的数据重试" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="ZnOnkiPdsSpx4ttufrJs-1">
           <mxGeometry x="840" y="560" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ZnOnkiPdsSpx4ttufrJs-54" value="直接展示PageError组件，信息为「视频播放失败」" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="ZnOnkiPdsSpx4ttufrJs-1">
           <mxGeometry x="1011.25" y="560" width="158.75" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZnOnkiPdsSpx4ttufrJs-60" value="目前自由编辑小程序里面还没有实现这部分" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="ZnOnkiPdsSpx4ttufrJs-1">
+          <mxGeometry x="760" y="530" width="130" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
