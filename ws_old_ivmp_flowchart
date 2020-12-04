@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-04T07:38:22.881Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" etag="yARP59VcvaBCbYKoG-jJ" version="13.9.7" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2020-12-04T07:41:41.008Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" etag="8NrUwIqUab9ihxvCWYgV" version="13.9.7" type="github" pages="8">
   <diagram id="36oOoDrCphKBhhJTfvPP" name="视频UI适配逻辑">
     <mxGraphModel dx="1426" dy="826" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -272,6 +272,9 @@
         </mxCell>
         <mxCell id="CnS7w_Uw1kYqfnPGetc6-6" value="beacon&lt;br&gt;灯塔上报" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="fcAeuxg_cVY5DvXYEzGa-1">
           <mxGeometry x="350" y="480" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CnS7w_Uw1kYqfnPGetc6-9" value="&lt;h1&gt;BOSS 上报&lt;/h1&gt;&lt;p&gt;旧互动小程序使用 7925 和 7869 两个 id 进行上报，7925 是为了自定义统计，7869 是为了全量日志。&lt;/p&gt;&lt;p&gt;手Q小程序仅使用了 7925，且仅使用了 type 为 9001,9002,9003 三个。&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;dashed=1;" vertex="1" parent="fcAeuxg_cVY5DvXYEzGa-1">
+          <mxGeometry x="640" y="50" width="300" height="130" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
