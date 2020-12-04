@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-04T07:13:07.726Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" etag="XSktZno06ZorH75OAUWR" version="13.9.7" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2020-12-04T07:25:08.624Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" etag="9D-TIz8-RCdYbKuh-OYl" version="13.9.7" type="github" pages="8">
   <diagram id="36oOoDrCphKBhhJTfvPP" name="视频UI适配逻辑">
     <mxGraphModel dx="1426" dy="826" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -248,6 +248,15 @@
         </mxCell>
         <mxCell id="CnS7w_Uw1kYqfnPGetc6-0" value="WSDcReport&lt;br&gt;模调抽样上报" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="fcAeuxg_cVY5DvXYEzGa-1">
           <mxGeometry x="300" y="350" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CnS7w_Uw1kYqfnPGetc6-1" value="report/md&lt;br&gt;模调抽样上报" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="fcAeuxg_cVY5DvXYEzGa-1">
+          <mxGeometry x="300" y="400" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CnS7w_Uw1kYqfnPGetc6-2" value="boss 7925&lt;br&gt;自定义统计上报" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="fcAeuxg_cVY5DvXYEzGa-1">
+          <mxGeometry x="300" y="460" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CnS7w_Uw1kYqfnPGetc6-3" value="boss 7869&lt;br&gt;前端日志上报" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="fcAeuxg_cVY5DvXYEzGa-1">
+          <mxGeometry x="300" y="510" width="100" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
