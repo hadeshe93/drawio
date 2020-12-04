@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-04T07:32:41.247Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" etag="orb7ur0lKI53V4IMA-gi" version="13.9.7" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2020-12-04T07:38:22.881Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" etag="yARP59VcvaBCbYKoG-jJ" version="13.9.7" type="github" pages="8">
   <diagram id="36oOoDrCphKBhhJTfvPP" name="视频UI适配逻辑">
     <mxGraphModel dx="1426" dy="826" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -234,6 +234,9 @@
       <root>
         <mxCell id="fcAeuxg_cVY5DvXYEzGa-0" />
         <mxCell id="fcAeuxg_cVY5DvXYEzGa-1" parent="fcAeuxg_cVY5DvXYEzGa-0" />
+        <mxCell id="CnS7w_Uw1kYqfnPGetc6-7" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="fcAeuxg_cVY5DvXYEzGa-1">
+          <mxGeometry x="300" y="425" width="200" height="140" as="geometry" />
+        </mxCell>
         <mxCell id="CnS7w_Uw1kYqfnPGetc6-4" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="fcAeuxg_cVY5DvXYEzGa-1">
           <mxGeometry x="300" y="50" width="200" height="320" as="geometry" />
         </mxCell>
@@ -242,6 +245,9 @@
         </mxCell>
         <mxCell id="fcAeuxg_cVY5DvXYEzGa-2" value="开发上报" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="fcAeuxg_cVY5DvXYEzGa-1">
           <mxGeometry x="140" y="195" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CnS7w_Uw1kYqfnPGetc6-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="fcAeuxg_cVY5DvXYEzGa-1" source="fcAeuxg_cVY5DvXYEzGa-3" target="CnS7w_Uw1kYqfnPGetc6-7">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="fcAeuxg_cVY5DvXYEzGa-3" value="业务上报" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="fcAeuxg_cVY5DvXYEzGa-1">
           <mxGeometry x="140" y="480" width="100" height="30" as="geometry" />
@@ -263,6 +269,9 @@
         </mxCell>
         <mxCell id="CnS7w_Uw1kYqfnPGetc6-3" value="boss 7869&lt;br&gt;前端日志上报" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="fcAeuxg_cVY5DvXYEzGa-1">
           <mxGeometry x="350" y="170" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CnS7w_Uw1kYqfnPGetc6-6" value="beacon&lt;br&gt;灯塔上报" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="fcAeuxg_cVY5DvXYEzGa-1">
+          <mxGeometry x="350" y="480" width="100" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
