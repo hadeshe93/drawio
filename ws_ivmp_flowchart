@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-05T06:29:16.956Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" etag="E-xLxt8tABGJ1kTwLqTh" version="13.9.7" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2020-12-05T06:30:36.994Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" etag="lFAebBl92HFu3vJcMOlw" version="13.9.7" type="github" pages="9">
   <diagram id="c_eYXRk_POB2v5sAYSU5" name="minico 层">
     <mxGraphModel dx="1426" dy="826" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2168,9 +2168,6 @@
         <mxCell id="Nge1Y2XZC5D646iVVoj4-7" value="default requestor" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Nge1Y2XZC5D646iVVoj4-1">
           <mxGeometry x="290" y="475" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Nge1Y2XZC5D646iVVoj4-8" value="self-defined requestor" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Nge1Y2XZC5D646iVVoj4-1">
-          <mxGeometry x="410" y="475" width="120" height="40" as="geometry" />
-        </mxCell>
         <mxCell id="Nge1Y2XZC5D646iVVoj4-15" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Nge1Y2XZC5D646iVVoj4-1">
           <mxGeometry x="630" y="450" width="320" height="90" as="geometry" />
         </mxCell>
@@ -2216,11 +2213,11 @@
         <mxCell id="Nge1Y2XZC5D646iVVoj4-30" value="配置型数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Nge1Y2XZC5D646iVVoj4-1">
           <mxGeometry x="630" y="320" width="70" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="Nge1Y2XZC5D646iVVoj4-47" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;startArrow=block;" edge="1" parent="Nge1Y2XZC5D646iVVoj4-1" source="Nge1Y2XZC5D646iVVoj4-36" target="Nge1Y2XZC5D646iVVoj4-13">
+        <mxCell id="Nge1Y2XZC5D646iVVoj4-63" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.797;entryY=0.011;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=block;" edge="1" parent="Nge1Y2XZC5D646iVVoj4-1" source="Nge1Y2XZC5D646iVVoj4-36" target="Nge1Y2XZC5D646iVVoj4-13">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Nge1Y2XZC5D646iVVoj4-36" value="自定义发送规则" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Nge1Y2XZC5D646iVVoj4-1">
-          <mxGeometry x="280" y="320" width="320" height="90" as="geometry" />
+          <mxGeometry x="470" y="320" width="130" height="90" as="geometry" />
         </mxCell>
         <mxCell id="Nge1Y2XZC5D646iVVoj4-53" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.391;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=block;" edge="1" parent="Nge1Y2XZC5D646iVVoj4-1" source="Nge1Y2XZC5D646iVVoj4-50" target="Nge1Y2XZC5D646iVVoj4-15">
           <mxGeometry relative="1" as="geometry" />
@@ -2236,6 +2233,12 @@
         </mxCell>
         <mxCell id="Nge1Y2XZC5D646iVVoj4-59" value="公共上报库工具" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="Nge1Y2XZC5D646iVVoj4-1">
           <mxGeometry x="585" y="710" width="105" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Nge1Y2XZC5D646iVVoj4-64" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.203;entryY=-0.022;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=block;" edge="1" parent="Nge1Y2XZC5D646iVVoj4-1" source="Nge1Y2XZC5D646iVVoj4-61" target="Nge1Y2XZC5D646iVVoj4-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Nge1Y2XZC5D646iVVoj4-61" value="self-defined requestor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Nge1Y2XZC5D646iVVoj4-1">
+          <mxGeometry x="280" y="320" width="130" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
