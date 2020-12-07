@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-04T07:43:25.115Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" etag="3pz8evrvHO9PhGIV7YZu" version="13.9.7" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2020-12-07T11:04:02.574Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" etag="63vg3yWS_0xU2wXTNrFt" version="13.9.7" type="github" pages="8">
   <diagram id="36oOoDrCphKBhhJTfvPP" name="视频UI适配逻辑">
     <mxGraphModel dx="1426" dy="826" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -235,22 +235,22 @@
         <mxCell id="fcAeuxg_cVY5DvXYEzGa-0" />
         <mxCell id="fcAeuxg_cVY5DvXYEzGa-1" parent="fcAeuxg_cVY5DvXYEzGa-0" />
         <mxCell id="CnS7w_Uw1kYqfnPGetc6-7" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="fcAeuxg_cVY5DvXYEzGa-1">
-          <mxGeometry x="300" y="425" width="200" height="140" as="geometry" />
+          <mxGeometry x="300" y="530" width="200" height="140" as="geometry" />
         </mxCell>
         <mxCell id="CnS7w_Uw1kYqfnPGetc6-4" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="fcAeuxg_cVY5DvXYEzGa-1">
-          <mxGeometry x="300" y="50" width="200" height="320" as="geometry" />
+          <mxGeometry x="300" y="50" width="200" height="370" as="geometry" />
         </mxCell>
         <mxCell id="CnS7w_Uw1kYqfnPGetc6-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="fcAeuxg_cVY5DvXYEzGa-1" source="fcAeuxg_cVY5DvXYEzGa-2" target="CnS7w_Uw1kYqfnPGetc6-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="fcAeuxg_cVY5DvXYEzGa-2" value="开发上报" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="fcAeuxg_cVY5DvXYEzGa-1">
-          <mxGeometry x="140" y="195" width="100" height="30" as="geometry" />
+          <mxGeometry x="140" y="220" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="CnS7w_Uw1kYqfnPGetc6-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="fcAeuxg_cVY5DvXYEzGa-1" source="fcAeuxg_cVY5DvXYEzGa-3" target="CnS7w_Uw1kYqfnPGetc6-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="fcAeuxg_cVY5DvXYEzGa-3" value="业务上报" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="fcAeuxg_cVY5DvXYEzGa-1">
-          <mxGeometry x="140" y="480" width="100" height="30" as="geometry" />
+          <mxGeometry x="140" y="585" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="fcAeuxg_cVY5DvXYEzGa-4" value="emonitor&lt;br&gt;性能、接口" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="fcAeuxg_cVY5DvXYEzGa-1">
           <mxGeometry x="350" y="70" width="100" height="30" as="geometry" />
@@ -259,10 +259,10 @@
           <mxGeometry x="350" y="220" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="CnS7w_Uw1kYqfnPGetc6-0" value="WSDcReport&lt;br&gt;模调抽样上报" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="fcAeuxg_cVY5DvXYEzGa-1">
-          <mxGeometry x="350" y="270" width="100" height="30" as="geometry" />
+          <mxGeometry x="350" y="320" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="CnS7w_Uw1kYqfnPGetc6-1" value="report/md&lt;br&gt;模调抽样上报" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="fcAeuxg_cVY5DvXYEzGa-1">
-          <mxGeometry x="350" y="320" width="100" height="30" as="geometry" />
+          <mxGeometry x="350" y="370" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="CnS7w_Uw1kYqfnPGetc6-2" value="boss 7925&lt;br&gt;自定义统计上报" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="fcAeuxg_cVY5DvXYEzGa-1">
           <mxGeometry x="350" y="120" width="100" height="30" as="geometry" />
@@ -271,10 +271,13 @@
           <mxGeometry x="350" y="170" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="CnS7w_Uw1kYqfnPGetc6-6" value="beacon&lt;br&gt;灯塔上报" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="fcAeuxg_cVY5DvXYEzGa-1">
-          <mxGeometry x="350" y="480" width="100" height="30" as="geometry" />
+          <mxGeometry x="350" y="585" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="CnS7w_Uw1kYqfnPGetc6-9" value="&lt;h1&gt;BOSS 上报&lt;/h1&gt;&lt;p&gt;旧互动小程序使用 7925 和 7869 两个 id 进行上报，7925 是为了自定义统计，7869 是为了全量日志。&lt;/p&gt;&lt;p&gt;手Q小程序仅使用了 7925，且仅使用了 type 为 9001,9002,9003 三个。&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;dashed=1;" vertex="1" parent="fcAeuxg_cVY5DvXYEzGa-1">
           <mxGeometry x="640" y="50" width="300" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="CnS7w_Uw1kYqfnPGetc6-10" value="minico.log&lt;br&gt;https://h5.weishi.qq.com/log/post/wxfe02ecfe70800f46" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="fcAeuxg_cVY5DvXYEzGa-1">
+          <mxGeometry x="350" y="270" width="100" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
