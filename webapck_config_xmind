@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-14T15:46:45.606Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" etag="Ur9ri6e1JLCoUZAsARiQ" version="14.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-14T15:54:13.088Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" etag="0khHOrQlbBCVd8J6uoay" version="14.0.1" type="github">
   <diagram id="6a731a19-8d31-9384-78a2-239565b7b9f0" name="Page-1">
     <mxGraphModel dx="1106" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="#ffffff" math="0" shadow="0">
       <root>
@@ -125,6 +125,21 @@
         </mxCell>
         <mxCell id="0--198bxNjSo72Zpp20J-39" value="CSS: 提取成文件" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="620" y="630" width="140" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="0--198bxNjSo72Zpp20J-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="0--198bxNjSo72Zpp20J-40" target="0--198bxNjSo72Zpp20J-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0--198bxNjSo72Zpp20J-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="0--198bxNjSo72Zpp20J-40" target="0--198bxNjSo72Zpp20J-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0--198bxNjSo72Zpp20J-40" value="开发阶段配置&lt;br&gt;webpack.dev.js" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="850" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0--198bxNjSo72Zpp20J-41" value="代码热更新（css, js）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="858" width="140" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="0--198bxNjSo72Zpp20J-42" value="sourcemap" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="900" width="140" height="24" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
