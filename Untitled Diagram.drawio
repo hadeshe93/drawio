@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-26T03:53:36.648Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="Y70ho-8vJjOGvwAnmbKA" version="14.4.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-26T04:00:54.985Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="yybUHTj6NAoxL_KG2Ult" version="14.4.9" type="github">
   <diagram id="TFAPqa1A-4MQkMpAfLPp" name="Page-1">
     <mxGraphModel dx="1426" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -44,7 +44,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="1IueH6XkdzsRCoE7BbBE-6" value="是否超过最大重试次数？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="1IueH6XkdzsRCoE7BbBE-6" value="是否≥最大重试次数？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="240" y="360" width="115" height="80" as="geometry" />
         </mxCell>
         <mxCell id="1IueH6XkdzsRCoE7BbBE-8" value="抛出原错误" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
