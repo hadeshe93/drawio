@@ -1,1 +1,37 @@
-<mxfile host="app.diagrams.net" modified="2021-04-10T02:13:23.956Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" version="14.5.1" etag="qus67AbXKzVHadncIiwg" type="github"><diagram id="4aiFPn5mNr701KMi0WF7">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-04-10T02:17:04.266Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="Kz7FJaF3Gt9jVjvr5sGQ" version="14.5.1" type="github">
+  <diagram id="4aiFPn5mNr701KMi0WF7" name="canary-entry">
+    <mxGraphModel dx="1106" dy="646" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="edw1CmbeFv4HvLIBs0UK-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="edw1CmbeFv4HvLIBs0UK-1" target="edw1CmbeFv4HvLIBs0UK-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edw1CmbeFv4HvLIBs0UK-1" value="start&lt;br&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="90" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="edw1CmbeFv4HvLIBs0UK-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="edw1CmbeFv4HvLIBs0UK-2" target="edw1CmbeFv4HvLIBs0UK-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edw1CmbeFv4HvLIBs0UK-2" value="listen unhandledRejecttion" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="255" y="150" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="edw1CmbeFv4HvLIBs0UK-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="edw1CmbeFv4HvLIBs0UK-3" target="edw1CmbeFv4HvLIBs0UK-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edw1CmbeFv4HvLIBs0UK-3" value="listen uncaughtException" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="255" y="210" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="edw1CmbeFv4HvLIBs0UK-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="edw1CmbeFv4HvLIBs0UK-6" target="edw1CmbeFv4HvLIBs0UK-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edw1CmbeFv4HvLIBs0UK-6" value="initTconf" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="270" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="edw1CmbeFv4HvLIBs0UK-7" value="start koa" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="330" width="80" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
