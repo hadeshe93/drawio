@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2021-04-10T03:02:43.179Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="oaELchL7uIzbWWQXF9Md" version="14.5.1" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-04-10T03:03:28.924Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="nn4Ytfu8tix1rWD8nBJs" version="14.5.1" type="github" pages="4">
   <diagram id="4aiFPn5mNr701KMi0WF7" name="canary-entry">
     <mxGraphModel dx="1106" dy="646" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="mrt7Icuu9scPMh2TyMIo-15" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="50" width="160" height="450" as="geometry" />
+        </mxCell>
         <mxCell id="edw1CmbeFv4HvLIBs0UK-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="edw1CmbeFv4HvLIBs0UK-1" target="edw1CmbeFv4HvLIBs0UK-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -37,7 +40,7 @@
         <mxCell id="mrt7Icuu9scPMh2TyMIo-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="mrt7Icuu9scPMh2TyMIo-1" target="mrt7Icuu9scPMh2TyMIo-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="mrt7Icuu9scPMh2TyMIo-1" value="koa app" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="mrt7Icuu9scPMh2TyMIo-1" value="start" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="490" y="90" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="mrt7Icuu9scPMh2TyMIo-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="mrt7Icuu9scPMh2TyMIo-2" target="mrt7Icuu9scPMh2TyMIo-3">
@@ -72,6 +75,9 @@
         </mxCell>
         <mxCell id="mrt7Icuu9scPMh2TyMIo-7" value="load mid: routes" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="460" y="450" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mrt7Icuu9scPMh2TyMIo-16" value="koa app" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="500" y="50" width="60" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
