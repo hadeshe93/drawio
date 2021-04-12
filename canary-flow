@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-12T08:07:14.363Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="ZEVemR2iTWuRoIyEy2TS" version="14.5.1" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2021-04-12T08:07:25.788Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="0PY8httMD1OkgZ1zdxse" version="14.5.1" type="github" pages="8">
   <diagram id="4aiFPn5mNr701KMi0WF7" name="canary-entry">
     <mxGraphModel dx="1426" dy="826" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -659,8 +659,14 @@
         <mxCell id="WdlQfghAJBx7semdv46u-22" value="set memory cache" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WdlQfghAJBx7semdv46u-1">
           <mxGeometry x="500" y="310" width="80" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="WdlQfghAJBx7semdv46u-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WdlQfghAJBx7semdv46u-1" source="WdlQfghAJBx7semdv46u-25" target="WdlQfghAJBx7semdv46u-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="WdlQfghAJBx7semdv46u-25" value="set ctx.body with arg body" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WdlQfghAJBx7semdv46u-1">
           <mxGeometry x="640" y="610" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WdlQfghAJBx7semdv46u-28" value="next()" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WdlQfghAJBx7semdv46u-1">
+          <mxGeometry x="640" y="670" width="80" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
