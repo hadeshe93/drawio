@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-12T06:19:09.749Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="7yt89YaCTGTYhV6IF8LP" version="14.5.1" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2021-04-12T06:27:38.001Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="R9wzsLHY0V5wK5WjyPxJ" version="14.5.1" type="github" pages="6">
   <diagram id="4aiFPn5mNr701KMi0WF7" name="canary-entry">
     <mxGraphModel dx="1426" dy="826" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -379,6 +379,53 @@
         </mxCell>
         <mxCell id="p7GZRkrUw691OAudtAvu-20" value="N" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="o5YEILZTr6wRrX3eHp4o-1">
           <mxGeometry x="700" y="500" width="40" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="IeqB17rRQJDxIYLY2eK0" name="middleware: auth">
+    <mxGraphModel dx="1426" dy="826" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="3PCGAxkKXewm9MZ5T8jH-0" />
+        <mxCell id="3PCGAxkKXewm9MZ5T8jH-1" parent="3PCGAxkKXewm9MZ5T8jH-0" />
+        <mxCell id="3PCGAxkKXewm9MZ5T8jH-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="3PCGAxkKXewm9MZ5T8jH-1" source="3PCGAxkKXewm9MZ5T8jH-2" target="3PCGAxkKXewm9MZ5T8jH-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3PCGAxkKXewm9MZ5T8jH-2" value="start" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="3PCGAxkKXewm9MZ5T8jH-1">
+          <mxGeometry x="680" y="130" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3PCGAxkKXewm9MZ5T8jH-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="3PCGAxkKXewm9MZ5T8jH-1" source="3PCGAxkKXewm9MZ5T8jH-3" target="3PCGAxkKXewm9MZ5T8jH-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3PCGAxkKXewm9MZ5T8jH-3" value="get skey from cookies" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="3PCGAxkKXewm9MZ5T8jH-1">
+          <mxGeometry x="680" y="280" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3PCGAxkKXewm9MZ5T8jH-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="3PCGAxkKXewm9MZ5T8jH-1" source="3PCGAxkKXewm9MZ5T8jH-4" target="3PCGAxkKXewm9MZ5T8jH-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3PCGAxkKXewm9MZ5T8jH-4" value="is need auth?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="3PCGAxkKXewm9MZ5T8jH-1">
+          <mxGeometry x="680" y="190" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3PCGAxkKXewm9MZ5T8jH-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="3PCGAxkKXewm9MZ5T8jH-1" source="3PCGAxkKXewm9MZ5T8jH-5" target="3PCGAxkKXewm9MZ5T8jH-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3PCGAxkKXewm9MZ5T8jH-5" value="GetWeishiPersonid" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="3PCGAxkKXewm9MZ5T8jH-1">
+          <mxGeometry x="660" y="340" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3PCGAxkKXewm9MZ5T8jH-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="3PCGAxkKXewm9MZ5T8jH-1" source="3PCGAxkKXewm9MZ5T8jH-6" target="3PCGAxkKXewm9MZ5T8jH-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3PCGAxkKXewm9MZ5T8jH-6" value="is rejected?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="3PCGAxkKXewm9MZ5T8jH-1">
+          <mxGeometry x="680" y="400" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3PCGAxkKXewm9MZ5T8jH-7" value="cache pesonid" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="3PCGAxkKXewm9MZ5T8jH-1">
+          <mxGeometry x="680" y="584.5" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3PCGAxkKXewm9MZ5T8jH-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="3PCGAxkKXewm9MZ5T8jH-1" source="3PCGAxkKXewm9MZ5T8jH-8" target="3PCGAxkKXewm9MZ5T8jH-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3PCGAxkKXewm9MZ5T8jH-8" value="is ret === 0&lt;br&gt;&amp;amp;&amp;amp;&lt;br&gt;data.personid?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="3PCGAxkKXewm9MZ5T8jH-1">
+          <mxGeometry x="680" y="490" width="80" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
