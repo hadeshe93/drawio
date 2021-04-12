@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-12T08:03:31.621Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="aw7bapjOi2Qo0__ZUzq9" version="14.5.1" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2021-04-12T08:06:22.382Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="X8ochypVouZu4uPDYv_i" version="14.5.1" type="github" pages="8">
   <diagram id="4aiFPn5mNr701KMi0WF7" name="canary-entry">
     <mxGraphModel dx="1426" dy="826" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -611,6 +611,9 @@
         <mxCell id="WdlQfghAJBx7semdv46u-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WdlQfghAJBx7semdv46u-1" source="WdlQfghAJBx7semdv46u-4" target="WdlQfghAJBx7semdv46u-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="WdlQfghAJBx7semdv46u-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WdlQfghAJBx7semdv46u-1" source="WdlQfghAJBx7semdv46u-4" target="WdlQfghAJBx7semdv46u-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="WdlQfghAJBx7semdv46u-4" value="cacheData&lt;br&gt;&amp;amp;&amp;amp;&lt;br&gt;!cacheData.isExpires" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WdlQfghAJBx7semdv46u-1">
           <mxGeometry x="641" y="210" width="80" height="70" as="geometry" />
         </mxCell>
@@ -627,19 +630,31 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="WdlQfghAJBx7semdv46u-10" value="!body ?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WdlQfghAJBx7semdv46u-1">
-          <mxGeometry x="640" y="370" width="80" height="70" as="geometry" />
+          <mxGeometry x="640" y="410" width="80" height="70" as="geometry" />
         </mxCell>
         <mxCell id="WdlQfghAJBx7semdv46u-14" value="return 404" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WdlQfghAJBx7semdv46u-1">
-          <mxGeometry x="525" y="390" width="80" height="30" as="geometry" />
+          <mxGeometry x="500" y="430" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="WdlQfghAJBx7semdv46u-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WdlQfghAJBx7semdv46u-1" source="WdlQfghAJBx7semdv46u-16" target="WdlQfghAJBx7semdv46u-17">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="WdlQfghAJBx7semdv46u-16" value="is req for alpha&lt;br&gt;&amp;amp;&amp;amp;&lt;br&gt;not from ws app?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WdlQfghAJBx7semdv46u-1">
-          <mxGeometry x="640" y="470" width="80" height="70" as="geometry" />
+          <mxGeometry x="640" y="510" width="80" height="70" as="geometry" />
         </mxCell>
         <mxCell id="WdlQfghAJBx7semdv46u-17" value="inject aisee feedback elem into html" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WdlQfghAJBx7semdv46u-1">
-          <mxGeometry x="610" y="570" width="140" height="30" as="geometry" />
+          <mxGeometry x="610" y="610" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WdlQfghAJBx7semdv46u-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WdlQfghAJBx7semdv46u-1" source="WdlQfghAJBx7semdv46u-20" target="WdlQfghAJBx7semdv46u-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WdlQfghAJBx7semdv46u-20" value="set arg body from redis cache" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WdlQfghAJBx7semdv46u-1">
+          <mxGeometry x="480" y="230" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WdlQfghAJBx7semdv46u-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WdlQfghAJBx7semdv46u-1" source="WdlQfghAJBx7semdv46u-22" target="WdlQfghAJBx7semdv46u-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WdlQfghAJBx7semdv46u-22" value="set memory cache" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WdlQfghAJBx7semdv46u-1">
+          <mxGeometry x="500" y="310" width="80" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
