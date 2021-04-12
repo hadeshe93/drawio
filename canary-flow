@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-12T07:11:22.945Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="y6lWTDYXiO9PMfjIYHju" version="14.5.1" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2021-04-12T07:11:40.444Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="-vmm912stSrIQt5woiAP" version="14.5.1" type="github" pages="7">
   <diagram id="4aiFPn5mNr701KMi0WF7" name="canary-entry">
     <mxGraphModel dx="1426" dy="826" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -465,11 +465,20 @@
         <mxCell id="x_3QdA7jK_0I1zTBLaWP-2" value="return 200&lt;br&gt;&quot;抱歉，您不是体验用户...&quot;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="x_3QdA7jK_0I1zTBLaWP-1">
           <mxGeometry x="387.5" y="495" width="150" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="x_3QdA7jK_0I1zTBLaWP-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="x_3QdA7jK_0I1zTBLaWP-1" source="x_3QdA7jK_0I1zTBLaWP-3" target="x_3QdA7jK_0I1zTBLaWP-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="x_3QdA7jK_0I1zTBLaWP-3" value="is need check alpha?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="x_3QdA7jK_0I1zTBLaWP-1">
           <mxGeometry x="760" y="150" width="80" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="x_3QdA7jK_0I1zTBLaWP-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="x_3QdA7jK_0I1zTBLaWP-1" source="x_3QdA7jK_0I1zTBLaWP-4" target="x_3QdA7jK_0I1zTBLaWP-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="x_3QdA7jK_0I1zTBLaWP-4" value="request to check whitelist" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="x_3QdA7jK_0I1zTBLaWP-1">
           <mxGeometry x="760" y="240" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="x_3QdA7jK_0I1zTBLaWP-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="x_3QdA7jK_0I1zTBLaWP-1" source="x_3QdA7jK_0I1zTBLaWP-6" target="x_3QdA7jK_0I1zTBLaWP-7">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="x_3QdA7jK_0I1zTBLaWP-6" value="is rejected?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="x_3QdA7jK_0I1zTBLaWP-1">
           <mxGeometry x="760" y="300" width="80" height="60" as="geometry" />
@@ -506,6 +515,9 @@
         </mxCell>
         <mxCell id="x_3QdA7jK_0I1zTBLaWP-14" value="redirect to whiteListUrl for adding user" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="x_3QdA7jK_0I1zTBLaWP-1">
           <mxGeometry x="555" y="570" width="135" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="x_3QdA7jK_0I1zTBLaWP-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="x_3QdA7jK_0I1zTBLaWP-1" source="x_3QdA7jK_0I1zTBLaWP-22" target="x_3QdA7jK_0I1zTBLaWP-3">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="x_3QdA7jK_0I1zTBLaWP-22" value="start" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="x_3QdA7jK_0I1zTBLaWP-1">
           <mxGeometry x="760" y="90" width="80" height="30" as="geometry" />
