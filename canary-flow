@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-12T08:07:25.788Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="0PY8httMD1OkgZ1zdxse" version="14.5.1" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2021-04-12T08:07:47.642Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="ma8HYp0-XhGWwxcm8vbr" version="14.5.1" type="github" pages="8">
   <diagram id="4aiFPn5mNr701KMi0WF7" name="canary-entry">
     <mxGraphModel dx="1426" dy="826" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -644,6 +644,14 @@
         <mxCell id="WdlQfghAJBx7semdv46u-16" value="is req for alpha&lt;br&gt;&amp;amp;&amp;amp;&lt;br&gt;not from ws app?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WdlQfghAJBx7semdv46u-1">
           <mxGeometry x="640" y="510" width="80" height="70" as="geometry" />
         </mxCell>
+        <mxCell id="WdlQfghAJBx7semdv46u-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WdlQfghAJBx7semdv46u-1" source="WdlQfghAJBx7semdv46u-17" target="WdlQfghAJBx7semdv46u-25">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="540" y="600" />
+              <mxPoint x="680" y="600" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="WdlQfghAJBx7semdv46u-17" value="inject aisee feedback elem into html" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WdlQfghAJBx7semdv46u-1">
           <mxGeometry x="470" y="530" width="140" height="30" as="geometry" />
         </mxCell>
@@ -663,10 +671,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="WdlQfghAJBx7semdv46u-25" value="set ctx.body with arg body" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WdlQfghAJBx7semdv46u-1">
-          <mxGeometry x="640" y="610" width="80" height="30" as="geometry" />
+          <mxGeometry x="640" y="630" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="WdlQfghAJBx7semdv46u-28" value="next()" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WdlQfghAJBx7semdv46u-1">
-          <mxGeometry x="640" y="670" width="80" height="30" as="geometry" />
+          <mxGeometry x="640" y="690" width="80" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
