@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-12T07:47:07.992Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="eqiHW9deyQhrf-GDvuDw" version="14.5.1" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2021-04-12T07:52:39.306Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="hRfQldlmJafsIS4FeYTq" version="14.5.1" type="github" pages="8">
   <diagram id="4aiFPn5mNr701KMi0WF7" name="canary-entry">
     <mxGraphModel dx="1426" dy="826" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -596,6 +596,39 @@
       <root>
         <mxCell id="WdlQfghAJBx7semdv46u-0" />
         <mxCell id="WdlQfghAJBx7semdv46u-1" parent="WdlQfghAJBx7semdv46u-0" />
+        <mxCell id="WdlQfghAJBx7semdv46u-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WdlQfghAJBx7semdv46u-1" source="WdlQfghAJBx7semdv46u-2" target="WdlQfghAJBx7semdv46u-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WdlQfghAJBx7semdv46u-2" value="start" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WdlQfghAJBx7semdv46u-1">
+          <mxGeometry x="640" y="90" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WdlQfghAJBx7semdv46u-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WdlQfghAJBx7semdv46u-1" source="WdlQfghAJBx7semdv46u-3" target="WdlQfghAJBx7semdv46u-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WdlQfghAJBx7semdv46u-3" value="get html from memory incorrding to version key" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WdlQfghAJBx7semdv46u-1">
+          <mxGeometry x="605" y="150" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WdlQfghAJBx7semdv46u-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WdlQfghAJBx7semdv46u-1" source="WdlQfghAJBx7semdv46u-4" target="WdlQfghAJBx7semdv46u-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WdlQfghAJBx7semdv46u-4" value="cacheData&lt;br&gt;&amp;amp;&amp;amp;&lt;br&gt;!cacheData.isExpires" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WdlQfghAJBx7semdv46u-1">
+          <mxGeometry x="641" y="210" width="80" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="WdlQfghAJBx7semdv46u-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WdlQfghAJBx7semdv46u-1" source="WdlQfghAJBx7semdv46u-8" target="WdlQfghAJBx7semdv46u-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WdlQfghAJBx7semdv46u-8" value="set arg: body" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WdlQfghAJBx7semdv46u-1">
+          <mxGeometry x="640" y="310" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WdlQfghAJBx7semdv46u-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WdlQfghAJBx7semdv46u-1" source="WdlQfghAJBx7semdv46u-10" target="WdlQfghAJBx7semdv46u-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WdlQfghAJBx7semdv46u-10" value="!body ?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WdlQfghAJBx7semdv46u-1">
+          <mxGeometry x="640" y="370" width="80" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="WdlQfghAJBx7semdv46u-14" value="return 404" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WdlQfghAJBx7semdv46u-1">
+          <mxGeometry x="525" y="390" width="80" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
