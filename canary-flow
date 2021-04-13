@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-13T11:14:15.426Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="bmiuClpz8FPP9Z1k1Wwt" version="14.5.1" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2021-04-13T11:15:16.558Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="wcZCvR-f002BqS3eH1IN" version="14.5.1" type="github" pages="9">
   <diagram id="4aiFPn5mNr701KMi0WF7" name="canary-entry">
     <mxGraphModel dx="1426" dy="826" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -167,6 +167,9 @@
             <mxPoint y="1" as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="wEghHR8mYP-KwG4O0lgd-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="cUbK82e7wfuJAQWTKyik-1" source="wEghHR8mYP-KwG4O0lgd-12" target="wEghHR8mYP-KwG4O0lgd-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="wEghHR8mYP-KwG4O0lgd-12" value="是否为 formal 环境？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="cUbK82e7wfuJAQWTKyik-1">
           <mxGeometry x="420" y="584.5" width="80" height="60" as="geometry" />
         </mxCell>
@@ -232,6 +235,9 @@
         </mxCell>
         <mxCell id="wEghHR8mYP-KwG4O0lgd-42" value="N" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="cUbK82e7wfuJAQWTKyik-1">
           <mxGeometry x="460" y="550" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="wEghHR8mYP-KwG4O0lgd-43" value="返回 200 未知域名页面" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="cUbK82e7wfuJAQWTKyik-1">
+          <mxGeometry x="420" y="680" width="80" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
