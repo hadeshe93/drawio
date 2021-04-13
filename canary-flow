@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-13T10:59:48.819Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="r9uA3d7IDCQFOQm3SWQI" version="14.5.1" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2021-04-13T11:00:59.211Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="fjpJGfMvu2ajb2ph-QaR" version="14.5.1" type="github" pages="9">
   <diagram id="4aiFPn5mNr701KMi0WF7" name="canary-entry">
     <mxGraphModel dx="1426" dy="826" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -132,8 +132,14 @@
         <mxCell id="wEghHR8mYP-KwG4O0lgd-2" value="是否为 test 环境？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="cUbK82e7wfuJAQWTKyik-1">
           <mxGeometry x="800" y="490" width="80" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="wEghHR8mYP-KwG4O0lgd-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="cUbK82e7wfuJAQWTKyik-1" source="wEghHR8mYP-KwG4O0lgd-3" target="wEghHR8mYP-KwG4O0lgd-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="wEghHR8mYP-KwG4O0lgd-3" value="微体验平台白名单校验" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="cUbK82e7wfuJAQWTKyik-1">
           <mxGeometry x="1030" y="415" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wEghHR8mYP-KwG4O0lgd-5" value="微体验平台白名单校验" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="cUbK82e7wfuJAQWTKyik-1">
+          <mxGeometry x="1140" y="415" width="80" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
