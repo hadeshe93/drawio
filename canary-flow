@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-13T11:11:38.702Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="80kVrvfgel3drvQyKClx" version="14.5.1" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2021-04-13T11:12:15.845Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="yxwUrj9ZmJzRalnXGkc6" version="14.5.1" type="github" pages="9">
   <diagram id="4aiFPn5mNr701KMi0WF7" name="canary-entry">
     <mxGraphModel dx="1426" dy="826" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -193,6 +193,15 @@
         </mxCell>
         <mxCell id="wEghHR8mYP-KwG4O0lgd-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="cUbK82e7wfuJAQWTKyik-1" source="wEghHR8mYP-KwG4O0lgd-26" target="wEghHR8mYP-KwG4O0lgd-29">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wEghHR8mYP-KwG4O0lgd-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="cUbK82e7wfuJAQWTKyik-1" source="wEghHR8mYP-KwG4O0lgd-26" target="wEghHR8mYP-KwG4O0lgd-31">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1120" y="355" />
+              <mxPoint x="1120" y="570" />
+              <mxPoint x="1020" y="570" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="wEghHR8mYP-KwG4O0lgd-26" value="redis 缓存中是否有命中？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="cUbK82e7wfuJAQWTKyik-1">
           <mxGeometry x="980" y="325" width="80" height="60" as="geometry" />
