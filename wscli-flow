@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-15T11:15:53.434Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="6I3hE6_zyrHicfGGaygg" version="14.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-15T11:16:12.208Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="ACW-FgDoLAGbWFt7tfoT" version="14.5.1" type="github">
   <diagram id="YYsUv_11P4pKoiWIgwLw" name="module: publish alpha">
     <mxGraphModel dx="1426" dy="826" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -10,20 +10,38 @@
         <mxCell id="bEKzU4Y0vnFiHEYVVzPg-23" value="start" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="340" y="110" width="80" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="bEKzU4Y0vnFiHEYVVzPg-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="bEKzU4Y0vnFiHEYVVzPg-24" target="bEKzU4Y0vnFiHEYVVzPg-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="bEKzU4Y0vnFiHEYVVzPg-24" value="本地命令发布 alpha 环境" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="340" y="165" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bEKzU4Y0vnFiHEYVVzPg-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="bEKzU4Y0vnFiHEYVVzPg-25" target="bEKzU4Y0vnFiHEYVVzPg-26">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="bEKzU4Y0vnFiHEYVVzPg-25" value="获取要发布的页面" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="340" y="225" width="80" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="bEKzU4Y0vnFiHEYVVzPg-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="bEKzU4Y0vnFiHEYVVzPg-26" target="bEKzU4Y0vnFiHEYVVzPg-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="bEKzU4Y0vnFiHEYVVzPg-26" value="交互式获取离线包需要使用的域名" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="330" y="285" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bEKzU4Y0vnFiHEYVVzPg-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="bEKzU4Y0vnFiHEYVVzPg-28" target="bEKzU4Y0vnFiHEYVVzPg-29">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="bEKzU4Y0vnFiHEYVVzPg-28" value="获取仓库名" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="340" y="347.5" width="80" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="bEKzU4Y0vnFiHEYVVzPg-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="bEKzU4Y0vnFiHEYVVzPg-29" target="bEKzU4Y0vnFiHEYVVzPg-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="bEKzU4Y0vnFiHEYVVzPg-29" value="获取操作人" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="340" y="410" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bEKzU4Y0vnFiHEYVVzPg-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="bEKzU4Y0vnFiHEYVVzPg-30" target="bEKzU4Y0vnFiHEYVVzPg-32">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="bEKzU4Y0vnFiHEYVVzPg-30" value="mr 之前执行插件集合" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="340" y="470" width="80" height="30" as="geometry" />
