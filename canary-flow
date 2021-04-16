@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-13T11:20:12.302Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="mFfP-IoPMsZnvKjojDpc" version="14.5.1" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2021-04-16T09:04:11.150Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="YIOvmSlg2oXxhyU-5QHc" version="14.5.1" type="github" pages="9">
   <diagram id="4aiFPn5mNr701KMi0WF7" name="canary-entry">
     <mxGraphModel dx="1426" dy="826" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -185,7 +185,7 @@
         <mxCell id="wEghHR8mYP-KwG4O0lgd-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="cUbK82e7wfuJAQWTKyik-1" source="wEghHR8mYP-KwG4O0lgd-18" target="wEghHR8mYP-KwG4O0lgd-31">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="wEghHR8mYP-KwG4O0lgd-18" value="本地缓存中是否有命中？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="cUbK82e7wfuJAQWTKyik-1">
+        <mxCell id="wEghHR8mYP-KwG4O0lgd-18" value="本地缓存中是否有命中且未过期？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="cUbK82e7wfuJAQWTKyik-1">
           <mxGeometry x="980" y="490" width="80" height="60" as="geometry" />
         </mxCell>
         <mxCell id="wEghHR8mYP-KwG4O0lgd-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="cUbK82e7wfuJAQWTKyik-1" source="wEghHR8mYP-KwG4O0lgd-25" target="wEghHR8mYP-KwG4O0lgd-26">
