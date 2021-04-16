@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-16T09:39:42.330Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="3etdmYMhMateb_B2FcOi" version="14.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-16T09:43:24.719Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="_uXIJkfJloldyeKyTGfp" version="14.5.1" type="github">
   <diagram id="BpMRqdakQXIX42hgLQFe" name="api: wscli/updateReleaseInfo">
     <mxGraphModel dx="1426" dy="826" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -43,11 +43,59 @@
         <mxCell id="mJv9vLb4r1CcQ1b4tZN8-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="mJv9vLb4r1CcQ1b4tZN8-12" target="mJv9vLb4r1CcQ1b4tZN8-14">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="mJv9vLb4r1CcQ1b4tZN8-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="mJv9vLb4r1CcQ1b4tZN8-12" target="mJv9vLb4r1CcQ1b4tZN8-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="mJv9vLb4r1CcQ1b4tZN8-12" value="是否成功？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="560" y="450" width="80" height="50" as="geometry" />
         </mxCell>
         <mxCell id="mJv9vLb4r1CcQ1b4tZN8-14" value="返回失败结果" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="430" y="460" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mJv9vLb4r1CcQ1b4tZN8-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="mJv9vLb4r1CcQ1b4tZN8-17" target="mJv9vLb4r1CcQ1b4tZN8-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mJv9vLb4r1CcQ1b4tZN8-17" value="更新 redis 中的缓存" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="530" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mJv9vLb4r1CcQ1b4tZN8-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="mJv9vLb4r1CcQ1b4tZN8-19" target="mJv9vLb4r1CcQ1b4tZN8-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mJv9vLb4r1CcQ1b4tZN8-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="mJv9vLb4r1CcQ1b4tZN8-19" target="mJv9vLb4r1CcQ1b4tZN8-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mJv9vLb4r1CcQ1b4tZN8-19" value="是否成功？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="590" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="mJv9vLb4r1CcQ1b4tZN8-20" value="返回失败结果" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="600" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mJv9vLb4r1CcQ1b4tZN8-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="mJv9vLb4r1CcQ1b4tZN8-23" target="mJv9vLb4r1CcQ1b4tZN8-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mJv9vLb4r1CcQ1b4tZN8-23" value="构造发版模型数据" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="670" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mJv9vLb4r1CcQ1b4tZN8-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="mJv9vLb4r1CcQ1b4tZN8-25" target="mJv9vLb4r1CcQ1b4tZN8-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mJv9vLb4r1CcQ1b4tZN8-25" value="模型数据入库" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="730" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mJv9vLb4r1CcQ1b4tZN8-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="mJv9vLb4r1CcQ1b4tZN8-27" target="mJv9vLb4r1CcQ1b4tZN8-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mJv9vLb4r1CcQ1b4tZN8-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="mJv9vLb4r1CcQ1b4tZN8-27" target="mJv9vLb4r1CcQ1b4tZN8-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mJv9vLb4r1CcQ1b4tZN8-27" value="是否成功？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="790" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="mJv9vLb4r1CcQ1b4tZN8-28" value="返回失败结果" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="800" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mJv9vLb4r1CcQ1b4tZN8-31" value="返回成功结果" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="870" width="80" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
