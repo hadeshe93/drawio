@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-16T09:43:24.719Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="_uXIJkfJloldyeKyTGfp" version="14.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-16T09:43:38.874Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="iWbGRkoDpVL70GPJY9U6" version="14.5.1" type="github">
   <diagram id="BpMRqdakQXIX42hgLQFe" name="api: wscli/updateReleaseInfo">
     <mxGraphModel dx="1426" dy="826" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -55,7 +55,7 @@
         <mxCell id="mJv9vLb4r1CcQ1b4tZN8-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="mJv9vLb4r1CcQ1b4tZN8-17" target="mJv9vLb4r1CcQ1b4tZN8-19">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="mJv9vLb4r1CcQ1b4tZN8-17" value="更新 redis 中的缓存" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="mJv9vLb4r1CcQ1b4tZN8-17" value="更新 redis 中的缓存" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0a30a;strokeColor=#BD7000;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="560" y="530" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="mJv9vLb4r1CcQ1b4tZN8-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="mJv9vLb4r1CcQ1b4tZN8-19" target="mJv9vLb4r1CcQ1b4tZN8-20">
@@ -73,7 +73,7 @@
         <mxCell id="mJv9vLb4r1CcQ1b4tZN8-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="mJv9vLb4r1CcQ1b4tZN8-23" target="mJv9vLb4r1CcQ1b4tZN8-25">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="mJv9vLb4r1CcQ1b4tZN8-23" value="构造发版模型数据" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="mJv9vLb4r1CcQ1b4tZN8-23" value="构造发版模型数据" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0a30a;strokeColor=#BD7000;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="560" y="670" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="mJv9vLb4r1CcQ1b4tZN8-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="mJv9vLb4r1CcQ1b4tZN8-25" target="mJv9vLb4r1CcQ1b4tZN8-27">
