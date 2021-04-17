@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-17T14:49:50.610Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36" etag="cXhGiPKCV98rF-EdoH2N" version="14.6.1" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2021-04-17T14:51:58.144Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36" etag="AT0_Z8-fG4JA6tWMtf3G" version="14.6.1" type="github" pages="10">
   <diagram id="4aiFPn5mNr701KMi0WF7" name="canary-entry">
     <mxGraphModel dx="1426" dy="867" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -317,6 +317,14 @@
         <mxCell id="tPajtvleDszbkwnbryVZ-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="ag_9Y8Nakdgdeo29yUZq-1" source="tPajtvleDszbkwnbryVZ-14" target="tPajtvleDszbkwnbryVZ-19">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="tPajtvleDszbkwnbryVZ-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#4D9900;strokeColor=#4D9900;" edge="1" parent="ag_9Y8Nakdgdeo29yUZq-1" source="tPajtvleDszbkwnbryVZ-14" target="tPajtvleDszbkwnbryVZ-63">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="640" y="980" />
+              <mxPoint x="640" y="1030" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="tPajtvleDszbkwnbryVZ-14" value="登录鉴权" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="ag_9Y8Nakdgdeo29yUZq-1">
           <mxGeometry x="550" y="965" width="80" height="30" as="geometry" />
         </mxCell>
@@ -463,6 +471,12 @@
         </mxCell>
         <mxCell id="tPajtvleDszbkwnbryVZ-60" value="用 feopenapi 获取当前版本号" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#4D9900;" vertex="1" parent="ag_9Y8Nakdgdeo29yUZq-1">
           <mxGeometry x="677.5" y="1189.5" width="95" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tPajtvleDszbkwnbryVZ-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#4D9900;strokeColor=#4D9900;" edge="1" parent="ag_9Y8Nakdgdeo29yUZq-1" source="tPajtvleDszbkwnbryVZ-63" target="tPajtvleDszbkwnbryVZ-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tPajtvleDszbkwnbryVZ-63" value="用 feopenapi 获取当前版本号" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#4D9900;" vertex="1" parent="ag_9Y8Nakdgdeo29yUZq-1">
+          <mxGeometry x="677.5" y="1015" width="95" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
