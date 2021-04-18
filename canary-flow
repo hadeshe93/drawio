@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-17T14:51:58.144Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36" etag="AT0_Z8-fG4JA6tWMtf3G" version="14.6.1" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2021-04-18T07:25:04.119Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36" etag="5tsGWckQq1YXGMfYvLa1" version="14.6.1" type="github" pages="11">
   <diagram id="4aiFPn5mNr701KMi0WF7" name="canary-entry">
     <mxGraphModel dx="1426" dy="867" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1113,6 +1113,41 @@
         </mxCell>
         <mxCell id="WdlQfghAJBx7semdv46u-37" value="Y" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WdlQfghAJBx7semdv46u-1">
           <mxGeometry x="601" y="524" width="40" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="W_G5rBURXng6WE7xwvhE" name="时序图">
+    <mxGraphModel dx="1426" dy="867" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="Wlu8b01rqbGJRkdZE2b6-0" />
+        <mxCell id="Wlu8b01rqbGJRkdZE2b6-1" parent="Wlu8b01rqbGJRkdZE2b6-0" />
+        <mxCell id="Wlu8b01rqbGJRkdZE2b6-2" value="canary 返回 html 时序逻辑" style="shape=umlFrame;whiteSpace=wrap;html=1;width=160;height=30;" vertex="1" parent="Wlu8b01rqbGJRkdZE2b6-1">
+          <mxGeometry x="40" y="40" width="760" height="600" as="geometry" />
+        </mxCell>
+        <mxCell id="Wlu8b01rqbGJRkdZE2b6-6" value="用户" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;" vertex="1" parent="Wlu8b01rqbGJRkdZE2b6-1">
+          <mxGeometry x="80" y="90" width="20" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="Wlu8b01rqbGJRkdZE2b6-12" value="页面 url" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="Wlu8b01rqbGJRkdZE2b6-6" target="Wlu8b01rqbGJRkdZE2b6-7">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="10" y="90" as="sourcePoint" />
+            <mxPoint x="90" y="90" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Wlu8b01rqbGJRkdZE2b6-7" value="canary" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="Wlu8b01rqbGJRkdZE2b6-1">
+          <mxGeometry x="150" y="90" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="Wlu8b01rqbGJRkdZE2b6-15" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="Wlu8b01rqbGJRkdZE2b6-7">
+          <mxGeometry x="45" y="90" width="10" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="Wlu8b01rqbGJRkdZE2b6-8" value="redis" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="Wlu8b01rqbGJRkdZE2b6-1">
+          <mxGeometry x="300" y="90" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="Wlu8b01rqbGJRkdZE2b6-9" value="mdb" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="Wlu8b01rqbGJRkdZE2b6-1">
+          <mxGeometry x="450" y="90" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="Wlu8b01rqbGJRkdZE2b6-16" value="alt" style="shape=umlFrame;whiteSpace=wrap;html=1;width=40;height=20;" vertex="1" parent="Wlu8b01rqbGJRkdZE2b6-1">
+          <mxGeometry x="120" y="200" width="480" height="200" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
