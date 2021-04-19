@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-04-16T09:25:20.304Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="tDDVLqui-9VjKspdfFHf" version="14.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-19T09:05:55.699Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="CPaUkM5273TJznpxOgeC" version="14.5.1" type="github" pages="2">
   <diagram id="YYsUv_11P4pKoiWIgwLw" name="module: publish alpha">
-    <mxGraphModel dx="1426" dy="769" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1186" dy="796" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -175,6 +175,53 @@
         </mxCell>
         <mxCell id="bEKzU4Y0vnFiHEYVVzPg-87" value="结束" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="340" y="950" width="80" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="VMR0yRdc9AGk-eSXque3" name="project">
+    <mxGraphModel dx="1186" dy="796" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="Zwg8PkGjDEfNTXBaWfWK-0" />
+        <mxCell id="Zwg8PkGjDEfNTXBaWfWK-1" parent="Zwg8PkGjDEfNTXBaWfWK-0" />
+        <mxCell id="Zwg8PkGjDEfNTXBaWfWK-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="Zwg8PkGjDEfNTXBaWfWK-1" source="Zwg8PkGjDEfNTXBaWfWK-2" target="Zwg8PkGjDEfNTXBaWfWK-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Zwg8PkGjDEfNTXBaWfWK-2" value="ws cli 发布页面" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Zwg8PkGjDEfNTXBaWfWK-1">
+          <mxGeometry x="640" y="130" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Zwg8PkGjDEfNTXBaWfWK-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="Zwg8PkGjDEfNTXBaWfWK-1" source="Zwg8PkGjDEfNTXBaWfWK-3" target="Zwg8PkGjDEfNTXBaWfWK-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Zwg8PkGjDEfNTXBaWfWK-3" value="..." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Zwg8PkGjDEfNTXBaWfWK-1">
+          <mxGeometry x="640" y="190" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Zwg8PkGjDEfNTXBaWfWK-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="Zwg8PkGjDEfNTXBaWfWK-1" source="Zwg8PkGjDEfNTXBaWfWK-4" target="Zwg8PkGjDEfNTXBaWfWK-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Zwg8PkGjDEfNTXBaWfWK-4" value="构建 &amp;amp; 上传 cos" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Zwg8PkGjDEfNTXBaWfWK-1">
+          <mxGeometry x="640" y="250" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Zwg8PkGjDEfNTXBaWfWK-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="Zwg8PkGjDEfNTXBaWfWK-1" source="Zwg8PkGjDEfNTXBaWfWK-5" target="Zwg8PkGjDEfNTXBaWfWK-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Zwg8PkGjDEfNTXBaWfWK-5" value="测试/alpha/正式环境均通知 feopenapi 保存版本" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Zwg8PkGjDEfNTXBaWfWK-1">
+          <mxGeometry x="615" y="310" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Zwg8PkGjDEfNTXBaWfWK-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="Zwg8PkGjDEfNTXBaWfWK-1" source="Zwg8PkGjDEfNTXBaWfWK-6" target="Zwg8PkGjDEfNTXBaWfWK-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Zwg8PkGjDEfNTXBaWfWK-6" value="是否需要覆盖当前版本？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="Zwg8PkGjDEfNTXBaWfWK-1">
+          <mxGeometry x="645" y="370" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="L9h0Jh4F-CCagqA2Ujyb-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="Zwg8PkGjDEfNTXBaWfWK-1" source="Zwg8PkGjDEfNTXBaWfWK-8" target="L9h0Jh4F-CCagqA2Ujyb-0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Zwg8PkGjDEfNTXBaWfWK-8" value="通知 feopenapi 覆盖当前版本" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Zwg8PkGjDEfNTXBaWfWK-1">
+          <mxGeometry x="640" y="460" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="L9h0Jh4F-CCagqA2Ujyb-0" value="..." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Zwg8PkGjDEfNTXBaWfWK-1">
+          <mxGeometry x="640" y="520" width="90" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
