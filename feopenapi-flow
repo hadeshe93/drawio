@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-20T03:54:37.149Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="zPTVhrME1EUrOlNBaYH9" version="14.5.1" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2021-04-20T03:55:10.753Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="3NADqD_j8r1xITY14veR" version="14.5.1" type="github" pages="5">
   <diagram id="k787aLbJ-FSguO4mAi0x" name="feopenapi-entry">
     <mxGraphModel dx="1426" dy="826" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -445,7 +445,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="O-mGYv9mSrkuuTdSRV6X" name="api: wscli/addOrUpdateUrlCurVerInfo">
+  <diagram id="O-mGYv9mSrkuuTdSRV6X" name="api: wscli/confirmUrlCurVerInfo">
     <mxGraphModel dx="1426" dy="826" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="mcm4dbL4ohuCyE-XKjIQ-0" />
