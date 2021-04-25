@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-25T08:51:48.155Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="-IEsn7xVaDB6ashnBiVD" version="14.5.1" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2021-04-25T08:56:57.396Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="dOH78zLDVCjCD3691nbX" version="14.5.1" type="github" pages="5">
   <diagram id="k787aLbJ-FSguO4mAi0x" name="feopenapi-entry">
     <mxGraphModel dx="1426" dy="826" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -273,7 +273,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="OLUnynsvGDXX_fbv7S5c" name="api: wscli/queryReleaseInfoByPage">
+  <diagram id="OLUnynsvGDXX_fbv7S5c" name="api: wscli/queryReleaseInfo">
     <mxGraphModel dx="1426" dy="826" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="arcO9MMgJMIy2-POZTmw-0" />
