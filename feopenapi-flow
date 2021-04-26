@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-26T06:24:28.632Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="LFJhe3DDSm5T5pdqsR_p" version="14.5.1" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2021-04-26T07:02:40.259Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="AVyVlU6FWtPSiNyD6wUF" version="14.5.1" type="github" pages="7">
   <diagram id="k787aLbJ-FSguO4mAi0x" name="feopenapi-entry">
     <mxGraphModel dx="1426" dy="826" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -669,34 +669,165 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="nnufDETuQcLK4vuWeCTq-15" value="start" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="nnufDETuQcLK4vuWeCTq-1">
-          <mxGeometry x="650" y="50" width="110" height="30" as="geometry" />
+          <mxGeometry x="540" y="50" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="nnufDETuQcLK4vuWeCTq-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="nnufDETuQcLK4vuWeCTq-1" source="nnufDETuQcLK4vuWeCTq-16" target="nnufDETuQcLK4vuWeCTq-17">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="nnufDETuQcLK4vuWeCTq-16" value="定时任务&lt;br&gt;(每次捞取 128 条任务执行)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="nnufDETuQcLK4vuWeCTq-1">
-          <mxGeometry x="620" y="110" width="170" height="30" as="geometry" />
+          <mxGeometry x="510" y="110" width="170" height="30" as="geometry" />
         </mxCell>
         <mxCell id="nnufDETuQcLK4vuWeCTq-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="nnufDETuQcLK4vuWeCTq-1" source="nnufDETuQcLK4vuWeCTq-17" target="nnufDETuQcLK4vuWeCTq-21">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="nnufDETuQcLK4vuWeCTq-17" value="查询明星信息" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="nnufDETuQcLK4vuWeCTq-1">
-          <mxGeometry x="630" y="180" width="150" height="30" as="geometry" />
+          <mxGeometry x="520" y="180" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="nnufDETuQcLK4vuWeCTq-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="nnufDETuQcLK4vuWeCTq-1" source="nnufDETuQcLK4vuWeCTq-21" target="nnufDETuQcLK4vuWeCTq-23">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="nnufDETuQcLK4vuWeCTq-21" value="是否下线？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="nnufDETuQcLK4vuWeCTq-1">
-          <mxGeometry x="665" y="240" width="80" height="50" as="geometry" />
+          <mxGeometry x="555" y="240" width="80" height="50" as="geometry" />
         </mxCell>
         <mxCell id="nnufDETuQcLK4vuWeCTq-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="nnufDETuQcLK4vuWeCTq-1" source="nnufDETuQcLK4vuWeCTq-23" target="nnufDETuQcLK4vuWeCTq-25">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="nnufDETuQcLK4vuWeCTq-23" value="是否上线？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="nnufDETuQcLK4vuWeCTq-1">
-          <mxGeometry x="665" y="320" width="80" height="50" as="geometry" />
+          <mxGeometry x="555" y="320" width="80" height="50" as="geometry" />
         </mxCell>
         <mxCell id="nnufDETuQcLK4vuWeCTq-25" value="end" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="nnufDETuQcLK4vuWeCTq-1">
-          <mxGeometry x="650" y="400" width="110" height="30" as="geometry" />
+          <mxGeometry x="540" y="400" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nnufDETuQcLK4vuWeCTq-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="nnufDETuQcLK4vuWeCTq-1" source="nnufDETuQcLK4vuWeCTq-27" target="nnufDETuQcLK4vuWeCTq-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nnufDETuQcLK4vuWeCTq-27" value="start" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="nnufDETuQcLK4vuWeCTq-1">
+          <mxGeometry x="850" y="50" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nnufDETuQcLK4vuWeCTq-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="nnufDETuQcLK4vuWeCTq-1" source="nnufDETuQcLK4vuWeCTq-28" target="nnufDETuQcLK4vuWeCTq-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nnufDETuQcLK4vuWeCTq-28" value="从 redis 中获取 starKey 和 version" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="nnufDETuQcLK4vuWeCTq-1">
+          <mxGeometry x="850" y="110" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nnufDETuQcLK4vuWeCTq-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="nnufDETuQcLK4vuWeCTq-1" source="nnufDETuQcLK4vuWeCTq-29" target="nnufDETuQcLK4vuWeCTq-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nnufDETuQcLK4vuWeCTq-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="nnufDETuQcLK4vuWeCTq-1" source="nnufDETuQcLK4vuWeCTq-29" target="nnufDETuQcLK4vuWeCTq-39">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1030" y="195" />
+              <mxPoint x="1030" y="440" />
+              <mxPoint x="905" y="440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nnufDETuQcLK4vuWeCTq-29" value="starKey 是否为空？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="nnufDETuQcLK4vuWeCTq-1">
+          <mxGeometry x="865" y="170" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="nnufDETuQcLK4vuWeCTq-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="nnufDETuQcLK4vuWeCTq-1" source="nnufDETuQcLK4vuWeCTq-30" target="nnufDETuQcLK4vuWeCTq-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nnufDETuQcLK4vuWeCTq-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="nnufDETuQcLK4vuWeCTq-1" source="nnufDETuQcLK4vuWeCTq-30" target="nnufDETuQcLK4vuWeCTq-39">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1030" y="265" />
+              <mxPoint x="1030" y="440" />
+              <mxPoint x="905" y="440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nnufDETuQcLK4vuWeCTq-30" value="redis 中的版本号 &amp;gt; db&lt;br&gt;&amp;nbsp;中的版本号？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="nnufDETuQcLK4vuWeCTq-1">
+          <mxGeometry x="865" y="240" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="nnufDETuQcLK4vuWeCTq-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="nnufDETuQcLK4vuWeCTq-1" source="nnufDETuQcLK4vuWeCTq-31" target="nnufDETuQcLK4vuWeCTq-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nnufDETuQcLK4vuWeCTq-31" value="设置旧 startKey 超时为 1 小时" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="nnufDETuQcLK4vuWeCTq-1">
+          <mxGeometry x="850" y="320" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nnufDETuQcLK4vuWeCTq-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="nnufDETuQcLK4vuWeCTq-1" source="nnufDETuQcLK4vuWeCTq-32" target="nnufDETuQcLK4vuWeCTq-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nnufDETuQcLK4vuWeCTq-32" value="删除在 redis 中 starKey 对应的 key" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="nnufDETuQcLK4vuWeCTq-1">
+          <mxGeometry x="850" y="380" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nnufDETuQcLK4vuWeCTq-39" value="end" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="nnufDETuQcLK4vuWeCTq-1">
+          <mxGeometry x="850" y="480" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nnufDETuQcLK4vuWeCTq-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="nnufDETuQcLK4vuWeCTq-1" source="nnufDETuQcLK4vuWeCTq-44" target="nnufDETuQcLK4vuWeCTq-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nnufDETuQcLK4vuWeCTq-44" value="start" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="nnufDETuQcLK4vuWeCTq-1">
+          <mxGeometry x="1130" y="50" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nnufDETuQcLK4vuWeCTq-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="nnufDETuQcLK4vuWeCTq-1" source="nnufDETuQcLK4vuWeCTq-46" target="nnufDETuQcLK4vuWeCTq-52">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1185" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nnufDETuQcLK4vuWeCTq-46" value="从 redis 中获取 starKey 和 version" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="nnufDETuQcLK4vuWeCTq-1">
+          <mxGeometry x="1130" y="110" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nnufDETuQcLK4vuWeCTq-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="nnufDETuQcLK4vuWeCTq-1" source="nnufDETuQcLK4vuWeCTq-52" target="nnufDETuQcLK4vuWeCTq-58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nnufDETuQcLK4vuWeCTq-52" value="redis 中的版本号 &amp;gt; db&lt;br&gt;&amp;nbsp;中的版本号？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="nnufDETuQcLK4vuWeCTq-1">
+          <mxGeometry x="1145" y="170" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="nnufDETuQcLK4vuWeCTq-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="nnufDETuQcLK4vuWeCTq-1" source="nnufDETuQcLK4vuWeCTq-54" target="nnufDETuQcLK4vuWeCTq-62">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nnufDETuQcLK4vuWeCTq-54" value="设置旧 startKey 超时为 1 小时" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="nnufDETuQcLK4vuWeCTq-1">
+          <mxGeometry x="1130" y="500" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nnufDETuQcLK4vuWeCTq-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="nnufDETuQcLK4vuWeCTq-1" source="nnufDETuQcLK4vuWeCTq-56" target="nnufDETuQcLK4vuWeCTq-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nnufDETuQcLK4vuWeCTq-56" value="删除在 redis 中 starKey 作为 value 对应的 key" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="nnufDETuQcLK4vuWeCTq-1">
+          <mxGeometry x="1300" y="640" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nnufDETuQcLK4vuWeCTq-57" value="end" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="nnufDETuQcLK4vuWeCTq-1">
+          <mxGeometry x="1130" y="750" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nnufDETuQcLK4vuWeCTq-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="nnufDETuQcLK4vuWeCTq-1" source="nnufDETuQcLK4vuWeCTq-58" target="nnufDETuQcLK4vuWeCTq-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nnufDETuQcLK4vuWeCTq-58" value="redis 中的版本号 == db&lt;br&gt;&amp;nbsp;中的版本号？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="nnufDETuQcLK4vuWeCTq-1">
+          <mxGeometry x="1145" y="240" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="nnufDETuQcLK4vuWeCTq-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="nnufDETuQcLK4vuWeCTq-1" source="nnufDETuQcLK4vuWeCTq-59" target="nnufDETuQcLK4vuWeCTq-60">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nnufDETuQcLK4vuWeCTq-59" value="使用当前版本号生成新 key" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="nnufDETuQcLK4vuWeCTq-1">
+          <mxGeometry x="1130" y="320" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nnufDETuQcLK4vuWeCTq-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="nnufDETuQcLK4vuWeCTq-1" source="nnufDETuQcLK4vuWeCTq-60" target="nnufDETuQcLK4vuWeCTq-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nnufDETuQcLK4vuWeCTq-60" value="用 starPID 获取粉头列表" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="nnufDETuQcLK4vuWeCTq-1">
+          <mxGeometry x="1130" y="380" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nnufDETuQcLK4vuWeCTq-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="nnufDETuQcLK4vuWeCTq-1" source="nnufDETuQcLK4vuWeCTq-61" target="nnufDETuQcLK4vuWeCTq-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nnufDETuQcLK4vuWeCTq-61" value="将粉头列表缓存进 redis" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="nnufDETuQcLK4vuWeCTq-1">
+          <mxGeometry x="1130" y="440" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nnufDETuQcLK4vuWeCTq-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="nnufDETuQcLK4vuWeCTq-1" source="nnufDETuQcLK4vuWeCTq-62" target="nnufDETuQcLK4vuWeCTq-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nnufDETuQcLK4vuWeCTq-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="nnufDETuQcLK4vuWeCTq-1" source="nnufDETuQcLK4vuWeCTq-62" target="nnufDETuQcLK4vuWeCTq-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nnufDETuQcLK4vuWeCTq-62" value="粉头列表长度&amp;gt; 0?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="nnufDETuQcLK4vuWeCTq-1">
+          <mxGeometry x="1145" y="560" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="nnufDETuQcLK4vuWeCTq-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="nnufDETuQcLK4vuWeCTq-1" source="nnufDETuQcLK4vuWeCTq-63" target="nnufDETuQcLK4vuWeCTq-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nnufDETuQcLK4vuWeCTq-63" value="更新 key 对应的 value，也就是新 starKey" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="nnufDETuQcLK4vuWeCTq-1">
+          <mxGeometry x="1115" y="640" width="140" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
