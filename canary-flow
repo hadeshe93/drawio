@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-21T07:12:54.785Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="i3FaJwr5cj58aOh0w3iV" version="14.5.1" type="github" pages="11">
+<mxfile host="app.diagrams.net" modified="2021-04-27T10:13:18.208Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="hjG7y-s6RQlJxioY_hpB" version="14.5.1" type="github" pages="11">
   <diagram id="4aiFPn5mNr701KMi0WF7" name="canary-entry">
     <mxGraphModel dx="1426" dy="826" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -287,10 +287,10 @@
         <mxCell id="tPajtvleDszbkwnbryVZ-3" value="拉取 tconf 配置" style="rounded=1;whiteSpace=wrap;html=1;" parent="ag_9Y8Nakdgdeo29yUZq-1" vertex="1">
           <mxGeometry x="425" y="740" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="tPajtvleDszbkwnbryVZ-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="ag_9Y8Nakdgdeo29yUZq-1" source="tPajtvleDszbkwnbryVZ-6" target="tPajtvleDszbkwnbryVZ-9" edge="1">
+        <mxCell id="tPajtvleDszbkwnbryVZ-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="ag_9Y8Nakdgdeo29yUZq-1" source="tPajtvleDszbkwnbryVZ-6" target="tPajtvleDszbkwnbryVZ-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="tPajtvleDszbkwnbryVZ-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="ag_9Y8Nakdgdeo29yUZq-1" source="tPajtvleDszbkwnbryVZ-6" target="tPajtvleDszbkwnbryVZ-8" edge="1">
+        <mxCell id="6mLYCQKYSG5qPU9GRfRw-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="ag_9Y8Nakdgdeo29yUZq-1" source="tPajtvleDszbkwnbryVZ-6" target="tPajtvleDszbkwnbryVZ-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="tPajtvleDszbkwnbryVZ-6" value="是否拉取成功？" style="rhombus;whiteSpace=wrap;html=1;" parent="ag_9Y8Nakdgdeo29yUZq-1" vertex="1">
@@ -303,7 +303,7 @@
           <mxGeometry x="430" y="890" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="tPajtvleDszbkwnbryVZ-9" value="返回 500" style="rounded=1;whiteSpace=wrap;html=1;" parent="ag_9Y8Nakdgdeo29yUZq-1" vertex="1">
-          <mxGeometry x="300" y="815" width="80" height="30" as="geometry" />
+          <mxGeometry x="540" y="815" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="tPajtvleDszbkwnbryVZ-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="ag_9Y8Nakdgdeo29yUZq-1" source="tPajtvleDszbkwnbryVZ-12" target="tPajtvleDszbkwnbryVZ-14" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -413,7 +413,7 @@
           <mxGeometry x="990" y="1149.5" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="tPajtvleDszbkwnbryVZ-40" value="N" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="ag_9Y8Nakdgdeo29yUZq-1" vertex="1">
-          <mxGeometry x="390" y="810" width="40" height="20" as="geometry" />
+          <mxGeometry x="500" y="810" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="tPajtvleDszbkwnbryVZ-41" value="Y" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="ag_9Y8Nakdgdeo29yUZq-1" vertex="1">
           <mxGeometry x="470" y="860" width="40" height="20" as="geometry" />
