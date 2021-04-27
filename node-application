@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2021-04-27T03:38:28.464Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="us7VqPCIfWQ0t_3yB8kk" version="14.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-27T03:41:35.563Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="aSj-xlOlJJ7E1c7wfyoK" version="14.5.1" type="github">
   <diagram id="wADgc15Ylc1bY88QKXFd" name="日志模块流程图设计">
     <mxGraphModel dx="1186" dy="796" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="u4Gj2scrX9c0j4Smyb-g-40" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="50" width="810" height="650" as="geometry" />
+        </mxCell>
         <mxCell id="u4Gj2scrX9c0j4Smyb-g-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="u4Gj2scrX9c0j4Smyb-g-1" target="u4Gj2scrX9c0j4Smyb-g-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -125,6 +128,9 @@
         </mxCell>
         <mxCell id="u4Gj2scrX9c0j4Smyb-g-33" value="结束" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="710" y="565" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="u4Gj2scrX9c0j4Smyb-g-41" value="&lt;h1&gt;日志模块&lt;/h1&gt;&lt;p&gt;提供一个用户主动调用打日志的方法和一个定时任务。&lt;/p&gt;&lt;p&gt;定时任务和主动日志之间，可能会存在冲突的情况，这里可以优化下去使用锁和任务队列的方法去保证。&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="70" width="300" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
