@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-27T10:13:18.208Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="hjG7y-s6RQlJxioY_hpB" version="14.5.1" type="github" pages="11">
+<mxfile host="app.diagrams.net" modified="2021-04-29T06:34:28.030Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="vDMZ0aj_CHV_gS434W77" version="14.5.1" type="github" pages="11">
   <diagram id="4aiFPn5mNr701KMi0WF7" name="canary-entry">
     <mxGraphModel dx="1426" dy="826" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -325,7 +325,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="tPajtvleDszbkwnbryVZ-14" value="登录鉴权" style="rounded=1;whiteSpace=wrap;html=1;" parent="ag_9Y8Nakdgdeo29yUZq-1" vertex="1">
+        <mxCell id="tPajtvleDszbkwnbryVZ-14" value="若外网，登录态鉴权" style="rounded=1;whiteSpace=wrap;html=1;" parent="ag_9Y8Nakdgdeo29yUZq-1" vertex="1">
           <mxGeometry x="550" y="965" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="tPajtvleDszbkwnbryVZ-15" value="版本号固定为 &quot;latest&quot;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#990000;fontColor=#990000;" parent="ag_9Y8Nakdgdeo29yUZq-1" source="tPajtvleDszbkwnbryVZ-17" target="tPajtvleDszbkwnbryVZ-23" edge="1">
