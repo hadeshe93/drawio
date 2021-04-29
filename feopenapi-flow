@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-29T08:31:18.954Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="vcvZCb75tInS7OpuNQpX" version="14.5.1" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2021-04-29T08:57:07.567Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="q3ZBZ3tBu4hn1HrO78m9" version="14.5.1" type="github" pages="7">
   <diagram id="k787aLbJ-FSguO4mAi0x" name="feopenapi-entry">
     <mxGraphModel dx="1426" dy="826" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -755,7 +755,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="O-mGYv9mSrkuuTdSRV6X" name="api: wscli/confirmUrlCurVerInfo">
+  <diagram id="O-mGYv9mSrkuuTdSRV6X" name="api: wscli/updateUrlCurVerInfo">
     <mxGraphModel dx="1426" dy="826" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="mcm4dbL4ohuCyE-XKjIQ-0" />
@@ -867,6 +867,69 @@
         </mxCell>
         <mxCell id="7fnOEfX07fVUsbvzEIuB-0" value="更新到 redis 缓存" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="mcm4dbL4ohuCyE-XKjIQ-1">
           <mxGeometry x="610" y="780" width="98" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_wGK3k06KtI8hDzRVCqZ-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="mcm4dbL4ohuCyE-XKjIQ-1" source="_wGK3k06KtI8hDzRVCqZ-2" target="_wGK3k06KtI8hDzRVCqZ-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_wGK3k06KtI8hDzRVCqZ-2" value="start" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="mcm4dbL4ohuCyE-XKjIQ-1">
+          <mxGeometry x="342" y="205" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_wGK3k06KtI8hDzRVCqZ-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="mcm4dbL4ohuCyE-XKjIQ-1" source="_wGK3k06KtI8hDzRVCqZ-4" target="_wGK3k06KtI8hDzRVCqZ-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_wGK3k06KtI8hDzRVCqZ-4" value="校验接口入参" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="mcm4dbL4ohuCyE-XKjIQ-1">
+          <mxGeometry x="342" y="265" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_wGK3k06KtI8hDzRVCqZ-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="mcm4dbL4ohuCyE-XKjIQ-1" source="_wGK3k06KtI8hDzRVCqZ-6" target="_wGK3k06KtI8hDzRVCqZ-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_wGK3k06KtI8hDzRVCqZ-6" value="校验通过？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="mcm4dbL4ohuCyE-XKjIQ-1">
+          <mxGeometry x="342" y="325" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="_wGK3k06KtI8hDzRVCqZ-7" value="返回校验结果" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="mcm4dbL4ohuCyE-XKjIQ-1">
+          <mxGeometry x="212" y="335" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_wGK3k06KtI8hDzRVCqZ-8" value="N" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="mcm4dbL4ohuCyE-XKjIQ-1">
+          <mxGeometry x="302" y="329" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_wGK3k06KtI8hDzRVCqZ-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=classic;endFill=1;" edge="1" parent="mcm4dbL4ohuCyE-XKjIQ-1" source="_wGK3k06KtI8hDzRVCqZ-13" target="_wGK3k06KtI8hDzRVCqZ-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_wGK3k06KtI8hDzRVCqZ-13" value="更新表对应记录" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="mcm4dbL4ohuCyE-XKjIQ-1">
+          <mxGeometry x="333" y="470" width="98" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_wGK3k06KtI8hDzRVCqZ-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="mcm4dbL4ohuCyE-XKjIQ-1" source="_wGK3k06KtI8hDzRVCqZ-17" target="_wGK3k06KtI8hDzRVCqZ-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_wGK3k06KtI8hDzRVCqZ-17" value="Y" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="mcm4dbL4ohuCyE-XKjIQ-1">
+          <mxGeometry x="342" y="375" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_wGK3k06KtI8hDzRVCqZ-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;endArrow=classic;endFill=1;" edge="1" parent="mcm4dbL4ohuCyE-XKjIQ-1" source="_wGK3k06KtI8hDzRVCqZ-21" target="_wGK3k06KtI8hDzRVCqZ-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_wGK3k06KtI8hDzRVCqZ-21" value="构造对应数据" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="mcm4dbL4ohuCyE-XKjIQ-1">
+          <mxGeometry x="342" y="405" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_wGK3k06KtI8hDzRVCqZ-23" value="返回成功结果" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="mcm4dbL4ohuCyE-XKjIQ-1">
+          <mxGeometry x="342" y="615" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_wGK3k06KtI8hDzRVCqZ-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=classic;endFill=1;" edge="1" parent="mcm4dbL4ohuCyE-XKjIQ-1" source="_wGK3k06KtI8hDzRVCqZ-26" target="_wGK3k06KtI8hDzRVCqZ-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_wGK3k06KtI8hDzRVCqZ-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;endArrow=classic;endFill=1;" edge="1" parent="mcm4dbL4ohuCyE-XKjIQ-1" source="_wGK3k06KtI8hDzRVCqZ-26" target="_wGK3k06KtI8hDzRVCqZ-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_wGK3k06KtI8hDzRVCqZ-26" value="判断是否更新成功？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="mcm4dbL4ohuCyE-XKjIQ-1">
+          <mxGeometry x="342" y="530" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="_wGK3k06KtI8hDzRVCqZ-38" value="返回失败结果" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="mcm4dbL4ohuCyE-XKjIQ-1">
+          <mxGeometry x="212" y="615" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_wGK3k06KtI8hDzRVCqZ-40" value="Y" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="mcm4dbL4ohuCyE-XKjIQ-1">
+          <mxGeometry x="382" y="580" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_wGK3k06KtI8hDzRVCqZ-41" value="N" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="mcm4dbL4ohuCyE-XKjIQ-1">
+          <mxGeometry x="303" y="535" width="40" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
