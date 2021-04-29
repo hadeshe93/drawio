@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-29T06:34:42.965Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="8eGi6wj4AAPx0hBBRbB5" version="14.5.1" type="github" pages="11">
+<mxfile host="app.diagrams.net" modified="2021-04-29T06:35:26.307Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="bXGMaaJTyzZw5QJ-OWfD" version="14.5.1" type="github" pages="11">
   <diagram id="4aiFPn5mNr701KMi0WF7" name="canary-entry">
     <mxGraphModel dx="1426" dy="826" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -480,7 +480,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="6mLYCQKYSG5qPU9GRfRw-0" value="有设置本地缓存？" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="ag_9Y8Nakdgdeo29yUZq-1">
+        <mxCell id="6mLYCQKYSG5qPU9GRfRw-0" value="设置本地缓存" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="ag_9Y8Nakdgdeo29yUZq-1">
           <mxGeometry x="1110" y="965" width="80" height="30" as="geometry" />
         </mxCell>
       </root>
