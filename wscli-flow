@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-17T03:00:56.688Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="9SD2ZY_LUVioLuVRnKX1" version="14.6.12" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-05-17T03:01:42.302Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="1e9430E3iSzZZV6jDvJ8" version="14.6.12" type="github" pages="3">
   <diagram id="YYsUv_11P4pKoiWIgwLw" name="module: publish alpha">
     <mxGraphModel dx="1426" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -179,39 +179,17 @@
         <mxCell id="bEKzU4Y0vnFiHEYVVzPg-87" value="结束" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="340" y="950" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ULl7_Ed3qgH_rq9bulOO-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="ULl7_Ed3qgH_rq9bulOO-2" target="ULl7_Ed3qgH_rq9bulOO-4" edge="1">
+        <mxCell id="YXgV-LSx3iMeHWTudCFN-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ULl7_Ed3qgH_rq9bulOO-2" target="ULl7_Ed3qgH_rq9bulOO-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ULl7_Ed3qgH_rq9bulOO-2" value="通知 feopenapi 保存版本" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="110" y="650" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ULl7_Ed3qgH_rq9bulOO-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="ULl7_Ed3qgH_rq9bulOO-4" target="ULl7_Ed3qgH_rq9bulOO-5" edge="1">
+        <mxCell id="YXgV-LSx3iMeHWTudCFN-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="ULl7_Ed3qgH_rq9bulOO-5" target="bEKzU4Y0vnFiHEYVVzPg-79">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ULl7_Ed3qgH_rq9bulOO-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;" parent="1" source="ULl7_Ed3qgH_rq9bulOO-4" target="bEKzU4Y0vnFiHEYVVzPg-79" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="280" y="740" />
-              <mxPoint x="280" y="690" />
-              <mxPoint x="380" y="690" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="ULl7_Ed3qgH_rq9bulOO-4" value="是否需要覆盖当前版本？" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="140" y="710" width="80" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="ULl7_Ed3qgH_rq9bulOO-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;" parent="1" source="ULl7_Ed3qgH_rq9bulOO-5" target="bEKzU4Y0vnFiHEYVVzPg-79" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="180" y="850" />
-              <mxPoint x="320" y="850" />
-              <mxPoint x="320" y="690" />
-              <mxPoint x="380" y="690" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="ULl7_Ed3qgH_rq9bulOO-5" value="通知 feopenapi 覆盖当前版本" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="135" y="800" width="90" height="30" as="geometry" />
+          <mxGeometry x="135" y="710" width="90" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
