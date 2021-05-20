@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-20T12:18:45.756Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="-r_5qwFH9divwcVxk1kq" version="14.6.12" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-05-20T12:20:51.744Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="wYdLDpBRrZcVObrS0xjU" version="14.6.12" type="github" pages="4">
   <diagram id="YYsUv_11P4pKoiWIgwLw" name="module: publish alpha">
     <mxGraphModel dx="1426" dy="826" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -350,8 +350,20 @@
         <mxCell id="2cFmvPYVFqxlwR8w1ddp-56" value="通知 feopenapi 保存并覆盖当前版本" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="xhJD-jOfgY2J3lf1VXvC-1">
           <mxGeometry x="540" y="610" width="140" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="2cFmvPYVFqxlwR8w1ddp-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="xhJD-jOfgY2J3lf1VXvC-1" source="2cFmvPYVFqxlwR8w1ddp-57" target="2cFmvPYVFqxlwR8w1ddp-58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="2cFmvPYVFqxlwR8w1ddp-57" value="发布离线包&lt;br&gt;pushCache" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="xhJD-jOfgY2J3lf1VXvC-1">
           <mxGeometry x="970" y="550" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2cFmvPYVFqxlwR8w1ddp-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="xhJD-jOfgY2J3lf1VXvC-1" source="2cFmvPYVFqxlwR8w1ddp-58" target="2cFmvPYVFqxlwR8w1ddp-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2cFmvPYVFqxlwR8w1ddp-58" value="uploadZipFile" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="xhJD-jOfgY2J3lf1VXvC-1">
+          <mxGeometry x="1130" y="550" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2cFmvPYVFqxlwR8w1ddp-59" value="uploadConfigFile" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="xhJD-jOfgY2J3lf1VXvC-1">
+          <mxGeometry x="1130" y="600" width="100" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
