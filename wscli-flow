@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-20T12:37:36.642Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="LHuFSiP8Vw33FCgeCBEe" version="14.6.12" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-05-20T12:38:35.732Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="NSskKemXTMC0jQooF9Ko" version="14.6.12" type="github" pages="4">
   <diagram id="YYsUv_11P4pKoiWIgwLw" name="module: publish alpha">
     <mxGraphModel dx="1426" dy="826" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -193,10 +193,13 @@
       <root>
         <mxCell id="xhJD-jOfgY2J3lf1VXvC-0" />
         <mxCell id="xhJD-jOfgY2J3lf1VXvC-1" parent="xhJD-jOfgY2J3lf1VXvC-0" />
-        <mxCell id="2cFmvPYVFqxlwR8w1ddp-67" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="xhJD-jOfgY2J3lf1VXvC-1">
+        <mxCell id="2cFmvPYVFqxlwR8w1ddp-69" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="xhJD-jOfgY2J3lf1VXvC-1">
+          <mxGeometry x="890" y="100" width="340" height="860" as="geometry" />
+        </mxCell>
+        <mxCell id="2cFmvPYVFqxlwR8w1ddp-67" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="xhJD-jOfgY2J3lf1VXvC-1">
           <mxGeometry x="540" y="610" width="300" height="350" as="geometry" />
         </mxCell>
-        <mxCell id="2cFmvPYVFqxlwR8w1ddp-65" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="xhJD-jOfgY2J3lf1VXvC-1">
+        <mxCell id="2cFmvPYVFqxlwR8w1ddp-65" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="xhJD-jOfgY2J3lf1VXvC-1">
           <mxGeometry x="540" y="100" width="300" height="500" as="geometry" />
         </mxCell>
         <mxCell id="2cFmvPYVFqxlwR8w1ddp-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="xhJD-jOfgY2J3lf1VXvC-1" source="2cFmvPYVFqxlwR8w1ddp-1" target="2cFmvPYVFqxlwR8w1ddp-3">
@@ -379,6 +382,9 @@
         </mxCell>
         <mxCell id="2cFmvPYVFqxlwR8w1ddp-68" value="流水线运行部分" style="text;html=1;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#000000;" vertex="1" parent="xhJD-jOfgY2J3lf1VXvC-1">
           <mxGeometry x="540" y="940" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="2cFmvPYVFqxlwR8w1ddp-70" value="流水线运行部分" style="text;html=1;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#000000;" vertex="1" parent="xhJD-jOfgY2J3lf1VXvC-1">
+          <mxGeometry x="1120" y="100" width="110" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
