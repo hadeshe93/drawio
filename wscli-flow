@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-20T12:38:49.101Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="QMd3YkIkmNxUdJ1JLeSo" version="14.6.12" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-05-24T02:52:34.398Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="IBBL7pzdZpgh1uNYrrtI" version="14.6.13" type="github" pages="5">
   <diagram id="YYsUv_11P4pKoiWIgwLw" name="module: publish alpha">
     <mxGraphModel dx="1426" dy="826" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -146,7 +146,7 @@
         <mxCell id="bEKzU4Y0vnFiHEYVVzPg-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="bEKzU4Y0vnFiHEYVVzPg-77" target="bEKzU4Y0vnFiHEYVVzPg-79" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="YXgV-LSx3iMeHWTudCFN-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="bEKzU4Y0vnFiHEYVVzPg-77" target="ULl7_Ed3qgH_rq9bulOO-2">
+        <mxCell id="YXgV-LSx3iMeHWTudCFN-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" parent="1" source="bEKzU4Y0vnFiHEYVVzPg-77" target="ULl7_Ed3qgH_rq9bulOO-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="bEKzU4Y0vnFiHEYVVzPg-77" value="通知 canary" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0a30a;strokeColor=#BD7000;fontColor=#ffffff;" parent="1" vertex="1">
@@ -179,7 +179,7 @@
         <mxCell id="bEKzU4Y0vnFiHEYVVzPg-87" value="结束" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="340" y="950" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="YXgV-LSx3iMeHWTudCFN-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="ULl7_Ed3qgH_rq9bulOO-2" target="bEKzU4Y0vnFiHEYVVzPg-79">
+        <mxCell id="YXgV-LSx3iMeHWTudCFN-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" parent="1" source="ULl7_Ed3qgH_rq9bulOO-2" target="bEKzU4Y0vnFiHEYVVzPg-79" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ULl7_Ed3qgH_rq9bulOO-2" value="通知 feopenapi 保存并覆盖当前版本" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
@@ -386,6 +386,14 @@
         <mxCell id="2cFmvPYVFqxlwR8w1ddp-70" value="流水线运行部分" style="text;html=1;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#000000;" vertex="1" parent="xhJD-jOfgY2J3lf1VXvC-1">
           <mxGeometry x="1120" y="100" width="110" height="20" as="geometry" />
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="nT0tYM1eXGdQIwOkjull" name="ws-util-performance-report">
+    <mxGraphModel dx="1426" dy="826" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="jgIXkx_PfToKWz87dPtx-0" />
+        <mxCell id="jgIXkx_PfToKWz87dPtx-1" parent="jgIXkx_PfToKWz87dPtx-0" />
       </root>
     </mxGraphModel>
   </diagram>
