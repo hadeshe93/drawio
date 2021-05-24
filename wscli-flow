@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-24T03:01:29.659Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="gXOeO-UWGIkVE41nBnqV" version="14.6.13" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2021-05-24T03:09:03.549Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="3txTTjoev7JduQljkBru" version="14.6.13" type="github" pages="5">
   <diagram id="YYsUv_11P4pKoiWIgwLw" name="module: publish alpha">
     <mxGraphModel dx="1426" dy="826" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -456,8 +456,8 @@
         <mxCell id="jgIXkx_PfToKWz87dPtx-20" value="交互式选择是否绕过" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="jgIXkx_PfToKWz87dPtx-1">
           <mxGeometry x="640" y="520" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="jgIXkx_PfToKWz87dPtx-23" value="1. 上报的 pageUrl 的域名写死 isee.weishi.qq.com" style="text;html=1;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#000000;dashed=1;" vertex="1" parent="jgIXkx_PfToKWz87dPtx-1">
-          <mxGeometry x="940" y="290" width="270" height="65" as="geometry" />
+        <mxCell id="jgIXkx_PfToKWz87dPtx-23" value="1. 上报的 pageUrl 的域名写死 isee.weishi.qq.com&lt;br&gt;2. 仅做了一个上报流水的操作" style="text;html=1;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#000000;dashed=1;" vertex="1" parent="jgIXkx_PfToKWz87dPtx-1">
+          <mxGeometry x="940" y="290" width="270" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
