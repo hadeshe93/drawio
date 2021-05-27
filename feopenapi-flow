@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-24T08:13:26.613Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="55YP7XXmZQgdg1d55w33" version="14.6.13" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2021-05-27T03:46:01.235Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="pa06pugQMRv_Xj6CbZpQ" version="14.6.13" type="github" pages="8">
   <diagram id="k787aLbJ-FSguO4mAi0x" name="feopenapi-entry">
     <mxGraphModel dx="1426" dy="826" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -107,7 +107,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="BpMRqdakQXIX42hgLQFe" name="api: wscli/updateReleaseInfo">
-    <mxGraphModel dx="1426" dy="826" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1426" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -309,7 +309,7 @@
         <mxCell id="dyVKHiGqmgeCl6HZAN6w-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="dyVKHiGqmgeCl6HZAN6w-68" target="dyVKHiGqmgeCl6HZAN6w-71" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="95UL6oR4Ej2ZQ_qUefYz-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;dashed=1;endArrow=none;endFill=0;" edge="1" parent="1" source="dyVKHiGqmgeCl6HZAN6w-68" target="95UL6oR4Ej2ZQ_qUefYz-1">
+        <mxCell id="95UL6oR4Ej2ZQ_qUefYz-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;dashed=1;endArrow=none;endFill=0;" parent="1" source="dyVKHiGqmgeCl6HZAN6w-68" target="95UL6oR4Ej2ZQ_qUefYz-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="dyVKHiGqmgeCl6HZAN6w-68" value="从 cos 上获取 html 文件内容" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
@@ -471,7 +471,7 @@
         <mxCell id="99cQ8kn5DQ2V8Xw6E8D1-2" value="这里会整体作为一个 service，达到可复用目的" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" parent="1" vertex="1">
           <mxGeometry x="1795" y="320" width="105" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="95UL6oR4Ej2ZQ_qUefYz-1" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;这里区分了从不同的 cos 读取配置&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#666666;" vertex="1" parent="1">
+        <mxCell id="95UL6oR4Ej2ZQ_qUefYz-1" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;这里区分了从不同的 cos 读取配置&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#666666;" parent="1" vertex="1">
           <mxGeometry x="1570" y="395" width="190" height="20" as="geometry" />
         </mxCell>
       </root>
@@ -743,7 +743,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="O-mGYv9mSrkuuTdSRV6X" name="api: wscli/confirmUrlCurVerInfo">
-    <mxGraphModel dx="1678" dy="972" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="815" dy="454" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="mcm4dbL4ohuCyE-XKjIQ-0" />
         <mxCell id="mcm4dbL4ohuCyE-XKjIQ-1" parent="mcm4dbL4ohuCyE-XKjIQ-0" />
@@ -988,7 +988,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="akOGoDOlWTSNgy82P6aH-42" value="是否有对应记录？" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="mcm4dbL4ohuCyE-XKjIQ-1" vertex="1">
+        <mxCell id="akOGoDOlWTSNgy82P6aH-42" value="是否有对应匹配的记录？" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="mcm4dbL4ohuCyE-XKjIQ-1" vertex="1">
           <mxGeometry x="1535" y="940" width="110" height="60" as="geometry" />
         </mxCell>
         <mxCell id="akOGoDOlWTSNgy82P6aH-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="mcm4dbL4ohuCyE-XKjIQ-1" source="akOGoDOlWTSNgy82P6aH-45" target="akOGoDOlWTSNgy82P6aH-46" edge="1">
