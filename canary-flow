@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-24T12:40:43.641Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="7Pvmfu-WZdSLdt9fyIwi" version="14.6.13" type="github" pages="11">
+<mxfile host="app.diagrams.net" modified="2021-05-31T11:10:38.775Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="7eN2qySIo7MKQ4Cj3Svc" version="14.6.13" type="github" pages="11">
   <diagram id="4aiFPn5mNr701KMi0WF7" name="canary-entry">
     <mxGraphModel dx="1426" dy="826" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -328,7 +328,7 @@
         <mxCell id="tPajtvleDszbkwnbryVZ-14" value="登录鉴权" style="rounded=1;whiteSpace=wrap;html=1;" parent="ag_9Y8Nakdgdeo29yUZq-1" vertex="1">
           <mxGeometry x="550" y="965" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="tPajtvleDszbkwnbryVZ-15" value="版本号固定为 &quot;latest&quot;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#990000;fontColor=#990000;" parent="ag_9Y8Nakdgdeo29yUZq-1" source="tPajtvleDszbkwnbryVZ-17" target="tPajtvleDszbkwnbryVZ-23" edge="1">
+        <mxCell id="tPajtvleDszbkwnbryVZ-15" value="&lt;strike&gt;版本号固定为 &quot;latest&quot;&lt;/strike&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#990000;fontColor=#990000;" parent="ag_9Y8Nakdgdeo29yUZq-1" source="tPajtvleDszbkwnbryVZ-17" target="tPajtvleDszbkwnbryVZ-23" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="tPajtvleDszbkwnbryVZ-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="ag_9Y8Nakdgdeo29yUZq-1" source="tPajtvleDszbkwnbryVZ-17" target="tPajtvleDszbkwnbryVZ-27" edge="1">
@@ -340,7 +340,7 @@
         <mxCell id="tPajtvleDszbkwnbryVZ-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="ag_9Y8Nakdgdeo29yUZq-1" source="tPajtvleDszbkwnbryVZ-19" target="tPajtvleDszbkwnbryVZ-21" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="tPajtvleDszbkwnbryVZ-19" value="微体验平台白名单校验&lt;font color=&quot;#990000&quot;&gt;同时获取版本号&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="ag_9Y8Nakdgdeo29yUZq-1" vertex="1">
+        <mxCell id="tPajtvleDszbkwnbryVZ-19" value="&lt;strike&gt;微体验平台白名单校验&lt;font color=&quot;#990000&quot;&gt;同时获取版本号&lt;/font&gt;&lt;/strike&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="ag_9Y8Nakdgdeo29yUZq-1" vertex="1">
           <mxGeometry x="670" y="965" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="tPajtvleDszbkwnbryVZ-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="ag_9Y8Nakdgdeo29yUZq-1" source="tPajtvleDszbkwnbryVZ-21" target="tPajtvleDszbkwnbryVZ-32" edge="1">
@@ -358,7 +358,7 @@
         <mxCell id="tPajtvleDszbkwnbryVZ-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#990000;" parent="ag_9Y8Nakdgdeo29yUZq-1" source="tPajtvleDszbkwnbryVZ-27" target="tPajtvleDszbkwnbryVZ-29" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="tPajtvleDszbkwnbryVZ-25" value="版本号固定为 &quot;latest&quot;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#990000;" parent="tPajtvleDszbkwnbryVZ-24" vertex="1" connectable="0">
+        <mxCell id="tPajtvleDszbkwnbryVZ-25" value="&lt;strike&gt;版本号固定为 &quot;latest&quot;&lt;/strike&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#990000;" parent="tPajtvleDszbkwnbryVZ-24" vertex="1" connectable="0">
           <mxGeometry x="-0.0387" y="1" relative="1" as="geometry">
             <mxPoint y="1" as="offset" />
           </mxGeometry>
