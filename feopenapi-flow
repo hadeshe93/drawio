@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-08T09:25:06.441Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="eaRs53qqrBP-kq_bjMkn" version="14.6.13" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2021-06-08T09:25:50.432Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="2Ox9sXYOKLcvZ4j4SMe-" version="14.6.13" type="github" pages="9">
   <diagram id="k787aLbJ-FSguO4mAi0x" name="feopenapi-entry">
     <mxGraphModel dx="1426" dy="826" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1297,6 +1297,9 @@
       <root>
         <mxCell id="xGT-gOnnjq9_wDxoq8N0-0" />
         <mxCell id="xGT-gOnnjq9_wDxoq8N0-1" parent="xGT-gOnnjq9_wDxoq8N0-0" />
+        <mxCell id="xGT-gOnnjq9_wDxoq8N0-48" value="" style="rounded=0;whiteSpace=wrap;html=1;align=left;dashed=1;" vertex="1" parent="xGT-gOnnjq9_wDxoq8N0-1">
+          <mxGeometry x="120" y="135" width="760" height="435" as="geometry" />
+        </mxCell>
         <mxCell id="xGT-gOnnjq9_wDxoq8N0-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="xGT-gOnnjq9_wDxoq8N0-1" source="xGT-gOnnjq9_wDxoq8N0-2" target="xGT-gOnnjq9_wDxoq8N0-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -1360,7 +1363,7 @@
           <mxGeometry x="497.5" y="340" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="xGT-gOnnjq9_wDxoq8N0-34" value="是否有离线包包括两层含义：&lt;br&gt;1. 能找到最近一条记录；&lt;br&gt;2. 找到的记录的 status &amp;gt;= 0；" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="xGT-gOnnjq9_wDxoq8N0-1">
-          <mxGeometry x="150" y="10" width="230" height="50" as="geometry" />
+          <mxGeometry x="120" y="10" width="230" height="50" as="geometry" />
         </mxCell>
         <mxCell id="xGT-gOnnjq9_wDxoq8N0-35" value="" style="endArrow=classic;html=1;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="xGT-gOnnjq9_wDxoq8N0-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
