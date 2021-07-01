@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-01T15:36:27.593Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="DKsmsFfWQLfA_dUEVpDG" version="14.8.1" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-07-01T15:37:03.208Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="1xzQIlZze1QDw5FlCA3q" version="14.8.1" type="github" pages="2">
   <diagram id="4Hh4apjfrW1ldag-3NwE" name="01-从构建入口开始分析">
     <mxGraphModel dx="464" dy="771" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -119,9 +119,6 @@
         </mxCell>
         <mxCell id="CXRrEImlJlEEiqzTcE0i-27" value="vm.$mount(vm.$options.el)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="CXRrEImlJlEEiqzTcE0i-1">
           <mxGeometry x="150" y="800" width="180" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="CXRrEImlJlEEiqzTcE0i-29" value="Text" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="CXRrEImlJlEEiqzTcE0i-1">
-          <mxGeometry x="220" y="420" width="40" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
