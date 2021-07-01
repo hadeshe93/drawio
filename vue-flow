@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-01T15:46:55.766Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="w9Wb-AZGeO4j0pTB-94i" version="14.8.1" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-07-01T15:47:42.272Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="fe4gficoUpMYfdGmv4wb" version="14.8.1" type="github" pages="2">
   <diagram id="4Hh4apjfrW1ldag-3NwE" name="01-从构建入口开始分析">
     <mxGraphModel dx="466" dy="803" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -41,7 +41,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="yb5-p7FBEoH3Yj80h4Qk" name="02-new Vue()">
-    <mxGraphModel dx="466" dy="803" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1043" dy="803" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="CXRrEImlJlEEiqzTcE0i-0" />
         <mxCell id="CXRrEImlJlEEiqzTcE0i-1" parent="CXRrEImlJlEEiqzTcE0i-0" />
@@ -130,13 +130,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="IxFDg5yiZQL4QGwm_Fcx-2" value="运行时+编译器版本入口" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="CXRrEImlJlEEiqzTcE0i-1">
-          <mxGeometry x="540" y="50" width="150" height="30" as="geometry" />
+          <mxGeometry x="540" y="200" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="IxFDg5yiZQL4QGwm_Fcx-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="CXRrEImlJlEEiqzTcE0i-1" source="IxFDg5yiZQL4QGwm_Fcx-3" target="IxFDg5yiZQL4QGwm_Fcx-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="IxFDg5yiZQL4QGwm_Fcx-3" value="运行时版本入口" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="CXRrEImlJlEEiqzTcE0i-1">
-          <mxGeometry x="540" y="100" width="150" height="30" as="geometry" />
+          <mxGeometry x="540" y="250" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="IxFDg5yiZQL4QGwm_Fcx-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="CXRrEImlJlEEiqzTcE0i-1" source="IxFDg5yiZQL4QGwm_Fcx-4" target="IxFDg5yiZQL4QGwm_Fcx-12">
           <mxGeometry relative="1" as="geometry" />
@@ -148,16 +148,16 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="IxFDg5yiZQL4QGwm_Fcx-5" value="src/platforms/web/entry-runtime-with-compiler.js" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="CXRrEImlJlEEiqzTcE0i-1">
-          <mxGeometry x="730" y="50" width="290" height="30" as="geometry" />
+          <mxGeometry x="730" y="200" width="290" height="30" as="geometry" />
         </mxCell>
         <mxCell id="IxFDg5yiZQL4QGwm_Fcx-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="CXRrEImlJlEEiqzTcE0i-1" source="IxFDg5yiZQL4QGwm_Fcx-6" target="IxFDg5yiZQL4QGwm_Fcx-10">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="IxFDg5yiZQL4QGwm_Fcx-6" value="src/platforms/web/runtime/index.js" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="CXRrEImlJlEEiqzTcE0i-1">
-          <mxGeometry x="730" y="100" width="290" height="30" as="geometry" />
+          <mxGeometry x="730" y="250" width="290" height="30" as="geometry" />
         </mxCell>
         <mxCell id="IxFDg5yiZQL4QGwm_Fcx-10" value="$mount" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="CXRrEImlJlEEiqzTcE0i-1">
-          <mxGeometry x="1060" y="100" width="90" height="30" as="geometry" />
+          <mxGeometry x="1060" y="250" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="IxFDg5yiZQL4QGwm_Fcx-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="CXRrEImlJlEEiqzTcE0i-1" source="IxFDg5yiZQL4QGwm_Fcx-12" target="IxFDg5yiZQL4QGwm_Fcx-14">
           <mxGeometry relative="1" as="geometry" />
