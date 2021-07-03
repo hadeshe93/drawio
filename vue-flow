@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-03T01:49:09.896Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="7YkK8RO2njndPz2XH__T" version="14.8.1" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-07-03T01:55:59.848Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="wUi53wCrX2AxrfFHRDf7" version="14.8.1" type="github" pages="2">
   <diagram id="4Hh4apjfrW1ldag-3NwE" name="01-从构建入口开始分析">
     <mxGraphModel dx="466" dy="803" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -275,8 +275,50 @@
         <mxCell id="IxFDg5yiZQL4QGwm_Fcx-50" value="src/core/instance/lifecycle.js" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="CXRrEImlJlEEiqzTcE0i-1">
           <mxGeometry x="770" y="790" width="290" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="IxFDg5yiZQL4QGwm_Fcx-64" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="CXRrEImlJlEEiqzTcE0i-1" source="IxFDg5yiZQL4QGwm_Fcx-51" target="IxFDg5yiZQL4QGwm_Fcx-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="IxFDg5yiZQL4QGwm_Fcx-51" value="mountComponent" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="CXRrEImlJlEEiqzTcE0i-1">
           <mxGeometry x="840" y="850" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IxFDg5yiZQL4QGwm_Fcx-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="CXRrEImlJlEEiqzTcE0i-1" source="IxFDg5yiZQL4QGwm_Fcx-55" target="IxFDg5yiZQL4QGwm_Fcx-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IxFDg5yiZQL4QGwm_Fcx-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="CXRrEImlJlEEiqzTcE0i-1" source="IxFDg5yiZQL4QGwm_Fcx-55" target="IxFDg5yiZQL4QGwm_Fcx-58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IxFDg5yiZQL4QGwm_Fcx-55" value="$options.render 方法是否存在" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="CXRrEImlJlEEiqzTcE0i-1">
+          <mxGeometry x="875" y="900" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="IxFDg5yiZQL4QGwm_Fcx-56" value="兜底一个创建空 VNode 方法" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="CXRrEImlJlEEiqzTcE0i-1">
+          <mxGeometry x="690" y="925" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IxFDg5yiZQL4QGwm_Fcx-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="CXRrEImlJlEEiqzTcE0i-1" source="IxFDg5yiZQL4QGwm_Fcx-58" target="IxFDg5yiZQL4QGwm_Fcx-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IxFDg5yiZQL4QGwm_Fcx-58" value="触发钩子：beforeMount" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="CXRrEImlJlEEiqzTcE0i-1">
+          <mxGeometry x="840" y="1000" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IxFDg5yiZQL4QGwm_Fcx-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="CXRrEImlJlEEiqzTcE0i-1" source="IxFDg5yiZQL4QGwm_Fcx-59" target="IxFDg5yiZQL4QGwm_Fcx-60">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IxFDg5yiZQL4QGwm_Fcx-59" value="定义用于更新组件的函数：updateComponent" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="CXRrEImlJlEEiqzTcE0i-1">
+          <mxGeometry x="840" y="1050" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IxFDg5yiZQL4QGwm_Fcx-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="CXRrEImlJlEEiqzTcE0i-1" source="IxFDg5yiZQL4QGwm_Fcx-60" target="IxFDg5yiZQL4QGwm_Fcx-62">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IxFDg5yiZQL4QGwm_Fcx-60" value="实例化一个 Watcher 来监听 vm 实例的改动，并绑定回调&lt;br&gt;updateComponent，并指定更新前触发钩子：beforeUpdate" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="CXRrEImlJlEEiqzTcE0i-1">
+          <mxGeometry x="830" y="1100" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IxFDg5yiZQL4QGwm_Fcx-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="CXRrEImlJlEEiqzTcE0i-1" source="IxFDg5yiZQL4QGwm_Fcx-62" target="IxFDg5yiZQL4QGwm_Fcx-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IxFDg5yiZQL4QGwm_Fcx-62" value="判断 vm 是否为根实例" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="CXRrEImlJlEEiqzTcE0i-1">
+          <mxGeometry x="875" y="1180" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="IxFDg5yiZQL4QGwm_Fcx-63" value="触发钩子：mounted" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="CXRrEImlJlEEiqzTcE0i-1">
+          <mxGeometry x="840" y="1280" width="150" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
