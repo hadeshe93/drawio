@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-03T01:55:59.848Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="wUi53wCrX2AxrfFHRDf7" version="14.8.1" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-07-03T01:56:13.824Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="xG7yrnPoEXUh5xw2OURY" version="14.8.1" type="github" pages="2">
   <diagram id="4Hh4apjfrW1ldag-3NwE" name="01-从构建入口开始分析">
     <mxGraphModel dx="466" dy="803" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -289,6 +289,14 @@
         </mxCell>
         <mxCell id="IxFDg5yiZQL4QGwm_Fcx-55" value="$options.render 方法是否存在" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="CXRrEImlJlEEiqzTcE0i-1">
           <mxGeometry x="875" y="900" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="IxFDg5yiZQL4QGwm_Fcx-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="CXRrEImlJlEEiqzTcE0i-1" source="IxFDg5yiZQL4QGwm_Fcx-56" target="IxFDg5yiZQL4QGwm_Fcx-58">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="745" y="990" />
+              <mxPoint x="915" y="990" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="IxFDg5yiZQL4QGwm_Fcx-56" value="兜底一个创建空 VNode 方法" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="CXRrEImlJlEEiqzTcE0i-1">
           <mxGeometry x="690" y="925" width="110" height="30" as="geometry" />
