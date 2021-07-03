@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-03T01:56:13.824Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="xG7yrnPoEXUh5xw2OURY" version="14.8.1" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-07-03T01:57:03.564Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="tgWwsjf3B9TayY-CIlX4" version="14.8.1" type="github" pages="2">
   <diagram id="4Hh4apjfrW1ldag-3NwE" name="01-从构建入口开始分析">
     <mxGraphModel dx="466" dy="803" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -322,11 +322,34 @@
         <mxCell id="IxFDg5yiZQL4QGwm_Fcx-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="CXRrEImlJlEEiqzTcE0i-1" source="IxFDg5yiZQL4QGwm_Fcx-62" target="IxFDg5yiZQL4QGwm_Fcx-63">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="IxFDg5yiZQL4QGwm_Fcx-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="CXRrEImlJlEEiqzTcE0i-1" source="IxFDg5yiZQL4QGwm_Fcx-62" target="IxFDg5yiZQL4QGwm_Fcx-72">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="810" y="1220" />
+              <mxPoint x="810" y="1320" />
+              <mxPoint x="915" y="1320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="IxFDg5yiZQL4QGwm_Fcx-62" value="判断 vm 是否为根实例" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="CXRrEImlJlEEiqzTcE0i-1">
           <mxGeometry x="875" y="1180" width="80" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="IxFDg5yiZQL4QGwm_Fcx-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="CXRrEImlJlEEiqzTcE0i-1" source="IxFDg5yiZQL4QGwm_Fcx-63">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="915" y="1330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="IxFDg5yiZQL4QGwm_Fcx-63" value="触发钩子：mounted" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="CXRrEImlJlEEiqzTcE0i-1">
           <mxGeometry x="840" y="1280" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IxFDg5yiZQL4QGwm_Fcx-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="CXRrEImlJlEEiqzTcE0i-1" source="IxFDg5yiZQL4QGwm_Fcx-72" target="IxFDg5yiZQL4QGwm_Fcx-73">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IxFDg5yiZQL4QGwm_Fcx-72" value="返回实例 vm" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="CXRrEImlJlEEiqzTcE0i-1">
+          <mxGeometry x="840" y="1330" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IxFDg5yiZQL4QGwm_Fcx-73" value="结束" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="CXRrEImlJlEEiqzTcE0i-1">
+          <mxGeometry x="840" y="1380" width="150" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
