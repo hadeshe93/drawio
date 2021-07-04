@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-04T00:54:39.726Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="DkmD6eHPdPDXAVs7cO0J" version="14.8.1" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-07-04T00:55:11.966Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="v-ZqND9WMDjyKPqS6H81" version="14.8.1" type="github" pages="2">
   <diagram id="4Hh4apjfrW1ldag-3NwE" name="01-从构建入口开始分析">
     <mxGraphModel dx="466" dy="803" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -552,13 +552,13 @@
         <mxCell id="IxFDg5yiZQL4QGwm_Fcx-151" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="CXRrEImlJlEEiqzTcE0i-1" source="IxFDg5yiZQL4QGwm_Fcx-148" target="IxFDg5yiZQL4QGwm_Fcx-149">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="IxFDg5yiZQL4QGwm_Fcx-156" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="CXRrEImlJlEEiqzTcE0i-1" source="IxFDg5yiZQL4QGwm_Fcx-148" target="IxFDg5yiZQL4QGwm_Fcx-155">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="IxFDg5yiZQL4QGwm_Fcx-148" value="tag 是否为字符串类型？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="CXRrEImlJlEEiqzTcE0i-1">
           <mxGeometry x="3290" y="110" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="IxFDg5yiZQL4QGwm_Fcx-152" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="CXRrEImlJlEEiqzTcE0i-1" source="IxFDg5yiZQL4QGwm_Fcx-149" target="IxFDg5yiZQL4QGwm_Fcx-150">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IxFDg5yiZQL4QGwm_Fcx-161" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="CXRrEImlJlEEiqzTcE0i-1" source="IxFDg5yiZQL4QGwm_Fcx-149" target="IxFDg5yiZQL4QGwm_Fcx-155">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="IxFDg5yiZQL4QGwm_Fcx-149" value="是否未内置保留的 tag？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="CXRrEImlJlEEiqzTcE0i-1">
@@ -574,13 +574,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="IxFDg5yiZQL4QGwm_Fcx-155" value="tag 是否为以注册过的组件名？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="CXRrEImlJlEEiqzTcE0i-1">
-          <mxGeometry x="3440" y="110" width="100" height="80" as="geometry" />
+          <mxGeometry x="3450" y="210" width="100" height="80" as="geometry" />
         </mxCell>
         <mxCell id="IxFDg5yiZQL4QGwm_Fcx-157" value="调用 createComponent 创建组件类型 VNode" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="CXRrEImlJlEEiqzTcE0i-1">
-          <mxGeometry x="3420" y="235" width="140" height="30" as="geometry" />
+          <mxGeometry x="3430" y="315" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="IxFDg5yiZQL4QGwm_Fcx-159" value="创建一个未知标签的 VNode" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="CXRrEImlJlEEiqzTcE0i-1">
-          <mxGeometry x="3620" y="135" width="160" height="30" as="geometry" />
+          <mxGeometry x="3630" y="235" width="160" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
