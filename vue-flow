@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-11T03:20:00.042Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="55RSa0KMqf6dHsVRHL_h" version="14.8.5" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-07-11T03:20:27.419Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="zmqRSO9DvKJPhLRYfR4_" version="14.8.5" type="github" pages="3">
   <diagram id="4Hh4apjfrW1ldag-3NwE" name="01-从构建入口开始分析">
     <mxGraphModel dx="466" dy="771" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -891,6 +891,9 @@
         </mxCell>
         <mxCell id="gpSesLw3umukQkQZOJKB-0" value="构造子类构造函数" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="MTABV2HzyHsj6rrQ2wbS-1">
           <mxGeometry x="1720" y="50" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="gpSesLw3umukQkQZOJKB-1" value="安装组件钩子函数" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="MTABV2HzyHsj6rrQ2wbS-1">
+          <mxGeometry x="1950" y="50" width="110" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
