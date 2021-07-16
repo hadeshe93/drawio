@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-16T07:22:29.398Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="7GD-7Sl-D0bBTq3bVk1K" version="14.8.6" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-07-16T07:25:44.328Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="fCCc-txc8sHH2TiC86OY" version="14.8.6" type="github" pages="3">
   <diagram id="4Hh4apjfrW1ldag-3NwE" name="01-从构建入口开始分析">
     <mxGraphModel dx="1426" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1024,10 +1024,10 @@
         <mxCell id="9_p9xPpLZJQpOMVZdJJl-2" value="vm._update()" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="MTABV2HzyHsj6rrQ2wbS-1">
           <mxGeometry x="3272.5" y="80" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="9_p9xPpLZJQpOMVZdJJl-3" value="patch 流程" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="MTABV2HzyHsj6rrQ2wbS-1">
+        <mxCell id="9_p9xPpLZJQpOMVZdJJl-3" value="组件 patch 流程" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="MTABV2HzyHsj6rrQ2wbS-1">
           <mxGeometry x="3260" y="50" width="125" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="9_p9xPpLZJQpOMVZdJJl-44" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;dashed=1;" edge="1" parent="MTABV2HzyHsj6rrQ2wbS-1" source="9_p9xPpLZJQpOMVZdJJl-6" target="9_p9xPpLZJQpOMVZdJJl-17">
+        <mxCell id="9_p9xPpLZJQpOMVZdJJl-44" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="MTABV2HzyHsj6rrQ2wbS-1" source="9_p9xPpLZJQpOMVZdJJl-6" target="9_p9xPpLZJQpOMVZdJJl-17">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="9_p9xPpLZJQpOMVZdJJl-6" value="vm.__patch__()" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="MTABV2HzyHsj6rrQ2wbS-1">
@@ -1105,11 +1105,29 @@
         <mxCell id="9_p9xPpLZJQpOMVZdJJl-46" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="MTABV2HzyHsj6rrQ2wbS-1" source="9_p9xPpLZJQpOMVZdJJl-41" target="9_p9xPpLZJQpOMVZdJJl-45">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="9_p9xPpLZJQpOMVZdJJl-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;dashed=1;" edge="1" parent="MTABV2HzyHsj6rrQ2wbS-1" source="9_p9xPpLZJQpOMVZdJJl-41" target="9_p9xPpLZJQpOMVZdJJl-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="9_p9xPpLZJQpOMVZdJJl-41" value="child = createComponentInstanceForVnode()" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="MTABV2HzyHsj6rrQ2wbS-1">
           <mxGeometry x="3190.4700000000003" y="380" width="264.06" height="30" as="geometry" />
         </mxCell>
         <mxCell id="9_p9xPpLZJQpOMVZdJJl-45" value="child.$mount()" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="MTABV2HzyHsj6rrQ2wbS-1">
           <mxGeometry x="3275.4700000000003" y="430" width="94.06" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9_p9xPpLZJQpOMVZdJJl-50" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="MTABV2HzyHsj6rrQ2wbS-1" source="9_p9xPpLZJQpOMVZdJJl-47" target="9_p9xPpLZJQpOMVZdJJl-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9_p9xPpLZJQpOMVZdJJl-47" value="new Vue()" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="MTABV2HzyHsj6rrQ2wbS-1">
+          <mxGeometry x="3500" y="80" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9_p9xPpLZJQpOMVZdJJl-52" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="MTABV2HzyHsj6rrQ2wbS-1" source="9_p9xPpLZJQpOMVZdJJl-48" target="9_p9xPpLZJQpOMVZdJJl-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9_p9xPpLZJQpOMVZdJJl-48" value="Vue.prototype._init()" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="MTABV2HzyHsj6rrQ2wbS-1">
+          <mxGeometry x="3490" y="130" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9_p9xPpLZJQpOMVZdJJl-51" value="initInternalComponent()" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="MTABV2HzyHsj6rrQ2wbS-1">
+          <mxGeometry x="3650" y="80" width="140" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
