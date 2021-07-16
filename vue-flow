@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-16T07:26:02.093Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="hVnQrnijuWQxQR_soyJB" version="14.8.6" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-07-16T07:51:23.339Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="iPRqyFEQJ5vfcAjIaQ4n" version="14.8.6" type="github" pages="3">
   <diagram id="4Hh4apjfrW1ldag-3NwE" name="01-从构建入口开始分析">
     <mxGraphModel dx="1426" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -815,6 +815,9 @@
         <mxCell id="Z6wK0MGUNTuB9MRJ5d4j-53" value="结束" style="rounded=1;whiteSpace=wrap;html=1;" parent="CXRrEImlJlEEiqzTcE0i-1" vertex="1">
           <mxGeometry x="4150" y="554.5" width="150" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="_jdOAggDiidfEoGS5vnU-0" value="设计函数和方法的详细总结" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="CXRrEImlJlEEiqzTcE0i-1">
+          <mxGeometry x="4930" y="10" width="200" height="20" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
@@ -823,6 +826,9 @@
       <root>
         <mxCell id="MTABV2HzyHsj6rrQ2wbS-0" />
         <mxCell id="MTABV2HzyHsj6rrQ2wbS-1" parent="MTABV2HzyHsj6rrQ2wbS-0" />
+        <mxCell id="9_p9xPpLZJQpOMVZdJJl-56" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="MTABV2HzyHsj6rrQ2wbS-1" source="9_p9xPpLZJQpOMVZdJJl-54" target="EJW_pf8YvhxbtMa6fRLd-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="EJW_pf8YvhxbtMa6fRLd-20" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="MTABV2HzyHsj6rrQ2wbS-1" source="EJW_pf8YvhxbtMa6fRLd-8" target="De5_2Shi62NMvtR-ZIwG-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -952,6 +958,19 @@
         </mxCell>
         <mxCell id="EJW_pf8YvhxbtMa6fRLd-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="MTABV2HzyHsj6rrQ2wbS-1" source="EJW_pf8YvhxbtMa6fRLd-1" target="EJW_pf8YvhxbtMa6fRLd-2">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9_p9xPpLZJQpOMVZdJJl-59" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="MTABV2HzyHsj6rrQ2wbS-1" source="EJW_pf8YvhxbtMa6fRLd-1" target="9_p9xPpLZJQpOMVZdJJl-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2469" y="20" />
+              <mxPoint x="3323" y="20" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9_p9xPpLZJQpOMVZdJJl-60" value="返回 vnode 给 vm._update()" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="9_p9xPpLZJQpOMVZdJJl-59">
+          <mxGeometry x="-0.1615" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="EJW_pf8YvhxbtMa6fRLd-1" value="vm._render()" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="MTABV2HzyHsj6rrQ2wbS-1">
           <mxGeometry x="2418.75" y="80" width="100" height="30" as="geometry" />
@@ -1111,6 +1130,9 @@
         <mxCell id="9_p9xPpLZJQpOMVZdJJl-41" value="child = createComponentInstanceForVnode()" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="MTABV2HzyHsj6rrQ2wbS-1">
           <mxGeometry x="3190.4700000000003" y="380" width="264.06" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="9_p9xPpLZJQpOMVZdJJl-55" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;dashed=1;" edge="1" parent="MTABV2HzyHsj6rrQ2wbS-1" source="9_p9xPpLZJQpOMVZdJJl-45" target="9_p9xPpLZJQpOMVZdJJl-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="9_p9xPpLZJQpOMVZdJJl-45" value="child.$mount()" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="MTABV2HzyHsj6rrQ2wbS-1">
           <mxGeometry x="3275.4700000000003" y="430" width="94.06" height="30" as="geometry" />
         </mxCell>
@@ -1128,6 +1150,9 @@
         </mxCell>
         <mxCell id="9_p9xPpLZJQpOMVZdJJl-51" value="initInternalComponent()" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="MTABV2HzyHsj6rrQ2wbS-1">
           <mxGeometry x="3480" y="180" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9_p9xPpLZJQpOMVZdJJl-54" value="mountComponent()" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="MTABV2HzyHsj6rrQ2wbS-1">
+          <mxGeometry x="3502.97" y="430" width="117.03" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
