@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-16T08:33:13.032Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="QNNBEaUmalGWuR5bV3Cq" version="14.8.6" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-07-16T08:34:20.319Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="zZY-Z8CAA651Y1hV8FaD" version="14.8.6" type="github" pages="3">
   <diagram id="4Hh4apjfrW1ldag-3NwE" name="01-从构建入口开始分析">
     <mxGraphModel dx="1426" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -851,6 +851,11 @@
         <mxCell id="_jdOAggDiidfEoGS5vnU-19" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="CXRrEImlJlEEiqzTcE0i-1" source="_jdOAggDiidfEoGS5vnU-7" target="_jdOAggDiidfEoGS5vnU-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="qTYX5JMFsA0VkDWcBSvX-18" value="最终返回 vnode 作为入参给 _update" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="_jdOAggDiidfEoGS5vnU-19">
+          <mxGeometry x="-0.025" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="_jdOAggDiidfEoGS5vnU-24" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="CXRrEImlJlEEiqzTcE0i-1" source="_jdOAggDiidfEoGS5vnU-7" target="_jdOAggDiidfEoGS5vnU-10">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -860,7 +865,7 @@
         <mxCell id="_jdOAggDiidfEoGS5vnU-23" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="CXRrEImlJlEEiqzTcE0i-1" source="_jdOAggDiidfEoGS5vnU-8" target="_jdOAggDiidfEoGS5vnU-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="_jdOAggDiidfEoGS5vnU-8" value="vnode" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="CXRrEImlJlEEiqzTcE0i-1">
+        <mxCell id="_jdOAggDiidfEoGS5vnU-8" value="new VNode()" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="CXRrEImlJlEEiqzTcE0i-1">
           <mxGeometry x="5160" y="435" width="130" height="30" as="geometry" />
         </mxCell>
         <mxCell id="_jdOAggDiidfEoGS5vnU-37" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;dashed=1;" edge="1" parent="CXRrEImlJlEEiqzTcE0i-1" source="_jdOAggDiidfEoGS5vnU-9" target="_jdOAggDiidfEoGS5vnU-25">
@@ -938,7 +943,14 @@
           <mxGeometry x="5610" y="400" width="130" height="30" as="geometry" />
         </mxCell>
         <mxCell id="qTYX5JMFsA0VkDWcBSvX-15" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;dashed=1;" edge="1" parent="CXRrEImlJlEEiqzTcE0i-1" source="qTYX5JMFsA0VkDWcBSvX-3" target="_jdOAggDiidfEoGS5vnU-9">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="5675" y="505" />
+              <mxPoint x="5360" y="505" />
+              <mxPoint x="5360" y="485" />
+              <mxPoint x="5045" y="485" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="qTYX5JMFsA0VkDWcBSvX-3" value="new VNode()" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="CXRrEImlJlEEiqzTcE0i-1">
           <mxGeometry x="5610" y="454.5" width="130" height="30" as="geometry" />
