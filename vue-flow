@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-16T07:21:47.680Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="pybc5jRArdLGBXARTHY_" version="14.8.6" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-07-16T07:22:29.398Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="7GD-7Sl-D0bBTq3bVk1K" version="14.8.6" type="github" pages="3">
   <diagram id="4Hh4apjfrW1ldag-3NwE" name="01-从构建入口开始分析">
     <mxGraphModel dx="1426" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1105,10 +1105,10 @@
         <mxCell id="9_p9xPpLZJQpOMVZdJJl-46" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="MTABV2HzyHsj6rrQ2wbS-1" source="9_p9xPpLZJQpOMVZdJJl-41" target="9_p9xPpLZJQpOMVZdJJl-45">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="9_p9xPpLZJQpOMVZdJJl-41" value="createComponentInstanceForVnode()" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="MTABV2HzyHsj6rrQ2wbS-1">
-          <mxGeometry x="3215.94" y="380" width="213.12" height="30" as="geometry" />
+        <mxCell id="9_p9xPpLZJQpOMVZdJJl-41" value="child = createComponentInstanceForVnode()" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="MTABV2HzyHsj6rrQ2wbS-1">
+          <mxGeometry x="3190.4700000000003" y="380" width="264.06" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="9_p9xPpLZJQpOMVZdJJl-45" value="$mount()" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="MTABV2HzyHsj6rrQ2wbS-1">
+        <mxCell id="9_p9xPpLZJQpOMVZdJJl-45" value="child.$mount()" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="MTABV2HzyHsj6rrQ2wbS-1">
           <mxGeometry x="3275.4700000000003" y="430" width="94.06" height="30" as="geometry" />
         </mxCell>
       </root>
