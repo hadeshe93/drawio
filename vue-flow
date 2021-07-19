@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-19T02:17:36.830Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="x68ylL3oVHqTTsvoyTCX" version="14.9.0" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-07-19T02:18:37.102Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="KG1XlzpHIOBNe-z6JnFM" version="14.9.0" type="github" pages="3">
   <diagram id="4Hh4apjfrW1ldag-3NwE" name="01-从构建入口开始分析">
     <mxGraphModel dx="1426" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1384,6 +1384,21 @@
         </mxCell>
         <mxCell id="_EvFbYqNbtnG4ZxuvprM-7" value="结束" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="MTABV2HzyHsj6rrQ2wbS-1">
           <mxGeometry x="3830" y="290" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_EvFbYqNbtnG4ZxuvprM-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="MTABV2HzyHsj6rrQ2wbS-1" source="_EvFbYqNbtnG4ZxuvprM-10" target="_EvFbYqNbtnG4ZxuvprM-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_EvFbYqNbtnG4ZxuvprM-10" value="normalizeProps" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="MTABV2HzyHsj6rrQ2wbS-1">
+          <mxGeometry x="3842.5" y="380" width="115" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_EvFbYqNbtnG4ZxuvprM-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="MTABV2HzyHsj6rrQ2wbS-1" source="_EvFbYqNbtnG4ZxuvprM-11" target="_EvFbYqNbtnG4ZxuvprM-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_EvFbYqNbtnG4ZxuvprM-11" value="normalizeInject" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="MTABV2HzyHsj6rrQ2wbS-1">
+          <mxGeometry x="3842.5" y="430" width="115" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_EvFbYqNbtnG4ZxuvprM-12" value="normalizeDirectives" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="MTABV2HzyHsj6rrQ2wbS-1">
+          <mxGeometry x="3842.5" y="480" width="115" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
