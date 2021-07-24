@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-24T02:08:03.082Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="MTFuXwrFXyNDSS8iMoJX" version="14.9.0" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-07-24T02:08:48.680Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="WwyQor1Ed9GMHOqgsZ9W" version="14.9.0" type="github" pages="3">
   <diagram id="4Hh4apjfrW1ldag-3NwE" name="01-从构建入口开始分析">
     <mxGraphModel dx="1426" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -952,6 +952,9 @@
         <mxCell id="_jdOAggDiidfEoGS5vnU-33" value="insert" style="rounded=1;whiteSpace=wrap;html=1;" parent="CXRrEImlJlEEiqzTcE0i-1" vertex="1">
           <mxGeometry x="5160" y="670" width="130" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="QdjDN8p7IotkkgOwSHG3-17" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="CXRrEImlJlEEiqzTcE0i-1" source="_jdOAggDiidfEoGS5vnU-36" target="QdjDN8p7IotkkgOwSHG3-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="_jdOAggDiidfEoGS5vnU-36" value="mount to DOM" style="rounded=1;whiteSpace=wrap;html=1;" parent="CXRrEImlJlEEiqzTcE0i-1" vertex="1">
           <mxGeometry x="4980" y="760" width="130" height="30" as="geometry" />
         </mxCell>
@@ -1049,8 +1052,8 @@
         <mxCell id="QdjDN8p7IotkkgOwSHG3-13" value="call hook: beforeMount" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="CXRrEImlJlEEiqzTcE0i-1">
           <mxGeometry x="5230" y="220" width="130" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="QdjDN8p7IotkkgOwSHG3-14" value="call hook: beforeCreate" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="CXRrEImlJlEEiqzTcE0i-1">
-          <mxGeometry x="5230" y="265" width="130" height="30" as="geometry" />
+        <mxCell id="QdjDN8p7IotkkgOwSHG3-14" value="call hook: mounted" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="CXRrEImlJlEEiqzTcE0i-1">
+          <mxGeometry x="5230" y="760" width="130" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
