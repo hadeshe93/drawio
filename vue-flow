@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-24T03:44:16.424Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="z36cd_6ri9DWB70aZlcy" version="14.9.0" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-07-24T03:47:13.708Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="zUHRxIecw3H8rBmiRude" version="14.9.0" type="github" pages="3">
   <diagram id="4Hh4apjfrW1ldag-3NwE" name="01-从构建入口开始分析">
     <mxGraphModel dx="1426" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -902,6 +902,12 @@
         <mxCell id="_jdOAggDiidfEoGS5vnU-40" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="CXRrEImlJlEEiqzTcE0i-1" source="_jdOAggDiidfEoGS5vnU-9" target="_jdOAggDiidfEoGS5vnU-36" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="QdjDN8p7IotkkgOwSHG3-33" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="CXRrEImlJlEEiqzTcE0i-1" source="_jdOAggDiidfEoGS5vnU-9" target="QdjDN8p7IotkkgOwSHG3-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QdjDN8p7IotkkgOwSHG3-35" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="CXRrEImlJlEEiqzTcE0i-1" source="_jdOAggDiidfEoGS5vnU-9" target="QdjDN8p7IotkkgOwSHG3-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="_jdOAggDiidfEoGS5vnU-9" value="vm._update" style="rounded=1;whiteSpace=wrap;html=1;" parent="CXRrEImlJlEEiqzTcE0i-1" vertex="1">
           <mxGeometry x="4980" y="510" width="130" height="30" as="geometry" />
         </mxCell>
@@ -976,14 +982,12 @@
         <mxCell id="qTYX5JMFsA0VkDWcBSvX-2" value="installComponentHooks" style="rounded=1;whiteSpace=wrap;html=1;" parent="CXRrEImlJlEEiqzTcE0i-1" vertex="1">
           <mxGeometry x="5610" y="400" width="130" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="qTYX5JMFsA0VkDWcBSvX-15" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;dashed=1;" parent="CXRrEImlJlEEiqzTcE0i-1" source="qTYX5JMFsA0VkDWcBSvX-3" target="_jdOAggDiidfEoGS5vnU-9" edge="1">
+        <mxCell id="qTYX5JMFsA0VkDWcBSvX-15" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;dashed=1;startArrow=none;" parent="CXRrEImlJlEEiqzTcE0i-1" target="_jdOAggDiidfEoGS5vnU-9" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="5675" y="505" />
-              <mxPoint x="5360" y="505" />
-              <mxPoint x="5360" y="485" />
               <mxPoint x="5045" y="485" />
             </Array>
+            <mxPoint x="5302.81" y="500" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="qTYX5JMFsA0VkDWcBSvX-3" value="new VNode()" style="rounded=1;whiteSpace=wrap;html=1;" parent="CXRrEImlJlEEiqzTcE0i-1" vertex="1">
@@ -1066,6 +1070,23 @@
         </mxCell>
         <mxCell id="QdjDN8p7IotkkgOwSHG3-26" value="组件实例化" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;shadow=1;" vertex="1" parent="CXRrEImlJlEEiqzTcE0i-1">
           <mxGeometry x="5719" y="634" width="70" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="QdjDN8p7IotkkgOwSHG3-28" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;dashed=1;endArrow=none;" edge="1" parent="CXRrEImlJlEEiqzTcE0i-1" source="qTYX5JMFsA0VkDWcBSvX-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="5675" y="505" />
+              <mxPoint x="5360" y="505" />
+              <mxPoint x="5360" y="485" />
+            </Array>
+            <mxPoint x="5675" y="484.5" as="sourcePoint" />
+            <mxPoint x="5360" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QdjDN8p7IotkkgOwSHG3-29" value="call hook: beforeUpdate" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="CXRrEImlJlEEiqzTcE0i-1">
+          <mxGeometry x="4810" y="475" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QdjDN8p7IotkkgOwSHG3-30" value="call hook: updated" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="CXRrEImlJlEEiqzTcE0i-1">
+          <mxGeometry x="4810" y="550" width="130" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
