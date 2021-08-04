@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-08-04T11:53:55.272Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36" etag="W0a_6bOrRkevLXu6Vv0Y" version="14.9.3" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-08-04T11:56:39.261Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36" etag="_QFZKTjCKB1K1yNh9cg3" version="14.9.3" type="github" pages="4">
   <diagram id="4Hh4apjfrW1ldag-3NwE" name="01-从构建入口开始分析">
     <mxGraphModel dx="1426" dy="826" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1651,23 +1651,50 @@
         <mxCell id="sTef0-_hKU5cdKns75GA-43" value="结束" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Ufq2rsztld6ZsIzywQ1o-1">
           <mxGeometry x="675" y="480" width="150" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="sTef0-_hKU5cdKns75GA-59" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="Ufq2rsztld6ZsIzywQ1o-1" source="sTef0-_hKU5cdKns75GA-49" target="sTef0-_hKU5cdKns75GA-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="sTef0-_hKU5cdKns75GA-49" value="Observer 类实例化" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="Ufq2rsztld6ZsIzywQ1o-1">
           <mxGeometry x="1030" y="80" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sTef0-_hKU5cdKns75GA-62" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="Ufq2rsztld6ZsIzywQ1o-1" source="sTef0-_hKU5cdKns75GA-50" target="sTef0-_hKU5cdKns75GA-53">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="sTef0-_hKU5cdKns75GA-50" value="实例化 Dep，并存于 this 下" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Ufq2rsztld6ZsIzywQ1o-1">
           <mxGeometry x="1015" y="180" width="150" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="sTef0-_hKU5cdKns75GA-61" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="Ufq2rsztld6ZsIzywQ1o-1" source="sTef0-_hKU5cdKns75GA-51" target="sTef0-_hKU5cdKns75GA-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="sTef0-_hKU5cdKns75GA-51" value="将入参 value 存于 this 下" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Ufq2rsztld6ZsIzywQ1o-1">
           <mxGeometry x="1015" y="130" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sTef0-_hKU5cdKns75GA-64" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="Ufq2rsztld6ZsIzywQ1o-1" source="sTef0-_hKU5cdKns75GA-53" target="sTef0-_hKU5cdKns75GA-54">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="sTef0-_hKU5cdKns75GA-53" value="this.vmCount 初始化为 0" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Ufq2rsztld6ZsIzywQ1o-1">
           <mxGeometry x="1015" y="230" width="150" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="sTef0-_hKU5cdKns75GA-65" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="Ufq2rsztld6ZsIzywQ1o-1" source="sTef0-_hKU5cdKns75GA-54" target="sTef0-_hKU5cdKns75GA-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="sTef0-_hKU5cdKns75GA-54" value="将 this 缓存于 value.__ob__ 中" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Ufq2rsztld6ZsIzywQ1o-1">
           <mxGeometry x="1015" y="280" width="150" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="sTef0-_hKU5cdKns75GA-58" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="Ufq2rsztld6ZsIzywQ1o-1" source="sTef0-_hKU5cdKns75GA-55" target="sTef0-_hKU5cdKns75GA-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sTef0-_hKU5cdKns75GA-67" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="Ufq2rsztld6ZsIzywQ1o-1" source="sTef0-_hKU5cdKns75GA-55" target="sTef0-_hKU5cdKns75GA-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="sTef0-_hKU5cdKns75GA-55" value="判断 value 是否为数组？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="Ufq2rsztld6ZsIzywQ1o-1">
           <mxGeometry x="1050" y="330" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sTef0-_hKU5cdKns75GA-56" value="用 this.observeArray 迭代观察 value 中的元素" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Ufq2rsztld6ZsIzywQ1o-1">
+          <mxGeometry x="1015" y="410" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sTef0-_hKU5cdKns75GA-57" value="用 this.walk 遍历 value 对象的 key-value 对" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Ufq2rsztld6ZsIzywQ1o-1">
+          <mxGeometry x="1190" y="345" width="150" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
