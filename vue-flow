@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-08-04T11:48:40.422Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36" etag="q11SLm-PNPiGJ3PvYm5W" version="14.9.3" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-08-04T11:48:55.524Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36" etag="lM39W3mbdxygSqnfCjCb" version="14.9.3" type="github" pages="4">
   <diagram id="4Hh4apjfrW1ldag-3NwE" name="01-从构建入口开始分析">
     <mxGraphModel dx="1426" dy="826" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1586,6 +1586,9 @@
         </mxCell>
         <mxCell id="sTef0-_hKU5cdKns75GA-18" value="将 obj[key] 赋值给变量 val" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Ufq2rsztld6ZsIzywQ1o-1">
           <mxGeometry x="330" y="375" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sTef0-_hKU5cdKns75GA-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;curved=1;" edge="1" parent="Ufq2rsztld6ZsIzywQ1o-1" source="sTef0-_hKU5cdKns75GA-27" target="sTef0-_hKU5cdKns75GA-29">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="sTef0-_hKU5cdKns75GA-27" value="observe(val)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Ufq2rsztld6ZsIzywQ1o-1">
           <mxGeometry x="330" y="450" width="150" height="30" as="geometry" />
