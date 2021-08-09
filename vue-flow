@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-08-09T03:43:23.822Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36" etag="yOmd9XfCeDERXqQwT-Ut" version="14.9.3" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-08-09T03:43:54.757Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36" etag="oPASMPywp_giMV-ZGLKd" version="14.9.3" type="github" pages="4">
   <diagram id="4Hh4apjfrW1ldag-3NwE" name="01-从构建入口开始分析">
     <mxGraphModel dx="1426" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2062,6 +2062,12 @@
         </mxCell>
         <mxCell id="BfcTPlsF-J8EhaHAtEt2-39" value="Y" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Ufq2rsztld6ZsIzywQ1o-1">
           <mxGeometry x="3920" y="140" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="BfcTPlsF-J8EhaHAtEt2-42" value="microTask" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="Ufq2rsztld6ZsIzywQ1o-1">
+          <mxGeometry x="4190" y="265" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="BfcTPlsF-J8EhaHAtEt2-43" value="macroTask" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="Ufq2rsztld6ZsIzywQ1o-1">
+          <mxGeometry x="4190" y="410" width="90" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
