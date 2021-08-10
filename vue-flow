@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-08-10T08:50:50.779Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36" etag="Mh99PGSW7NXay2tawPy7" version="14.9.3" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-08-10T08:51:54.452Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36" etag="v-1fu7Z8KQ_hckQ8aMRG" version="14.9.3" type="github" pages="4">
   <diagram id="4Hh4apjfrW1ldag-3NwE" name="01-从构建入口开始分析">
     <mxGraphModel dx="1426" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2091,7 +2091,7 @@
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="4840" y="165" />
-              <mxPoint x="4840" y="655" />
+              <mxPoint x="4840" y="600" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -2111,7 +2111,7 @@
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="4840" y="250" />
-              <mxPoint x="4840" y="655" />
+              <mxPoint x="4840" y="600" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -2125,7 +2125,7 @@
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="4840" y="335" />
-              <mxPoint x="4840" y="655" />
+              <mxPoint x="4840" y="600" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -2145,7 +2145,7 @@
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="4840" y="420" />
-              <mxPoint x="4840" y="655" />
+              <mxPoint x="4840" y="600" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -2158,20 +2158,17 @@
         <mxCell id="BfcTPlsF-J8EhaHAtEt2-61" value="调用defineReactive" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Ufq2rsztld6ZsIzywQ1o-1">
           <mxGeometry x="4505" y="475" width="130" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="BfcTPlsF-J8EhaHAtEt2-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="Ufq2rsztld6ZsIzywQ1o-1" source="BfcTPlsF-J8EhaHAtEt2-63" target="BfcTPlsF-J8EhaHAtEt2-65">
+        <mxCell id="BfcTPlsF-J8EhaHAtEt2-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="Ufq2rsztld6ZsIzywQ1o-1" source="BfcTPlsF-J8EhaHAtEt2-63" target="BfcTPlsF-J8EhaHAtEt2-66">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="BfcTPlsF-J8EhaHAtEt2-63" value="通知变更" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Ufq2rsztld6ZsIzywQ1o-1">
           <mxGeometry x="4505" y="530" width="130" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="BfcTPlsF-J8EhaHAtEt2-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="Ufq2rsztld6ZsIzywQ1o-1" source="BfcTPlsF-J8EhaHAtEt2-65" target="BfcTPlsF-J8EhaHAtEt2-66">
+        <mxCell id="BfcTPlsF-J8EhaHAtEt2-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="Ufq2rsztld6ZsIzywQ1o-1" source="BfcTPlsF-J8EhaHAtEt2-66" target="BfcTPlsF-J8EhaHAtEt2-84">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="BfcTPlsF-J8EhaHAtEt2-65" value="返回要设置的 val" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Ufq2rsztld6ZsIzywQ1o-1">
+        <mxCell id="BfcTPlsF-J8EhaHAtEt2-66" value="返回要设置的 val" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Ufq2rsztld6ZsIzywQ1o-1">
           <mxGeometry x="4505" y="584.5" width="130" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="BfcTPlsF-J8EhaHAtEt2-66" value="结束" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Ufq2rsztld6ZsIzywQ1o-1">
-          <mxGeometry x="4505" y="640" width="130" height="30" as="geometry" />
         </mxCell>
         <mxCell id="BfcTPlsF-J8EhaHAtEt2-75" value="Y" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Ufq2rsztld6ZsIzywQ1o-1">
           <mxGeometry x="4610" y="140" width="40" height="20" as="geometry" />
@@ -2196,6 +2193,9 @@
         </mxCell>
         <mxCell id="BfcTPlsF-J8EhaHAtEt2-83" value="N" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Ufq2rsztld6ZsIzywQ1o-1">
           <mxGeometry x="4610" y="400" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="BfcTPlsF-J8EhaHAtEt2-84" value="结束" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Ufq2rsztld6ZsIzywQ1o-1">
+          <mxGeometry x="4505" y="640" width="130" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
