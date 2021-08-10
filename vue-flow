@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-08-10T08:49:49.415Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36" etag="zCwlJNNQIRseApFWShaT" version="14.9.3" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-08-10T08:50:50.779Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36" etag="Mh99PGSW7NXay2tawPy7" version="14.9.3" type="github" pages="4">
   <diagram id="4Hh4apjfrW1ldag-3NwE" name="01-从构建入口开始分析">
     <mxGraphModel dx="1426" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2172,6 +2172,30 @@
         </mxCell>
         <mxCell id="BfcTPlsF-J8EhaHAtEt2-66" value="结束" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Ufq2rsztld6ZsIzywQ1o-1">
           <mxGeometry x="4505" y="640" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BfcTPlsF-J8EhaHAtEt2-75" value="Y" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Ufq2rsztld6ZsIzywQ1o-1">
+          <mxGeometry x="4610" y="140" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="BfcTPlsF-J8EhaHAtEt2-76" value="Y" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Ufq2rsztld6ZsIzywQ1o-1">
+          <mxGeometry x="4610" y="230" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="BfcTPlsF-J8EhaHAtEt2-77" value="Y" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Ufq2rsztld6ZsIzywQ1o-1">
+          <mxGeometry x="4570" y="365" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="BfcTPlsF-J8EhaHAtEt2-78" value="Y" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Ufq2rsztld6ZsIzywQ1o-1">
+          <mxGeometry x="4570" y="450" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="BfcTPlsF-J8EhaHAtEt2-79" value="N" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Ufq2rsztld6ZsIzywQ1o-1">
+          <mxGeometry x="4570" y="195" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="BfcTPlsF-J8EhaHAtEt2-81" value="N" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Ufq2rsztld6ZsIzywQ1o-1">
+          <mxGeometry x="4570" y="280" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="BfcTPlsF-J8EhaHAtEt2-82" value="N" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Ufq2rsztld6ZsIzywQ1o-1">
+          <mxGeometry x="4610" y="315" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="BfcTPlsF-J8EhaHAtEt2-83" value="N" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Ufq2rsztld6ZsIzywQ1o-1">
+          <mxGeometry x="4610" y="400" width="40" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
