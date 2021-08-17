@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-08-17T06:37:59.442Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="8F6s3mXpxPAw4aGySUp-" version="14.9.5" type="github">
+<mxfile host="app.diagrams.net" modified="2021-08-17T06:38:40.367Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="3g4HAOrED1L4vthTtCYP" version="14.9.5" type="github" pages="2">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Nodejs 日志模块">
     <mxGraphModel dx="1186" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -132,6 +132,14 @@
         <mxCell id="mtnu4tOjbIf92NKwbBKv-38" value="&lt;h1&gt;日志模块&lt;/h1&gt;&lt;p&gt;提供一个用户主动调用打日志的方法和一个定时任务。&lt;/p&gt;&lt;p&gt;定时任务和主动日志之间，可能会存在冲突的情况，这里可以优化下去使用锁和任务队列的方法去保证。&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="630" y="140" width="300" height="120" as="geometry" />
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="Ybr7-uN-cUijA8m_0SJ7" name="anode-redis 流程图">
+    <mxGraphModel dx="1186" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="RduJ4balR8GQgrVOhqJB-0" />
+        <mxCell id="RduJ4balR8GQgrVOhqJB-1" parent="RduJ4balR8GQgrVOhqJB-0" />
       </root>
     </mxGraphModel>
   </diagram>
