@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-08-18T03:54:06.031Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="MjxlXs_zs4qqi_s5dbR5" version="14.9.5" type="github">
+<mxfile host="app.diagrams.net" modified="2021-08-18T03:54:16.886Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="qZdTPbQn4_aDCBlvqkXj" version="14.9.5" type="github">
   <diagram id="K59Yzo4eKgwhtjHJn9IZ" name="ssr-pages 项目">
     <mxGraphModel dx="1186" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -22,13 +22,13 @@
         <mxCell id="IfbpYTu5hu5RaJAVpc3Q-5" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="600" y="320" width="370" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="IfbpYTu5hu5RaJAVpc3Q-6" value="page: myfave" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="IfbpYTu5hu5RaJAVpc3Q-6" value="page: myfave" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="600" y="350" width="110" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="IfbpYTu5hu5RaJAVpc3Q-7" value="page: jubao" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="IfbpYTu5hu5RaJAVpc3Q-7" value="page: jubao" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="730" y="350" width="110" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="IfbpYTu5hu5RaJAVpc3Q-8" value="page: ..." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="IfbpYTu5hu5RaJAVpc3Q-8" value="page: ..." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="860" y="350" width="110" height="40" as="geometry" />
         </mxCell>
         <mxCell id="IfbpYTu5hu5RaJAVpc3Q-9" value="app pages" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
