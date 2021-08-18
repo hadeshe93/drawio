@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-08-18T03:53:35.460Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="ZJnGh9DyqwL3ZvVQ43Fd" version="14.9.5" type="github">
+<mxfile host="app.diagrams.net" modified="2021-08-18T03:53:49.827Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="DiaqiPBU8Tq8EKtqMxBA" version="14.9.5" type="github">
   <diagram id="K59Yzo4eKgwhtjHJn9IZ" name="ssr-pages 项目">
     <mxGraphModel dx="1186" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -36,6 +36,9 @@
         </mxCell>
         <mxCell id="IfbpYTu5hu5RaJAVpc3Q-10" value="@tencent/wssr" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="600" y="410" width="370" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="IfbpYTu5hu5RaJAVpc3Q-12" value="ssr-pages" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="545" y="240" width="90" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
