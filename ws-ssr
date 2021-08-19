@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-08-19T09:01:12.880Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="-rz5G1Uk4Fq4TfORyZFs" version="14.9.5" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-08-19T09:02:21.474Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="aELnH2ePGcKGbq9BjnJu" version="14.9.5" type="github" pages="2">
   <diagram id="K59Yzo4eKgwhtjHJn9IZ" name="ssr-pages 项目">
     <mxGraphModel dx="1426" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -105,7 +105,7 @@
         <mxCell id="Ox9hDjLLcfmr9i4riP2x-2" value="@tencent/qrequest" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="TlYdqgot1N7Hc3tj-8B_-1">
           <mxGeometry x="980" y="460" width="190" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Ox9hDjLLcfmr9i4riP2x-3" value="@tencent/qproject 脚手架" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="TlYdqgot1N7Hc3tj-8B_-1">
+        <mxCell id="Ox9hDjLLcfmr9i4riP2x-3" value="@tencent/qproject qq-web 项目脚手架" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="TlYdqgot1N7Hc3tj-8B_-1">
           <mxGeometry x="561.25" y="610" width="387.5" height="40" as="geometry" />
         </mxCell>
       </root>
