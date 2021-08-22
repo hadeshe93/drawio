@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-08-22T04:09:27.737Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="bOHD39Qgy2xjZ-DBwrBB" version="14.9.6" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-08-22T04:09:44.543Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="hIUUylsZOuzRzvRw_WvW" version="14.9.6" type="github" pages="4">
   <diagram id="leERO2O2LlP7NREvlVMk" name="旧 weishi-web 授权 &amp; 登录流程">
     <mxGraphModel dx="3080" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -401,7 +401,7 @@
         <mxCell id="KVLg5ahpBApOzslJkwOU-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="KVLg5ahpBApOzslJkwOU-1" source="KVLg5ahpBApOzslJkwOU-14" target="KVLg5ahpBApOzslJkwOU-16">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="KVLg5ahpBApOzslJkwOU-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="KVLg5ahpBApOzslJkwOU-1" source="KVLg5ahpBApOzslJkwOU-14" target="KVLg5ahpBApOzslJkwOU-46">
+        <mxCell id="KVLg5ahpBApOzslJkwOU-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" edge="1" parent="KVLg5ahpBApOzslJkwOU-1" source="KVLg5ahpBApOzslJkwOU-14" target="KVLg5ahpBApOzslJkwOU-46">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="KVLg5ahpBApOzslJkwOU-14" value="Webpack" style="label;whiteSpace=wrap;html=1;align=center;verticalAlign=bottom;spacingLeft=0;spacingBottom=4;imageAlign=center;imageVerticalAlign=top;image=img/clipart/Gear_128x128.png" vertex="1" parent="KVLg5ahpBApOzslJkwOU-1">
@@ -449,10 +449,10 @@
         <mxCell id="KVLg5ahpBApOzslJkwOU-45" value="Render" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="KVLg5ahpBApOzslJkwOU-1">
           <mxGeometry x="900" y="232.5" width="80" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="KVLg5ahpBApOzslJkwOU-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=50;exitDy=30;exitPerimeter=0;entryX=0;entryY=0;entryDx=0;entryDy=16.80551313560812;entryPerimeter=0;" edge="1" parent="KVLg5ahpBApOzslJkwOU-1" source="KVLg5ahpBApOzslJkwOU-46" target="KVLg5ahpBApOzslJkwOU-17">
+        <mxCell id="KVLg5ahpBApOzslJkwOU-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=50;exitDy=30;exitPerimeter=0;entryX=0;entryY=0;entryDx=0;entryDy=16.80551313560812;entryPerimeter=0;dashed=1;" edge="1" parent="KVLg5ahpBApOzslJkwOU-1" source="KVLg5ahpBApOzslJkwOU-46" target="KVLg5ahpBApOzslJkwOU-17">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="KVLg5ahpBApOzslJkwOU-46" value="Client Manifest" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="KVLg5ahpBApOzslJkwOU-1">
+        <mxCell id="KVLg5ahpBApOzslJkwOU-46" value="Client Manifest" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;dashed=1;" vertex="1" parent="KVLg5ahpBApOzslJkwOU-1">
           <mxGeometry x="740" y="155" width="50" height="70" as="geometry" />
         </mxCell>
       </root>
