@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-08-22T04:05:36.288Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="KjhR1V8xHy-sSDhlxUQu" version="14.9.6" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-08-22T04:05:40.800Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="5tqTu-lCEeIOpqRZIvVi" version="14.9.6" type="github" pages="4">
   <diagram id="leERO2O2LlP7NREvlVMk" name="旧 weishi-web 授权 &amp; 登录流程">
     <mxGraphModel dx="3080" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -419,7 +419,7 @@
         <mxCell id="KVLg5ahpBApOzslJkwOU-21" value="Universal Application Code" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="KVLg5ahpBApOzslJkwOU-1">
           <mxGeometry x="57.5" y="110" width="160" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="KVLg5ahpBApOzslJkwOU-36" value="Souce" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="KVLg5ahpBApOzslJkwOU-1">
+        <mxCell id="KVLg5ahpBApOzslJkwOU-36" value="Souce Code" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="KVLg5ahpBApOzslJkwOU-1">
           <mxGeometry x="165" y="40" width="160" height="20" as="geometry" />
         </mxCell>
       </root>
