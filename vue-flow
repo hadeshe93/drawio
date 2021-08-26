@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-08-26T11:56:29.195Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36" etag="u8FIxKY40-ULNrOrtLk_" version="14.9.8" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2021-08-26T11:58:21.781Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36" etag="E2qelaitzB2dXfPrzlxz" version="14.9.8" type="github" pages="5">
   <diagram id="4Hh4apjfrW1ldag-3NwE" name="01-从构建入口开始分析">
     <mxGraphModel dx="1186" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2418,11 +2418,11 @@
         <mxCell id="PC_hDYnFw7FaGtAPMiqZ-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="PC_hDYnFw7FaGtAPMiqZ-1" source="PC_hDYnFw7FaGtAPMiqZ-51" target="PC_hDYnFw7FaGtAPMiqZ-54">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="PC_hDYnFw7FaGtAPMiqZ-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="PC_hDYnFw7FaGtAPMiqZ-1" source="PC_hDYnFw7FaGtAPMiqZ-63" target="PC_hDYnFw7FaGtAPMiqZ-64">
+        <mxCell id="PC_hDYnFw7FaGtAPMiqZ-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="PC_hDYnFw7FaGtAPMiqZ-1" source="PC_hDYnFw7FaGtAPMiqZ-63" target="PC_hDYnFw7FaGtAPMiqZ-80">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="PC_hDYnFw7FaGtAPMiqZ-63" value="start" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="PC_hDYnFw7FaGtAPMiqZ-1">
-          <mxGeometry x="100" y="90" width="80" height="40" as="geometry" />
+          <mxGeometry x="100" y="30" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="PC_hDYnFw7FaGtAPMiqZ-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="PC_hDYnFw7FaGtAPMiqZ-1" source="PC_hDYnFw7FaGtAPMiqZ-64" target="PC_hDYnFw7FaGtAPMiqZ-65">
           <mxGeometry relative="1" as="geometry" />
@@ -2470,6 +2470,12 @@
         </mxCell>
         <mxCell id="PC_hDYnFw7FaGtAPMiqZ-78" value="run entry-server.js, and it resolves a vue app" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="PC_hDYnFw7FaGtAPMiqZ-1">
           <mxGeometry x="72.5" y="490" width="135" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PC_hDYnFw7FaGtAPMiqZ-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="PC_hDYnFw7FaGtAPMiqZ-1" source="PC_hDYnFw7FaGtAPMiqZ-80" target="PC_hDYnFw7FaGtAPMiqZ-64">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PC_hDYnFw7FaGtAPMiqZ-80" value="create a renderer" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="PC_hDYnFw7FaGtAPMiqZ-1">
+          <mxGeometry x="72.5" y="90" width="135" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
