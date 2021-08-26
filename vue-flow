@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-08-26T10:01:23.568Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36" etag="l1dlm_h3n8DYy1FIHfau" version="14.9.8" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2021-08-26T10:01:36.841Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36" etag="TfB-mSCgumXH-cDCxByf" version="14.9.8" type="github" pages="5">
   <diagram id="4Hh4apjfrW1ldag-3NwE" name="01-从构建入口开始分析">
     <mxGraphModel dx="1186" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2290,13 +2290,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="PC_hDYnFw7FaGtAPMiqZ-7" value="is runInNewContext truthy?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="PC_hDYnFw7FaGtAPMiqZ-1">
-          <mxGeometry x="707.5" y="755" width="115" height="60" as="geometry" />
+          <mxGeometry x="707.5" y="740" width="115" height="60" as="geometry" />
         </mxCell>
         <mxCell id="PC_hDYnFw7FaGtAPMiqZ-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="PC_hDYnFw7FaGtAPMiqZ-1" source="PC_hDYnFw7FaGtAPMiqZ-8" target="PC_hDYnFw7FaGtAPMiqZ-16">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="PC_hDYnFw7FaGtAPMiqZ-8" value="create a runner with new sandbox" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="PC_hDYnFw7FaGtAPMiqZ-1">
-          <mxGeometry x="700" y="835" width="130" height="40" as="geometry" />
+          <mxGeometry x="700" y="820" width="130" height="40" as="geometry" />
         </mxCell>
         <mxCell id="PC_hDYnFw7FaGtAPMiqZ-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="PC_hDYnFw7FaGtAPMiqZ-1" source="PC_hDYnFw7FaGtAPMiqZ-9" target="PC_hDYnFw7FaGtAPMiqZ-8">
           <mxGeometry relative="1" as="geometry" />
@@ -2305,16 +2305,16 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="PC_hDYnFw7FaGtAPMiqZ-9" value="is runInNewContext equals &#39;once&#39; and the first excution?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="PC_hDYnFw7FaGtAPMiqZ-1">
-          <mxGeometry x="870" y="755" width="115" height="60" as="geometry" />
+          <mxGeometry x="870" y="740" width="115" height="60" as="geometry" />
         </mxCell>
         <mxCell id="PC_hDYnFw7FaGtAPMiqZ-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="PC_hDYnFw7FaGtAPMiqZ-1" source="PC_hDYnFw7FaGtAPMiqZ-11" target="PC_hDYnFw7FaGtAPMiqZ-16">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="PC_hDYnFw7FaGtAPMiqZ-11" value="create a runner with global" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="PC_hDYnFw7FaGtAPMiqZ-1">
-          <mxGeometry x="1030" y="765" width="130" height="40" as="geometry" />
+          <mxGeometry x="1030" y="750" width="130" height="40" as="geometry" />
         </mxCell>
         <mxCell id="PC_hDYnFw7FaGtAPMiqZ-16" value="excute runner with userContext" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="PC_hDYnFw7FaGtAPMiqZ-1">
-          <mxGeometry x="700" y="900" width="130" height="40" as="geometry" />
+          <mxGeometry x="700" y="885" width="130" height="40" as="geometry" />
         </mxCell>
         <mxCell id="PC_hDYnFw7FaGtAPMiqZ-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="PC_hDYnFw7FaGtAPMiqZ-1" source="PC_hDYnFw7FaGtAPMiqZ-20" target="PC_hDYnFw7FaGtAPMiqZ-27">
           <mxGeometry relative="1" as="geometry" />
