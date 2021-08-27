@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-08-27T08:36:19.510Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36" etag="FLBTCKISz5CApUnd38r2" version="14.9.9" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-08-27T08:44:00.042Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36" etag="DNKg9CU3o0umu-D9EYpz" version="14.9.9" type="github" pages="2">
   <diagram id="lPoZi9IZWIRRWaCoQgV1" name="【观影大厅】一期需求架构">
     <mxGraphModel dx="1426" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -61,7 +61,7 @@
         <mxCell id="twxH-t-PwCN16xWFOWdm-0" />
         <mxCell id="twxH-t-PwCN16xWFOWdm-1" parent="twxH-t-PwCN16xWFOWdm-0" />
         <mxCell id="twxH-t-PwCN16xWFOWdm-15" value="TABLE" style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;fontStyle=1;align=center;pointerEvents=1;strokeWidth=1;fillColor=none;" vertex="1" parent="twxH-t-PwCN16xWFOWdm-1">
-          <mxGeometry x="350" y="130" width="109.09" height="80" as="geometry" />
+          <mxGeometry x="365.45" y="220" width="109.09" height="80" as="geometry" />
         </mxCell>
         <mxCell id="twxH-t-PwCN16xWFOWdm-16" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="twxH-t-PwCN16xWFOWdm-15">
           <mxGeometry y="30" width="109.09" height="16" as="geometry" />
@@ -99,8 +99,29 @@
         <mxCell id="twxH-t-PwCN16xWFOWdm-27" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;pointerEvents=1;" vertex="1" parent="twxH-t-PwCN16xWFOWdm-24">
           <mxGeometry x="73" width="36" height="16" as="geometry" />
         </mxCell>
-        <mxCell id="twxH-t-PwCN16xWFOWdm-28" value="组件类型录入表 | 无极1.0" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="twxH-t-PwCN16xWFOWdm-1">
-          <mxGeometry x="332.05" y="100" width="145" height="20" as="geometry" />
+        <mxCell id="twxH-t-PwCN16xWFOWdm-28" value="数据表 | 无极1.0" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="twxH-t-PwCN16xWFOWdm-1">
+          <mxGeometry x="347.5" y="200" width="145" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="twxH-t-PwCN16xWFOWdm-42" value="CMS" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeWidth=1;fillColor=none;" vertex="1" parent="twxH-t-PwCN16xWFOWdm-1">
+          <mxGeometry x="340" y="90" width="160" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="twxH-t-PwCN16xWFOWdm-43" value="页面列表" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="twxH-t-PwCN16xWFOWdm-42">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="twxH-t-PwCN16xWFOWdm-44" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="twxH-t-PwCN16xWFOWdm-42">
+          <mxGeometry y="52" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="twxH-t-PwCN16xWFOWdm-45" value="组件管理" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="twxH-t-PwCN16xWFOWdm-42">
+          <mxGeometry y="60" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="twxH-t-PwCN16xWFOWdm-46" value="频道页 CMS | 无极2.0" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="twxH-t-PwCN16xWFOWdm-1">
+          <mxGeometry x="347.5" y="70" width="145" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="twxH-t-PwCN16xWFOWdm-47" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;strokeWidth=1;fillColor=none;align=left;" vertex="1" parent="twxH-t-PwCN16xWFOWdm-1">
+          <mxGeometry x="610" y="89" width="60.75" height="81" as="geometry" />
+        </mxCell>
+        <mxCell id="twxH-t-PwCN16xWFOWdm-48" value="组件应用级别静态数据" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="twxH-t-PwCN16xWFOWdm-1">
+          <mxGeometry x="567.5" y="69" width="145" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
