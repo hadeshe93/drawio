@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-08-27T08:44:00.042Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36" etag="DNKg9CU3o0umu-D9EYpz" version="14.9.9" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-08-27T08:44:18.264Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36" etag="aa2eBppuGN5lad13ADlm" version="14.9.9" type="github" pages="2">
   <diagram id="lPoZi9IZWIRRWaCoQgV1" name="【观影大厅】一期需求架构">
     <mxGraphModel dx="1426" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -122,6 +122,12 @@
         </mxCell>
         <mxCell id="twxH-t-PwCN16xWFOWdm-48" value="组件应用级别静态数据" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="twxH-t-PwCN16xWFOWdm-1">
           <mxGeometry x="567.5" y="69" width="145" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="twxH-t-PwCN16xWFOWdm-49" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;strokeWidth=1;fillColor=none;align=left;" vertex="1" parent="twxH-t-PwCN16xWFOWdm-1">
+          <mxGeometry x="610.38" y="219" width="60.75" height="81" as="geometry" />
+        </mxCell>
+        <mxCell id="twxH-t-PwCN16xWFOWdm-50" value="组件应用级别动态数源配置" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="twxH-t-PwCN16xWFOWdm-1">
+          <mxGeometry x="567.88" y="199" width="152.12" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
