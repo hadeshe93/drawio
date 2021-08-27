@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-08-27T09:08:13.612Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36" etag="gLKQtEmN4vFCRBsDznmx" version="14.9.9" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-08-27T09:09:56.130Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36" etag="ZqdMtyPQTaO25K2zh5DI" version="14.9.9" type="github" pages="2">
   <diagram id="lPoZi9IZWIRRWaCoQgV1" name="【观影大厅】一期需求架构">
     <mxGraphModel dx="1426" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -56,7 +56,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="xsH8IFiDk9mKZmm0iQPJ" name="【观影大厅】整体技术架构图">
-    <mxGraphModel dx="1426" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1426" dy="1963" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="twxH-t-PwCN16xWFOWdm-0" />
         <mxCell id="twxH-t-PwCN16xWFOWdm-1" parent="twxH-t-PwCN16xWFOWdm-0" />
@@ -204,7 +204,7 @@
           <mxGeometry x="80" y="240" width="25" height="42" as="geometry" />
         </mxCell>
         <mxCell id="twxH-t-PwCN16xWFOWdm-82" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Cache_Redis_Product.svg;strokeWidth=1;fillColor=#ffffff;" vertex="1" parent="twxH-t-PwCN16xWFOWdm-1">
-          <mxGeometry x="420" y="30.000000000000007" width="50" height="42" as="geometry" />
+          <mxGeometry x="420" y="-21.999999999999993" width="50" height="42" as="geometry" />
         </mxCell>
         <mxCell id="twxH-t-PwCN16xWFOWdm-87" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;strokeWidth=2;" edge="1" parent="twxH-t-PwCN16xWFOWdm-1" source="twxH-t-PwCN16xWFOWdm-76" target="twxH-t-PwCN16xWFOWdm-82">
           <mxGeometry relative="1" as="geometry" />
@@ -226,6 +226,18 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="twxH-t-PwCN16xWFOWdm-91" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;endArrow=none;endFill=0;strokeWidth=2;" edge="1" parent="twxH-t-PwCN16xWFOWdm-1" source="twxH-t-PwCN16xWFOWdm-50" target="twxH-t-PwCN16xWFOWdm-65">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="twxH-t-PwCN16xWFOWdm-92" value="" style="group" vertex="1" connectable="0" parent="twxH-t-PwCN16xWFOWdm-1">
+          <mxGeometry x="642.5" y="130" width="90" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="twxH-t-PwCN16xWFOWdm-93" value="" style="points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image;image=img/lib/allied_telesis/storage/Datacenter_Server_Rack_ToR.svg;strokeWidth=1;fillColor=#ffffff;" vertex="1" parent="twxH-t-PwCN16xWFOWdm-92">
+          <mxGeometry x="0.8999999999999773" y="14.08450704225352" width="62.112676056338024" height="125.91549295774648" as="geometry" />
+        </mxCell>
+        <mxCell id="twxH-t-PwCN16xWFOWdm-94" value="TAB 中台" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="twxH-t-PwCN16xWFOWdm-92">
+          <mxGeometry width="90" height="14.08450704225352" as="geometry" />
+        </mxCell>
+        <mxCell id="twxH-t-PwCN16xWFOWdm-97" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;endArrow=none;endFill=0;strokeWidth=2;" edge="1" parent="twxH-t-PwCN16xWFOWdm-1" source="twxH-t-PwCN16xWFOWdm-94" target="twxH-t-PwCN16xWFOWdm-76">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
