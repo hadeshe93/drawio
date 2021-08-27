@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-08-27T09:10:43.227Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36" etag="By0UWmoX1ceAvys-fEGS" version="14.9.9" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-08-27T09:11:35.745Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36" etag="yJC4jFxizYwgRkUP6UNP" version="14.9.9" type="github" pages="2">
   <diagram id="lPoZi9IZWIRRWaCoQgV1" name="【观影大厅】一期需求架构">
     <mxGraphModel dx="1426" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -60,6 +60,9 @@
       <root>
         <mxCell id="twxH-t-PwCN16xWFOWdm-0" />
         <mxCell id="twxH-t-PwCN16xWFOWdm-1" parent="twxH-t-PwCN16xWFOWdm-0" />
+        <mxCell id="twxH-t-PwCN16xWFOWdm-98" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;strokeWidth=1;align=left;dashed=1;" vertex="1" parent="twxH-t-PwCN16xWFOWdm-1">
+          <mxGeometry x="280" y="310" width="620" height="360" as="geometry" />
+        </mxCell>
         <mxCell id="twxH-t-PwCN16xWFOWdm-58" value="" style="group" vertex="1" connectable="0" parent="twxH-t-PwCN16xWFOWdm-1">
           <mxGeometry x="560" y="330" width="145" height="101" as="geometry" />
         </mxCell>
@@ -239,6 +242,9 @@
         </mxCell>
         <mxCell id="twxH-t-PwCN16xWFOWdm-97" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;endArrow=none;endFill=0;strokeWidth=2;" edge="1" parent="twxH-t-PwCN16xWFOWdm-1" source="twxH-t-PwCN16xWFOWdm-94" target="twxH-t-PwCN16xWFOWdm-76">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="twxH-t-PwCN16xWFOWdm-99" value="CMS" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="twxH-t-PwCN16xWFOWdm-1">
+          <mxGeometry x="542" y="670" width="40" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
