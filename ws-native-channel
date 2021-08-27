@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-08-27T09:45:02.382Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36" etag="FRpuMqNSLwUDMKve7JMn" version="14.9.9" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-08-27T09:47:34.502Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36" etag="GogbdJ2TRl0mNxI_-nvr" version="14.9.9" type="github" pages="2">
   <diagram id="lPoZi9IZWIRRWaCoQgV1" name="【观影大厅】一期需求架构">
     <mxGraphModel dx="1426" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -204,7 +204,7 @@
           <mxGeometry width="90" height="14.08450704225352" as="geometry" />
         </mxCell>
         <mxCell id="twxH-t-PwCN16xWFOWdm-81" value="" style="pointerEvents=1;shadow=0;dashed=0;html=1;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.devices.cell_phone_iphone_standalone;strokeColor=none;" vertex="1" parent="twxH-t-PwCN16xWFOWdm-1">
-          <mxGeometry x="80" y="240" width="25" height="42" as="geometry" />
+          <mxGeometry x="80" y="248" width="25" height="42" as="geometry" />
         </mxCell>
         <mxCell id="twxH-t-PwCN16xWFOWdm-82" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Cache_Redis_Product.svg;strokeWidth=1;fillColor=#ffffff;" vertex="1" parent="twxH-t-PwCN16xWFOWdm-1">
           <mxGeometry x="421" y="10.000000000000007" width="50" height="42" as="geometry" />
@@ -223,7 +223,8 @@
             <mxPoint x="105" y="260" as="sourcePoint" />
             <mxPoint x="200" y="110" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="160" y="260" />
+              <mxPoint x="105" y="280" />
+              <mxPoint x="160" y="280" />
               <mxPoint x="160" y="110" />
             </Array>
           </mxGeometry>
@@ -285,6 +286,16 @@
             <Array as="points">
               <mxPoint x="454" y="280" />
               <mxPoint x="332" y="280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="twxH-t-PwCN16xWFOWdm-119" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;endArrow=none;endFill=0;strokeWidth=1;" edge="1" parent="twxH-t-PwCN16xWFOWdm-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="332.5" y="449" as="sourcePoint" />
+            <mxPoint x="105" y="260" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="333" y="280" />
+              <mxPoint x="105" y="280" />
             </Array>
           </mxGeometry>
         </mxCell>
