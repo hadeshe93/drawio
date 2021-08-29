@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-08-29T08:09:00.043Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="2wE_hzGrLUayLBhH1FoH" version="14.9.6" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2021-08-29T08:09:23.774Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="psVLvEB7dww1lSZ8T7Nk" version="14.9.6" type="github" pages="5">
   <diagram id="4Hh4apjfrW1ldag-3NwE" name="01-从构建入口开始分析">
     <mxGraphModel dx="1426" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2481,6 +2481,18 @@
         </mxCell>
         <mxCell id="4SDIqZVHmTJigFqEgUla-48" value="throw new error" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="PC_hDYnFw7FaGtAPMiqZ-1">
           <mxGeometry x="2100" y="560" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4SDIqZVHmTJigFqEgUla-50" value="Y" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="PC_hDYnFw7FaGtAPMiqZ-1">
+          <mxGeometry x="1941" y="450" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="4SDIqZVHmTJigFqEgUla-51" value="N" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="PC_hDYnFw7FaGtAPMiqZ-1">
+          <mxGeometry x="2020.5" y="514" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="4SDIqZVHmTJigFqEgUla-52" value="N" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="PC_hDYnFw7FaGtAPMiqZ-1">
+          <mxGeometry x="2060.5" y="560" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="4SDIqZVHmTJigFqEgUla-53" value="Y" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="PC_hDYnFw7FaGtAPMiqZ-1">
+          <mxGeometry x="2020.5" y="620" width="40" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
