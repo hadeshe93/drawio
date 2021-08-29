@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-08-29T08:02:33.145Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="Ek2ncyNWs9vhk-y8h71z" version="14.9.6" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2021-08-29T08:08:13.613Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="SAjx9d47LJJNCZm2kRbR" version="14.9.6" type="github" pages="5">
   <diagram id="4Hh4apjfrW1ldag-3NwE" name="01-从构建入口开始分析">
     <mxGraphModel dx="1426" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2259,6 +2259,9 @@
       <root>
         <mxCell id="PC_hDYnFw7FaGtAPMiqZ-0" />
         <mxCell id="PC_hDYnFw7FaGtAPMiqZ-1" parent="PC_hDYnFw7FaGtAPMiqZ-0" />
+        <mxCell id="4SDIqZVHmTJigFqEgUla-43" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="PC_hDYnFw7FaGtAPMiqZ-1">
+          <mxGeometry x="1800" y="414" width="440" height="306" as="geometry" />
+        </mxCell>
         <mxCell id="4SDIqZVHmTJigFqEgUla-1" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="PC_hDYnFw7FaGtAPMiqZ-1">
           <mxGeometry x="710" y="484" width="970" height="450" as="geometry" />
         </mxCell>
@@ -2423,34 +2426,47 @@
         <mxCell id="4SDIqZVHmTJigFqEgUla-19" value="create a new render context" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="PC_hDYnFw7FaGtAPMiqZ-1">
           <mxGeometry x="1926.5" y="304" width="187" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="4SDIqZVHmTJigFqEgUla-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="PC_hDYnFw7FaGtAPMiqZ-1" source="4SDIqZVHmTJigFqEgUla-20" target="4SDIqZVHmTJigFqEgUla-22">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="2020" y="424" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="4SDIqZVHmTJigFqEgUla-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="PC_hDYnFw7FaGtAPMiqZ-1" source="4SDIqZVHmTJigFqEgUla-20" target="4SDIqZVHmTJigFqEgUla-34">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="4SDIqZVHmTJigFqEgUla-20" value="install ssr helpers on Vue&#39;s prototype" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="PC_hDYnFw7FaGtAPMiqZ-1">
           <mxGeometry x="1927" y="364" width="187" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="4SDIqZVHmTJigFqEgUla-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="PC_hDYnFw7FaGtAPMiqZ-1" source="4SDIqZVHmTJigFqEgUla-22" target="4SDIqZVHmTJigFqEgUla-23">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="4SDIqZVHmTJigFqEgUla-22" value="normalize render with vue ins" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="PC_hDYnFw7FaGtAPMiqZ-1">
-          <mxGeometry x="1927" y="424" width="187" height="40" as="geometry" />
         </mxCell>
         <mxCell id="4SDIqZVHmTJigFqEgUla-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="PC_hDYnFw7FaGtAPMiqZ-1" source="4SDIqZVHmTJigFqEgUla-23" target="4SDIqZVHmTJigFqEgUla-24">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="4SDIqZVHmTJigFqEgUla-23" value="wait for server prefetch" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="PC_hDYnFw7FaGtAPMiqZ-1">
-          <mxGeometry x="1927" y="484" width="187" height="40" as="geometry" />
+          <mxGeometry x="1927" y="740" width="187" height="40" as="geometry" />
         </mxCell>
         <mxCell id="4SDIqZVHmTJigFqEgUla-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="PC_hDYnFw7FaGtAPMiqZ-1" source="4SDIqZVHmTJigFqEgUla-24" target="4SDIqZVHmTJigFqEgUla-31">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="4SDIqZVHmTJigFqEgUla-24" value="run the callback named as &quot;done&quot;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="PC_hDYnFw7FaGtAPMiqZ-1">
-          <mxGeometry x="1926.5" y="544" width="187" height="40" as="geometry" />
+          <mxGeometry x="1926.5" y="800" width="187" height="40" as="geometry" />
         </mxCell>
         <mxCell id="4SDIqZVHmTJigFqEgUla-31" value="end" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="PC_hDYnFw7FaGtAPMiqZ-1">
-          <mxGeometry x="1980.5" y="604" width="80" height="40" as="geometry" />
+          <mxGeometry x="1980.5" y="860" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4SDIqZVHmTJigFqEgUla-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="PC_hDYnFw7FaGtAPMiqZ-1" source="4SDIqZVHmTJigFqEgUla-34" target="4SDIqZVHmTJigFqEgUla-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4SDIqZVHmTJigFqEgUla-34" value="whether the vue ins has render func?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="PC_hDYnFw7FaGtAPMiqZ-1">
+          <mxGeometry x="1980.5" y="434" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4SDIqZVHmTJigFqEgUla-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="PC_hDYnFw7FaGtAPMiqZ-1" source="4SDIqZVHmTJigFqEgUla-35" target="4SDIqZVHmTJigFqEgUla-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4SDIqZVHmTJigFqEgUla-35" value="whether the vue ins has the template option?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="PC_hDYnFw7FaGtAPMiqZ-1">
+          <mxGeometry x="1979.75" y="540" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4SDIqZVHmTJigFqEgUla-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="PC_hDYnFw7FaGtAPMiqZ-1" source="4SDIqZVHmTJigFqEgUla-36" target="4SDIqZVHmTJigFqEgUla-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4SDIqZVHmTJigFqEgUla-36" value="compile to function" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="PC_hDYnFw7FaGtAPMiqZ-1">
+          <mxGeometry x="1927" y="646" width="187" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4SDIqZVHmTJigFqEgUla-44" value="&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34;&quot;&gt;normalize render with vue ins&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="PC_hDYnFw7FaGtAPMiqZ-1">
+          <mxGeometry x="2050" y="699" width="170" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
