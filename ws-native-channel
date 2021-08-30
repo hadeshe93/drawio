@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-08-30T07:06:05.419Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36" etag="TcvErJNTFYSdWcVR4Efq" version="14.9.9" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-08-30T07:06:14.358Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36" etag="8p8J8zWrNR_cEqBtOyRc" version="14.9.9" type="github" pages="4">
   <diagram id="lPoZi9IZWIRRWaCoQgV1" name="【观影大厅】一期需求架构">
     <mxGraphModel dx="1426" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -447,6 +447,9 @@
         </mxCell>
         <mxCell id="43mwiN_lSLjshShnM7Mm-21" value="使用 websocket 通信接收数据" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;strokeWidth=1;fillColor=#ffffff;align=center;" vertex="1" parent="6w0WhhaCUshIw0wzbuXa-1">
           <mxGeometry x="890" y="305" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="43mwiN_lSLjshShnM7Mm-24" value="N" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="6w0WhhaCUshIw0wzbuXa-1">
+          <mxGeometry x="610" y="300" width="40" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
