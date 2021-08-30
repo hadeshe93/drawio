@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-08-30T06:45:37.619Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36" etag="yc35YwYLmTldfUhf6vaj" version="14.9.9" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-08-30T06:45:55.990Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36" etag="EdCdJePaanzdRF6OQq_l" version="14.9.9" type="github" pages="4">
   <diagram id="lPoZi9IZWIRRWaCoQgV1" name="【观影大厅】一期需求架构">
     <mxGraphModel dx="1426" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -430,10 +430,10 @@
         <mxCell id="43mwiN_lSLjshShnM7Mm-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#999999;" edge="1" parent="6w0WhhaCUshIw0wzbuXa-1" source="43mwiN_lSLjshShnM7Mm-15" target="Avo7nLLt6Dy8AChVDYUc-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="43mwiN_lSLjshShnM7Mm-15" value="是否在管理端打开？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="6w0WhhaCUshIw0wzbuXa-1">
+        <mxCell id="43mwiN_lSLjshShnM7Mm-15" value="是否不在管理端打开？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="6w0WhhaCUshIw0wzbuXa-1">
           <mxGeometry x="530" y="280" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="43mwiN_lSLjshShnM7Mm-19" value="N" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="6w0WhhaCUshIw0wzbuXa-1">
+        <mxCell id="43mwiN_lSLjshShnM7Mm-19" value="Y" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="6w0WhhaCUshIw0wzbuXa-1">
           <mxGeometry x="570" y="360" width="40" height="20" as="geometry" />
         </mxCell>
       </root>
