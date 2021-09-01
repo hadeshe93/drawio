@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-01T06:59:07.089Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36" etag="OTPjpwXAq73QmSCS5vj4" version="15.0.3" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-09-01T06:59:15.408Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36" etag="vXiPHe64oHzNyFvSYns9" version="15.0.3" type="github" pages="4">
   <diagram id="lPoZi9IZWIRRWaCoQgV1" name="【观影大厅】一期需求架构">
     <mxGraphModel dx="1426" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -402,7 +402,7 @@
           <mxGeometry x="930" y="560" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="bPdcuV9mYC_WHg8NjZVZ-7" value="&lt;span style=&quot;text-align: center&quot;&gt;拿 page_id 去获取页面配置：&lt;/span&gt;先判断是否请求入参指定不走缓存，若是，那就直接查无极表；否则，先查 redis 有没有缓存，有就用；没有就查无极表，有就用；页面配置包括组件配置列表" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="3VClj-dtOHvvuS7uaM4y-1" vertex="1">
-          <mxGeometry x="460" y="695" width="470" height="65" as="geometry" />
+          <mxGeometry x="1300" y="700" width="470" height="65" as="geometry" />
         </mxCell>
         <mxCell id="bPdcuV9mYC_WHg8NjZVZ-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="3VClj-dtOHvvuS7uaM4y-1" source="bPdcuV9mYC_WHg8NjZVZ-8" target="bPdcuV9mYC_WHg8NjZVZ-9" edge="1">
           <mxGeometry relative="1" as="geometry" />
