@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-01T04:02:15.810Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36" etag="BMzNoriGhx2tQw07F77O" version="15.0.3" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-09-01T06:20:31.901Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36" etag="g1FYcjGik3EzMaf-JjQY" version="15.0.3" type="github" pages="4">
   <diagram id="lPoZi9IZWIRRWaCoQgV1" name="【观影大厅】一期需求架构">
     <mxGraphModel dx="1426" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -397,7 +397,7 @@
         <mxCell id="bPdcuV9mYC_WHg8NjZVZ-3" value="用实验 id 和 qimei 去查 TAB 平台" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;strokeWidth=1;fillColor=#ffffff;align=center;" parent="3VClj-dtOHvvuS7uaM4y-1" vertex="1">
           <mxGeometry x="940" y="400" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="bPdcuV9mYC_WHg8NjZVZ-4" value="先查 redis 有没有缓存，有就用；没有就查无极表，有就用；再没有就默认 page_id 为实验 id" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="3VClj-dtOHvvuS7uaM4y-1" vertex="1">
+        <mxCell id="bPdcuV9mYC_WHg8NjZVZ-4" value="先查 redis 有没有缓存，有就用；没有就查无极表，有就用；再没有就默认 page_id 为实验 id" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="3VClj-dtOHvvuS7uaM4y-1" vertex="1">
           <mxGeometry x="1160" y="195" width="260" height="20" as="geometry" />
         </mxCell>
         <mxCell id="bPdcuV9mYC_WHg8NjZVZ-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="3VClj-dtOHvvuS7uaM4y-1" source="bPdcuV9mYC_WHg8NjZVZ-5" target="bPdcuV9mYC_WHg8NjZVZ-6" edge="1">
@@ -412,7 +412,7 @@
         <mxCell id="bPdcuV9mYC_WHg8NjZVZ-6" value="拿 page_id 去获取页面配置" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;strokeWidth=1;fillColor=#ffffff;align=center;" parent="3VClj-dtOHvvuS7uaM4y-1" vertex="1">
           <mxGeometry x="930" y="600" width="160" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="bPdcuV9mYC_WHg8NjZVZ-7" value="先判断是否请求入参指定不走缓存，若是，那就直接查无极表；否则，先查 redis 有没有缓存，有就用；没有就查无极表，有就用；页面配置包括组件配置列表" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="3VClj-dtOHvvuS7uaM4y-1" vertex="1">
+        <mxCell id="bPdcuV9mYC_WHg8NjZVZ-7" value="先判断是否请求入参指定不走缓存，若是，那就直接查无极表；否则，先查 redis 有没有缓存，有就用；没有就查无极表，有就用；页面配置包括组件配置列表" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="3VClj-dtOHvvuS7uaM4y-1" vertex="1">
           <mxGeometry x="1160" y="605" width="470" height="20" as="geometry" />
         </mxCell>
         <mxCell id="bPdcuV9mYC_WHg8NjZVZ-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="3VClj-dtOHvvuS7uaM4y-1" source="bPdcuV9mYC_WHg8NjZVZ-8" target="bPdcuV9mYC_WHg8NjZVZ-9" edge="1">
@@ -456,7 +456,7 @@
         <mxCell id="GXRysrEWRJ12-tLHxL8I-2" value="有实验任务信息且有 ws_qimei" style="rhombus;whiteSpace=wrap;html=1;strokeColor=#000000;strokeWidth=1;fillColor=#ffffff;align=center;" vertex="1" parent="3VClj-dtOHvvuS7uaM4y-1">
           <mxGeometry x="970" y="310" width="80" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="GXRysrEWRJ12-tLHxL8I-3" value="实验任务中带实验 id" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="3VClj-dtOHvvuS7uaM4y-1">
+        <mxCell id="GXRysrEWRJ12-tLHxL8I-3" value="实验任务中带实验 id" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="3VClj-dtOHvvuS7uaM4y-1">
           <mxGeometry x="1150" y="400" width="260" height="20" as="geometry" />
         </mxCell>
         <mxCell id="GXRysrEWRJ12-tLHxL8I-7" value="N" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="3VClj-dtOHvvuS7uaM4y-1">
@@ -465,7 +465,7 @@
         <mxCell id="GXRysrEWRJ12-tLHxL8I-8" value="Y" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="3VClj-dtOHvvuS7uaM4y-1">
           <mxGeometry x="1010" y="380" width="40" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="GXRysrEWRJ12-tLHxL8I-9" value="回包中的 expKey 其实就是实验页面的 page_id" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="3VClj-dtOHvvuS7uaM4y-1">
+        <mxCell id="GXRysrEWRJ12-tLHxL8I-9" value="回包中的 expKey 其实就是实验页面的 page_id" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="3VClj-dtOHvvuS7uaM4y-1">
           <mxGeometry x="1160" y="545" width="260" height="20" as="geometry" />
         </mxCell>
       </root>
