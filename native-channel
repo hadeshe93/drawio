@@ -1,1 +1,46 @@
-<mxfile host="app.diagrams.net" modified="2022-01-06T02:16:25.720Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" version="16.2.2" etag="WCjjIa7AhOTWKG_F9Ta0" type="github"><diagram id="MjKNOxBYiwDwdiqslhnI">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-01-06T02:42:58.950Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="mY1xxR4RQ7RRL2rNh9AM" version="16.2.2" type="github">
+  <diagram id="MjKNOxBYiwDwdiqslhnI" name="Page-1">
+    <mxGraphModel dx="1186" dy="796" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="yvIppFFxRZI9PaOe_tlo-22" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="75" width="320" height="225" as="geometry" />
+        </mxCell>
+        <mxCell id="yvIppFFxRZI9PaOe_tlo-21" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="320" width="320" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="yvIppFFxRZI9PaOe_tlo-3" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="203" y="119" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="yvIppFFxRZI9PaOe_tlo-4" value="注入的半 SSR 数据" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="203" y="119" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yvIppFFxRZI9PaOe_tlo-5" value="CDN 无极静态数据" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="203" y="159" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yvIppFFxRZI9PaOe_tlo-6" value="window.wujiData" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="198" y="89" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yvIppFFxRZI9PaOe_tlo-12" value="ws 静态无极数据" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="203" y="229" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="yvIppFFxRZI9PaOe_tlo-13" value="初始化&lt;br&gt;方法" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="120" width="60" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="yvIppFFxRZI9PaOe_tlo-16" value="store.state" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="120" width="80" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="yvIppFFxRZI9PaOe_tlo-18" value="getHomeData - ajax 通信获取首屏数据" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="350" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yvIppFFxRZI9PaOe_tlo-19" value="OvbWebsocket - ws 通信获取首屏数据" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="400" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yvIppFFxRZI9PaOe_tlo-20" value="view" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="300" width="80" height="130" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
