@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-16T14:05:03.165Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="VUwQDvDLJMS2x5xUQ81w" version="16.2.7" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-01-16T14:05:22.605Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="WrfC9yfZ8L8Jhco7fIbC" version="16.2.7" type="github" pages="3">
   <diagram id="yge_vaUGyjeqDlGonE7a" name="ws-cli project">
     <mxGraphModel dx="1186" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -446,10 +446,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="2iAvOvf6DOvypiflIgUs-70" value="initialize vue app" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" vertex="1" parent="snuOOgk4GMUwigCl0pwK-1">
-          <mxGeometry x="290" y="930" width="180" height="40" as="geometry" />
+          <mxGeometry x="290" y="930" width="490" height="40" as="geometry" />
         </mxCell>
         <mxCell id="2iAvOvf6DOvypiflIgUs-71" value="render page" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" vertex="1" parent="snuOOgk4GMUwigCl0pwK-1">
-          <mxGeometry x="290" y="990" width="180" height="40" as="geometry" />
+          <mxGeometry x="290" y="990" width="490" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
