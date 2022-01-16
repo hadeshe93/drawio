@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-16T12:51:50.497Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="VejWDlIMf0SZw4s0Uehr" version="16.2.7" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-01-16T12:52:03.831Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="68qE9hW3mxxCB7BOdS_l" version="16.2.7" type="github" pages="2">
   <diagram id="yge_vaUGyjeqDlGonE7a" name="ws-cli project">
     <mxGraphModel dx="1186" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -239,10 +239,7 @@
         <mxCell id="bvpCddKUB5ZH9aK_b_0h-7" value="does json from canary existed？" style="rhombus;whiteSpace=wrap;html=1;sketch=0;" vertex="1" parent="bvpCddKUB5ZH9aK_b_0h-1">
           <mxGeometry x="424" y="200" width="100" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="bvpCddKUB5ZH9aK_b_0h-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="bvpCddKUB5ZH9aK_b_0h-1" source="bvpCddKUB5ZH9aK_b_0h-8" target="bvpCddKUB5ZH9aK_b_0h-22">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="bvpCddKUB5ZH9aK_b_0h-8" value="format data" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" vertex="1" parent="bvpCddKUB5ZH9aK_b_0h-1">
+        <mxCell id="bvpCddKUB5ZH9aK_b_0h-8" value="format data and commit mutations" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" vertex="1" parent="bvpCddKUB5ZH9aK_b_0h-1">
           <mxGeometry x="414" y="390" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="bvpCddKUB5ZH9aK_b_0h-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="bvpCddKUB5ZH9aK_b_0h-1" source="bvpCddKUB5ZH9aK_b_0h-9" target="bvpCddKUB5ZH9aK_b_0h-10">
@@ -251,10 +248,7 @@
         <mxCell id="bvpCddKUB5ZH9aK_b_0h-9" value="fetch static data from wuji cdn" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" vertex="1" parent="bvpCddKUB5ZH9aK_b_0h-1">
           <mxGeometry x="584" y="215" width="120" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="bvpCddKUB5ZH9aK_b_0h-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="bvpCddKUB5ZH9aK_b_0h-1" source="bvpCddKUB5ZH9aK_b_0h-10" target="bvpCddKUB5ZH9aK_b_0h-22">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="bvpCddKUB5ZH9aK_b_0h-10" value="format static data" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" vertex="1" parent="bvpCddKUB5ZH9aK_b_0h-1">
+        <mxCell id="bvpCddKUB5ZH9aK_b_0h-10" value="format static data and commit mutations" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" vertex="1" parent="bvpCddKUB5ZH9aK_b_0h-1">
           <mxGeometry x="584" y="390" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="bvpCddKUB5ZH9aK_b_0h-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="bvpCddKUB5ZH9aK_b_0h-1" source="bvpCddKUB5ZH9aK_b_0h-11" target="bvpCddKUB5ZH9aK_b_0h-7">
@@ -272,14 +266,8 @@
         <mxCell id="bvpCddKUB5ZH9aK_b_0h-17" value="receive data from websocket" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" vertex="1" parent="bvpCddKUB5ZH9aK_b_0h-1">
           <mxGeometry x="260" y="310" width="120" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="bvpCddKUB5ZH9aK_b_0h-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="bvpCddKUB5ZH9aK_b_0h-1" source="bvpCddKUB5ZH9aK_b_0h-18" target="bvpCddKUB5ZH9aK_b_0h-22">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="bvpCddKUB5ZH9aK_b_0h-18" value="format data" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" vertex="1" parent="bvpCddKUB5ZH9aK_b_0h-1">
+        <mxCell id="bvpCddKUB5ZH9aK_b_0h-18" value="format data and commit mutations" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" vertex="1" parent="bvpCddKUB5ZH9aK_b_0h-1">
           <mxGeometry x="260" y="390" width="120" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="bvpCddKUB5ZH9aK_b_0h-22" value="commit mutations" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" vertex="1" parent="bvpCddKUB5ZH9aK_b_0h-1">
-          <mxGeometry x="414" y="490" width="120" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
