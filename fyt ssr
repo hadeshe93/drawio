@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-16T13:58:52.919Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="-fexzq7jQK16UFalc90d" version="16.2.7" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-01-16T13:59:55.884Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="VORnk6_XAMrh2rj-drgn" version="16.2.7" type="github" pages="3">
   <diagram id="yge_vaUGyjeqDlGonE7a" name="ws-cli project">
     <mxGraphModel dx="1186" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -303,7 +303,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="U_M6ZXeC8-PnqYtPeiDS" name="new fyt data stream">
-    <mxGraphModel dx="2013" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1186" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="snuOOgk4GMUwigCl0pwK-0" />
         <mxCell id="snuOOgk4GMUwigCl0pwK-1" parent="snuOOgk4GMUwigCl0pwK-0" />
@@ -379,18 +379,6 @@
         <mxCell id="2iAvOvf6DOvypiflIgUs-24" value="N" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;" vertex="1" parent="snuOOgk4GMUwigCl0pwK-1">
           <mxGeometry x="524" y="210" width="40" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="2iAvOvf6DOvypiflIgUs-25" value="call fetch service" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" vertex="1" parent="snuOOgk4GMUwigCl0pwK-1">
-          <mxGeometry x="-50" y="310" width="120" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="2iAvOvf6DOvypiflIgUs-26" value="format data" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" vertex="1" parent="snuOOgk4GMUwigCl0pwK-1">
-          <mxGeometry x="-50" y="470" width="120" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="2iAvOvf6DOvypiflIgUs-27" value="format data" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" vertex="1" parent="snuOOgk4GMUwigCl0pwK-1">
-          <mxGeometry x="-50" y="550" width="120" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="2iAvOvf6DOvypiflIgUs-28" value="request from server" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" vertex="1" parent="snuOOgk4GMUwigCl0pwK-1">
-          <mxGeometry x="-50" y="390" width="120" height="50" as="geometry" />
-        </mxCell>
         <mxCell id="2iAvOvf6DOvypiflIgUs-29" value="Fetch homeData service" style="swimlane;sketch=0;" vertex="1" parent="snuOOgk4GMUwigCl0pwK-1">
           <mxGeometry x="290" y="470" width="670" height="200" as="geometry" />
         </mxCell>
@@ -444,6 +432,9 @@
         </mxCell>
         <mxCell id="2iAvOvf6DOvypiflIgUs-65" value="data in normalized format" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" vertex="1" parent="snuOOgk4GMUwigCl0pwK-1">
           <mxGeometry x="290" y="870" width="490" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="2iAvOvf6DOvypiflIgUs-66" value="request index.html" style="ellipse;whiteSpace=wrap;html=1;sketch=0;" vertex="1" parent="snuOOgk4GMUwigCl0pwK-1">
+          <mxGeometry x="120" y="530" width="100" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
