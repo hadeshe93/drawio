@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-16T13:57:37.969Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="gVCC6PumcXlVIkqvej5k" version="16.2.7" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-01-16T13:58:03.068Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="uHYRowBhPO2RY-nk4FfT" version="16.2.7" type="github" pages="3">
   <diagram id="yge_vaUGyjeqDlGonE7a" name="ws-cli project">
     <mxGraphModel dx="1186" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -434,7 +434,7 @@
           <mxGeometry x="500" y="130" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="2iAvOvf6DOvypiflIgUs-39" value="Normalized data formatter" style="swimlane;sketch=0;startSize=23;" vertex="1" parent="snuOOgk4GMUwigCl0pwK-1">
-          <mxGeometry x="290" y="740" width="490" height="110" as="geometry" />
+          <mxGeometry x="290" y="730" width="490" height="110" as="geometry" />
         </mxCell>
         <mxCell id="2iAvOvf6DOvypiflIgUs-43" value="format data from api" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" vertex="1" parent="2iAvOvf6DOvypiflIgUs-39">
           <mxGeometry x="81" y="40" width="120" height="50" as="geometry" />
