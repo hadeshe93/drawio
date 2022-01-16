@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-16T04:27:27.335Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="JzaGKjiR5z20bmVf7OLg" version="16.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-16T04:28:04.212Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="4OxZ0sCohZ7qs8Ic-JN1" version="16.2.7" type="github">
   <diagram id="yge_vaUGyjeqDlGonE7a" name="Page-1">
     <mxGraphModel dx="1186" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -157,13 +157,16 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="vDdhXV4NjeOQ60vTB9G4-65" value="Openapi Http Server" style="swimlane;" vertex="1" parent="1">
-          <mxGeometry x="695" y="740" width="200" height="200" as="geometry" />
+          <mxGeometry x="650" y="750" width="200" height="200" as="geometry" />
         </mxCell>
         <mxCell id="vDdhXV4NjeOQ60vTB9G4-66" value="updateReleaseInfo api" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="vDdhXV4NjeOQ60vTB9G4-65">
           <mxGeometry x="10" y="40" width="180" height="30" as="geometry" />
         </mxCell>
         <mxCell id="vDdhXV4NjeOQ60vTB9G4-67" value="pushOfflineCache api" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="vDdhXV4NjeOQ60vTB9G4-65">
           <mxGeometry x="10" y="90" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vDdhXV4NjeOQ60vTB9G4-68" value="(other apis)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="vDdhXV4NjeOQ60vTB9G4-65">
+          <mxGeometry x="10" y="140" width="180" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
