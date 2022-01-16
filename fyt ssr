@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-16T13:01:34.219Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="Ouheu1vW-sWyEZ-ALWFO" version="16.2.7" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-01-16T13:39:16.268Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="V93gFsT5fm8yAM9QTdjV" version="16.2.7" type="github" pages="3">
   <diagram id="yge_vaUGyjeqDlGonE7a" name="ws-cli project">
     <mxGraphModel dx="1186" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -383,9 +383,9 @@
           <mxGeometry x="524" y="210" width="40" height="30" as="geometry" />
         </mxCell>
         <mxCell id="2iAvOvf6DOvypiflIgUs-25" value="fetch data in server" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" vertex="1" parent="snuOOgk4GMUwigCl0pwK-1">
-          <mxGeometry x="-50" y="215" width="120" height="50" as="geometry" />
+          <mxGeometry x="-50" y="310" width="120" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="2iAvOvf6DOvypiflIgUs-26" value="format data and commit mutations" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="snuOOgk4GMUwigCl0pwK-1">
+        <mxCell id="2iAvOvf6DOvypiflIgUs-26" value="format data" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" vertex="1" parent="snuOOgk4GMUwigCl0pwK-1">
           <mxGeometry x="-50" y="390" width="120" height="50" as="geometry" />
         </mxCell>
       </root>
