@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-16T04:11:57.333Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="YZLWv1BETf62kEZb7ec9" version="16.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-16T04:13:04.318Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="5luDuR-cI4URz095Oi7s" version="16.2.7" type="github">
   <diagram id="yge_vaUGyjeqDlGonE7a" name="Page-1">
     <mxGraphModel dx="1186" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -134,6 +134,9 @@
         </mxCell>
         <mxCell id="vDdhXV4NjeOQ60vTB9G4-45" value="Assets&lt;br&gt;(js/css/image/...)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="120" y="530" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vDdhXV4NjeOQ60vTB9G4-46" value="@tencent/ws command" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="330" y="650" width="200" height="200" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
