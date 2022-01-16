@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-16T14:00:29.340Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="R0qizHtArfj0oiGH7PTb" version="16.2.7" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-01-16T14:01:06.482Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="Zd1fk7dki2EQpndfUAX2" version="16.2.7" type="github" pages="3">
   <diagram id="yge_vaUGyjeqDlGonE7a" name="ws-cli project">
     <mxGraphModel dx="1186" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -400,7 +400,7 @@
         <mxCell id="2iAvOvf6DOvypiflIgUs-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="2iAvOvf6DOvypiflIgUs-29" source="2iAvOvf6DOvypiflIgUs-33" target="2iAvOvf6DOvypiflIgUs-52">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="2iAvOvf6DOvypiflIgUs-33" value="request from client" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="2iAvOvf6DOvypiflIgUs-29">
+        <mxCell id="2iAvOvf6DOvypiflIgUs-33" value="request from client" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="2iAvOvf6DOvypiflIgUs-29">
           <mxGeometry x="350" y="130" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="2iAvOvf6DOvypiflIgUs-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="2iAvOvf6DOvypiflIgUs-29" source="2iAvOvf6DOvypiflIgUs-35" target="2iAvOvf6DOvypiflIgUs-32">
@@ -418,7 +418,7 @@
         <mxCell id="2iAvOvf6DOvypiflIgUs-52" value="is success?" style="rhombus;whiteSpace=wrap;html=1;sketch=0;" vertex="1" parent="2iAvOvf6DOvypiflIgUs-29">
           <mxGeometry x="510" y="30" width="100" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="2iAvOvf6DOvypiflIgUs-53" value="get static data from wuji cdn" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="2iAvOvf6DOvypiflIgUs-29">
+        <mxCell id="2iAvOvf6DOvypiflIgUs-53" value="get static data from wuji cdn" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="2iAvOvf6DOvypiflIgUs-29">
           <mxGeometry x="500" y="130" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="2iAvOvf6DOvypiflIgUs-39" value="Normalized data formatter" style="swimlane;sketch=0;startSize=23;" vertex="1" parent="snuOOgk4GMUwigCl0pwK-1">
