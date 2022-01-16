@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-16T04:17:25.732Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="6RXJ8eHXYsV8oYN4NsyI" version="16.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-16T04:19:13.564Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="l2X5XKp8inn4vwXGDWp5" version="16.2.7" type="github">
   <diagram id="yge_vaUGyjeqDlGonE7a" name="Page-1">
     <mxGraphModel dx="1186" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -123,11 +123,8 @@
         <mxCell id="vDdhXV4NjeOQ60vTB9G4-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="vDdhXV4NjeOQ60vTB9G4-37" target="vDdhXV4NjeOQ60vTB9G4-36">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="vDdhXV4NjeOQ60vTB9G4-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="vDdhXV4NjeOQ60vTB9G4-37" target="vDdhXV4NjeOQ60vTB9G4-6">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="vDdhXV4NjeOQ60vTB9G4-37" value="landun pipeline" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="860" y="545" width="130" height="40" as="geometry" />
+          <mxGeometry x="730" y="545" width="130" height="40" as="geometry" />
         </mxCell>
         <mxCell id="vDdhXV4NjeOQ60vTB9G4-44" value="HTML" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="100" y="190" width="60" height="30" as="geometry" />
@@ -147,8 +144,11 @@
         <mxCell id="vDdhXV4NjeOQ60vTB9G4-49" value="ws p -p" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="vDdhXV4NjeOQ60vTB9G4-46">
           <mxGeometry x="10" y="140" width="180" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="vDdhXV4NjeOQ60vTB9G4-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="vDdhXV4NjeOQ60vTB9G4-50" target="vDdhXV4NjeOQ60vTB9G4-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="vDdhXV4NjeOQ60vTB9G4-50" value="CSR Production Bundle" style="swimlane;" vertex="1" parent="1">
-          <mxGeometry x="580" y="650" width="200" height="200" as="geometry" />
+          <mxGeometry x="695" y="650" width="200" height="200" as="geometry" />
         </mxCell>
         <mxCell id="vDdhXV4NjeOQ60vTB9G4-55" value="js bundles" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="vDdhXV4NjeOQ60vTB9G4-50">
           <mxGeometry x="30" y="40" width="140" height="40" as="geometry" />
@@ -158,6 +158,9 @@
         </mxCell>
         <mxCell id="vDdhXV4NjeOQ60vTB9G4-62" value="images" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="vDdhXV4NjeOQ60vTB9G4-50">
           <mxGeometry x="30" y="150" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vDdhXV4NjeOQ60vTB9G4-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="vDdhXV4NjeOQ60vTB9G4-49" target="vDdhXV4NjeOQ60vTB9G4-50">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
