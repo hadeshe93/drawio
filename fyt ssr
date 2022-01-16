@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-16T04:08:31.232Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="HLsQa0HQDnyK4sRv59wU" version="16.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-16T04:09:03.822Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="Nffd7xSEgGhiwIJX7PPJ" version="16.2.7" type="github">
   <diagram id="yge_vaUGyjeqDlGonE7a" name="Page-1">
     <mxGraphModel dx="1186" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -107,6 +107,9 @@
         </mxCell>
         <mxCell id="vDdhXV4NjeOQ60vTB9G4-36" value="COS Uploader" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="560" y="545" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vDdhXV4NjeOQ60vTB9G4-37" value="Landun Pipeline" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="730" y="545" width="130" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
