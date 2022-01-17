@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-17T07:09:05.179Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="yllfdEr6ZLqfnkbbr05Q" version="16.2.7" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-01-17T07:10:00.858Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="puWJIhYBzJX6kR-D-uop" version="16.2.7" type="github" pages="5">
   <diagram id="yge_vaUGyjeqDlGonE7a" name="ws-cli project">
     <mxGraphModel dx="1186" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -702,11 +702,11 @@
         <mxCell id="5iSgGVLkPS1w3k422Y__-5" value="/&amp;lt;page-name&amp;gt;.html" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;fontSize=16;" vertex="1" parent="5iSgGVLkPS1w3k422Y__-1">
           <mxGeometry x="630" y="325" width="180" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="5iSgGVLkPS1w3k422Y__-6" value="Server Router" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="5iSgGVLkPS1w3k422Y__-1">
-          <mxGeometry x="100" y="335" width="120" height="20" as="geometry" />
+        <mxCell id="5iSgGVLkPS1w3k422Y__-6" value="Frontend Router" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="5iSgGVLkPS1w3k422Y__-1">
+          <mxGeometry x="70" y="330" width="130" height="20" as="geometry" />
         </mxCell>
         <mxCell id="5iSgGVLkPS1w3k422Y__-7" value="Url" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="5iSgGVLkPS1w3k422Y__-1">
-          <mxGeometry x="140" y="410" width="40" height="20" as="geometry" />
+          <mxGeometry x="160" y="405" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="5iSgGVLkPS1w3k422Y__-9" value="https://m.weishi.qq.com" style="text;html=1;strokeColor=#666666;fillColor=#f5f5f5;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;fontSize=16;fontColor=#333333;" vertex="1" parent="5iSgGVLkPS1w3k422Y__-1">
           <mxGeometry x="230" y="400" width="200" height="30" as="geometry" />
@@ -725,6 +725,21 @@
         </mxCell>
         <mxCell id="5iSgGVLkPS1w3k422Y__-15" value="" style="text;html=1;strokeColor=#666666;fillColor=#f5f5f5;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;fontSize=16;fontColor=#333333;dashed=1;" vertex="1" parent="5iSgGVLkPS1w3k422Y__-1">
           <mxGeometry x="230" y="325" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5iSgGVLkPS1w3k422Y__-17" value="/vise" style="text;html=1;strokeColor=#666666;fillColor=#f5f5f5;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;fontSize=16;fontColor=#333333;" vertex="1" parent="5iSgGVLkPS1w3k422Y__-1">
+          <mxGeometry x="430" y="250" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5iSgGVLkPS1w3k422Y__-18" value="/&amp;lt;project-name&amp;gt;" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;fontSize=16;" vertex="1" parent="5iSgGVLkPS1w3k422Y__-1">
+          <mxGeometry x="490" y="250" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5iSgGVLkPS1w3k422Y__-19" value="/&amp;lt;page-name&amp;gt;.html" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;fontSize=16;" vertex="1" parent="5iSgGVLkPS1w3k422Y__-1">
+          <mxGeometry x="630" y="250" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5iSgGVLkPS1w3k422Y__-20" value="Server Router" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="5iSgGVLkPS1w3k422Y__-1">
+          <mxGeometry x="80" y="260" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="5iSgGVLkPS1w3k422Y__-21" value="" style="text;html=1;strokeColor=#666666;fillColor=#f5f5f5;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;fontSize=16;fontColor=#333333;dashed=1;" vertex="1" parent="5iSgGVLkPS1w3k422Y__-1">
+          <mxGeometry x="230" y="250" width="200" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
