@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-17T06:25:52.273Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="K-w7RHYSfAtsQJ4GANnP" version="16.2.7" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-01-17T06:30:02.061Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="qhpN9uzWoX_kgIkupvwK" version="16.2.7" type="github" pages="4">
   <diagram id="yge_vaUGyjeqDlGonE7a" name="ws-cli project">
     <mxGraphModel dx="1186" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -554,6 +554,14 @@
         <mxCell id="HDHtIzqsaWpkJIbJItNo-3" value="N" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;" vertex="1" parent="snuOOgk4GMUwigCl0pwK-1">
           <mxGeometry x="420" y="620" width="30" height="30" as="geometry" />
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="v7LdLy4WHTAjM8EaSBOq" name="server downgrade system">
+    <mxGraphModel dx="1186" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="ztrSq1aqpYUOYGDBtbAe-0" />
+        <mxCell id="ztrSq1aqpYUOYGDBtbAe-1" parent="ztrSq1aqpYUOYGDBtbAe-0" />
       </root>
     </mxGraphModel>
   </diagram>
