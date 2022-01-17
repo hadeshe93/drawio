@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-17T06:24:00.698Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="y0lYY9w8AqnxsXtkl9vm" version="16.2.7" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-01-17T06:24:18.404Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="FU02B8Q6Sdg2-IN5_O7V" version="16.2.7" type="github" pages="3">
   <diagram id="yge_vaUGyjeqDlGonE7a" name="ws-cli project">
     <mxGraphModel dx="1186" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -346,15 +346,10 @@
         <mxCell id="2iAvOvf6DOvypiflIgUs-8" value="call http api" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" parent="snuOOgk4GMUwigCl0pwK-1" vertex="1">
           <mxGeometry x="890" y="625" width="90" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="gUDj1qbczOnouIT0bJpT-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="snuOOgk4GMUwigCl0pwK-1" source="2iAvOvf6DOvypiflIgUs-13" target="2iAvOvf6DOvypiflIgUs-29" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1000" y="550" />
-              <mxPoint x="1000" y="250" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="gUDj1qbczOnouIT0bJpT-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="snuOOgk4GMUwigCl0pwK-1" source="2iAvOvf6DOvypiflIgUs-13" target="2iAvOvf6DOvypiflIgUs-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HDHtIzqsaWpkJIbJItNo-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="snuOOgk4GMUwigCl0pwK-1" source="2iAvOvf6DOvypiflIgUs-13" target="HDHtIzqsaWpkJIbJItNo-0">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="2iAvOvf6DOvypiflIgUs-13" value="does html nested in cms?" style="rhombus;whiteSpace=wrap;html=1;sketch=0;" parent="snuOOgk4GMUwigCl0pwK-1" vertex="1">
@@ -549,6 +544,12 @@
         </mxCell>
         <mxCell id="gUDj1qbczOnouIT0bJpT-87" value="N" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;" parent="snuOOgk4GMUwigCl0pwK-1" vertex="1">
           <mxGeometry x="810" y="580" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HDHtIzqsaWpkJIbJItNo-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="snuOOgk4GMUwigCl0pwK-1" source="HDHtIzqsaWpkJIbJItNo-0" target="2iAvOvf6DOvypiflIgUs-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HDHtIzqsaWpkJIbJItNo-0" value="call http api" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" vertex="1" parent="snuOOgk4GMUwigCl0pwK-1">
+          <mxGeometry x="890" y="525" width="90" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
