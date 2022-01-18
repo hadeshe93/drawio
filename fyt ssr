@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-18T03:08:12.728Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="ARkLJrvZic7RXrYM2VD2" version="16.2.7" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-01-18T03:08:29.892Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="F_oSR0rKF4qltHe_LUHX" version="16.2.7" type="github" pages="6">
   <diagram id="yge_vaUGyjeqDlGonE7a" name="ws-cli project">
     <mxGraphModel dx="1186" dy="796" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -765,7 +765,7 @@
         <mxCell id="sxWaauNS_fwEMT1NgQR7-0" />
         <mxCell id="sxWaauNS_fwEMT1NgQR7-1" parent="sxWaauNS_fwEMT1NgQR7-0" />
         <mxCell id="sxWaauNS_fwEMT1NgQR7-2" value="Build" style="swimlane;" vertex="1" parent="sxWaauNS_fwEMT1NgQR7-1">
-          <mxGeometry x="140" y="200" width="170" height="250" as="geometry" />
+          <mxGeometry x="20" y="200" width="170" height="250" as="geometry" />
         </mxCell>
         <mxCell id="sxWaauNS_fwEMT1NgQR7-4" value="rollup &amp;amp; configuration" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="sxWaauNS_fwEMT1NgQR7-2">
           <mxGeometry x="25" y="40" width="120" height="40" as="geometry" />
@@ -780,7 +780,7 @@
           <mxGeometry x="25" y="190" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="sxWaauNS_fwEMT1NgQR7-11" value="Load" style="swimlane;" vertex="1" parent="sxWaauNS_fwEMT1NgQR7-1">
-          <mxGeometry x="340" y="200" width="170" height="250" as="geometry" />
+          <mxGeometry x="220" y="200" width="170" height="250" as="geometry" />
         </mxCell>
         <mxCell id="sxWaauNS_fwEMT1NgQR7-12" value="resource hints" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="sxWaauNS_fwEMT1NgQR7-11">
           <mxGeometry x="25" y="40" width="120" height="40" as="geometry" />
@@ -795,7 +795,7 @@
           <mxGeometry x="25" y="195" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="sxWaauNS_fwEMT1NgQR7-18" value="Render" style="swimlane;" vertex="1" parent="sxWaauNS_fwEMT1NgQR7-1">
-          <mxGeometry x="540" y="200" width="170" height="250" as="geometry" />
+          <mxGeometry x="420" y="200" width="170" height="250" as="geometry" />
         </mxCell>
         <mxCell id="sxWaauNS_fwEMT1NgQR7-19" value="optimize scroll performance" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="sxWaauNS_fwEMT1NgQR7-18">
           <mxGeometry x="25" y="90" width="120" height="40" as="geometry" />
@@ -810,7 +810,7 @@
           <mxGeometry x="25" y="40" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="sxWaauNS_fwEMT1NgQR7-23" value="App" style="swimlane;" vertex="1" parent="sxWaauNS_fwEMT1NgQR7-1">
-          <mxGeometry x="750" y="200" width="170" height="250" as="geometry" />
+          <mxGeometry x="630" y="200" width="170" height="250" as="geometry" />
         </mxCell>
         <mxCell id="sxWaauNS_fwEMT1NgQR7-27" value="offline cache" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="sxWaauNS_fwEMT1NgQR7-23">
           <mxGeometry x="25" y="40" width="120" height="40" as="geometry" />
