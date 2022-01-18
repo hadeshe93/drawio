@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-18T03:07:49.000Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="DkanNePSVqrUNy6gmTq_" version="16.2.7" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-01-18T03:08:12.728Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="ARkLJrvZic7RXrYM2VD2" version="16.2.7" type="github" pages="6">
   <diagram id="yge_vaUGyjeqDlGonE7a" name="ws-cli project">
     <mxGraphModel dx="1186" dy="796" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -807,6 +807,12 @@
           <mxGeometry x="25" y="195" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="sxWaauNS_fwEMT1NgQR7-21" value="slim ssr json" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="sxWaauNS_fwEMT1NgQR7-18">
+          <mxGeometry x="25" y="40" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="sxWaauNS_fwEMT1NgQR7-23" value="App" style="swimlane;" vertex="1" parent="sxWaauNS_fwEMT1NgQR7-1">
+          <mxGeometry x="750" y="200" width="170" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="sxWaauNS_fwEMT1NgQR7-27" value="offline cache" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="sxWaauNS_fwEMT1NgQR7-23">
           <mxGeometry x="25" y="40" width="120" height="40" as="geometry" />
         </mxCell>
       </root>
