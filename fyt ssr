@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-18T03:08:56.880Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="Sn-6cIrKRXQBRSPVnm_s" version="16.2.7" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-01-18T07:28:05.899Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="DODxLh8u0xBSoj7zkq1N" version="16.2.7" type="github" pages="6">
   <diagram id="yge_vaUGyjeqDlGonE7a" name="ws-cli project">
     <mxGraphModel dx="1186" dy="796" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -785,7 +785,7 @@
         <mxCell id="sxWaauNS_fwEMT1NgQR7-12" value="resource hints" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="sxWaauNS_fwEMT1NgQR7-11">
           <mxGeometry x="25" y="40" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="sxWaauNS_fwEMT1NgQR7-13" value="minify images" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="sxWaauNS_fwEMT1NgQR7-11">
+        <mxCell id="sxWaauNS_fwEMT1NgQR7-13" value="preload assets" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="sxWaauNS_fwEMT1NgQR7-11">
           <mxGeometry x="25" y="90" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="sxWaauNS_fwEMT1NgQR7-14" value="inline css" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="sxWaauNS_fwEMT1NgQR7-11">
