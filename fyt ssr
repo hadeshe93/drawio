@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-19T02:01:21.161Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="flDCRv3j8S-E3xhczzSa" version="16.3.0" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2022-01-19T02:08:38.324Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="0ofVMMswNtYmW4yvNRLo" version="16.3.0" type="github" pages="7">
   <diagram id="yge_vaUGyjeqDlGonE7a" name="ws-cli project">
     <mxGraphModel dx="1186" dy="796" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -987,13 +987,19 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="JgHKoNK4ajcP7v5tyrFj-68" value="&lt;p style=&quot;margin: 4px 0px 0px ; text-align: center ; font-size: 16px ; line-height: 1.2&quot;&gt;&lt;i style=&quot;font-size: 16px&quot;&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br style=&quot;font-size: 16px&quot;&gt;&lt;b style=&quot;font-size: 16px&quot;&gt;PlayerInterface&lt;/b&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 16px&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px ; font-size: 16px&quot;&gt;+ ins: PlayerIns&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px ; font-size: 16px&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px ; font-size: 16px&quot;&gt;+ typeVal: PlayerTypes&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px ; font-size: 16px&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px ; font-size: 16px&quot;&gt;+ targetDomId: string&lt;/p&gt;&lt;hr style=&quot;font-size: 16px&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px ; font-size: 16px&quot;&gt;+ mount(targetDomId: string): Promise&amp;lt;boolean&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px ; font-size: 16px&quot;&gt;&lt;br style=&quot;font-size: 16px&quot;&gt;+ reset(): void&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=16;fontFamily=Helvetica;html=1;spacingBottom=10;" vertex="1" parent="JgHKoNK4ajcP7v5tyrFj-1">
-          <mxGeometry x="1065" y="-320" width="370" height="250" as="geometry" />
+          <mxGeometry x="1430" y="-320" width="480" height="250" as="geometry" />
         </mxCell>
         <mxCell id="JgHKoNK4ajcP7v5tyrFj-69" value="&lt;p style=&quot;margin: 4px 0px 0px; font-size: 16px;&quot;&gt;&lt;b style=&quot;font-size: 16px&quot;&gt;Class&lt;/b&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 16px&quot;&gt;&lt;div style=&quot;height: 2px ; font-size: 16px&quot;&gt;ImgPlayer&lt;/div&gt;" style="verticalAlign=top;align=center;overflow=fill;fontSize=16;fontFamily=Helvetica;html=1;" vertex="1" parent="JgHKoNK4ajcP7v5tyrFj-1">
-          <mxGeometry x="870" y="-280" width="150" height="80" as="geometry" />
+          <mxGeometry x="1430" y="-420" width="150" height="80" as="geometry" />
         </mxCell>
         <mxCell id="JgHKoNK4ajcP7v5tyrFj-70" value="&lt;p style=&quot;margin: 4px 0px 0px ; font-size: 16px&quot;&gt;&lt;b style=&quot;font-size: 16px&quot;&gt;Class&lt;/b&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 16px&quot;&gt;&lt;div style=&quot;height: 2px ; font-size: 16px&quot;&gt;VideoPlayer&lt;/div&gt;" style="verticalAlign=top;align=center;overflow=fill;fontSize=16;fontFamily=Helvetica;html=1;" vertex="1" parent="JgHKoNK4ajcP7v5tyrFj-1">
-          <mxGeometry x="870" y="-180" width="150" height="80" as="geometry" />
+          <mxGeometry x="1595" y="-420" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="JgHKoNK4ajcP7v5tyrFj-71" value="&lt;p style=&quot;margin: 4px 0px 0px ; text-align: center ; font-size: 16px ; line-height: 1.2&quot;&gt;&lt;i style=&quot;font-size: 16px&quot;&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br style=&quot;font-size: 16px&quot;&gt;&lt;b style=&quot;font-size: 16px&quot;&gt;TaskDetailInterface&lt;/b&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 16px&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px ; font-size: 16px&quot;&gt;&lt;span&gt;+ targetDomId: string&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px ; font-size: 16px&quot;&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px ; font-size: 16px&quot;&gt;&lt;span&gt;+ playerType: PlayerTypes&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px ; font-size: 16px&quot;&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px ; font-size: 16px&quot;&gt;&lt;span&gt;+ excuteTask: Function&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px ; font-size: 16px&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=16;fontFamily=Helvetica;html=1;spacingBottom=10;" vertex="1" parent="JgHKoNK4ajcP7v5tyrFj-1">
+          <mxGeometry x="930" y="-320" width="300" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="JgHKoNK4ajcP7v5tyrFj-72" value="&lt;p style=&quot;margin: 4px 0px 0px ; font-size: 16px&quot;&gt;&lt;b style=&quot;font-size: 16px&quot;&gt;Class&lt;/b&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 16px&quot;&gt;&lt;div style=&quot;height: 2px ; font-size: 16px&quot;&gt;(other Players)&lt;/div&gt;" style="verticalAlign=top;align=center;overflow=fill;fontSize=16;fontFamily=Helvetica;html=1;" vertex="1" parent="JgHKoNK4ajcP7v5tyrFj-1">
+          <mxGeometry x="1760" y="-420" width="150" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
