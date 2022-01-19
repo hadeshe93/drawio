@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-18T07:28:05.899Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="DODxLh8u0xBSoj7zkq1N" version="16.2.7" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-01-19T01:18:41.539Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="tkPoSa9Mzes0v-GX42qC" version="16.3.0" type="github" pages="7">
   <diagram id="yge_vaUGyjeqDlGonE7a" name="ws-cli project">
     <mxGraphModel dx="1186" dy="796" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -814,6 +814,35 @@
         </mxCell>
         <mxCell id="sxWaauNS_fwEMT1NgQR7-27" value="offline cache" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="sxWaauNS_fwEMT1NgQR7-23">
           <mxGeometry x="25" y="40" width="120" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="HzLB0YVKKZTfJ2ZEuopt" name="player-manager">
+    <mxGraphModel dx="1186" dy="796" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="JgHKoNK4ajcP7v5tyrFj-0" />
+        <mxCell id="JgHKoNK4ajcP7v5tyrFj-1" parent="JgHKoNK4ajcP7v5tyrFj-0" />
+        <mxCell id="JgHKoNK4ajcP7v5tyrFj-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="JgHKoNK4ajcP7v5tyrFj-1" source="JgHKoNK4ajcP7v5tyrFj-2" target="JgHKoNK4ajcP7v5tyrFj-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JgHKoNK4ajcP7v5tyrFj-2" value="applyPlayer" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="JgHKoNK4ajcP7v5tyrFj-1">
+          <mxGeometry x="140" y="140" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="JgHKoNK4ajcP7v5tyrFj-3" value="debounce apply calls" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="JgHKoNK4ajcP7v5tyrFj-1">
+          <mxGeometry x="310" y="200" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="JgHKoNK4ajcP7v5tyrFj-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="JgHKoNK4ajcP7v5tyrFj-1" source="JgHKoNK4ajcP7v5tyrFj-4" target="JgHKoNK4ajcP7v5tyrFj-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JgHKoNK4ajcP7v5tyrFj-4" value="applyPlayer" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="JgHKoNK4ajcP7v5tyrFj-1">
+          <mxGeometry x="140" y="200" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="JgHKoNK4ajcP7v5tyrFj-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="JgHKoNK4ajcP7v5tyrFj-1" source="JgHKoNK4ajcP7v5tyrFj-8" target="JgHKoNK4ajcP7v5tyrFj-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JgHKoNK4ajcP7v5tyrFj-8" value="..." style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="JgHKoNK4ajcP7v5tyrFj-1">
+          <mxGeometry x="140" y="260" width="120" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
