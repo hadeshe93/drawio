@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-19T01:43:17.499Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="5IhfdvNEcPJje7HevKuF" version="16.3.0" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2022-01-19T01:47:09.221Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="spXdw3THLwA21rqB5Ern" version="16.3.0" type="github" pages="7">
   <diagram id="yge_vaUGyjeqDlGonE7a" name="ws-cli project">
     <mxGraphModel dx="1186" dy="796" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -819,7 +819,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="HzLB0YVKKZTfJ2ZEuopt" name="player-manager">
-    <mxGraphModel dx="1186" dy="796" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1186" dy="1965" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="JgHKoNK4ajcP7v5tyrFj-0" />
         <mxCell id="JgHKoNK4ajcP7v5tyrFj-1" parent="JgHKoNK4ajcP7v5tyrFj-0" />
@@ -944,6 +944,21 @@
         </mxCell>
         <mxCell id="JgHKoNK4ajcP7v5tyrFj-48" value="Y" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="JgHKoNK4ajcP7v5tyrFj-1">
           <mxGeometry x="1015" y="440" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JgHKoNK4ajcP7v5tyrFj-49" value="applying task" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="JgHKoNK4ajcP7v5tyrFj-1">
+          <mxGeometry x="414" y="-170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JgHKoNK4ajcP7v5tyrFj-50" value="&lt;span style=&quot;font-size: 16px&quot;&gt;applying task&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="JgHKoNK4ajcP7v5tyrFj-1">
+          <mxGeometry x="534" y="-170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JgHKoNK4ajcP7v5tyrFj-51" value="&lt;span style=&quot;font-size: 16px&quot;&gt;applying task&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="JgHKoNK4ajcP7v5tyrFj-1">
+          <mxGeometry x="654" y="-170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JgHKoNK4ajcP7v5tyrFj-52" value="&lt;span style=&quot;font-size: 16px&quot;&gt;applying task&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="JgHKoNK4ajcP7v5tyrFj-1">
+          <mxGeometry x="774" y="-170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JgHKoNK4ajcP7v5tyrFj-53" value="&lt;span style=&quot;font-size: 16px&quot;&gt;...&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="JgHKoNK4ajcP7v5tyrFj-1">
+          <mxGeometry x="894" y="-170" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
