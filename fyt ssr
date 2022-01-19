@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-19T01:40:02.120Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="K3ouyf3vzfaLMNLEVIFy" version="16.3.0" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2022-01-19T01:40:54.036Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="m-OOcxBET9EaNvHw-m0i" version="16.3.0" type="github" pages="7">
   <diagram id="yge_vaUGyjeqDlGonE7a" name="ws-cli project">
     <mxGraphModel dx="1186" dy="796" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -903,7 +903,7 @@
         <mxCell id="JgHKoNK4ajcP7v5tyrFj-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="JgHKoNK4ajcP7v5tyrFj-1" source="JgHKoNK4ajcP7v5tyrFj-32" target="JgHKoNK4ajcP7v5tyrFj-34">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="JgHKoNK4ajcP7v5tyrFj-32" value="filter corresponded&lt;br&gt;&amp;nbsp;tasks with id" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="JgHKoNK4ajcP7v5tyrFj-1">
+        <mxCell id="JgHKoNK4ajcP7v5tyrFj-32" value="filter corresponded&lt;br&gt;&amp;nbsp;tasks with &quot;targetDomId&quot;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="JgHKoNK4ajcP7v5tyrFj-1">
           <mxGeometry x="950" y="200" width="130" height="50" as="geometry" />
         </mxCell>
         <mxCell id="JgHKoNK4ajcP7v5tyrFj-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=14;" edge="1" parent="JgHKoNK4ajcP7v5tyrFj-1" source="JgHKoNK4ajcP7v5tyrFj-34" target="JgHKoNK4ajcP7v5tyrFj-36">
@@ -914,6 +914,9 @@
         </mxCell>
         <mxCell id="JgHKoNK4ajcP7v5tyrFj-36" value="is the player in the occipied list?" style="rhombus;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="JgHKoNK4ajcP7v5tyrFj-1">
           <mxGeometry x="947.5" y="360" width="135" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="JgHKoNK4ajcP7v5tyrFj-39" value="cancel these deprecated tasks" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="JgHKoNK4ajcP7v5tyrFj-1">
+          <mxGeometry x="950" y="470" width="130" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
