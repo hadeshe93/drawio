@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-21T11:52:33.751Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="AiwTy277q9WStMlvO8Gt" version="16.4.2" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2022-01-21T11:53:03.924Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="hf-PmwZC3rg1DCOiHEno" version="16.4.2" type="github" pages="10">
   <diagram id="yge_vaUGyjeqDlGonE7a" name="ws-cli project">
     <mxGraphModel dx="1234" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1196,7 +1196,7 @@
         <mxCell id="nZ23s4tku7Gp6KLTzCv_-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=16;fontColor=#1A1A1A;" edge="1" parent="N74vwd-kU91eVMEsF1QK-1" source="nZ23s4tku7Gp6KLTzCv_-71" target="nZ23s4tku7Gp6KLTzCv_-74">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="nZ23s4tku7Gp6KLTzCv_-71" value="使用 scroll +&amp;nbsp;getBoundingClientRect 方案" style="rounded=0;whiteSpace=wrap;html=1;glass=0;fontSize=16;fontColor=#1A1A1A;fillColor=none;gradientColor=none;" vertex="1" parent="N74vwd-kU91eVMEsF1QK-1">
+        <mxCell id="nZ23s4tku7Gp6KLTzCv_-71" value="ScrollObserverWatcher&lt;br&gt;实例缓存观测对象和回调" style="rounded=0;whiteSpace=wrap;html=1;glass=0;fontSize=16;fontColor=#1A1A1A;fillColor=none;gradientColor=none;" vertex="1" parent="N74vwd-kU91eVMEsF1QK-1">
           <mxGeometry x="1190" y="320" width="240" height="50" as="geometry" />
         </mxCell>
         <mxCell id="nZ23s4tku7Gp6KLTzCv_-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=16;fontColor=#1A1A1A;" edge="1" parent="N74vwd-kU91eVMEsF1QK-1" source="nZ23s4tku7Gp6KLTzCv_-74" target="nZ23s4tku7Gp6KLTzCv_-78">
