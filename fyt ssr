@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-21T11:33:31.239Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="B6IB-YfHEJd71J3t7rmR" version="16.4.2" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2022-01-21T11:35:06.233Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="kfVbr60Fd2aKUJzEL-av" version="16.4.2" type="github" pages="10">
   <diagram id="yge_vaUGyjeqDlGonE7a" name="ws-cli project">
     <mxGraphModel dx="1234" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1081,6 +1081,14 @@
         <mxCell id="nZ23s4tku7Gp6KLTzCv_-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=16;fontColor=#1A1A1A;" edge="1" parent="N74vwd-kU91eVMEsF1QK-1" source="nZ23s4tku7Gp6KLTzCv_-6" target="nZ23s4tku7Gp6KLTzCv_-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="nZ23s4tku7Gp6KLTzCv_-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=16;fontColor=#1A1A1A;" edge="1" parent="N74vwd-kU91eVMEsF1QK-1" source="nZ23s4tku7Gp6KLTzCv_-6" target="nZ23s4tku7Gp6KLTzCv_-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="160" y="440" />
+              <mxPoint x="160" y="720" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="nZ23s4tku7Gp6KLTzCv_-6" value="缓存中是否有相应的 observer?" style="rhombus;whiteSpace=wrap;html=1;glass=0;fontSize=16;fontColor=#1A1A1A;fillColor=none;gradientColor=none;" vertex="1" parent="N74vwd-kU91eVMEsF1QK-1">
           <mxGeometry x="217.5" y="400" width="195" height="80" as="geometry" />
         </mxCell>
@@ -1099,7 +1107,7 @@
         <mxCell id="nZ23s4tku7Gp6KLTzCv_-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=16;fontColor=#1A1A1A;" edge="1" parent="N74vwd-kU91eVMEsF1QK-1" source="nZ23s4tku7Gp6KLTzCv_-9" target="nZ23s4tku7Gp6KLTzCv_-10">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="nZ23s4tku7Gp6KLTzCv_-9" value="缓存目标 elem" style="rounded=0;whiteSpace=wrap;html=1;glass=0;fontSize=16;fontColor=#1A1A1A;fillColor=none;gradientColor=none;" vertex="1" parent="N74vwd-kU91eVMEsF1QK-1">
+        <mxCell id="nZ23s4tku7Gp6KLTzCv_-9" value="缓存目标 elem 和回调" style="rounded=0;whiteSpace=wrap;html=1;glass=0;fontSize=16;fontColor=#1A1A1A;fillColor=none;gradientColor=none;" vertex="1" parent="N74vwd-kU91eVMEsF1QK-1">
           <mxGeometry x="219" y="690" width="195" height="60" as="geometry" />
         </mxCell>
         <mxCell id="nZ23s4tku7Gp6KLTzCv_-10" value="执行 observe elem" style="rounded=0;whiteSpace=wrap;html=1;glass=0;fontSize=16;fontColor=#1A1A1A;fillColor=none;gradientColor=none;" vertex="1" parent="N74vwd-kU91eVMEsF1QK-1">
