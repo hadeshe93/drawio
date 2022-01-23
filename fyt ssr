@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-23T02:06:42.523Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="Ey2uNYb8zOlygXX0gUqD" version="16.4.2" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2022-01-23T02:07:11.545Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="ZDCsljgl1_JupId3Jv8K" version="16.4.2" type="github" pages="10">
   <diagram id="yge_vaUGyjeqDlGonE7a" name="ws-cli project">
     <mxGraphModel dx="1234" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1278,45 +1278,6 @@
         </mxCell>
         <mxCell id="zbIxTvo0udxYU-dGFvGY-167" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;fontColor=#1A1A1A;" edge="1" parent="zbIxTvo0udxYU-dGFvGY-51" source="zbIxTvo0udxYU-dGFvGY-149" target="zbIxTvo0udxYU-dGFvGY-165">
           <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="zbIxTvo0udxYU-dGFvGY-133" value="创建任务并入队" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="JgHKoNK4ajcP7v5tyrFj-1">
-          <mxGeometry x="3315" y="260" width="130" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="zbIxTvo0udxYU-dGFvGY-135" value="执行队头任务" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="JgHKoNK4ajcP7v5tyrFj-1">
-          <mxGeometry x="3315" y="340" width="130" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="zbIxTvo0udxYU-dGFvGY-132" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=16;" edge="1" parent="JgHKoNK4ajcP7v5tyrFj-1" source="zbIxTvo0udxYU-dGFvGY-133" target="zbIxTvo0udxYU-dGFvGY-135">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="zbIxTvo0udxYU-dGFvGY-138" value="是否申请成功？" style="rhombus;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="JgHKoNK4ajcP7v5tyrFj-1">
-          <mxGeometry x="3312.5" y="420" width="135" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="zbIxTvo0udxYU-dGFvGY-134" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=16;" edge="1" parent="JgHKoNK4ajcP7v5tyrFj-1" source="zbIxTvo0udxYU-dGFvGY-135" target="zbIxTvo0udxYU-dGFvGY-138">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="zbIxTvo0udxYU-dGFvGY-140" value="队头任务出队" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="JgHKoNK4ajcP7v5tyrFj-1">
-          <mxGeometry x="3315" y="530" width="130" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="zbIxTvo0udxYU-dGFvGY-136" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=16;" edge="1" parent="JgHKoNK4ajcP7v5tyrFj-1" source="zbIxTvo0udxYU-dGFvGY-138" target="zbIxTvo0udxYU-dGFvGY-140">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="zbIxTvo0udxYU-dGFvGY-142" value="执行挂载方法" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="JgHKoNK4ajcP7v5tyrFj-1">
-          <mxGeometry x="3315" y="610" width="130" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="zbIxTvo0udxYU-dGFvGY-139" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=16;" edge="1" parent="JgHKoNK4ajcP7v5tyrFj-1" source="zbIxTvo0udxYU-dGFvGY-140" target="zbIxTvo0udxYU-dGFvGY-142">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="zbIxTvo0udxYU-dGFvGY-143" value="返回播放器" style="ellipse;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="JgHKoNK4ajcP7v5tyrFj-1">
-          <mxGeometry x="3310" y="690" width="135" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="zbIxTvo0udxYU-dGFvGY-141" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=16;" edge="1" parent="JgHKoNK4ajcP7v5tyrFj-1" source="zbIxTvo0udxYU-dGFvGY-142" target="zbIxTvo0udxYU-dGFvGY-143">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="zbIxTvo0udxYU-dGFvGY-146" value="Y" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="JgHKoNK4ajcP7v5tyrFj-1">
-          <mxGeometry x="3380" y="500" width="50" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="zbIxTvo0udxYU-dGFvGY-151" value="执行挂载方法" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="JgHKoNK4ajcP7v5tyrFj-1">
-          <mxGeometry x="3325" y="620" width="130" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
