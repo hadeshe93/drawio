@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-23T06:36:57.727Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="-NW36cDqnXiQKpADOl27" version="16.4.2" type="github" pages="11">
+<mxfile host="app.diagrams.net" modified="2022-01-23T06:40:39.797Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="tpH0Z3aQIcsG0paw_5Om" version="16.4.2" type="github" pages="11">
   <diagram id="yge_vaUGyjeqDlGonE7a" name="ws-cli project">
     <mxGraphModel dx="1234" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1849,6 +1849,36 @@
         </mxCell>
         <mxCell id="MG-BlTurhBddOuKgMwqU-7" value="feature branch B" style="rounded=0;whiteSpace=wrap;html=1;glass=0;sketch=1;fontSize=16;fontColor=#1A1A1A;fillColor=none;gradientColor=none;" vertex="1" parent="MG-BlTurhBddOuKgMwqU-1">
           <mxGeometry x="130" y="350" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MG-BlTurhBddOuKgMwqU-14" style="edgeStyle=none;rounded=0;sketch=1;jumpSize=10;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=16;fontColor=#1A1A1A;" edge="1" parent="MG-BlTurhBddOuKgMwqU-1" source="MG-BlTurhBddOuKgMwqU-9" target="MG-BlTurhBddOuKgMwqU-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MG-BlTurhBddOuKgMwqU-9" value="create mr" style="rounded=0;whiteSpace=wrap;html=1;glass=0;sketch=1;fontSize=16;fontColor=#1A1A1A;fillColor=none;gradientColor=none;" vertex="1" parent="MG-BlTurhBddOuKgMwqU-1">
+          <mxGeometry x="130" y="490" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MG-BlTurhBddOuKgMwqU-16" style="edgeStyle=none;rounded=0;sketch=1;jumpSize=10;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;fontColor=#1A1A1A;" edge="1" parent="MG-BlTurhBddOuKgMwqU-1" source="MG-BlTurhBddOuKgMwqU-10" target="MG-BlTurhBddOuKgMwqU-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MG-BlTurhBddOuKgMwqU-10" value="merge to master" style="rounded=0;whiteSpace=wrap;html=1;glass=0;sketch=1;fontSize=16;fontColor=#1A1A1A;fillColor=none;gradientColor=none;" vertex="1" parent="MG-BlTurhBddOuKgMwqU-1">
+          <mxGeometry x="130" y="650" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MG-BlTurhBddOuKgMwqU-18" style="edgeStyle=none;rounded=0;sketch=1;jumpSize=10;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=16;fontColor=#1A1A1A;" edge="1" parent="MG-BlTurhBddOuKgMwqU-1" source="MG-BlTurhBddOuKgMwqU-11" target="MG-BlTurhBddOuKgMwqU-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MG-BlTurhBddOuKgMwqU-11" value="trigger CD pipeline" style="rounded=0;whiteSpace=wrap;html=1;glass=0;sketch=1;fontSize=16;fontColor=#1A1A1A;fillColor=none;gradientColor=none;" vertex="1" parent="MG-BlTurhBddOuKgMwqU-1">
+          <mxGeometry x="130" y="740" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MG-BlTurhBddOuKgMwqU-15" style="edgeStyle=none;rounded=0;sketch=1;jumpSize=10;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=16;fontColor=#1A1A1A;" edge="1" parent="MG-BlTurhBddOuKgMwqU-1" source="MG-BlTurhBddOuKgMwqU-13" target="MG-BlTurhBddOuKgMwqU-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MG-BlTurhBddOuKgMwqU-13" value="trigger CI pipeline" style="rounded=0;whiteSpace=wrap;html=1;glass=0;sketch=1;fontSize=16;fontColor=#1A1A1A;fillColor=none;gradientColor=none;" vertex="1" parent="MG-BlTurhBddOuKgMwqU-1">
+          <mxGeometry x="130" y="570" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MG-BlTurhBddOuKgMwqU-17" value="deploy assets to cos of test env" style="rounded=0;whiteSpace=wrap;html=1;glass=0;sketch=1;fontSize=16;fontColor=#1A1A1A;fillColor=none;gradientColor=none;" vertex="1" parent="MG-BlTurhBddOuKgMwqU-1">
+          <mxGeometry x="130" y="830" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MG-BlTurhBddOuKgMwqU-19" value="deploy image to server of test env" style="rounded=0;whiteSpace=wrap;html=1;glass=0;sketch=1;fontSize=16;fontColor=#1A1A1A;fillColor=none;gradientColor=none;" vertex="1" parent="MG-BlTurhBddOuKgMwqU-1">
+          <mxGeometry x="130" y="920" width="130" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
