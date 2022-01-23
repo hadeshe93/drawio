@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-23T02:57:02.464Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="P6ln6cTO2hhBGj9ODFHy" version="16.4.2" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2022-01-23T02:57:21.336Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="HhNSpBdyAEBxqx6gIeCr" version="16.4.2" type="github" pages="10">
   <diagram id="yge_vaUGyjeqDlGonE7a" name="ws-cli project">
     <mxGraphModel dx="1234" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1387,10 +1387,7 @@
         <mxCell id="zbIxTvo0udxYU-dGFvGY-221" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/new-year-s-hand-drawn-basic/64/play_button-128.png;rounded=1;glass=0;sketch=1;fontSize=14;fontColor=#1A1A1A;fillColor=none;gradientColor=none;" vertex="1" parent="zbIxTvo0udxYU-dGFvGY-218">
           <mxGeometry x="176" y="50" width="50" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="zbIxTvo0udxYU-dGFvGY-226" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=16;fontColor=#1A1A1A;" edge="1" parent="JgHKoNK4ajcP7v5tyrFj-1" source="zbIxTvo0udxYU-dGFvGY-224" target="zbIxTvo0udxYU-dGFvGY-192">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="zbIxTvo0udxYU-dGFvGY-224" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/new-year-s-hand-drawn-basic/64/play_button-128.png;rounded=1;glass=0;sketch=1;fontSize=14;fontColor=#1A1A1A;fillColor=none;gradientColor=none;imageBackground=#FFF2CC;" vertex="1" parent="JgHKoNK4ajcP7v5tyrFj-1">
+        <mxCell id="zbIxTvo0udxYU-dGFvGY-224" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/new-year-s-hand-drawn-basic/64/play_button-128.png;rounded=1;glass=0;sketch=1;fontSize=14;fontColor=#1A1A1A;fillColor=none;gradientColor=none;imageBackground=#FFFFFF;" vertex="1" parent="JgHKoNK4ajcP7v5tyrFj-1">
           <mxGeometry x="120" y="-245" width="50" height="50" as="geometry" />
         </mxCell>
       </root>
