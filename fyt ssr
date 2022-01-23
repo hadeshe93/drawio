@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-23T03:24:34.116Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="xHfx8CAnqLni6U5Wbaxr" version="16.4.2" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2022-01-23T03:25:28.581Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="fMJuKNCa6Hc2wT2y7zxB" version="16.4.2" type="github" pages="10">
   <diagram id="yge_vaUGyjeqDlGonE7a" name="ws-cli project">
     <mxGraphModel dx="1234" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1002,16 +1002,17 @@
         <mxCell id="JgHKoNK4ajcP7v5tyrFj-48" value="Y" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" parent="JgHKoNK4ajcP7v5tyrFj-1" vertex="1">
           <mxGeometry x="2145" y="440" width="50" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="zbIxTvo0udxYU-dGFvGY-223" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=16;fontColor=#1A1A1A;" edge="1" parent="JgHKoNK4ajcP7v5tyrFj-1" source="JgHKoNK4ajcP7v5tyrFj-49" target="zbIxTvo0udxYU-dGFvGY-218">
+        <mxCell id="zbIxTvo0udxYU-dGFvGY-355" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=16;fontColor=#1A1A1A;" edge="1" parent="JgHKoNK4ajcP7v5tyrFj-1" source="JgHKoNK4ajcP7v5tyrFj-49" target="zbIxTvo0udxYU-dGFvGY-195">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="488" y="-360" />
-              <mxPoint x="665" y="-360" />
+              <mxPoint x="400" y="-407" />
+              <mxPoint x="400" y="-350" />
+              <mxPoint x="237" y="-350" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="zbIxTvo0udxYU-dGFvGY-238" value="consume task" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;fontColor=#1A1A1A;" vertex="1" connectable="0" parent="zbIxTvo0udxYU-dGFvGY-223">
-          <mxGeometry x="-0.2175" y="-2" relative="1" as="geometry">
+        <mxCell id="zbIxTvo0udxYU-dGFvGY-356" value="返回播放器" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;fontColor=#1A1A1A;" vertex="1" connectable="0" parent="zbIxTvo0udxYU-dGFvGY-355">
+          <mxGeometry x="0.0794" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
@@ -1394,10 +1395,8 @@
         <mxCell id="zbIxTvo0udxYU-dGFvGY-213" value="&lt;span style=&quot;font-size: 16px&quot;&gt;组装任务&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;sketch=1;" vertex="1" parent="JgHKoNK4ajcP7v5tyrFj-1">
           <mxGeometry x="558" y="-507.5" width="110" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="zbIxTvo0udxYU-dGFvGY-236" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontSize=16;fontColor=#1A1A1A;" edge="1" parent="JgHKoNK4ajcP7v5tyrFj-1" source="zbIxTvo0udxYU-dGFvGY-218">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="189.00000000000045" y="-390" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="zbIxTvo0udxYU-dGFvGY-354" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;fontSize=16;fontColor=#1A1A1A;" edge="1" parent="JgHKoNK4ajcP7v5tyrFj-1" source="zbIxTvo0udxYU-dGFvGY-218" target="JgHKoNK4ajcP7v5tyrFj-49">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="zbIxTvo0udxYU-dGFvGY-218" value="播放器资源池" style="swimlane;rounded=1;glass=0;sketch=1;fontSize=16;fontColor=#1A1A1A;fillColor=none;gradientColor=none;" vertex="1" parent="JgHKoNK4ajcP7v5tyrFj-1">
           <mxGeometry x="542" y="-320" width="246" height="120" as="geometry" />
