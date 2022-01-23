@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-23T07:38:11.116Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="sxJS5UlWt-mUGbmrL2vz" version="16.4.2" type="github" pages="11">
+<mxfile host="app.diagrams.net" modified="2022-01-23T07:40:13.085Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="CruGUXMIVuTl-L0DeROH" version="16.4.2" type="github" pages="11">
   <diagram id="yge_vaUGyjeqDlGonE7a" name="ws-cli project">
     <mxGraphModel dx="1076" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -757,16 +757,25 @@
           <mxGeometry x="847" y="170" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="gVwioNYCao50L_6xpUDp-0" value="Host" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;fontSize=16;strokeColor=default;" vertex="1" parent="5iSgGVLkPS1w3k422Y__-1">
-          <mxGeometry x="230" y="440" width="150" height="30" as="geometry" />
+          <mxGeometry x="80" y="555" width="150" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="gVwioNYCao50L_6xpUDp-1" value="Prefix Path" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;fontSize=16;strokeColor=default;dashed=1;" vertex="1" parent="5iSgGVLkPS1w3k422Y__-1">
-          <mxGeometry x="380" y="440" width="180" height="30" as="geometry" />
+        <mxCell id="gVwioNYCao50L_6xpUDp-1" value="Prefix Path" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;fontSize=16;strokeColor=#6c8ebf;dashed=1;fillColor=#dae8fc;" vertex="1" parent="5iSgGVLkPS1w3k422Y__-1">
+          <mxGeometry x="230" y="555" width="180" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="gVwioNYCao50L_6xpUDp-2" value="/vise/channels" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;fontSize=16;strokeColor=default;" vertex="1" parent="5iSgGVLkPS1w3k422Y__-1">
-          <mxGeometry x="560" y="440" width="150" height="30" as="geometry" />
+        <mxCell id="gVwioNYCao50L_6xpUDp-2" value="/vise/channels" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;fontSize=16;strokeColor=#6c8ebf;fillColor=#dae8fc;" vertex="1" parent="5iSgGVLkPS1w3k422Y__-1">
+          <mxGeometry x="410" y="555" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="gVwioNYCao50L_6xpUDp-3" value="/index.html" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;fontSize=16;strokeColor=default;" vertex="1" parent="5iSgGVLkPS1w3k422Y__-1">
-          <mxGeometry x="710" y="440" width="150" height="30" as="geometry" />
+          <mxGeometry x="560" y="555" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gVwioNYCao50L_6xpUDp-4" value="Server Router" style="rounded=0;whiteSpace=wrap;html=1;glass=0;sketch=1;fontSize=16;strokeColor=#6c8ebf;fillColor=#dae8fc;" vertex="1" parent="5iSgGVLkPS1w3k422Y__-1">
+          <mxGeometry x="230" y="480" width="326" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="gVwioNYCao50L_6xpUDp-5" value="Vue Router" style="rounded=0;whiteSpace=wrap;html=1;glass=0;sketch=1;fontSize=16;strokeColor=#6c8ebf;fillColor=#dae8fc;" vertex="1" parent="5iSgGVLkPS1w3k422Y__-1">
+          <mxGeometry x="230" y="610" width="326" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="gVwioNYCao50L_6xpUDp-6" value="CDN Router" style="rounded=0;whiteSpace=wrap;html=1;glass=0;sketch=1;fontSize=16;strokeColor=#6c8ebf;fillColor=#dae8fc;" vertex="1" parent="5iSgGVLkPS1w3k422Y__-1">
+          <mxGeometry x="230" y="680" width="326" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
