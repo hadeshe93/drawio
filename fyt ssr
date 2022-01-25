@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-25T09:56:31.581Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="EwEgHKwQQALo37BHypKk" version="16.4.5" type="github" pages="11">
+<mxfile host="app.diagrams.net" modified="2022-01-25T09:58:46.871Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="eTGBsE2cxMRwIt2OmjA9" version="16.4.5" type="github" pages="11">
   <diagram id="yge_vaUGyjeqDlGonE7a" name="ws-cli project">
     <mxGraphModel dx="1234" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2151,7 +2151,15 @@
         </mxCell>
         <mxCell id="4bJdF7a7VSwZaSlMtCa3-43" value="Merge Request" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;fontColor=#1A1A1A;" vertex="1" connectable="0" parent="4bJdF7a7VSwZaSlMtCa3-42">
           <mxGeometry x="-0.225" y="5" relative="1" as="geometry">
-            <mxPoint x="18" y="-7" as="offset" />
+            <mxPoint x="43" y="-20" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4bJdF7a7VSwZaSlMtCa3-62" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=18;fontColor=#1A1A1A;endArrow=classic;endFill=1;strokeWidth=2;" edge="1" parent="MG-BlTurhBddOuKgMwqU-1" source="4bJdF7a7VSwZaSlMtCa3-44" target="4bJdF7a7VSwZaSlMtCa3-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4bJdF7a7VSwZaSlMtCa3-63" value="manual" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=18;fontColor=#1A1A1A;" vertex="1" connectable="0" parent="4bJdF7a7VSwZaSlMtCa3-62">
+          <mxGeometry x="-0.25" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="4bJdF7a7VSwZaSlMtCa3-44" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=16;fontColor=#1A1A1A;strokeWidth=3;fillColor=#B3B3B3;strokeColor=#666666;" vertex="1" parent="MG-BlTurhBddOuKgMwqU-1">
@@ -2205,7 +2213,16 @@
           <mxGeometry x="2180" y="110" width="90" height="40" as="geometry" />
         </mxCell>
         <mxCell id="4bJdF7a7VSwZaSlMtCa3-60" value="feature/hadeshe_film" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=0;fontSize=18;fontColor=#1A1A1A;" vertex="1" parent="MG-BlTurhBddOuKgMwqU-1">
-          <mxGeometry x="1890" y="570" width="180" height="30" as="geometry" />
+          <mxGeometry x="1730" y="530" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4bJdF7a7VSwZaSlMtCa3-66" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=18;fontColor=#1A1A1A;endArrow=classic;endFill=1;strokeWidth=2;" edge="1" parent="MG-BlTurhBddOuKgMwqU-1" source="4bJdF7a7VSwZaSlMtCa3-61" target="4bJdF7a7VSwZaSlMtCa3-65">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4bJdF7a7VSwZaSlMtCa3-61" value="蓝盾" style="rounded=0;whiteSpace=wrap;html=1;glass=0;sketch=0;fontSize=16;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="MG-BlTurhBddOuKgMwqU-1">
+          <mxGeometry x="1920" y="640" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4bJdF7a7VSwZaSlMtCa3-65" value="个人测试环境" style="rounded=0;whiteSpace=wrap;html=1;glass=0;sketch=0;fontSize=16;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="MG-BlTurhBddOuKgMwqU-1">
+          <mxGeometry x="2050" y="640" width="130" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
