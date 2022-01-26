@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-26T02:20:19.920Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="fUow269FLZoDY-rSBee5" version="16.4.5" type="github" pages="12">
+<mxfile host="app.diagrams.net" modified="2022-01-26T02:20:48.325Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="tiQR90Uyt1jcBGbiypUx" version="16.4.5" type="github" pages="12">
   <diagram id="yge_vaUGyjeqDlGonE7a" name="ws-cli project">
     <mxGraphModel dx="1234" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2320,6 +2320,12 @@
         </mxCell>
         <mxCell id="n55Cpn3lSuybuBN-c7Ew-22" value="...normalPlugins" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontSize=14;fontColor=#1A1A1A;strokeColor=#666666;strokeWidth=2;fillColor=#FFFFFF;" vertex="1" parent="n55Cpn3lSuybuBN-c7Ew-1">
           <mxGeometry x="301" y="347" width="138" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="n55Cpn3lSuybuBN-c7Ew-23" value="definePlugin" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontSize=14;fontColor=#1A1A1A;strokeColor=#666666;strokeWidth=2;fillColor=#FFFFFF;" vertex="1" parent="n55Cpn3lSuybuBN-c7Ew-1">
+          <mxGeometry x="476" y="347" width="138" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="n55Cpn3lSuybuBN-c7Ew-24" value="cssPostPlugin" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontSize=14;fontColor=#1A1A1A;strokeColor=#666666;strokeWidth=2;fillColor=#FFFFFF;" vertex="1" parent="n55Cpn3lSuybuBN-c7Ew-1">
+          <mxGeometry x="651" y="347" width="138" height="42" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
