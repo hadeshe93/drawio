@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-26T11:49:35.897Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="fO19_znSmXzL67o5popg" version="16.4.5" type="github" pages="12">
+<mxfile host="app.diagrams.net" modified="2022-01-26T11:49:40.982Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="RvCgMKiXIkU0QSGucEAp" version="16.4.5" type="github" pages="12">
   <diagram id="yge_vaUGyjeqDlGonE7a" name="ws-cli project">
     <mxGraphModel dx="1234" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2345,10 +2345,10 @@
           <mxGeometry x="220" y="568" width="182.5" height="42" as="geometry" />
         </mxCell>
         <mxCell id="n55Cpn3lSuybuBN-c7Ew-41" value="内置 css 前置插件" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontSize=14;strokeColor=#d79b00;strokeWidth=2;fillColor=#ffe6cc;" vertex="1" parent="n55Cpn3lSuybuBN-c7Ew-1">
-          <mxGeometry x="424.75" y="296" width="138" height="42" as="geometry" />
+          <mxGeometry x="450" y="296" width="138" height="42" as="geometry" />
         </mxCell>
         <mxCell id="n55Cpn3lSuybuBN-c7Ew-42" value="内置 css 后置插件" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontSize=14;strokeColor=#6c8ebf;strokeWidth=2;fillColor=#dae8fc;" vertex="1" parent="n55Cpn3lSuybuBN-c7Ew-1">
-          <mxGeometry x="424.75" y="432" width="138" height="42" as="geometry" />
+          <mxGeometry x="450" y="432" width="138" height="42" as="geometry" />
         </mxCell>
         <mxCell id="n55Cpn3lSuybuBN-c7Ew-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;fontColor=#1A1A1A;endArrow=classic;endFill=1;strokeWidth=2;" edge="1" parent="n55Cpn3lSuybuBN-c7Ew-1" source="n55Cpn3lSuybuBN-c7Ew-45" target="n55Cpn3lSuybuBN-c7Ew-46">
           <mxGeometry relative="1" as="geometry" />
@@ -2664,7 +2664,7 @@
           <mxGeometry x="1010" y="140" width="160" height="42" as="geometry" />
         </mxCell>
         <mxCell id="n55Cpn3lSuybuBN-c7Ew-166" value="构建 html 的插件" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontSize=14;strokeColor=#6c8ebf;strokeWidth=2;fillColor=#dae8fc;" vertex="1" parent="n55Cpn3lSuybuBN-c7Ew-1">
-          <mxGeometry x="424.75" y="490" width="138" height="42" as="geometry" />
+          <mxGeometry x="450" y="490" width="138" height="42" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
