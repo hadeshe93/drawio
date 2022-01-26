@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-26T09:57:49.691Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="_tBwU6WSqtDNilIYiH--" version="16.4.5" type="github" pages="12">
+<mxfile host="app.diagrams.net" modified="2022-01-26T10:04:26.552Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="bMCPp_5KdjR-5JfJKVSL" version="16.4.5" type="github" pages="12">
   <diagram id="yge_vaUGyjeqDlGonE7a" name="ws-cli project">
     <mxGraphModel dx="1234" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2418,7 +2418,7 @@
           <mxGeometry x="1109" y="166" width="160" height="42" as="geometry" />
         </mxCell>
         <mxCell id="n55Cpn3lSuybuBN-c7Ew-66" value="type CssModulesCache = WeakMap&amp;lt;ResolvedConfig, Map&amp;lt;ReqId, CompiledCssModules&amp;gt;&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontSize=14;fontColor=#1A1A1A;strokeColor=#666666;strokeWidth=2;fillColor=#FFFFFF;" vertex="1" parent="n55Cpn3lSuybuBN-c7Ew-1">
-          <mxGeometry x="670" y="-210" width="690" height="42" as="geometry" />
+          <mxGeometry x="680" y="-350" width="690" height="42" as="geometry" />
         </mxCell>
         <mxCell id="n55Cpn3lSuybuBN-c7Ew-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=14;fontColor=#1A1A1A;endArrow=classic;endFill=1;strokeWidth=2;" edge="1" parent="n55Cpn3lSuybuBN-c7Ew-1" source="n55Cpn3lSuybuBN-c7Ew-67" target="n55Cpn3lSuybuBN-c7Ew-68">
           <mxGeometry relative="1" as="geometry" />
@@ -2433,7 +2433,7 @@
           <mxGeometry x="1310" y="255" width="180" height="42" as="geometry" />
         </mxCell>
         <mxCell id="n55Cpn3lSuybuBN-c7Ew-70" value="type Styles = WeakMap&amp;lt;&amp;nbsp;ReqId, CompiedCssString&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontSize=14;fontColor=#1A1A1A;strokeColor=#666666;strokeWidth=2;fillColor=#FFFFFF;" vertex="1" parent="n55Cpn3lSuybuBN-c7Ew-1">
-          <mxGeometry x="670" y="-150" width="690" height="42" as="geometry" />
+          <mxGeometry x="680" y="-290" width="690" height="42" as="geometry" />
         </mxCell>
         <mxCell id="n55Cpn3lSuybuBN-c7Ew-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=14;fontColor=#1A1A1A;endArrow=classic;endFill=1;strokeWidth=2;" edge="1" parent="n55Cpn3lSuybuBN-c7Ew-1" source="n55Cpn3lSuybuBN-c7Ew-71" target="n55Cpn3lSuybuBN-c7Ew-72">
           <mxGeometry relative="1" as="geometry" />
@@ -2514,7 +2514,7 @@
           <mxGeometry x="1290" y="910.5" width="160" height="42" as="geometry" />
         </mxCell>
         <mxCell id="n55Cpn3lSuybuBN-c7Ew-101" value="&amp;nbsp;type PureCssChunks = Set&amp;lt;ChunkFileNameString&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontSize=14;fontColor=#1A1A1A;strokeColor=#666666;strokeWidth=2;fillColor=#FFFFFF;" vertex="1" parent="n55Cpn3lSuybuBN-c7Ew-1">
-          <mxGeometry x="670" y="-90" width="690" height="42" as="geometry" />
+          <mxGeometry x="680" y="-230" width="690" height="42" as="geometry" />
         </mxCell>
         <mxCell id="n55Cpn3lSuybuBN-c7Ew-108" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;fontColor=#1A1A1A;endArrow=classic;endFill=1;strokeWidth=2;" edge="1" parent="n55Cpn3lSuybuBN-c7Ew-1" source="n55Cpn3lSuybuBN-c7Ew-103" target="n55Cpn3lSuybuBN-c7Ew-107">
           <mxGeometry relative="1" as="geometry" />
@@ -2562,7 +2562,7 @@
           <mxGeometry x="1290" y="820.5" width="210" height="42" as="geometry" />
         </mxCell>
         <mxCell id="n55Cpn3lSuybuBN-c7Ew-123" value="&amp;nbsp;type OutputToExtractedCSSMap = Map&amp;lt;RenderChunkOptions, ChunkCssTotalString&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontSize=14;fontColor=#1A1A1A;strokeColor=#666666;strokeWidth=2;fillColor=#FFFFFF;" vertex="1" parent="n55Cpn3lSuybuBN-c7Ew-1">
-          <mxGeometry x="670" y="-30" width="690" height="42" as="geometry" />
+          <mxGeometry x="680" y="-170" width="690" height="42" as="geometry" />
         </mxCell>
         <mxCell id="n55Cpn3lSuybuBN-c7Ew-124" value="" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontSize=14;fontColor=#1A1A1A;strokeColor=#666666;strokeWidth=2;fillColor=#FFFFFF;dashed=1;" vertex="1" parent="n55Cpn3lSuybuBN-c7Ew-1">
           <mxGeometry x="1020" y="1230" width="680" height="638" as="geometry" />
@@ -2578,6 +2578,9 @@
         </mxCell>
         <mxCell id="n55Cpn3lSuybuBN-c7Ew-130" value="过滤掉 chunk.imports&amp;nbsp; 下的纯 css chunk" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontSize=14;fontColor=#1A1A1A;strokeColor=#666666;strokeWidth=2;fillColor=#FFFFFF;" vertex="1" parent="n55Cpn3lSuybuBN-c7Ew-1">
           <mxGeometry x="1280" y="1340" width="160" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="n55Cpn3lSuybuBN-c7Ew-131" value="&amp;nbsp;type ChunkToEmittedCssFileMap = Map&amp;lt;Chunk, Set&amp;lt;ChunkImportsFileNameString&amp;gt;&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontSize=14;fontColor=#1A1A1A;strokeColor=#666666;strokeWidth=2;fillColor=#FFFFFF;" vertex="1" parent="n55Cpn3lSuybuBN-c7Ew-1">
+          <mxGeometry x="680" y="-110" width="690" height="42" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
