@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-26T02:26:41.923Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="bCCyFwT7POpF5cWLqFyv" version="16.4.5" type="github" pages="12">
+<mxfile host="app.diagrams.net" modified="2022-01-26T02:27:16.832Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="UIX1V7ed5Y8cPIt-_4tL" version="16.4.5" type="github" pages="12">
   <diagram id="yge_vaUGyjeqDlGonE7a" name="ws-cli project">
     <mxGraphModel dx="1234" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2254,7 +2254,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Eg-IsPFc2DoOoUhgLK9u" name="vite css build">
-    <mxGraphModel dx="1634" dy="1194" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1634" dy="1194" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="n55Cpn3lSuybuBN-c7Ew-0" />
         <mxCell id="n55Cpn3lSuybuBN-c7Ew-1" parent="n55Cpn3lSuybuBN-c7Ew-0" />
@@ -2336,23 +2336,41 @@
         <mxCell id="n55Cpn3lSuybuBN-c7Ew-27" value="...buildPlugins.post" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontSize=14;fontColor=#1A1A1A;strokeColor=#666666;strokeWidth=2;fillColor=#FFFFFF;" vertex="1" parent="n55Cpn3lSuybuBN-c7Ew-1">
           <mxGeometry x="1206" y="81" width="138" height="42" as="geometry" />
         </mxCell>
+        <mxCell id="n55Cpn3lSuybuBN-c7Ew-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=14;fontColor=#EA6B66;endArrow=classic;endFill=1;strokeWidth=2;" edge="1" parent="n55Cpn3lSuybuBN-c7Ew-1" source="n55Cpn3lSuybuBN-c7Ew-28" target="n55Cpn3lSuybuBN-c7Ew-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="n55Cpn3lSuybuBN-c7Ew-28" value="Alias 插件" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontSize=14;fontColor=#1A1A1A;strokeColor=#666666;strokeWidth=2;fillColor=#FFFFFF;" vertex="1" parent="n55Cpn3lSuybuBN-c7Ew-1">
           <mxGeometry x="307.5" y="166" width="138" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="n55Cpn3lSuybuBN-c7Ew-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=14;fontColor=#EA6B66;endArrow=classic;endFill=1;strokeWidth=2;" edge="1" parent="n55Cpn3lSuybuBN-c7Ew-1" source="n55Cpn3lSuybuBN-c7Ew-29" target="n55Cpn3lSuybuBN-c7Ew-30">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="n55Cpn3lSuybuBN-c7Ew-29" value="enforce: &#39;pre&#39; 的用户插件" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontSize=14;fontColor=#1A1A1A;strokeColor=#666666;strokeWidth=2;fillColor=#FFFFFF;" vertex="1" parent="n55Cpn3lSuybuBN-c7Ew-1">
           <mxGeometry x="288" y="234" width="177" height="42" as="geometry" />
         </mxCell>
+        <mxCell id="n55Cpn3lSuybuBN-c7Ew-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;fontColor=#EA6B66;endArrow=classic;endFill=1;strokeWidth=2;" edge="1" parent="n55Cpn3lSuybuBN-c7Ew-1" source="n55Cpn3lSuybuBN-c7Ew-30" target="n55Cpn3lSuybuBN-c7Ew-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="n55Cpn3lSuybuBN-c7Ew-30" value="Vite 核心插件" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontSize=14;fontColor=#1A1A1A;strokeColor=#666666;strokeWidth=2;fillColor=#FFFFFF;" vertex="1" parent="n55Cpn3lSuybuBN-c7Ew-1">
-          <mxGeometry x="305.5" y="302" width="138" height="42" as="geometry" />
+          <mxGeometry x="307.5" y="302" width="138" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="n55Cpn3lSuybuBN-c7Ew-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;fontColor=#EA6B66;endArrow=classic;endFill=1;strokeWidth=2;" edge="1" parent="n55Cpn3lSuybuBN-c7Ew-1" source="n55Cpn3lSuybuBN-c7Ew-31" target="n55Cpn3lSuybuBN-c7Ew-32">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="n55Cpn3lSuybuBN-c7Ew-31" value="无 enforce 的用户插件" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontSize=14;fontColor=#1A1A1A;strokeColor=#666666;strokeWidth=2;fillColor=#FFFFFF;" vertex="1" parent="n55Cpn3lSuybuBN-c7Ew-1">
-          <mxGeometry x="286" y="370" width="177" height="42" as="geometry" />
+          <mxGeometry x="288" y="370" width="177" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="n55Cpn3lSuybuBN-c7Ew-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;fontColor=#EA6B66;endArrow=classic;endFill=1;strokeWidth=2;" edge="1" parent="n55Cpn3lSuybuBN-c7Ew-1" source="n55Cpn3lSuybuBN-c7Ew-32" target="n55Cpn3lSuybuBN-c7Ew-33">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="n55Cpn3lSuybuBN-c7Ew-32" value="Vite 构建用的插件" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontSize=14;fontColor=#1A1A1A;strokeColor=#666666;strokeWidth=2;fillColor=#FFFFFF;" vertex="1" parent="n55Cpn3lSuybuBN-c7Ew-1">
-          <mxGeometry x="305.5" y="438" width="138" height="42" as="geometry" />
+          <mxGeometry x="307.5" y="438" width="138" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="n55Cpn3lSuybuBN-c7Ew-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=14;fontColor=#EA6B66;endArrow=classic;endFill=1;strokeWidth=2;" edge="1" parent="n55Cpn3lSuybuBN-c7Ew-1" source="n55Cpn3lSuybuBN-c7Ew-33" target="n55Cpn3lSuybuBN-c7Ew-34">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="n55Cpn3lSuybuBN-c7Ew-33" value="enfoce: &#39;post&#39; 的用户插件" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontSize=14;fontColor=#1A1A1A;strokeColor=#666666;strokeWidth=2;fillColor=#FFFFFF;" vertex="1" parent="n55Cpn3lSuybuBN-c7Ew-1">
-          <mxGeometry x="290.75" y="506" width="167.5" height="42" as="geometry" />
+          <mxGeometry x="292.75" y="506" width="167.5" height="42" as="geometry" />
         </mxCell>
         <mxCell id="n55Cpn3lSuybuBN-c7Ew-34" value="Vite 后置构建插件" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontSize=14;fontColor=#1A1A1A;strokeColor=#666666;strokeWidth=2;fillColor=#FFFFFF;" vertex="1" parent="n55Cpn3lSuybuBN-c7Ew-1">
           <mxGeometry x="307.5" y="574" width="138" height="42" as="geometry" />
