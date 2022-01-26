@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-26T09:29:58.417Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="0Bz87j0uWAzApVpgULpo" version="16.4.5" type="github" pages="12">
+<mxfile host="app.diagrams.net" modified="2022-01-26T09:30:29.498Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="6v_JUUYOUgz1YOY1C-67" version="16.4.5" type="github" pages="12">
   <diagram id="yge_vaUGyjeqDlGonE7a" name="ws-cli project">
     <mxGraphModel dx="1234" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2489,6 +2489,9 @@
         <mxCell id="n55Cpn3lSuybuBN-c7Ew-98" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=14;fontColor=#1A1A1A;endArrow=classic;endFill=1;strokeWidth=2;" edge="1" parent="n55Cpn3lSuybuBN-c7Ew-1" source="n55Cpn3lSuybuBN-c7Ew-95" target="n55Cpn3lSuybuBN-c7Ew-96">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="n55Cpn3lSuybuBN-c7Ew-122" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;fontColor=#1A1A1A;endArrow=classic;endFill=1;strokeWidth=2;" edge="1" parent="n55Cpn3lSuybuBN-c7Ew-1" source="n55Cpn3lSuybuBN-c7Ew-95" target="n55Cpn3lSuybuBN-c7Ew-120">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="n55Cpn3lSuybuBN-c7Ew-95" value="&lt;font color=&quot;#1a1a1a&quot;&gt;是否默认分割 css？&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;sketch=0;fontSize=14;fontColor=#EA6B66;strokeColor=#666666;strokeWidth=2;fillColor=#FFFFFF;" vertex="1" parent="n55Cpn3lSuybuBN-c7Ew-1">
           <mxGeometry x="1118.5" y="810" width="141" height="63" as="geometry" />
         </mxCell>
@@ -2549,8 +2552,8 @@
         <mxCell id="n55Cpn3lSuybuBN-c7Ew-116" value="返回一段 js 内联 css 内容的代码作为 chunk" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontSize=14;fontColor=#1A1A1A;strokeColor=#666666;strokeWidth=2;fillColor=#FFFFFF;" vertex="1" parent="n55Cpn3lSuybuBN-c7Ew-1">
           <mxGeometry x="1420" y="1101" width="160" height="42" as="geometry" />
         </mxCell>
-        <mxCell id="n55Cpn3lSuybuBN-c7Ew-120" value="将 css" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontSize=14;fontColor=#1A1A1A;strokeColor=#666666;strokeWidth=2;fillColor=#FFFFFF;" vertex="1" parent="n55Cpn3lSuybuBN-c7Ew-1">
-          <mxGeometry x="1290" y="820.5" width="160" height="42" as="geometry" />
+        <mxCell id="n55Cpn3lSuybuBN-c7Ew-120" value="将 chunkCss 缓存到&amp;nbsp;outputToExtractedCSSMap" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontSize=14;fontColor=#1A1A1A;strokeColor=#666666;strokeWidth=2;fillColor=#FFFFFF;" vertex="1" parent="n55Cpn3lSuybuBN-c7Ew-1">
+          <mxGeometry x="1290" y="820.5" width="210" height="42" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
