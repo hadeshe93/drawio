@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-26T11:34:05.004Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="-Pyb18px_yeQxP4FB8cx" version="16.4.5" type="github" pages="12">
+<mxfile host="app.diagrams.net" modified="2022-01-26T11:44:36.901Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="2H2OSPapXW8doXOTjxAX" version="16.4.5" type="github" pages="12">
   <diagram id="yge_vaUGyjeqDlGonE7a" name="ws-cli project">
     <mxGraphModel dx="1234" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2254,15 +2254,18 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Eg-IsPFc2DoOoUhgLK9u" name="vite css build">
-    <mxGraphModel dx="1634" dy="1594" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2868" dy="2388" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="n55Cpn3lSuybuBN-c7Ew-0" />
         <mxCell id="n55Cpn3lSuybuBN-c7Ew-1" parent="n55Cpn3lSuybuBN-c7Ew-0" />
+        <mxCell id="n55Cpn3lSuybuBN-c7Ew-163" value="" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontSize=14;fontColor=#1A1A1A;strokeColor=#666666;strokeWidth=2;fillColor=#FFFFFF;dashed=1;" vertex="1" parent="n55Cpn3lSuybuBN-c7Ew-1">
+          <mxGeometry x="620" y="140" width="470" height="580" as="geometry" />
+        </mxCell>
         <mxCell id="n55Cpn3lSuybuBN-c7Ew-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=14;fontColor=#1A1A1A;endArrow=classic;endFill=1;strokeWidth=2;" edge="1" parent="n55Cpn3lSuybuBN-c7Ew-1" source="n55Cpn3lSuybuBN-c7Ew-81" target="n55Cpn3lSuybuBN-c7Ew-84">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="n55Cpn3lSuybuBN-c7Ew-81" value="" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontSize=14;fontColor=#1A1A1A;strokeColor=#666666;strokeWidth=2;fillColor=#FFFFFF;dashed=1;" vertex="1" parent="n55Cpn3lSuybuBN-c7Ew-1">
-          <mxGeometry x="1020" y="140" width="500" height="360" as="geometry" />
+          <mxGeometry x="1870" y="140" width="500" height="360" as="geometry" />
         </mxCell>
         <mxCell id="n55Cpn3lSuybuBN-c7Ew-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;fontColor=#1A1A1A;endArrow=classic;endFill=1;strokeWidth=2;" edge="1" parent="n55Cpn3lSuybuBN-c7Ew-1" source="n55Cpn3lSuybuBN-c7Ew-2" target="n55Cpn3lSuybuBN-c7Ew-5">
           <mxGeometry relative="1" as="geometry" />
@@ -2409,13 +2412,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="n55Cpn3lSuybuBN-c7Ew-63" value="内置 css 后置插件" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontSize=14;strokeColor=#6c8ebf;strokeWidth=2;fillColor=#dae8fc;" vertex="1" parent="n55Cpn3lSuybuBN-c7Ew-1">
-          <mxGeometry x="1201" y="60" width="138" height="42" as="geometry" />
+          <mxGeometry x="2051" y="60" width="138" height="42" as="geometry" />
         </mxCell>
         <mxCell id="n55Cpn3lSuybuBN-c7Ew-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=14;fontColor=#1A1A1A;endArrow=classic;endFill=1;strokeWidth=2;" edge="1" parent="n55Cpn3lSuybuBN-c7Ew-1" source="n55Cpn3lSuybuBN-c7Ew-64" target="n55Cpn3lSuybuBN-c7Ew-67">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="n55Cpn3lSuybuBN-c7Ew-64" value="初始化缓存用的变量" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontSize=14;fontColor=#1A1A1A;strokeColor=#666666;strokeWidth=2;fillColor=#FFFFFF;" vertex="1" parent="n55Cpn3lSuybuBN-c7Ew-1">
-          <mxGeometry x="1109" y="166" width="160" height="42" as="geometry" />
+          <mxGeometry x="1959" y="166" width="160" height="42" as="geometry" />
         </mxCell>
         <mxCell id="n55Cpn3lSuybuBN-c7Ew-66" value="type CssModulesCache = WeakMap&amp;lt;ResolvedConfig, Map&amp;lt;ReqId, CompiledCssModules&amp;gt;&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontSize=14;fontColor=#1A1A1A;strokeColor=#666666;strokeWidth=2;fillColor=#FFFFFF;" vertex="1" parent="n55Cpn3lSuybuBN-c7Ew-1">
           <mxGeometry x="680" y="-570" width="690" height="42" as="geometry" />
@@ -2427,10 +2430,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="n55Cpn3lSuybuBN-c7Ew-67" value="&lt;font color=&quot;#1a1a1a&quot;&gt;是否 dev server 模式？&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;sketch=0;fontSize=14;fontColor=#EA6B66;strokeColor=#666666;strokeWidth=2;fillColor=#FFFFFF;" vertex="1" parent="n55Cpn3lSuybuBN-c7Ew-1">
-          <mxGeometry x="1118.5" y="244.5" width="141" height="63" as="geometry" />
+          <mxGeometry x="1968.5" y="244.5" width="141" height="63" as="geometry" />
         </mxCell>
         <mxCell id="n55Cpn3lSuybuBN-c7Ew-68" value="返回 css 编译后的代码" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontSize=14;fontColor=#1A1A1A;strokeColor=#666666;strokeWidth=2;fillColor=#FFFFFF;" vertex="1" parent="n55Cpn3lSuybuBN-c7Ew-1">
-          <mxGeometry x="1310" y="255" width="180" height="42" as="geometry" />
+          <mxGeometry x="2160" y="255" width="180" height="42" as="geometry" />
         </mxCell>
         <mxCell id="n55Cpn3lSuybuBN-c7Ew-70" value="type Styles = WeakMap&amp;lt;&amp;nbsp;ReqId, CompiedCssString&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontSize=14;fontColor=#1A1A1A;strokeColor=#666666;strokeWidth=2;fillColor=#FFFFFF;" vertex="1" parent="n55Cpn3lSuybuBN-c7Ew-1">
           <mxGeometry x="680" y="-510" width="690" height="42" as="geometry" />
@@ -2442,40 +2445,40 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="n55Cpn3lSuybuBN-c7Ew-71" value="&lt;font color=&quot;#1a1a1a&quot;&gt;是否内联方式？&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;sketch=0;fontSize=14;fontColor=#EA6B66;strokeColor=#666666;strokeWidth=2;fillColor=#FFFFFF;" vertex="1" parent="n55Cpn3lSuybuBN-c7Ew-1">
-          <mxGeometry x="1118.5" y="334" width="141" height="63" as="geometry" />
+          <mxGeometry x="1968.5" y="334" width="141" height="63" as="geometry" />
         </mxCell>
         <mxCell id="n55Cpn3lSuybuBN-c7Ew-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;fontColor=#1A1A1A;endArrow=classic;endFill=1;strokeWidth=2;" edge="1" parent="n55Cpn3lSuybuBN-c7Ew-1" source="n55Cpn3lSuybuBN-c7Ew-72" target="n55Cpn3lSuybuBN-c7Ew-78">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="n55Cpn3lSuybuBN-c7Ew-72" value="缓存 id 对于的 css 内容" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontSize=14;fontColor=#1A1A1A;strokeColor=#666666;strokeWidth=2;fillColor=#FFFFFF;" vertex="1" parent="n55Cpn3lSuybuBN-c7Ew-1">
-          <mxGeometry x="1310" y="344" width="180" height="42" as="geometry" />
+          <mxGeometry x="2160" y="344" width="180" height="42" as="geometry" />
         </mxCell>
         <mxCell id="n55Cpn3lSuybuBN-c7Ew-78" value="返回 esm 格式的 css 模块" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontSize=14;fontColor=#1A1A1A;strokeColor=#666666;strokeWidth=2;fillColor=#FFFFFF;" vertex="1" parent="n55Cpn3lSuybuBN-c7Ew-1">
-          <mxGeometry x="1099" y="438" width="180" height="42" as="geometry" />
+          <mxGeometry x="1949" y="438" width="180" height="42" as="geometry" />
         </mxCell>
         <mxCell id="n55Cpn3lSuybuBN-c7Ew-82" value="transform hook" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontSize=14;fontColor=#1A1A1A;strokeColor=#666666;strokeWidth=2;fillColor=#FFFFFF;dashed=1;" vertex="1" parent="n55Cpn3lSuybuBN-c7Ew-1">
-          <mxGeometry x="1360" y="140" width="160" height="42" as="geometry" />
+          <mxGeometry x="2210" y="140" width="160" height="42" as="geometry" />
         </mxCell>
         <mxCell id="n55Cpn3lSuybuBN-c7Ew-125" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fontColor=#1A1A1A;endArrow=classic;endFill=1;strokeWidth=2;" edge="1" parent="n55Cpn3lSuybuBN-c7Ew-1" source="n55Cpn3lSuybuBN-c7Ew-84" target="n55Cpn3lSuybuBN-c7Ew-124">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="n55Cpn3lSuybuBN-c7Ew-84" value="" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontSize=14;fontColor=#1A1A1A;strokeColor=#666666;strokeWidth=2;fillColor=#FFFFFF;dashed=1;" vertex="1" parent="n55Cpn3lSuybuBN-c7Ew-1">
-          <mxGeometry x="1020" y="542" width="960" height="638" as="geometry" />
+          <mxGeometry x="1870" y="542" width="960" height="638" as="geometry" />
         </mxCell>
         <mxCell id="n55Cpn3lSuybuBN-c7Ew-86" value="render hook" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontSize=14;fontColor=#1A1A1A;strokeColor=#666666;strokeWidth=2;fillColor=#FFFFFF;dashed=1;" vertex="1" parent="n55Cpn3lSuybuBN-c7Ew-1">
-          <mxGeometry x="1820" y="542" width="160" height="42" as="geometry" />
+          <mxGeometry x="2670" y="542" width="160" height="42" as="geometry" />
         </mxCell>
         <mxCell id="n55Cpn3lSuybuBN-c7Ew-89" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;fontColor=#1A1A1A;endArrow=classic;endFill=1;strokeWidth=2;" edge="1" parent="n55Cpn3lSuybuBN-c7Ew-1" source="n55Cpn3lSuybuBN-c7Ew-87" target="n55Cpn3lSuybuBN-c7Ew-88">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="n55Cpn3lSuybuBN-c7Ew-87" value="入参 chunk" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontSize=14;fontColor=#1A1A1A;strokeColor=#666666;strokeWidth=2;fillColor=#FFFFFF;" vertex="1" parent="n55Cpn3lSuybuBN-c7Ew-1">
-          <mxGeometry x="1109" y="584" width="160" height="42" as="geometry" />
+          <mxGeometry x="1959" y="584" width="160" height="42" as="geometry" />
         </mxCell>
         <mxCell id="n55Cpn3lSuybuBN-c7Ew-91" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=14;fontColor=#1A1A1A;endArrow=classic;endFill=1;strokeWidth=2;" edge="1" parent="n55Cpn3lSuybuBN-c7Ew-1" source="n55Cpn3lSuybuBN-c7Ew-88" target="n55Cpn3lSuybuBN-c7Ew-90">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="n55Cpn3lSuybuBN-c7Ew-88" value="遍历 chunk.modules 合并 css 模块内容进 chunkCss" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontSize=14;fontColor=#1A1A1A;strokeColor=#666666;strokeWidth=2;fillColor=#FFFFFF;" vertex="1" parent="n55Cpn3lSuybuBN-c7Ew-1">
-          <mxGeometry x="1088.5" y="650" width="201" height="42" as="geometry" />
+          <mxGeometry x="1938.5" y="650" width="201" height="42" as="geometry" />
         </mxCell>
         <mxCell id="n55Cpn3lSuybuBN-c7Ew-94" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=14;fontColor=#1A1A1A;endArrow=classic;endFill=1;strokeWidth=2;" edge="1" parent="n55Cpn3lSuybuBN-c7Ew-1" source="n55Cpn3lSuybuBN-c7Ew-90" target="n55Cpn3lSuybuBN-c7Ew-93">
           <mxGeometry relative="1" as="geometry" />
@@ -2484,10 +2487,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="n55Cpn3lSuybuBN-c7Ew-90" value="&lt;font color=&quot;#1a1a1a&quot;&gt;合并结果是否为空？&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;sketch=0;fontSize=14;fontColor=#EA6B66;strokeColor=#666666;strokeWidth=2;fillColor=#FFFFFF;" vertex="1" parent="n55Cpn3lSuybuBN-c7Ew-1">
-          <mxGeometry x="1118.5" y="720" width="141" height="63" as="geometry" />
+          <mxGeometry x="1968.5" y="720" width="141" height="63" as="geometry" />
         </mxCell>
         <mxCell id="n55Cpn3lSuybuBN-c7Ew-93" value="返回 null" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontSize=14;fontColor=#1A1A1A;strokeColor=#666666;strokeWidth=2;fillColor=#FFFFFF;" vertex="1" parent="n55Cpn3lSuybuBN-c7Ew-1">
-          <mxGeometry x="1290" y="730.5" width="100" height="42" as="geometry" />
+          <mxGeometry x="2140" y="730.5" width="100" height="42" as="geometry" />
         </mxCell>
         <mxCell id="n55Cpn3lSuybuBN-c7Ew-98" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=14;fontColor=#1A1A1A;endArrow=classic;endFill=1;strokeWidth=2;" edge="1" parent="n55Cpn3lSuybuBN-c7Ew-1" source="n55Cpn3lSuybuBN-c7Ew-95" target="n55Cpn3lSuybuBN-c7Ew-96">
           <mxGeometry relative="1" as="geometry" />
@@ -2496,7 +2499,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="n55Cpn3lSuybuBN-c7Ew-95" value="&lt;font color=&quot;#1a1a1a&quot;&gt;是否默认分割 css？&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;sketch=0;fontSize=14;fontColor=#EA6B66;strokeColor=#666666;strokeWidth=2;fillColor=#FFFFFF;" vertex="1" parent="n55Cpn3lSuybuBN-c7Ew-1">
-          <mxGeometry x="1118.5" y="810" width="141" height="63" as="geometry" />
+          <mxGeometry x="1968.5" y="810" width="141" height="63" as="geometry" />
         </mxCell>
         <mxCell id="n55Cpn3lSuybuBN-c7Ew-102" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;fontColor=#1A1A1A;endArrow=classic;endFill=1;strokeWidth=2;" edge="1" parent="n55Cpn3lSuybuBN-c7Ew-1" source="n55Cpn3lSuybuBN-c7Ew-96" target="n55Cpn3lSuybuBN-c7Ew-100">
           <mxGeometry relative="1" as="geometry" />
@@ -2505,13 +2508,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="n55Cpn3lSuybuBN-c7Ew-96" value="&lt;font color=&quot;#1a1a1a&quot;&gt;该 chunk 是否纯 css chunk？&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;sketch=0;fontSize=14;fontColor=#EA6B66;strokeColor=#666666;strokeWidth=2;fillColor=#FFFFFF;" vertex="1" parent="n55Cpn3lSuybuBN-c7Ew-1">
-          <mxGeometry x="1118.5" y="900" width="141" height="63" as="geometry" />
+          <mxGeometry x="1968.5" y="900" width="141" height="63" as="geometry" />
         </mxCell>
         <mxCell id="n55Cpn3lSuybuBN-c7Ew-105" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;fontColor=#1A1A1A;endArrow=classic;endFill=1;strokeWidth=2;" edge="1" parent="n55Cpn3lSuybuBN-c7Ew-1" source="n55Cpn3lSuybuBN-c7Ew-100" target="n55Cpn3lSuybuBN-c7Ew-103">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="n55Cpn3lSuybuBN-c7Ew-100" value="缓存 chunk.fileName 到 pureCssChunks" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontSize=14;fontColor=#1A1A1A;strokeColor=#666666;strokeWidth=2;fillColor=#FFFFFF;" vertex="1" parent="n55Cpn3lSuybuBN-c7Ew-1">
-          <mxGeometry x="1290" y="910.5" width="160" height="42" as="geometry" />
+          <mxGeometry x="2140" y="910.5" width="160" height="42" as="geometry" />
         </mxCell>
         <mxCell id="n55Cpn3lSuybuBN-c7Ew-101" value="&amp;nbsp;type PureCssChunks = Set&amp;lt;ChunkFileNameString&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontSize=14;fontColor=#1A1A1A;strokeColor=#666666;strokeWidth=2;fillColor=#FFFFFF;" vertex="1" parent="n55Cpn3lSuybuBN-c7Ew-1">
           <mxGeometry x="680" y="-450" width="690" height="42" as="geometry" />
@@ -2523,67 +2526,67 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="n55Cpn3lSuybuBN-c7Ew-103" value="&lt;font color=&quot;#1a1a1a&quot;&gt;构建目标格式是否为 es 或者 cjs？&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;sketch=0;fontSize=14;fontColor=#EA6B66;strokeColor=#666666;strokeWidth=2;fillColor=#FFFFFF;" vertex="1" parent="n55Cpn3lSuybuBN-c7Ew-1">
-          <mxGeometry x="1118.5" y="1000" width="141" height="63" as="geometry" />
+          <mxGeometry x="1968.5" y="1000" width="141" height="63" as="geometry" />
         </mxCell>
         <mxCell id="n55Cpn3lSuybuBN-c7Ew-111" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=14;fontColor=#1A1A1A;endArrow=classic;endFill=1;strokeWidth=2;" edge="1" parent="n55Cpn3lSuybuBN-c7Ew-1" source="n55Cpn3lSuybuBN-c7Ew-107" target="n55Cpn3lSuybuBN-c7Ew-110">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="n55Cpn3lSuybuBN-c7Ew-107" value="压缩 css 内容" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontSize=14;fontColor=#1A1A1A;strokeColor=#666666;strokeWidth=2;fillColor=#FFFFFF;" vertex="1" parent="n55Cpn3lSuybuBN-c7Ew-1">
-          <mxGeometry x="1290" y="1010.5" width="100" height="42" as="geometry" />
+          <mxGeometry x="2140" y="1010.5" width="100" height="42" as="geometry" />
         </mxCell>
         <mxCell id="n55Cpn3lSuybuBN-c7Ew-128" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=14;fontColor=#1A1A1A;endArrow=classic;endFill=1;strokeWidth=2;" edge="1" parent="n55Cpn3lSuybuBN-c7Ew-1" source="n55Cpn3lSuybuBN-c7Ew-109" target="n55Cpn3lSuybuBN-c7Ew-127">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="n55Cpn3lSuybuBN-c7Ew-109" value="将 chunk 和 asset 句柄缓存到&amp;nbsp;chunkToEmittedCssFileMap" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontSize=14;fontColor=#1A1A1A;strokeColor=#666666;strokeWidth=2;fillColor=#FFFFFF;" vertex="1" parent="n55Cpn3lSuybuBN-c7Ew-1">
-          <mxGeometry x="1610" y="1010.5" width="210" height="42" as="geometry" />
+          <mxGeometry x="2460" y="1010.5" width="210" height="42" as="geometry" />
         </mxCell>
         <mxCell id="n55Cpn3lSuybuBN-c7Ew-112" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=14;fontColor=#1A1A1A;endArrow=classic;endFill=1;strokeWidth=2;" edge="1" parent="n55Cpn3lSuybuBN-c7Ew-1" source="n55Cpn3lSuybuBN-c7Ew-110" target="n55Cpn3lSuybuBN-c7Ew-109">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="n55Cpn3lSuybuBN-c7Ew-110" value="emitFile 提交生成 asset" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontSize=14;fontColor=#1A1A1A;strokeColor=#666666;strokeWidth=2;fillColor=#FFFFFF;" vertex="1" parent="n55Cpn3lSuybuBN-c7Ew-1">
-          <mxGeometry x="1420" y="1010.5" width="160" height="42" as="geometry" />
+          <mxGeometry x="2270" y="1010.5" width="160" height="42" as="geometry" />
         </mxCell>
         <mxCell id="n55Cpn3lSuybuBN-c7Ew-115" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=14;fontColor=#1A1A1A;endArrow=classic;endFill=1;strokeWidth=2;" edge="1" parent="n55Cpn3lSuybuBN-c7Ew-1" source="n55Cpn3lSuybuBN-c7Ew-113" target="n55Cpn3lSuybuBN-c7Ew-114">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="n55Cpn3lSuybuBN-c7Ew-113" value="&lt;font color=&quot;#1a1a1a&quot;&gt;是否 client 端的 legacy build？&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;sketch=0;fontSize=14;fontColor=#EA6B66;strokeColor=#666666;strokeWidth=2;fillColor=#FFFFFF;" vertex="1" parent="n55Cpn3lSuybuBN-c7Ew-1">
-          <mxGeometry x="1118.5" y="1090.5" width="141" height="63" as="geometry" />
+          <mxGeometry x="1968.5" y="1090.5" width="141" height="63" as="geometry" />
         </mxCell>
         <mxCell id="n55Cpn3lSuybuBN-c7Ew-117" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=14;fontColor=#1A1A1A;endArrow=classic;endFill=1;strokeWidth=2;" edge="1" parent="n55Cpn3lSuybuBN-c7Ew-1" source="n55Cpn3lSuybuBN-c7Ew-114" target="n55Cpn3lSuybuBN-c7Ew-116">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="n55Cpn3lSuybuBN-c7Ew-114" value="压缩并 inlined css 内容" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontSize=14;fontColor=#1A1A1A;strokeColor=#666666;strokeWidth=2;fillColor=#FFFFFF;" vertex="1" parent="n55Cpn3lSuybuBN-c7Ew-1">
-          <mxGeometry x="1290" y="1101" width="100" height="42" as="geometry" />
+          <mxGeometry x="2140" y="1101" width="100" height="42" as="geometry" />
         </mxCell>
         <mxCell id="n55Cpn3lSuybuBN-c7Ew-116" value="返回一段 js 内联 css 内容的代码作为 chunk" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontSize=14;fontColor=#1A1A1A;strokeColor=#666666;strokeWidth=2;fillColor=#FFFFFF;" vertex="1" parent="n55Cpn3lSuybuBN-c7Ew-1">
-          <mxGeometry x="1420" y="1101" width="160" height="42" as="geometry" />
+          <mxGeometry x="2270" y="1101" width="160" height="42" as="geometry" />
         </mxCell>
         <mxCell id="n55Cpn3lSuybuBN-c7Ew-120" value="将 chunkCss 缓存到&amp;nbsp;outputToExtractedCSSMap" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontSize=14;fontColor=#1A1A1A;strokeColor=#666666;strokeWidth=2;fillColor=#FFFFFF;" vertex="1" parent="n55Cpn3lSuybuBN-c7Ew-1">
-          <mxGeometry x="1290" y="820.5" width="210" height="42" as="geometry" />
+          <mxGeometry x="2140" y="820.5" width="210" height="42" as="geometry" />
         </mxCell>
         <mxCell id="n55Cpn3lSuybuBN-c7Ew-123" value="&amp;nbsp;type OutputToExtractedCSSMap = Map&amp;lt;RenderChunkOptions, ChunkCssTotalString&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontSize=14;fontColor=#1A1A1A;strokeColor=#666666;strokeWidth=2;fillColor=#FFFFFF;" vertex="1" parent="n55Cpn3lSuybuBN-c7Ew-1">
           <mxGeometry x="680" y="-390" width="690" height="42" as="geometry" />
         </mxCell>
         <mxCell id="n55Cpn3lSuybuBN-c7Ew-124" value="" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontSize=14;fontColor=#1A1A1A;strokeColor=#666666;strokeWidth=2;fillColor=#FFFFFF;dashed=1;" vertex="1" parent="n55Cpn3lSuybuBN-c7Ew-1">
-          <mxGeometry x="1020" y="1230" width="730" height="740" as="geometry" />
+          <mxGeometry x="1870" y="1230" width="730" height="740" as="geometry" />
         </mxCell>
         <mxCell id="n55Cpn3lSuybuBN-c7Ew-126" value="generateBundle hook" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontSize=14;fontColor=#1A1A1A;strokeColor=#666666;strokeWidth=2;fillColor=#FFFFFF;dashed=1;" vertex="1" parent="n55Cpn3lSuybuBN-c7Ew-1">
-          <mxGeometry x="1590" y="1230" width="160" height="42" as="geometry" />
+          <mxGeometry x="2440" y="1230" width="160" height="42" as="geometry" />
         </mxCell>
         <mxCell id="n55Cpn3lSuybuBN-c7Ew-127" value="返回 null" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontSize=14;fontColor=#1A1A1A;strokeColor=#666666;strokeWidth=2;fillColor=#FFFFFF;" vertex="1" parent="n55Cpn3lSuybuBN-c7Ew-1">
-          <mxGeometry x="1850" y="1010.5" width="100" height="42" as="geometry" />
+          <mxGeometry x="2700" y="1010.5" width="100" height="42" as="geometry" />
         </mxCell>
         <mxCell id="n55Cpn3lSuybuBN-c7Ew-132" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=14;fontColor=#1A1A1A;endArrow=classic;endFill=1;strokeWidth=2;" edge="1" parent="n55Cpn3lSuybuBN-c7Ew-1" source="n55Cpn3lSuybuBN-c7Ew-129" target="n55Cpn3lSuybuBN-c7Ew-130">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="n55Cpn3lSuybuBN-c7Ew-129" value="遍历 bundle 下的 chunks" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontSize=14;fontColor=#1A1A1A;strokeColor=#666666;strokeWidth=2;fillColor=#FFFFFF;" vertex="1" parent="n55Cpn3lSuybuBN-c7Ew-1">
-          <mxGeometry x="1280" y="1272" width="160" height="42" as="geometry" />
+          <mxGeometry x="2130" y="1272" width="160" height="42" as="geometry" />
         </mxCell>
         <mxCell id="n55Cpn3lSuybuBN-c7Ew-134" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=14;fontColor=#1A1A1A;endArrow=classic;endFill=1;strokeWidth=2;" edge="1" parent="n55Cpn3lSuybuBN-c7Ew-1" source="n55Cpn3lSuybuBN-c7Ew-130" target="n55Cpn3lSuybuBN-c7Ew-133">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="n55Cpn3lSuybuBN-c7Ew-130" value="过滤掉 chunk.imports&amp;nbsp; 下的纯 css chunk" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontSize=14;fontColor=#1A1A1A;strokeColor=#666666;strokeWidth=2;fillColor=#FFFFFF;" vertex="1" parent="n55Cpn3lSuybuBN-c7Ew-1">
-          <mxGeometry x="1280" y="1340" width="160" height="42" as="geometry" />
+          <mxGeometry x="2130" y="1340" width="160" height="42" as="geometry" />
         </mxCell>
         <mxCell id="n55Cpn3lSuybuBN-c7Ew-131" value="&amp;nbsp;type ChunkToEmittedCssFileMap = Map&amp;lt;Chunk, Set&amp;lt;ChunkImportsFileNameString&amp;gt;&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontSize=14;fontColor=#1A1A1A;strokeColor=#666666;strokeWidth=2;fillColor=#FFFFFF;" vertex="1" parent="n55Cpn3lSuybuBN-c7Ew-1">
           <mxGeometry x="680" y="-330" width="690" height="42" as="geometry" />
@@ -2592,13 +2595,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="n55Cpn3lSuybuBN-c7Ew-133" value="并将这些纯 css chunk 和对应的 fileName 列表关系缓存到&amp;nbsp;chunkToEmittedCssFileMap" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontSize=14;fontColor=#1A1A1A;strokeColor=#666666;strokeWidth=2;fillColor=#FFFFFF;" vertex="1" parent="n55Cpn3lSuybuBN-c7Ew-1">
-          <mxGeometry x="1240" y="1410" width="240" height="50" as="geometry" />
+          <mxGeometry x="2090" y="1410" width="240" height="50" as="geometry" />
         </mxCell>
         <mxCell id="n55Cpn3lSuybuBN-c7Ew-147" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=14;fontColor=#1A1A1A;endArrow=classic;endFill=1;strokeWidth=2;" edge="1" parent="n55Cpn3lSuybuBN-c7Ew-1" source="n55Cpn3lSuybuBN-c7Ew-136" target="n55Cpn3lSuybuBN-c7Ew-140">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="n55Cpn3lSuybuBN-c7Ew-136" value="将 chunk 中 import 了纯 css chunk 的地方全部替换成注释" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontSize=14;fontColor=#1A1A1A;strokeColor=#666666;strokeWidth=2;fillColor=#FFFFFF;" vertex="1" parent="n55Cpn3lSuybuBN-c7Ew-1">
-          <mxGeometry x="1260" y="1490" width="200" height="42" as="geometry" />
+          <mxGeometry x="2110" y="1490" width="200" height="42" as="geometry" />
         </mxCell>
         <mxCell id="n55Cpn3lSuybuBN-c7Ew-138" value="&amp;nbsp;type RemovedPureCssFilesCache = WeakMap&amp;lt;ResolvedConfig, Map&amp;lt;string RenderedChunk&amp;gt;&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontSize=14;fontColor=#1A1A1A;strokeColor=#666666;strokeWidth=2;fillColor=#FFFFFF;" vertex="1" parent="n55Cpn3lSuybuBN-c7Ew-1">
           <mxGeometry x="680" y="-270" width="690" height="42" as="geometry" />
@@ -2607,13 +2610,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="n55Cpn3lSuybuBN-c7Ew-140" value="将所有纯 css chunk 缓存到&amp;nbsp;&amp;nbsp;removedPureCssFiles 中" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontSize=14;fontColor=#1A1A1A;strokeColor=#666666;strokeWidth=2;fillColor=#FFFFFF;" vertex="1" parent="n55Cpn3lSuybuBN-c7Ew-1">
-          <mxGeometry x="1259.5" y="1560" width="200" height="42" as="geometry" />
+          <mxGeometry x="2109.5" y="1560" width="200" height="42" as="geometry" />
         </mxCell>
         <mxCell id="n55Cpn3lSuybuBN-c7Ew-149" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=14;fontColor=#1A1A1A;endArrow=classic;endFill=1;strokeWidth=2;" edge="1" parent="n55Cpn3lSuybuBN-c7Ew-1" source="n55Cpn3lSuybuBN-c7Ew-141" target="n55Cpn3lSuybuBN-c7Ew-143">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="n55Cpn3lSuybuBN-c7Ew-141" value="将 bundle 中所有纯 css chunk 删掉" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontSize=14;fontColor=#1A1A1A;strokeColor=#666666;strokeWidth=2;fillColor=#FFFFFF;" vertex="1" parent="n55Cpn3lSuybuBN-c7Ew-1">
-          <mxGeometry x="1259.5" y="1630" width="200" height="42" as="geometry" />
+          <mxGeometry x="2109.5" y="1630" width="200" height="42" as="geometry" />
         </mxCell>
         <mxCell id="n55Cpn3lSuybuBN-c7Ew-153" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=14;fontColor=#1A1A1A;endArrow=classic;endFill=1;strokeWidth=2;" edge="1" parent="n55Cpn3lSuybuBN-c7Ew-1" source="n55Cpn3lSuybuBN-c7Ew-143" target="n55Cpn3lSuybuBN-c7Ew-144">
           <mxGeometry relative="1" as="geometry" />
@@ -2622,7 +2625,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="n55Cpn3lSuybuBN-c7Ew-143" value="&lt;font color=&quot;#1a1a1a&quot;&gt;是否有不分割的 css 还没 emit？&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;sketch=0;fontSize=14;fontColor=#EA6B66;strokeColor=#666666;strokeWidth=2;fillColor=#FFFFFF;" vertex="1" parent="n55Cpn3lSuybuBN-c7Ew-1">
-          <mxGeometry x="1289" y="1700" width="141" height="63" as="geometry" />
+          <mxGeometry x="2139" y="1700" width="141" height="63" as="geometry" />
         </mxCell>
         <mxCell id="n55Cpn3lSuybuBN-c7Ew-154" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=14;fontColor=#1A1A1A;endArrow=classic;endFill=1;strokeWidth=2;" edge="1" parent="n55Cpn3lSuybuBN-c7Ew-1" source="n55Cpn3lSuybuBN-c7Ew-144" target="n55Cpn3lSuybuBN-c7Ew-145">
           <mxGeometry relative="1" as="geometry" />
@@ -2631,24 +2634,27 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="n55Cpn3lSuybuBN-c7Ew-144" value="&lt;font color=&quot;#1a1a1a&quot;&gt;构建是否需要 minify?&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;sketch=0;fontSize=14;fontColor=#EA6B66;strokeColor=#666666;strokeWidth=2;fillColor=#FFFFFF;" vertex="1" parent="n55Cpn3lSuybuBN-c7Ew-1">
-          <mxGeometry x="1460" y="1700" width="141" height="63" as="geometry" />
+          <mxGeometry x="2310" y="1700" width="141" height="63" as="geometry" />
         </mxCell>
         <mxCell id="n55Cpn3lSuybuBN-c7Ew-159" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=14;fontColor=#1A1A1A;endArrow=classic;endFill=1;strokeWidth=2;" edge="1" parent="n55Cpn3lSuybuBN-c7Ew-1" source="n55Cpn3lSuybuBN-c7Ew-145">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1530" y="1810" as="targetPoint" />
+            <mxPoint x="2380" y="1810" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="n55Cpn3lSuybuBN-c7Ew-145" value="压缩 css" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontSize=14;fontColor=#1A1A1A;strokeColor=#666666;strokeWidth=2;fillColor=#FFFFFF;" vertex="1" parent="n55Cpn3lSuybuBN-c7Ew-1">
-          <mxGeometry x="1620" y="1710.5" width="100" height="42" as="geometry" />
+          <mxGeometry x="2470" y="1710.5" width="100" height="42" as="geometry" />
         </mxCell>
         <mxCell id="n55Cpn3lSuybuBN-c7Ew-160" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;fontColor=#1A1A1A;endArrow=classic;endFill=1;strokeWidth=2;" edge="1" parent="n55Cpn3lSuybuBN-c7Ew-1" source="n55Cpn3lSuybuBN-c7Ew-146" target="n55Cpn3lSuybuBN-c7Ew-155">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="n55Cpn3lSuybuBN-c7Ew-146" value="emit style.css" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontSize=14;fontColor=#1A1A1A;strokeColor=#666666;strokeWidth=2;fillColor=#FFFFFF;" vertex="1" parent="n55Cpn3lSuybuBN-c7Ew-1">
-          <mxGeometry x="1450.5" y="1810" width="160" height="42" as="geometry" />
+          <mxGeometry x="2300.5" y="1810" width="160" height="42" as="geometry" />
         </mxCell>
         <mxCell id="n55Cpn3lSuybuBN-c7Ew-155" value="结束" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontSize=14;fontColor=#1A1A1A;strokeColor=#666666;strokeWidth=2;fillColor=#FFFFFF;" vertex="1" parent="n55Cpn3lSuybuBN-c7Ew-1">
-          <mxGeometry x="1314.5" y="1900" width="90" height="42" as="geometry" />
+          <mxGeometry x="2164.5" y="1900" width="90" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="n55Cpn3lSuybuBN-c7Ew-164" value="transform hook" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontSize=14;fontColor=#1A1A1A;strokeColor=#666666;strokeWidth=2;fillColor=#FFFFFF;dashed=1;" vertex="1" parent="n55Cpn3lSuybuBN-c7Ew-1">
+          <mxGeometry x="930" y="140" width="160" height="42" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
