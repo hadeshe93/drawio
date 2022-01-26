@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-26T02:27:16.832Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="UIX1V7ed5Y8cPIt-_4tL" version="16.4.5" type="github" pages="12">
+<mxfile host="app.diagrams.net" modified="2022-01-26T02:29:50.888Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="MBHlNsLmU0y7SJ-hw5bB" version="16.4.5" type="github" pages="12">
   <diagram id="yge_vaUGyjeqDlGonE7a" name="ws-cli project">
     <mxGraphModel dx="1234" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2374,6 +2374,12 @@
         </mxCell>
         <mxCell id="n55Cpn3lSuybuBN-c7Ew-34" value="Vite 后置构建插件" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontSize=14;fontColor=#1A1A1A;strokeColor=#666666;strokeWidth=2;fillColor=#FFFFFF;" vertex="1" parent="n55Cpn3lSuybuBN-c7Ew-1">
           <mxGeometry x="307.5" y="574" width="138" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="n55Cpn3lSuybuBN-c7Ew-41" value="内置 css 前置插件" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontSize=14;fontColor=#1A1A1A;strokeColor=#666666;strokeWidth=2;fillColor=#FFFFFF;" vertex="1" parent="n55Cpn3lSuybuBN-c7Ew-1">
+          <mxGeometry x="490" y="302" width="138" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="n55Cpn3lSuybuBN-c7Ew-42" value="内置 css 后置插件" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontSize=14;fontColor=#1A1A1A;strokeColor=#666666;strokeWidth=2;fillColor=#FFFFFF;" vertex="1" parent="n55Cpn3lSuybuBN-c7Ew-1">
+          <mxGeometry x="490" y="438" width="138" height="42" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
