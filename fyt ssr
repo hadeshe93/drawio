@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-28T02:01:53.676Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="zSj568tmrr77Dj1qfVnt" version="16.4.7" type="github" pages="12">
+<mxfile host="app.diagrams.net" modified="2022-01-28T02:02:10.816Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="Zt_HNKFDgD-Qq7JixuW2" version="16.4.7" type="github" pages="12">
   <diagram id="yge_vaUGyjeqDlGonE7a" name="ws-cli project">
     <mxGraphModel dx="1234" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2773,8 +2773,14 @@
         <mxCell id="zPqEpG7087N3DRAdgGtG-35" value="&lt;font color=&quot;#1a1a1a&quot;&gt;是否默认配置了 polyfill 模块预加载且有 script&amp;nbsp; module 是 async 或 defer 的?&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;sketch=0;fontSize=14;fontColor=#EA6B66;strokeColor=#666666;strokeWidth=2;fillColor=#FFFFFF;" vertex="1" parent="n55Cpn3lSuybuBN-c7Ew-1">
           <mxGeometry x="3300" y="210" width="280" height="63" as="geometry" />
         </mxCell>
+        <mxCell id="zPqEpG7087N3DRAdgGtG-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="n55Cpn3lSuybuBN-c7Ew-1" source="zPqEpG7087N3DRAdgGtG-36" target="zPqEpG7087N3DRAdgGtG-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="zPqEpG7087N3DRAdgGtG-36" value="将 import&amp;nbsp;vite/modulepreload-polyfill 语句缓存进 js 变量" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontSize=14;fontColor=#1A1A1A;strokeColor=#666666;strokeWidth=2;fillColor=#FFFFFF;" vertex="1" parent="n55Cpn3lSuybuBN-c7Ew-1">
           <mxGeometry x="3330.02" y="307.5" width="219.96" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="zPqEpG7087N3DRAdgGtG-40" value="结束" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontSize=14;fontColor=#1A1A1A;strokeColor=#666666;strokeWidth=2;fillColor=#FFFFFF;" vertex="1" parent="n55Cpn3lSuybuBN-c7Ew-1">
+          <mxGeometry x="3360.0099999999998" y="390" width="159.98" height="42" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
