@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-28T02:44:49.056Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="HdI4l3dNQAupuI6vM2BF" version="16.4.7" type="github" pages="12">
+<mxfile host="app.diagrams.net" modified="2022-01-28T02:44:51.257Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="NEf-7gr-XPIyjWToXBDX" version="16.4.7" type="github" pages="12">
   <diagram id="yge_vaUGyjeqDlGonE7a" name="ws-cli project">
     <mxGraphModel dx="1234" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2888,6 +2888,9 @@
         </mxCell>
         <mxCell id="1Y5-l_9gvOCdyRgAefdl-4" value="将其他 imports 依赖转成 preload tag 并缓存到 assetTags" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontSize=14;fontColor=#1A1A1A;strokeColor=#666666;strokeWidth=2;fillColor=#FFFFFF;" vertex="1" parent="n55Cpn3lSuybuBN-c7Ew-1">
           <mxGeometry x="3290" y="1200.5" width="200" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="1Y5-l_9gvOCdyRgAefdl-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="n55Cpn3lSuybuBN-c7Ew-1" source="1Y5-l_9gvOCdyRgAefdl-8" target="1Y5-l_9gvOCdyRgAefdl-12">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="1Y5-l_9gvOCdyRgAefdl-8" value="收集 chunk 和递归收集 chunk.imports 所依赖的 css 并转成 link tag" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontSize=14;fontColor=#1A1A1A;strokeColor=#666666;strokeWidth=2;fillColor=#FFFFFF;" vertex="1" parent="n55Cpn3lSuybuBN-c7Ew-1">
           <mxGeometry x="2808.07" y="1358" width="253.87" height="42" as="geometry" />
