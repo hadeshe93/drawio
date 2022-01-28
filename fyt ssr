@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-28T02:19:33.655Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="1QQmN7dSrlkF3WULgy_3" version="16.4.7" type="github" pages="12">
+<mxfile host="app.diagrams.net" modified="2022-01-28T02:19:38.710Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="MB8W9dVqrKohLJDJlRRp" version="16.4.7" type="github" pages="12">
   <diagram id="yge_vaUGyjeqDlGonE7a" name="ws-cli project">
     <mxGraphModel dx="1234" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2847,11 +2847,14 @@
         <mxCell id="zPqEpG7087N3DRAdgGtG-64" value="transform hook" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="n55Cpn3lSuybuBN-c7Ew-1">
           <mxGeometry x="3590" y="115" width="120" height="35" as="geometry" />
         </mxCell>
+        <mxCell id="zPqEpG7087N3DRAdgGtG-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="n55Cpn3lSuybuBN-c7Ew-1" source="zPqEpG7087N3DRAdgGtG-65" target="zPqEpG7087N3DRAdgGtG-66">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="zPqEpG7087N3DRAdgGtG-65" value="&lt;font color=&quot;#1a1a1a&quot;&gt;是否遍历完 processedHtml 缓存的 html？&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;sketch=0;fontSize=14;fontColor=#EA6B66;strokeColor=#666666;strokeWidth=2;fillColor=#FFFFFF;" vertex="1" parent="n55Cpn3lSuybuBN-c7Ew-1">
           <mxGeometry x="2849.9790000000003" y="937.5" width="172.302" height="63" as="geometry" />
         </mxCell>
         <mxCell id="zPqEpG7087N3DRAdgGtG-66" value="找到该 html id 对应的入口 chunk" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontSize=14;fontColor=#1A1A1A;strokeColor=#666666;strokeWidth=2;fillColor=#FFFFFF;" vertex="1" parent="n55Cpn3lSuybuBN-c7Ew-1">
-          <mxGeometry x="2849.98" y="1038.5" width="180" height="42" as="geometry" />
+          <mxGeometry x="2845" y="1038.5" width="180" height="42" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
