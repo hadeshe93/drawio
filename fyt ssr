@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-28T03:18:53.635Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="wwCyHIBun8jSEbE8U_Jt" version="16.4.7" type="github" pages="12">
+<mxfile host="app.diagrams.net" modified="2022-01-28T03:30:03.756Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="f1V1fVfEfxRKVnqE6wRm" version="16.4.7" type="github" pages="12">
   <diagram id="yge_vaUGyjeqDlGonE7a" name="ws-cli project">
     <mxGraphModel dx="1234" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -3008,14 +3008,14 @@
         <mxCell id="1Y5-l_9gvOCdyRgAefdl-49" value="构建 manifest 的插件" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontSize=14;strokeColor=#9673a6;strokeWidth=2;fillColor=#e1d5e7;" vertex="1" parent="n55Cpn3lSuybuBN-c7Ew-1">
           <mxGeometry x="4160" y="40" width="138" height="42" as="geometry" />
         </mxCell>
-        <mxCell id="1Y5-l_9gvOCdyRgAefdl-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=1;" edge="1" parent="n55Cpn3lSuybuBN-c7Ew-1" source="1Y5-l_9gvOCdyRgAefdl-51" target="1Y5-l_9gvOCdyRgAefdl-53">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="1Y5-l_9gvOCdyRgAefdl-51" value="&lt;font color=&quot;#1a1a1a&quot;&gt;是否遍历完了 bundle 下的 chunk？&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;sketch=0;fontSize=14;fontColor=#EA6B66;strokeColor=#666666;strokeWidth=2;fillColor=#FFFFFF;" vertex="1" parent="n55Cpn3lSuybuBN-c7Ew-1">
+        <mxCell id="1Y5-l_9gvOCdyRgAefdl-51" value="&lt;font color=&quot;#1a1a1a&quot;&gt;是否遍历完了 bundle 下的 资源块？&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;sketch=0;fontSize=14;fontColor=#EA6B66;strokeColor=#666666;strokeWidth=2;fillColor=#FFFFFF;" vertex="1" parent="n55Cpn3lSuybuBN-c7Ew-1">
           <mxGeometry x="4142.849" y="119.5" width="172.302" height="63" as="geometry" />
         </mxCell>
         <mxCell id="1Y5-l_9gvOCdyRgAefdl-53" value="创建 chunk 相关的依赖信息" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontSize=14;fontColor=#1A1A1A;strokeColor=#666666;strokeWidth=2;fillColor=#FFFFFF;" vertex="1" parent="n55Cpn3lSuybuBN-c7Ew-1">
-          <mxGeometry x="4139" y="220.5" width="180" height="42" as="geometry" />
+          <mxGeometry x="4139" y="327.5" width="180" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="1Y5-l_9gvOCdyRgAefdl-56" value="&lt;font color=&quot;#1a1a1a&quot;&gt;资源块是否为 chunk 类型？&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;sketch=0;fontSize=14;fontColor=#EA6B66;strokeColor=#666666;strokeWidth=2;fillColor=#FFFFFF;" vertex="1" parent="n55Cpn3lSuybuBN-c7Ew-1">
+          <mxGeometry x="4142.849" y="213" width="172.302" height="63" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
