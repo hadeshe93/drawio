@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-28T02:31:40.261Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="O2FJmeLqVdM_MxCeiTBS" version="16.4.7" type="github" pages="12">
+<mxfile host="app.diagrams.net" modified="2022-01-28T02:31:48.964Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="5FUFKU587k8ASsrawyf4" version="16.4.7" type="github" pages="12">
   <diagram id="yge_vaUGyjeqDlGonE7a" name="ws-cli project">
     <mxGraphModel dx="1234" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2862,11 +2862,20 @@
         <mxCell id="zPqEpG7087N3DRAdgGtG-68" value="递归 chunk.imports 找到所有依赖链并打平成一维数组" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontSize=14;fontColor=#1A1A1A;strokeColor=#666666;strokeWidth=2;fillColor=#FFFFFF;" vertex="1" parent="n55Cpn3lSuybuBN-c7Ew-1">
           <mxGeometry x="2846.13" y="1120" width="180" height="42" as="geometry" />
         </mxCell>
+        <mxCell id="1Y5-l_9gvOCdyRgAefdl-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="n55Cpn3lSuybuBN-c7Ew-1" source="1Y5-l_9gvOCdyRgAefdl-0" target="1Y5-l_9gvOCdyRgAefdl-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1Y5-l_9gvOCdyRgAefdl-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="n55Cpn3lSuybuBN-c7Ew-1" source="1Y5-l_9gvOCdyRgAefdl-0" target="1Y5-l_9gvOCdyRgAefdl-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="1Y5-l_9gvOCdyRgAefdl-0" value="&lt;font color=&quot;#1a1a1a&quot;&gt;当前 chunk.code 是否只包含 import 语句？&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;sketch=0;fontSize=14;fontColor=#EA6B66;strokeColor=#666666;strokeWidth=2;fillColor=#FFFFFF;" vertex="1" parent="n55Cpn3lSuybuBN-c7Ew-1">
           <mxGeometry x="2848.849" y="1190" width="172.302" height="63" as="geometry" />
         </mxCell>
         <mxCell id="1Y5-l_9gvOCdyRgAefdl-2" value="将收集到的 imports 转成 script tag 缓存到 assetTags" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontSize=14;fontColor=#1A1A1A;strokeColor=#666666;strokeWidth=2;fillColor=#FFFFFF;" vertex="1" parent="n55Cpn3lSuybuBN-c7Ew-1">
           <mxGeometry x="2846.13" y="1280" width="180" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="1Y5-l_9gvOCdyRgAefdl-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="n55Cpn3lSuybuBN-c7Ew-1" source="1Y5-l_9gvOCdyRgAefdl-3" target="1Y5-l_9gvOCdyRgAefdl-4">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="1Y5-l_9gvOCdyRgAefdl-3" value="将当前 chunk 转成 script tag 并缓存到 assetTags" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontSize=14;fontColor=#1A1A1A;strokeColor=#666666;strokeWidth=2;fillColor=#FFFFFF;" vertex="1" parent="n55Cpn3lSuybuBN-c7Ew-1">
           <mxGeometry x="3070.15" y="1200.5" width="180" height="42" as="geometry" />
