@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-28T03:32:45.344Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="SINS4qhf692jer8eYAg0" version="16.4.7" type="github" pages="12">
+<mxfile host="app.diagrams.net" modified="2022-01-28T03:32:56.891Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="K6_OQViXkuijeccuu5hh" version="16.4.7" type="github" pages="12">
   <diagram id="yge_vaUGyjeqDlGonE7a" name="ws-cli project">
     <mxGraphModel dx="1234" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -3021,6 +3021,9 @@
           <mxGeometry x="4139" y="307.5" width="180" height="42" as="geometry" />
         </mxCell>
         <mxCell id="1Y5-l_9gvOCdyRgAefdl-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeWidth=1;" edge="1" parent="n55Cpn3lSuybuBN-c7Ew-1" source="1Y5-l_9gvOCdyRgAefdl-56" target="1Y5-l_9gvOCdyRgAefdl-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1Y5-l_9gvOCdyRgAefdl-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=1;" edge="1" parent="n55Cpn3lSuybuBN-c7Ew-1" source="1Y5-l_9gvOCdyRgAefdl-56" target="1Y5-l_9gvOCdyRgAefdl-51">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="1Y5-l_9gvOCdyRgAefdl-56" value="&lt;font color=&quot;#1a1a1a&quot;&gt;资源块是否为 chunk 类型？&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;sketch=0;fontSize=14;fontColor=#EA6B66;strokeColor=#666666;strokeWidth=2;fillColor=#FFFFFF;" vertex="1" parent="n55Cpn3lSuybuBN-c7Ew-1">
