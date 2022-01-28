@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-28T02:49:14.724Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="n9l9FyRMwXKh0YTA3wq7" version="16.4.7" type="github" pages="12">
+<mxfile host="app.diagrams.net" modified="2022-01-28T02:49:26.979Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="EZOjFNnRH241zBM5kDfv" version="16.4.7" type="github" pages="12">
   <diagram id="yge_vaUGyjeqDlGonE7a" name="ws-cli project">
     <mxGraphModel dx="1234" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2925,6 +2925,9 @@
         <mxCell id="1Y5-l_9gvOCdyRgAefdl-20" value="应用后置的用户 transform 钩子" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontSize=14;fontColor=#1A1A1A;strokeColor=#666666;strokeWidth=2;fillColor=#FFFFFF;" vertex="1" parent="n55Cpn3lSuybuBN-c7Ew-1">
           <mxGeometry x="2825.02" y="1670" width="219.96" height="42" as="geometry" />
         </mxCell>
+        <mxCell id="1Y5-l_9gvOCdyRgAefdl-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="n55Cpn3lSuybuBN-c7Ew-1" source="1Y5-l_9gvOCdyRgAefdl-22" target="1Y5-l_9gvOCdyRgAefdl-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="1Y5-l_9gvOCdyRgAefdl-22" value="以 asset 形式 emitFile 来生成 html 文件" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontSize=14;fontColor=#1A1A1A;strokeColor=#666666;strokeWidth=2;fillColor=#FFFFFF;" vertex="1" parent="n55Cpn3lSuybuBN-c7Ew-1">
           <mxGeometry x="2825.02" y="1860" width="219.96" height="42" as="geometry" />
         </mxCell>
@@ -2942,6 +2945,9 @@
         </mxCell>
         <mxCell id="1Y5-l_9gvOCdyRgAefdl-27" value="从 bundle 中删掉这个 chunk" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontSize=14;fontColor=#1A1A1A;strokeColor=#666666;strokeWidth=2;fillColor=#FFFFFF;" vertex="1" parent="n55Cpn3lSuybuBN-c7Ew-1">
           <mxGeometry x="3070.15" y="1753" width="219.96" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="1Y5-l_9gvOCdyRgAefdl-30" value="结束" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontSize=14;fontColor=#1A1A1A;strokeColor=#666666;strokeWidth=2;fillColor=#FFFFFF;" vertex="1" parent="n55Cpn3lSuybuBN-c7Ew-1">
+          <mxGeometry x="2862.5099999999998" y="1932" width="144.98" height="42" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
