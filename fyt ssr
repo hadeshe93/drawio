@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-28T01:58:43.391Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="BNiuaaurtoTJyMiAlGwu" version="16.4.7" type="github" pages="12">
+<mxfile host="app.diagrams.net" modified="2022-01-28T02:01:19.679Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="q3y31hjZJVK34645H9Cx" version="16.4.7" type="github" pages="12">
   <diagram id="yge_vaUGyjeqDlGonE7a" name="ws-cli project">
     <mxGraphModel dx="1234" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2705,7 +2705,7 @@
         <mxCell id="zPqEpG7087N3DRAdgGtG-16" value="&lt;font color=&quot;#1a1a1a&quot;&gt;是否为 script 外链节点且为 module？&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;sketch=0;fontSize=14;fontColor=#EA6B66;strokeColor=#666666;strokeWidth=2;fillColor=#FFFFFF;" vertex="1" parent="n55Cpn3lSuybuBN-c7Ew-1">
           <mxGeometry x="2853.829" y="387" width="172.302" height="63" as="geometry" />
         </mxCell>
-        <mxCell id="zPqEpG7087N3DRAdgGtG-18" value="转成 import 语句并缓存进变量" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontSize=14;fontColor=#1A1A1A;strokeColor=#666666;strokeWidth=2;fillColor=#FFFFFF;" vertex="1" parent="n55Cpn3lSuybuBN-c7Ew-1">
+        <mxCell id="zPqEpG7087N3DRAdgGtG-18" value="转成 import 语句并缓存进 js 变量" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontSize=14;fontColor=#1A1A1A;strokeColor=#666666;strokeWidth=2;fillColor=#FFFFFF;" vertex="1" parent="n55Cpn3lSuybuBN-c7Ew-1">
           <mxGeometry x="3049.96" y="397.5" width="219.96" height="42" as="geometry" />
         </mxCell>
         <mxCell id="zPqEpG7087N3DRAdgGtG-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="n55Cpn3lSuybuBN-c7Ew-1" source="zPqEpG7087N3DRAdgGtG-20" target="zPqEpG7087N3DRAdgGtG-22">
@@ -2726,7 +2726,7 @@
         <mxCell id="zPqEpG7087N3DRAdgGtG-22" value="&lt;font color=&quot;#1a1a1a&quot;&gt;是否为 css link 外链节点？&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;sketch=0;fontSize=14;fontColor=#EA6B66;strokeColor=#666666;strokeWidth=2;fillColor=#FFFFFF;" vertex="1" parent="n55Cpn3lSuybuBN-c7Ew-1">
           <mxGeometry x="2853.8289999999997" y="574" width="172.302" height="63" as="geometry" />
         </mxCell>
-        <mxCell id="zPqEpG7087N3DRAdgGtG-23" value="转成 import 语句并缓存进变量" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontSize=14;fontColor=#1A1A1A;strokeColor=#666666;strokeWidth=2;fillColor=#FFFFFF;" vertex="1" parent="n55Cpn3lSuybuBN-c7Ew-1">
+        <mxCell id="zPqEpG7087N3DRAdgGtG-23" value="转成 import 语句并缓存进 js 变量" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontSize=14;fontColor=#1A1A1A;strokeColor=#666666;strokeWidth=2;fillColor=#FFFFFF;" vertex="1" parent="n55Cpn3lSuybuBN-c7Ew-1">
           <mxGeometry x="3049.96" y="584.5" width="219.96" height="42" as="geometry" />
         </mxCell>
         <mxCell id="zPqEpG7087N3DRAdgGtG-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="n55Cpn3lSuybuBN-c7Ew-1" source="zPqEpG7087N3DRAdgGtG-26" target="zPqEpG7087N3DRAdgGtG-28">
@@ -2754,6 +2754,12 @@
         </mxCell>
         <mxCell id="zPqEpG7087N3DRAdgGtG-33" value="将当前处理完的 html 缓存进 processedHtml 变量中" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontSize=14;fontColor=#1A1A1A;strokeColor=#666666;strokeWidth=2;fillColor=#FFFFFF;" vertex="1" parent="n55Cpn3lSuybuBN-c7Ew-1">
           <mxGeometry x="3049.96" y="220.5" width="219.96" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="zPqEpG7087N3DRAdgGtG-35" value="&lt;font color=&quot;#1a1a1a&quot;&gt;是否默认配置了 polyfill 模块预加载且有 script&amp;nbsp; module 是 async 或 defer 的?&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;sketch=0;fontSize=14;fontColor=#EA6B66;strokeColor=#666666;strokeWidth=2;fillColor=#FFFFFF;" vertex="1" parent="n55Cpn3lSuybuBN-c7Ew-1">
+          <mxGeometry x="3300" y="210" width="280" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="zPqEpG7087N3DRAdgGtG-36" value="将 import&amp;nbsp;vite/modulepreload-polyfill 语句缓存进 js 变量" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontSize=14;fontColor=#1A1A1A;strokeColor=#666666;strokeWidth=2;fillColor=#FFFFFF;" vertex="1" parent="n55Cpn3lSuybuBN-c7Ew-1">
+          <mxGeometry x="3330.02" y="307.5" width="219.96" height="42" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
