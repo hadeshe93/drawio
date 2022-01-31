@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-31T08:21:58.939Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="BhnPQfFrU6wRa2A4FwRK" version="16.4.7" type="github" pages="12">
+<mxfile host="app.diagrams.net" modified="2022-01-31T08:22:04.262Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="72Gy2lJinorj0woIKUfD" version="16.4.7" type="github" pages="12">
   <diagram id="yge_vaUGyjeqDlGonE7a" name="ws-cli project">
     <mxGraphModel dx="1234" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -3170,7 +3170,7 @@
             <mxRectangle x="80" y="40" width="170" height="20" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NNP1dEK5EVgJxK9up5P2-1" value="&lt;font style=&quot;font-size: 14px&quot;&gt;业务组件&lt;/font&gt;" style="swimlane;html=1;startSize=20;fillColor=#ffe6cc;strokeColor=#d79b00;sketch=1;" vertex="1" parent="NNP1dEK5EVgJxK9up5P2-0">
+        <mxCell id="NNP1dEK5EVgJxK9up5P2-1" value="&lt;font style=&quot;font-size: 14px&quot;&gt;业务组件&lt;/font&gt;" style="swimlane;html=1;startSize=20;sketch=1;" vertex="1" parent="NNP1dEK5EVgJxK9up5P2-0">
           <mxGeometry y="20" width="150" height="710" as="geometry">
             <mxRectangle y="20" width="30" height="730" as="alternateBounds" />
           </mxGeometry>
@@ -3217,7 +3217,7 @@
         <mxCell id="NNP1dEK5EVgJxK9up5P2-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=16;fontColor=#1A1A1A;" edge="1" parent="NNP1dEK5EVgJxK9up5P2-0" source="NNP1dEK5EVgJxK9up5P2-8" target="NNP1dEK5EVgJxK9up5P2-38">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NNP1dEK5EVgJxK9up5P2-16" value="&lt;font style=&quot;font-size: 14px&quot;&gt;PlayerManager&lt;/font&gt;" style="swimlane;html=1;startSize=20;fillColor=#f8cecc;strokeColor=#b85450;sketch=1;" vertex="1" parent="NNP1dEK5EVgJxK9up5P2-0">
+        <mxCell id="NNP1dEK5EVgJxK9up5P2-16" value="&lt;font style=&quot;font-size: 14px&quot;&gt;PlayerManager&lt;/font&gt;" style="swimlane;html=1;startSize=20;sketch=1;" vertex="1" parent="NNP1dEK5EVgJxK9up5P2-0">
           <mxGeometry x="150" y="20" width="450" height="710" as="geometry">
             <mxRectangle x="30" y="20" width="30" height="730" as="alternateBounds" />
           </mxGeometry>
@@ -3303,7 +3303,7 @@
         <mxCell id="NNP1dEK5EVgJxK9up5P2-43" value="返回回收结果" style="rounded=0;whiteSpace=wrap;html=1;glass=0;sketch=1;fontSize=16;fontColor=#1A1A1A;fillColor=none;gradientColor=none;" vertex="1" parent="NNP1dEK5EVgJxK9up5P2-16">
           <mxGeometry x="172" y="655.5" width="120" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="NNP1dEK5EVgJxK9up5P2-44" value="&lt;font style=&quot;font-size: 14px&quot;&gt;PlayerFactory&lt;/font&gt;" style="swimlane;html=1;startSize=20;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;" vertex="1" parent="NNP1dEK5EVgJxK9up5P2-0">
+        <mxCell id="NNP1dEK5EVgJxK9up5P2-44" value="&lt;font style=&quot;font-size: 14px&quot;&gt;PlayerFactory&lt;/font&gt;" style="swimlane;html=1;startSize=20;sketch=1;" vertex="1" parent="NNP1dEK5EVgJxK9up5P2-0">
           <mxGeometry x="600" y="20" width="150" height="710" as="geometry" />
         </mxCell>
         <mxCell id="NNP1dEK5EVgJxK9up5P2-45" value="&lt;font color=&quot;#000000&quot; style=&quot;font-size: 16px;&quot;&gt;创建播放器&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;glass=0;sketch=1;fontSize=16;fontColor=#1A1A1A;fillColor=none;gradientColor=none;" vertex="1" parent="NNP1dEK5EVgJxK9up5P2-44">
