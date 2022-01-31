@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-31T08:09:30.591Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="h0LhbnulQ72a2-z-4rSX" version="16.4.7" type="github" pages="12">
+<mxfile host="app.diagrams.net" modified="2022-01-31T08:09:46.556Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="uLalD1dx9BYcC1DcTtnI" version="16.4.7" type="github" pages="12">
   <diagram id="yge_vaUGyjeqDlGonE7a" name="ws-cli project">
     <mxGraphModel dx="1234" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2254,7 +2254,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Eg-IsPFc2DoOoUhgLK9u" name="vite css build">
-    <mxGraphModel dx="2298" dy="2022" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1428" dy="1462" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="n55Cpn3lSuybuBN-c7Ew-0" />
         <mxCell id="n55Cpn3lSuybuBN-c7Ew-1" parent="n55Cpn3lSuybuBN-c7Ew-0" />
@@ -3092,6 +3092,9 @@
         </mxCell>
         <mxCell id="1Y5-l_9gvOCdyRgAefdl-76" value="N" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="n55Cpn3lSuybuBN-c7Ew-1">
           <mxGeometry x="4319" y="376" width="45" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1Y5-l_9gvOCdyRgAefdl-78" value="Y" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="n55Cpn3lSuybuBN-c7Ew-1">
+          <mxGeometry x="964" y="234.5" width="26" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
