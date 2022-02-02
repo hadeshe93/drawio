@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-02T03:02:11.938Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="4XCA3vHy73QplUCAYQ5i" version="16.4.7" type="github" pages="12">
+<mxfile host="app.diagrams.net" modified="2022-02-02T03:02:57.622Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="53pLsplRAiCTsS0SqtrZ" version="16.4.7" type="github" pages="12">
   <diagram id="yge_vaUGyjeqDlGonE7a" name="ws-cli project">
     <mxGraphModel dx="1234" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -3166,7 +3166,7 @@
           <mxGeometry x="1595" y="387" width="35" height="30" as="geometry" />
         </mxCell>
         <mxCell id="NNP1dEK5EVgJxK9up5P2-0" value="&lt;font style=&quot;font-size: 24px&quot;&gt;CSS 资源及依赖关系构建流程图&lt;/font&gt;" style="swimlane;html=1;childLayout=stackLayout;startSize=48;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=16;align=center;sketch=0;fillColor=none;swimlaneLine=1;" vertex="1" parent="n55Cpn3lSuybuBN-c7Ew-1">
-          <mxGeometry x="1390" y="2310" width="2140" height="930" as="geometry">
+          <mxGeometry x="1390" y="2310" width="2210" height="930" as="geometry">
             <mxRectangle x="80" y="40" width="170" height="20" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -3217,7 +3217,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="NNP1dEK5EVgJxK9up5P2-44" value="&lt;font style=&quot;font-size: 20px&quot;&gt;renderChunk hook&lt;/font&gt;" style="swimlane;html=1;startSize=20;sketch=0;fontSize=16;" vertex="1" parent="NNP1dEK5EVgJxK9up5P2-0">
-          <mxGeometry x="510" y="48" width="560" height="882" as="geometry" />
+          <mxGeometry x="510" y="48" width="630" height="882" as="geometry" />
         </mxCell>
         <mxCell id="NNP1dEK5EVgJxK9up5P2-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=20;strokeWidth=2;" edge="1" parent="NNP1dEK5EVgJxK9up5P2-44" source="NNP1dEK5EVgJxK9up5P2-71" target="NNP1dEK5EVgJxK9up5P2-72">
           <mxGeometry relative="1" as="geometry" />
@@ -3232,10 +3232,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="NNP1dEK5EVgJxK9up5P2-72" value="将 chunk 下的 css 全部缓存到 outputToExtractedCSSMap" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontSize=20;fontColor=#1A1A1A;strokeColor=#666666;strokeWidth=2;fillColor=#FFFFFF;" vertex="1" parent="NNP1dEK5EVgJxK9up5P2-44">
-          <mxGeometry x="200.25" y="210.5" width="219.75" height="42" as="geometry" />
+          <mxGeometry x="200.25" y="206.75" width="289.75" height="49.5" as="geometry" />
         </mxCell>
         <mxCell id="NNP1dEK5EVgJxK9up5P2-73" value="返回 null" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontSize=20;fontColor=#1A1A1A;strokeColor=#666666;strokeWidth=2;fillColor=#FFFFFF;" vertex="1" parent="NNP1dEK5EVgJxK9up5P2-44">
-          <mxGeometry x="450" y="210.5" width="100" height="42" as="geometry" />
+          <mxGeometry x="510" y="210.5" width="100" height="42" as="geometry" />
         </mxCell>
         <mxCell id="NNP1dEK5EVgJxK9up5P2-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=20;strokeWidth=2;" edge="1" parent="NNP1dEK5EVgJxK9up5P2-44" source="NNP1dEK5EVgJxK9up5P2-77" target="NNP1dEK5EVgJxK9up5P2-79">
           <mxGeometry relative="1" as="geometry" />
@@ -3247,10 +3247,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="NNP1dEK5EVgJxK9up5P2-79" value="将 chunk 和 asset 句柄缓存到&amp;nbsp;chunkToEmittedCssFileMap" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontSize=20;strokeColor=#b85450;strokeWidth=2;fillColor=#f8cecc;" vertex="1" parent="NNP1dEK5EVgJxK9up5P2-44">
-          <mxGeometry x="200.25" y="294" width="219.75" height="42" as="geometry" />
+          <mxGeometry x="200.25" y="294" width="289.75" height="42" as="geometry" />
         </mxCell>
         <mxCell id="NNP1dEK5EVgJxK9up5P2-80" value="返回 null" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontSize=20;fontColor=#1A1A1A;strokeColor=#666666;strokeWidth=2;fillColor=#FFFFFF;" vertex="1" parent="NNP1dEK5EVgJxK9up5P2-44">
-          <mxGeometry x="450" y="294" width="100" height="42" as="geometry" />
+          <mxGeometry x="510" y="294" width="100" height="42" as="geometry" />
         </mxCell>
         <mxCell id="NNP1dEK5EVgJxK9up5P2-114" value="" style="endArrow=none;html=1;rounded=0;fontSize=20;fontColor=#EA6B66;strokeWidth=1;dashed=1;exitX=0;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="NNP1dEK5EVgJxK9up5P2-44" source="NNP1dEK5EVgJxK9up5P2-66">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -3265,7 +3265,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="NNP1dEK5EVgJxK9up5P2-56" value="&lt;font style=&quot;font-size: 20px&quot;&gt;generateBundle hook&lt;/font&gt;" style="swimlane;html=1;startSize=20;sketch=0;fontSize=16;" vertex="1" parent="NNP1dEK5EVgJxK9up5P2-0">
-          <mxGeometry x="1070" y="48" width="580" height="882" as="geometry" />
+          <mxGeometry x="1140" y="48" width="580" height="882" as="geometry" />
         </mxCell>
         <mxCell id="NNP1dEK5EVgJxK9up5P2-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=20;strokeWidth=2;" edge="1" parent="NNP1dEK5EVgJxK9up5P2-56" source="NNP1dEK5EVgJxK9up5P2-83" target="NNP1dEK5EVgJxK9up5P2-84">
           <mxGeometry relative="1" as="geometry" />
@@ -3319,7 +3319,7 @@
           <mxGeometry x="350" y="654" width="180" height="42" as="geometry" />
         </mxCell>
         <mxCell id="NNP1dEK5EVgJxK9up5P2-57" value="&lt;font style=&quot;font-size: 20px&quot;&gt;writeBundle hook&lt;/font&gt;" style="swimlane;html=1;startSize=20;sketch=0;fontSize=16;" vertex="1" parent="NNP1dEK5EVgJxK9up5P2-0">
-          <mxGeometry x="1650" y="48" width="490" height="882" as="geometry">
+          <mxGeometry x="1720" y="48" width="490" height="882" as="geometry">
             <mxRectangle y="20" width="30" height="730" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
