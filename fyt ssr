@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-02T02:31:00.991Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="68iEpvtHC1KRlxqyKihl" version="16.4.7" type="github" pages="12">
+<mxfile host="app.diagrams.net" modified="2022-02-02T02:31:24.385Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="XHEw5LEleoij2kr-kCx5" version="16.4.7" type="github" pages="12">
   <diagram id="yge_vaUGyjeqDlGonE7a" name="ws-cli project">
     <mxGraphModel dx="1234" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -3225,7 +3225,7 @@
         <mxCell id="NNP1dEK5EVgJxK9up5P2-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=16;strokeWidth=2;" edge="1" parent="NNP1dEK5EVgJxK9up5P2-44" source="NNP1dEK5EVgJxK9up5P2-77" target="NNP1dEK5EVgJxK9up5P2-79">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NNP1dEK5EVgJxK9up5P2-77" value="emitFile 提交生成 asset" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontSize=14;fontColor=#1A1A1A;strokeColor=#666666;strokeWidth=2;fillColor=#FFFFFF;" vertex="1" parent="NNP1dEK5EVgJxK9up5P2-44">
+        <mxCell id="NNP1dEK5EVgJxK9up5P2-77" value="以 asset 形式 emitFile 创建样式文件" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontSize=14;fontColor=#1A1A1A;strokeColor=#666666;strokeWidth=2;fillColor=#FFFFFF;" vertex="1" parent="NNP1dEK5EVgJxK9up5P2-44">
           <mxGeometry x="19.75" y="294" width="160" height="42" as="geometry" />
         </mxCell>
         <mxCell id="NNP1dEK5EVgJxK9up5P2-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=16;strokeWidth=2;" edge="1" parent="NNP1dEK5EVgJxK9up5P2-44" source="NNP1dEK5EVgJxK9up5P2-79" target="NNP1dEK5EVgJxK9up5P2-80">
