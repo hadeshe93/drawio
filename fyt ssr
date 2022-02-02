@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-02T02:13:56.315Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="_j5jMqj1o5pBz3adlGKJ" version="16.4.7" type="github" pages="12">
+<mxfile host="app.diagrams.net" modified="2022-02-02T02:14:12.744Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="orNui3De1z0v4A-OCanP" version="16.4.7" type="github" pages="12">
   <diagram id="yge_vaUGyjeqDlGonE7a" name="ws-cli project">
     <mxGraphModel dx="1234" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -3166,7 +3166,7 @@
           <mxGeometry x="1595" y="387" width="35" height="30" as="geometry" />
         </mxCell>
         <mxCell id="NNP1dEK5EVgJxK9up5P2-0" value="&lt;span style=&quot;font-size: 16px&quot;&gt;CSS 资源&lt;/span&gt;&lt;span style=&quot;font-size: 16px&quot;&gt;及依赖关系&lt;/span&gt;&lt;span style=&quot;font-size: 16px&quot;&gt;构建流程图&lt;/span&gt;" style="swimlane;html=1;childLayout=stackLayout;startSize=20;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;sketch=0;fillColor=none;" vertex="1" parent="n55Cpn3lSuybuBN-c7Ew-1">
-          <mxGeometry x="1390" y="2330" width="1900" height="730" as="geometry">
+          <mxGeometry x="1390" y="2330" width="2050" height="730" as="geometry">
             <mxRectangle x="80" y="40" width="170" height="20" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -3235,16 +3235,19 @@
           <mxGeometry x="440.25" y="294" width="100" height="42" as="geometry" />
         </mxCell>
         <mxCell id="NNP1dEK5EVgJxK9up5P2-56" value="&lt;font style=&quot;font-size: 14px&quot;&gt;generateBundle hook&lt;/font&gt;" style="swimlane;html=1;startSize=20;sketch=0;" vertex="1" parent="NNP1dEK5EVgJxK9up5P2-0">
-          <mxGeometry x="1100" y="20" width="450" height="710" as="geometry" />
+          <mxGeometry x="1100" y="20" width="600" height="710" as="geometry" />
+        </mxCell>
+        <mxCell id="NNP1dEK5EVgJxK9up5P2-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=16;strokeWidth=2;" edge="1" parent="NNP1dEK5EVgJxK9up5P2-56" source="NNP1dEK5EVgJxK9up5P2-83" target="NNP1dEK5EVgJxK9up5P2-84">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="NNP1dEK5EVgJxK9up5P2-83" value="遍历 bunlde 下的 chunks，去掉 import 纯 css chunk 的语句" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontSize=14;fontColor=#1A1A1A;strokeColor=#666666;strokeWidth=2;fillColor=#FFFFFF;" vertex="1" parent="NNP1dEK5EVgJxK9up5P2-56">
           <mxGeometry x="30" y="210.5" width="240" height="42" as="geometry" />
         </mxCell>
         <mxCell id="NNP1dEK5EVgJxK9up5P2-84" value="从 bundle 中删掉所有纯 css chunk" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontSize=14;fontColor=#1A1A1A;strokeColor=#666666;strokeWidth=2;fillColor=#FFFFFF;" vertex="1" parent="NNP1dEK5EVgJxK9up5P2-56">
-          <mxGeometry x="30" y="294" width="240" height="42" as="geometry" />
+          <mxGeometry x="320" y="210.5" width="240" height="42" as="geometry" />
         </mxCell>
         <mxCell id="NNP1dEK5EVgJxK9up5P2-57" value="&lt;span style=&quot;font-size: 14px&quot;&gt;writeBundle hook&lt;/span&gt;" style="swimlane;html=1;startSize=20;sketch=0;" vertex="1" parent="NNP1dEK5EVgJxK9up5P2-0">
-          <mxGeometry x="1550" y="20" width="350" height="710" as="geometry">
+          <mxGeometry x="1700" y="20" width="350" height="710" as="geometry">
             <mxRectangle y="20" width="30" height="730" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
