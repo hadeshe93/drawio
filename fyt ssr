@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-02T02:40:33.622Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="DodVDQh7qCpLPXzUWNpe" version="16.4.7" type="github" pages="12">
+<mxfile host="app.diagrams.net" modified="2022-02-02T02:41:38.784Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="UQZIS_fmtCOg3ZUzxzQC" version="16.4.7" type="github" pages="12">
   <diagram id="yge_vaUGyjeqDlGonE7a" name="ws-cli project">
     <mxGraphModel dx="1234" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -3315,7 +3315,7 @@
         <mxCell id="NNP1dEK5EVgJxK9up5P2-99" value="&lt;font color=&quot;#1a1a1a&quot;&gt;当前执行次数是否大于等于 output 目标个数？&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;sketch=0;fontSize=14;fontColor=#EA6B66;strokeColor=#666666;strokeWidth=2;fillColor=#FFFFFF;" vertex="1" parent="NNP1dEK5EVgJxK9up5P2-56">
           <mxGeometry x="353.84900000000016" y="549.5" width="172.302" height="63" as="geometry" />
         </mxCell>
-        <mxCell id="NNP1dEK5EVgJxK9up5P2-100" value="以 asset 形式 emitFile 创建 manifest.json 文件" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontSize=14;fontColor=#1A1A1A;strokeColor=#666666;strokeWidth=2;fillColor=#FFFFFF;" vertex="1" parent="NNP1dEK5EVgJxK9up5P2-56">
+        <mxCell id="NNP1dEK5EVgJxK9up5P2-100" value="以 asset 形式 emitFile 创建 manifest.json 文件" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontSize=14;strokeColor=#9673a6;strokeWidth=2;fillColor=#e1d5e7;" vertex="1" parent="NNP1dEK5EVgJxK9up5P2-56">
           <mxGeometry x="350" y="654" width="180" height="42" as="geometry" />
         </mxCell>
         <mxCell id="NNP1dEK5EVgJxK9up5P2-57" value="&lt;span style=&quot;font-size: 14px&quot;&gt;writeBundle hook&lt;/span&gt;" style="swimlane;html=1;startSize=20;sketch=0;" vertex="1" parent="NNP1dEK5EVgJxK9up5P2-0">
@@ -3332,7 +3332,7 @@
         <mxCell id="NNP1dEK5EVgJxK9up5P2-113" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=16;fontColor=#EA6B66;strokeWidth=2;" edge="1" parent="NNP1dEK5EVgJxK9up5P2-57" source="NNP1dEK5EVgJxK9up5P2-110" target="NNP1dEK5EVgJxK9up5P2-111">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NNP1dEK5EVgJxK9up5P2-110" value="读取 manifest.json 并找到构建入口 index.html 的 css 依赖列表" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontSize=14;fontColor=#1A1A1A;strokeColor=#666666;strokeWidth=2;fillColor=#FFFFFF;" vertex="1" parent="NNP1dEK5EVgJxK9up5P2-57">
+        <mxCell id="NNP1dEK5EVgJxK9up5P2-110" value="读取 manifest.json 并找到构建入口 index.html 的 css 依赖列表" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontSize=14;strokeColor=#9673a6;strokeWidth=2;fillColor=#e1d5e7;" vertex="1" parent="NNP1dEK5EVgJxK9up5P2-57">
           <mxGeometry x="230" y="740.5" width="240" height="42" as="geometry" />
         </mxCell>
         <mxCell id="NNP1dEK5EVgJxK9up5P2-111" value="读取所依赖的 css 文件内容进行合并后插入并替换掉原外链 link tag" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontSize=14;fontColor=#1A1A1A;strokeColor=#666666;strokeWidth=2;fillColor=#FFFFFF;" vertex="1" parent="NNP1dEK5EVgJxK9up5P2-57">
@@ -3352,6 +3352,14 @@
         <mxCell id="NNP1dEK5EVgJxK9up5P2-107" value="&lt;span style=&quot;font-size: 14px&quot;&gt;&lt;font color=&quot;#ea6b66&quot;&gt;chunkToEmittedCssFileMap&lt;/font&gt;&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" vertex="1" connectable="0" parent="NNP1dEK5EVgJxK9up5P2-105">
           <mxGeometry x="0.2965" y="1" relative="1" as="geometry">
             <mxPoint x="26" y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NNP1dEK5EVgJxK9up5P2-119" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;dashed=1;fontSize=16;fontColor=#EA6B66;strokeWidth=2;" edge="1" parent="NNP1dEK5EVgJxK9up5P2-0" source="NNP1dEK5EVgJxK9up5P2-100" target="NNP1dEK5EVgJxK9up5P2-110">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NNP1dEK5EVgJxK9up5P2-120" value="&lt;span style=&quot;font-size: 14px&quot;&gt;&lt;font color=&quot;#a680b8&quot;&gt;manifest.json&lt;/font&gt;&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;fontColor=#EA6B66;" vertex="1" connectable="0" parent="NNP1dEK5EVgJxK9up5P2-119">
+          <mxGeometry x="-0.0449" y="-3" relative="1" as="geometry">
+            <mxPoint y="-3" as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
