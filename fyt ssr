@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-08T06:48:36.974Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="3pLJVbIcJlLq5jaDAfOc" version="16.4.7" type="github" pages="12">
+<mxfile host="app.diagrams.net" modified="2022-02-08T06:49:07.575Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="_38NAb7_g6xFo43TvjH4" version="16.4.7" type="github" pages="12">
   <diagram id="yge_vaUGyjeqDlGonE7a" name="ws-cli project">
     <mxGraphModel dx="1234" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1831,7 +1831,7 @@
         <mxCell id="rKcaFu_8g9CGqMJxE3ry-3" value="&lt;span style=&quot;font-size: 16px&quot;&gt;Vue3&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;shadow=1;strokeWidth=2;" parent="rKcaFu_8g9CGqMJxE3ry-1" vertex="1">
           <mxGeometry x="50" y="525" width="120" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="rKcaFu_8g9CGqMJxE3ry-4" value="&lt;span style=&quot;font-size: 16px&quot;&gt;application server&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=1;strokeWidth=2;" parent="rKcaFu_8g9CGqMJxE3ry-1" vertex="1">
+        <mxCell id="rKcaFu_8g9CGqMJxE3ry-4" value="&lt;span style=&quot;font-size: 16px&quot;&gt;application server&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;shadow=1;strokeWidth=2;" parent="rKcaFu_8g9CGqMJxE3ry-1" vertex="1">
           <mxGeometry x="470" y="350" width="270" height="50" as="geometry" />
         </mxCell>
         <mxCell id="rKcaFu_8g9CGqMJxE3ry-5" value="&lt;font style=&quot;font-size: 16px&quot;&gt;Vise Cli Commands&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;shadow=1;strokeWidth=2;" parent="rKcaFu_8g9CGqMJxE3ry-1" vertex="1">
@@ -1849,7 +1849,7 @@
         <mxCell id="rKcaFu_8g9CGqMJxE3ry-9" value="&lt;span style=&quot;font-size: 16px&quot;&gt;Vue Router&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;shadow=1;strokeWidth=2;" parent="rKcaFu_8g9CGqMJxE3ry-1" vertex="1">
           <mxGeometry x="330" y="525" width="120" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="rKcaFu_8g9CGqMJxE3ry-10" value="&lt;span style=&quot;font-size: 16px&quot;&gt;frontend app&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;shadow=1;strokeWidth=2;" parent="rKcaFu_8g9CGqMJxE3ry-1" vertex="1">
+        <mxCell id="rKcaFu_8g9CGqMJxE3ry-10" value="&lt;span style=&quot;font-size: 16px&quot;&gt;frontend app&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;shadow=1;strokeWidth=2;" parent="rKcaFu_8g9CGqMJxE3ry-1" vertex="1">
           <mxGeometry x="50" y="350" width="400" height="50" as="geometry" />
         </mxCell>
         <mxCell id="rKcaFu_8g9CGqMJxE3ry-11" value="&lt;span style=&quot;font-size: 16px&quot;&gt;dev server&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=1;strokeWidth=2;" parent="rKcaFu_8g9CGqMJxE3ry-1" vertex="1">
