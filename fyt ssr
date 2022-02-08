@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-08T11:30:22.685Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="u86Hwb9YlX7us1BwKY6T" version="16.4.7" type="github" pages="12">
+<mxfile host="app.diagrams.net" modified="2022-02-08T11:32:53.617Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="6Bubd8-hV2JvQK6B_pvw" version="16.4.7" type="github" pages="13">
   <diagram id="yge_vaUGyjeqDlGonE7a" name="ws-cli project">
     <mxGraphModel dx="1426" dy="770" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1865,7 +1865,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="bXr52tcmcdBsaGuL3xLW" name="Much Players">
-    <mxGraphModel dx="1234" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1426" dy="770" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="B32Qb86y14jwbAhq3KaC-0" />
         <mxCell id="B32Qb86y14jwbAhq3KaC-1" parent="B32Qb86y14jwbAhq3KaC-0" />
@@ -1933,7 +1933,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="W9MuKCiyOOU96Io5qtxX" name="own test env">
-    <mxGraphModel dx="1234" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2563" dy="1185" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="MG-BlTurhBddOuKgMwqU-0" />
         <mxCell id="MG-BlTurhBddOuKgMwqU-1" parent="MG-BlTurhBddOuKgMwqU-0" />
@@ -2251,7 +2251,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Eg-IsPFc2DoOoUhgLK9u" name="vite css build">
-    <mxGraphModel dx="2904" dy="1872" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2621" dy="1827" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="n55Cpn3lSuybuBN-c7Ew-0" />
         <mxCell id="n55Cpn3lSuybuBN-c7Ew-1" parent="n55Cpn3lSuybuBN-c7Ew-0" />
@@ -3361,6 +3361,26 @@
           <mxGeometry x="-0.0449" y="-3" relative="1" as="geometry">
             <mxPoint y="-3" as="offset" />
           </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="Y7LjCp1mMUX976UAIwQp" name="flow comparison">
+    <mxGraphModel dx="626" dy="770" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="nlorG5-sNRfyCdKsIS_2-0" />
+        <mxCell id="nlorG5-sNRfyCdKsIS_2-1" parent="nlorG5-sNRfyCdKsIS_2-0" />
+        <mxCell id="nlorG5-sNRfyCdKsIS_2-2" value="&lt;font color=&quot;#4d4d4d&quot;&gt;Server DataRequest / Cache&lt;/font&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;glass=0;sketch=0;fontSize=20;fontColor=#A680B8;startSize=48;fillColor=none;gradientColor=none;gradientDirection=north;" vertex="1" parent="nlorG5-sNRfyCdKsIS_2-1">
+          <mxGeometry x="977" y="291" width="302" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="nlorG5-sNRfyCdKsIS_2-3" value="&lt;font color=&quot;#4d4d4d&quot;&gt;HTML&lt;/font&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;glass=0;sketch=0;fontSize=20;fontColor=#A680B8;startSize=48;fillColor=none;gradientColor=none;gradientDirection=north;" vertex="1" parent="nlorG5-sNRfyCdKsIS_2-1">
+          <mxGeometry x="1267" y="291" width="120" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="nlorG5-sNRfyCdKsIS_2-4" value="&lt;font color=&quot;#4d4d4d&quot;&gt;CSS&lt;/font&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;glass=0;sketch=0;fontSize=20;fontColor=#A680B8;startSize=48;fillColor=none;gradientColor=none;gradientDirection=north;" vertex="1" parent="nlorG5-sNRfyCdKsIS_2-1">
+          <mxGeometry x="1375" y="291" width="120" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="nlorG5-sNRfyCdKsIS_2-5" value="&lt;font color=&quot;#4d4d4d&quot;&gt;JS&lt;/font&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;glass=0;sketch=0;fontSize=20;fontColor=#A680B8;startSize=48;fillColor=none;gradientColor=none;gradientDirection=north;" vertex="1" parent="nlorG5-sNRfyCdKsIS_2-1">
+          <mxGeometry x="1483" y="291" width="120" height="49" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
