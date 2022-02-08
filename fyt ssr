@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-08T11:39:17.135Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="JT3LeZB3pw2rRg80AIfz" version="16.4.7" type="github" pages="13">
+<mxfile host="app.diagrams.net" modified="2022-02-08T11:39:48.546Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="dFQBzhHPzPs1j8iahZnF" version="16.4.7" type="github" pages="13">
   <diagram id="yge_vaUGyjeqDlGonE7a" name="ws-cli project">
     <mxGraphModel dx="1426" dy="770" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -3366,7 +3366,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Y7LjCp1mMUX976UAIwQp" name="flow comparison">
-    <mxGraphModel dx="626" dy="770" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1026" dy="770" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="nlorG5-sNRfyCdKsIS_2-0" />
         <mxCell id="nlorG5-sNRfyCdKsIS_2-1" parent="nlorG5-sNRfyCdKsIS_2-0" />
@@ -3419,6 +3419,12 @@
         </mxCell>
         <mxCell id="nlorG5-sNRfyCdKsIS_2-14" value="fmp" style="rounded=1;whiteSpace=wrap;html=1;glass=0;sketch=0;fontSize=20;startSize=48;fillColor=#dae8fc;gradientDirection=north;strokeColor=#6c8ebf;" vertex="1" parent="nlorG5-sNRfyCdKsIS_2-1">
           <mxGeometry x="1690" y="410" width="88" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nlorG5-sNRfyCdKsIS_2-16" value="Server Side Render" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;glass=0;sketch=0;fontSize=20;fontColor=#4D4D4D;startSize=48;" vertex="1" parent="nlorG5-sNRfyCdKsIS_2-1">
+          <mxGeometry x="771" y="211.5" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nlorG5-sNRfyCdKsIS_2-17" value="Client Side Render" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;glass=0;sketch=0;fontSize=20;fontColor=#4D4D4D;startSize=48;" vertex="1" parent="nlorG5-sNRfyCdKsIS_2-1">
+          <mxGeometry x="771" y="539.5" width="200" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
