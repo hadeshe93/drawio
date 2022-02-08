@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-02T03:06:04.482Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="NQZHDhOZL732PNTD-ekJ" version="16.4.7" type="github" pages="12">
+<mxfile host="app.diagrams.net" modified="2022-02-08T06:48:36.974Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="3pLJVbIcJlLq5jaDAfOc" version="16.4.7" type="github" pages="12">
   <diagram id="yge_vaUGyjeqDlGonE7a" name="ws-cli project">
     <mxGraphModel dx="1234" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1818,7 +1818,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="0u4ia1aIEskew43pxXeo" name="Vise Architecture">
-    <mxGraphModel dx="1234" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1426" dy="770" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="rKcaFu_8g9CGqMJxE3ry-0" />
         <mxCell id="rKcaFu_8g9CGqMJxE3ry-1" parent="rKcaFu_8g9CGqMJxE3ry-0" />
@@ -1831,8 +1831,8 @@
         <mxCell id="rKcaFu_8g9CGqMJxE3ry-3" value="&lt;span style=&quot;font-size: 16px&quot;&gt;Vue3&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;shadow=1;strokeWidth=2;" parent="rKcaFu_8g9CGqMJxE3ry-1" vertex="1">
           <mxGeometry x="50" y="525" width="120" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="rKcaFu_8g9CGqMJxE3ry-4" value="&lt;span style=&quot;font-size: 16px&quot;&gt;tkoatty server&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=1;dashed=1;strokeWidth=2;" parent="rKcaFu_8g9CGqMJxE3ry-1" vertex="1">
-          <mxGeometry x="620" y="350" width="120" height="50" as="geometry" />
+        <mxCell id="rKcaFu_8g9CGqMJxE3ry-4" value="&lt;span style=&quot;font-size: 16px&quot;&gt;application server&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=1;strokeWidth=2;" parent="rKcaFu_8g9CGqMJxE3ry-1" vertex="1">
+          <mxGeometry x="470" y="350" width="270" height="50" as="geometry" />
         </mxCell>
         <mxCell id="rKcaFu_8g9CGqMJxE3ry-5" value="&lt;font style=&quot;font-size: 16px&quot;&gt;Vise Cli Commands&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;shadow=1;strokeWidth=2;" parent="rKcaFu_8g9CGqMJxE3ry-1" vertex="1">
           <mxGeometry x="50" y="595" width="690" height="50" as="geometry" />
@@ -1849,17 +1849,14 @@
         <mxCell id="rKcaFu_8g9CGqMJxE3ry-9" value="&lt;span style=&quot;font-size: 16px&quot;&gt;Vue Router&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;shadow=1;strokeWidth=2;" parent="rKcaFu_8g9CGqMJxE3ry-1" vertex="1">
           <mxGeometry x="330" y="525" width="120" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="rKcaFu_8g9CGqMJxE3ry-10" value="&lt;span style=&quot;font-size: 16px&quot;&gt;frontend app&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;shadow=1;dashed=1;strokeWidth=2;" parent="rKcaFu_8g9CGqMJxE3ry-1" vertex="1">
-          <mxGeometry x="50" y="350" width="560" height="50" as="geometry" />
+        <mxCell id="rKcaFu_8g9CGqMJxE3ry-10" value="&lt;span style=&quot;font-size: 16px&quot;&gt;frontend app&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;shadow=1;strokeWidth=2;" parent="rKcaFu_8g9CGqMJxE3ry-1" vertex="1">
+          <mxGeometry x="50" y="350" width="400" height="50" as="geometry" />
         </mxCell>
         <mxCell id="rKcaFu_8g9CGqMJxE3ry-11" value="&lt;span style=&quot;font-size: 16px&quot;&gt;dev server&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=1;strokeWidth=2;" parent="rKcaFu_8g9CGqMJxE3ry-1" vertex="1">
-          <mxGeometry x="620" y="455" width="120" height="120" as="geometry" />
+          <mxGeometry x="470" y="455" width="270" height="120" as="geometry" />
         </mxCell>
         <mxCell id="rKcaFu_8g9CGqMJxE3ry-12" value="&lt;span style=&quot;font-size: 16px&quot;&gt;scaffolds&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;shadow=1;strokeWidth=2;" parent="rKcaFu_8g9CGqMJxE3ry-1" vertex="1">
-          <mxGeometry x="50" y="455" width="540" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="rKcaFu_8g9CGqMJxE3ry-14" value="&lt;span style=&quot;font-size: 16px&quot;&gt;Template&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;shadow=1;strokeWidth=2;" parent="rKcaFu_8g9CGqMJxE3ry-1" vertex="1">
-          <mxGeometry x="470" y="525" width="120" height="50" as="geometry" />
+          <mxGeometry x="50" y="455" width="400" height="50" as="geometry" />
         </mxCell>
         <mxCell id="rKcaFu_8g9CGqMJxE3ry-17" value="Vise" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;glass=1;sketch=1;fontSize=16;" parent="rKcaFu_8g9CGqMJxE3ry-1" vertex="1">
           <mxGeometry x="365" y="740" width="60" height="30" as="geometry" />
@@ -2254,7 +2251,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Eg-IsPFc2DoOoUhgLK9u" name="vite css build">
-    <mxGraphModel dx="2472" dy="1923" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2301" dy="1827" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="n55Cpn3lSuybuBN-c7Ew-0" />
         <mxCell id="n55Cpn3lSuybuBN-c7Ew-1" parent="n55Cpn3lSuybuBN-c7Ew-0" />
