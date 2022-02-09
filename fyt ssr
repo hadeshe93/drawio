@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-09T01:19:29.011Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="vA_0lvlu7ngpP_qUc53u" version="16.4.7" type="github" pages="14">
+<mxfile host="app.diagrams.net" modified="2022-02-09T01:19:37.587Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="QCqG8VRpiAzNpidCuQ6a" version="16.4.7" type="github" pages="14">
   <diagram id="yge_vaUGyjeqDlGonE7a" name="ws-cli project">
     <mxGraphModel dx="1426" dy="770" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -3430,7 +3430,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="9PwO6_eIxp1YFgtlqSck" name="Vite SSR Architecture">
-    <mxGraphModel dx="1234" dy="794" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="914" dy="588" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="ui5uHU9Jwn7BjQeeEu0f-0" />
         <mxCell id="ui5uHU9Jwn7BjQeeEu0f-1" parent="ui5uHU9Jwn7BjQeeEu0f-0" />
