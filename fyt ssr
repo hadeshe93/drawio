@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-09T02:44:37.177Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="lKsZi0Dg7u8OUoIOdA_h" version="16.4.7" type="github" pages="15">
+<mxfile host="app.diagrams.net" modified="2022-02-09T08:01:35.655Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="-jP7VjekbSuFrY7It_RO" version="16.4.7" type="github" pages="15">
   <diagram id="yge_vaUGyjeqDlGonE7a" name="ws-cli project">
     <mxGraphModel dx="1426" dy="770" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -840,7 +840,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="HzLB0YVKKZTfJ2ZEuopt" name="player-manager">
-    <mxGraphModel dx="2563" dy="2334" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1873" dy="1890" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="JgHKoNK4ajcP7v5tyrFj-0" />
         <mxCell id="JgHKoNK4ajcP7v5tyrFj-1" parent="JgHKoNK4ajcP7v5tyrFj-0" />
@@ -1113,7 +1113,7 @@
         <mxCell id="zbIxTvo0udxYU-dGFvGY-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=18;fontColor=#1A1A1A;" parent="JgHKoNK4ajcP7v5tyrFj-1" source="JgHKoNK4ajcP7v5tyrFj-86" target="zbIxTvo0udxYU-dGFvGY-0" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="JgHKoNK4ajcP7v5tyrFj-86" value="组件申请挂载播放器" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;sketch=1;" parent="JgHKoNK4ajcP7v5tyrFj-1" vertex="1">
+        <mxCell id="JgHKoNK4ajcP7v5tyrFj-86" value="组件申请挂载播放器" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;sketch=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="JgHKoNK4ajcP7v5tyrFj-1" vertex="1">
           <mxGeometry x="-557.5" y="140" width="175" height="50" as="geometry" />
         </mxCell>
         <mxCell id="JgHKoNK4ajcP7v5tyrFj-99" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=16;" parent="JgHKoNK4ajcP7v5tyrFj-1" source="JgHKoNK4ajcP7v5tyrFj-90" target="JgHKoNK4ajcP7v5tyrFj-93" edge="1">
@@ -1134,7 +1134,7 @@
         <mxCell id="zbIxTvo0udxYU-dGFvGY-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=18;fontColor=#1A1A1A;" parent="JgHKoNK4ajcP7v5tyrFj-1" source="JgHKoNK4ajcP7v5tyrFj-97" target="zbIxTvo0udxYU-dGFvGY-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="JgHKoNK4ajcP7v5tyrFj-97" value="回收播放器" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;sketch=1;" parent="JgHKoNK4ajcP7v5tyrFj-1" vertex="1">
+        <mxCell id="JgHKoNK4ajcP7v5tyrFj-97" value="回收播放器" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;sketch=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="JgHKoNK4ajcP7v5tyrFj-1" vertex="1">
           <mxGeometry x="-230" y="140" width="175" height="50" as="geometry" />
         </mxCell>
         <mxCell id="zbIxTvo0udxYU-dGFvGY-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=18;fontColor=#1A1A1A;" parent="JgHKoNK4ajcP7v5tyrFj-1" source="zbIxTvo0udxYU-dGFvGY-0" target="JgHKoNK4ajcP7v5tyrFj-78" edge="1">
@@ -3357,7 +3357,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Y7LjCp1mMUX976UAIwQp" name="flow comparison">
-    <mxGraphModel dx="1286" dy="828" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="834" dy="794" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="nlorG5-sNRfyCdKsIS_2-0" />
         <mxCell id="nlorG5-sNRfyCdKsIS_2-1" parent="nlorG5-sNRfyCdKsIS_2-0" />
