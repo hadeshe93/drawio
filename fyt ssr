@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-09T09:54:55.662Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="re7_k1txvg7V-RO7zm4E" version="16.4.7" type="github" pages="15">
+<mxfile host="app.diagrams.net" modified="2022-02-09T09:55:16.133Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="kndYVp45QjM6nuNlLiOR" version="16.4.7" type="github" pages="15">
   <diagram id="yge_vaUGyjeqDlGonE7a" name="ws-cli project">
     <mxGraphModel dx="1426" dy="770" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -3403,16 +3403,16 @@
             <mxRectangle y="20" width="30" height="730" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="MaB8Nvquk8dtM3ih8Mnd-3" value="css post plugin" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;sketch=0;fillColor=none;fontSize=20;strokeColor=none;fontStyle=1" vertex="1" parent="MaB8Nvquk8dtM3ih8Mnd-1">
+        <mxCell id="MaB8Nvquk8dtM3ih8Mnd-3" value="css post plugin" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;sketch=0;fillColor=none;fontSize=24;strokeColor=none;fontStyle=1" vertex="1" parent="MaB8Nvquk8dtM3ih8Mnd-1">
           <mxGeometry y="49" width="260" height="310" as="geometry" />
         </mxCell>
-        <mxCell id="MaB8Nvquk8dtM3ih8Mnd-4" value="html plugin" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;sketch=0;fillColor=none;fontSize=20;strokeColor=none;fontStyle=1" vertex="1" parent="MaB8Nvquk8dtM3ih8Mnd-1">
-          <mxGeometry y="360" width="260" height="170" as="geometry" />
+        <mxCell id="MaB8Nvquk8dtM3ih8Mnd-4" value="html plugin" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;sketch=0;fillColor=none;fontSize=24;strokeColor=none;fontStyle=1" vertex="1" parent="MaB8Nvquk8dtM3ih8Mnd-1">
+          <mxGeometry y="360" width="260" height="199" as="geometry" />
         </mxCell>
-        <mxCell id="MaB8Nvquk8dtM3ih8Mnd-5" value="manifest plugin" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;sketch=0;fillColor=none;fontSize=20;strokeColor=none;fontStyle=1" vertex="1" parent="MaB8Nvquk8dtM3ih8Mnd-1">
-          <mxGeometry y="560" width="260" height="180" as="geometry" />
+        <mxCell id="MaB8Nvquk8dtM3ih8Mnd-5" value="manifest plugin" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;sketch=0;fillColor=none;fontSize=24;strokeColor=none;fontStyle=1" vertex="1" parent="MaB8Nvquk8dtM3ih8Mnd-1">
+          <mxGeometry y="560" width="260" height="191" as="geometry" />
         </mxCell>
-        <mxCell id="MaB8Nvquk8dtM3ih8Mnd-6" value="customed&amp;nbsp;inline entry css plugin" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;sketch=0;fillColor=none;fontSize=20;strokeColor=none;fontStyle=1" vertex="1" parent="MaB8Nvquk8dtM3ih8Mnd-1">
+        <mxCell id="MaB8Nvquk8dtM3ih8Mnd-6" value="customed&amp;nbsp;inline entry css plugin" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;sketch=0;fillColor=none;fontSize=24;strokeColor=none;fontStyle=1" vertex="1" parent="MaB8Nvquk8dtM3ih8Mnd-1">
           <mxGeometry y="750" width="260" height="240" as="geometry" />
         </mxCell>
         <mxCell id="MaB8Nvquk8dtM3ih8Mnd-7" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;transform hook&lt;/font&gt;" style="swimlane;html=1;startSize=48;sketch=0;fontSize=24;" vertex="1" parent="MaB8Nvquk8dtM3ih8Mnd-0">
