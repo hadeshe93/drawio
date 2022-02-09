@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-09T11:06:27.974Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="9A6jKPhB60tKFXVkrjXi" version="16.4.7" type="github" pages="15">
+<mxfile host="app.diagrams.net" modified="2022-02-09T11:38:33.879Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="m3JB1eZk6drVYK0cCjvg" version="16.4.7" type="github" pages="15">
   <diagram id="yge_vaUGyjeqDlGonE7a" name="ws-cli project">
     <mxGraphModel dx="1426" dy="770" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2027,7 +2027,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="W9MuKCiyOOU96Io5qtxX" name="own test env">
-    <mxGraphModel dx="2742" dy="1764" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="864" dy="867" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="MG-BlTurhBddOuKgMwqU-0" />
         <mxCell id="MG-BlTurhBddOuKgMwqU-1" parent="MG-BlTurhBddOuKgMwqU-0" />
@@ -2340,6 +2340,38 @@
         </mxCell>
         <mxCell id="4bJdF7a7VSwZaSlMtCa3-72" value="个人测试环境" style="rounded=0;whiteSpace=wrap;html=1;glass=0;sketch=0;fontSize=16;fillColor=#d5e8d4;strokeColor=none;" parent="MG-BlTurhBddOuKgMwqU-1" vertex="1">
           <mxGeometry x="1880" y="640" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EiAXKxE_VwSQ9RLElfYV-0" value="&lt;font color=&quot;#4d4d4d&quot;&gt;开发&lt;/font&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;glass=0;sketch=0;fontSize=20;startSize=48;gradientDirection=north;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="MG-BlTurhBddOuKgMwqU-1">
+          <mxGeometry x="1163" y="-170" width="101" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="EiAXKxE_VwSQ9RLElfYV-1" value="&lt;font color=&quot;#4d4d4d&quot;&gt;CR&lt;/font&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;glass=0;sketch=0;fontSize=20;startSize=48;gradientDirection=north;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="MG-BlTurhBddOuKgMwqU-1">
+          <mxGeometry x="1252" y="-170" width="101" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="EiAXKxE_VwSQ9RLElfYV-2" value="合并主干" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;glass=0;sketch=0;fontSize=20;startSize=48;gradientDirection=north;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="MG-BlTurhBddOuKgMwqU-1">
+          <mxGeometry x="1340" y="-170" width="140" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="EiAXKxE_VwSQ9RLElfYV-3" value="部署测试环境" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;glass=0;sketch=0;fontSize=20;startSize=48;gradientDirection=north;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="MG-BlTurhBddOuKgMwqU-1">
+          <mxGeometry x="1467" y="-170" width="171" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="EiAXKxE_VwSQ9RLElfYV-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=24;fontColor=#1A1A1A;endArrow=classic;endFill=1;startSize=48;strokeColor=#1A1A1A;strokeWidth=1;dashed=1;" edge="1" parent="MG-BlTurhBddOuKgMwqU-1" source="EiAXKxE_VwSQ9RLElfYV-6" target="EiAXKxE_VwSQ9RLElfYV-0">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1674" y="-72" />
+              <mxPoint x="1137" y="-72" />
+              <mxPoint x="1137" y="-145" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EiAXKxE_VwSQ9RLElfYV-9" value="&lt;font style=&quot;font-size: 18px&quot;&gt;验证不通过&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=24;fontColor=#1A1A1A;" vertex="1" connectable="0" parent="EiAXKxE_VwSQ9RLElfYV-7">
+          <mxGeometry x="-0.0698" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EiAXKxE_VwSQ9RLElfYV-6" value="验证" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;glass=0;sketch=0;fontSize=20;startSize=48;gradientDirection=north;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="MG-BlTurhBddOuKgMwqU-1">
+          <mxGeometry x="1625" y="-170" width="98" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="EiAXKxE_VwSQ9RLElfYV-8" value="发布正式环境" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;glass=0;sketch=0;fontSize=20;startSize=48;gradientDirection=north;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="MG-BlTurhBddOuKgMwqU-1">
+          <mxGeometry x="1710" y="-170" width="174" height="49" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
@@ -3668,7 +3700,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Y7LjCp1mMUX976UAIwQp" name="flow comparison">
-    <mxGraphModel dx="1286" dy="828" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1026" dy="770" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="nlorG5-sNRfyCdKsIS_2-0" />
         <mxCell id="nlorG5-sNRfyCdKsIS_2-1" parent="nlorG5-sNRfyCdKsIS_2-0" />
