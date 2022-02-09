@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-09T01:21:01.890Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="12BVNDLVpHeZ2Q8bpjo4" version="16.4.7" type="github" pages="14">
+<mxfile host="app.diagrams.net" modified="2022-02-09T01:21:18.798Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="qHrjX5PDaCvqAI7Ie1X7" version="16.4.7" type="github" pages="14">
   <diagram id="yge_vaUGyjeqDlGonE7a" name="ws-cli project">
     <mxGraphModel dx="1426" dy="770" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -3439,6 +3439,9 @@
         </mxCell>
         <mxCell id="ui5uHU9Jwn7BjQeeEu0f-3" value="&lt;font style=&quot;font-size: 12px&quot;&gt;创建 vite server&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;glass=0;sketch=0;fontSize=16;fontColor=#4D4D4D;startSize=48;fillColor=none;gradientColor=none;gradientDirection=north;" vertex="1" parent="ui5uHU9Jwn7BjQeeEu0f-1">
           <mxGeometry x="195" y="120" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ui5uHU9Jwn7BjQeeEu0f-4" value="&lt;span style=&quot;font-size: 12px&quot;&gt;创建 app server&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;glass=0;sketch=0;fontSize=16;fontColor=#4D4D4D;startSize=48;fillColor=none;gradientColor=none;gradientDirection=north;" vertex="1" parent="ui5uHU9Jwn7BjQeeEu0f-1">
+          <mxGeometry x="195" y="170" width="100" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
