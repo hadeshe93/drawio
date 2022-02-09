@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-09T02:19:55.065Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="kOnhY7Ho8x8-3CAJ1HQT" version="16.4.7" type="github" pages="15">
+<mxfile host="app.diagrams.net" modified="2022-02-09T02:27:39.867Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="f1xmqwzbyTuCTO-BSg0i" version="16.4.7" type="github" pages="15">
   <diagram id="yge_vaUGyjeqDlGonE7a" name="ws-cli project">
     <mxGraphModel dx="1426" dy="770" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -3357,11 +3357,11 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Y7LjCp1mMUX976UAIwQp" name="flow comparison">
-    <mxGraphModel dx="1026" dy="770" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="834" dy="794" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="nlorG5-sNRfyCdKsIS_2-0" />
         <mxCell id="nlorG5-sNRfyCdKsIS_2-1" parent="nlorG5-sNRfyCdKsIS_2-0" />
-        <mxCell id="nlorG5-sNRfyCdKsIS_2-2" value="&lt;font color=&quot;#4d4d4d&quot;&gt;Server DataRequest / Cache&lt;/font&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;glass=0;sketch=0;fontSize=20;fontColor=#A680B8;startSize=48;fillColor=#E6E6E6;gradientColor=none;gradientDirection=north;" vertex="1" parent="nlorG5-sNRfyCdKsIS_2-1">
+        <mxCell id="nlorG5-sNRfyCdKsIS_2-2" value="&lt;font color=&quot;#4d4d4d&quot;&gt;Server DataRequest&lt;/font&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;glass=0;sketch=0;fontSize=20;fontColor=#A680B8;startSize=48;fillColor=#E6E6E6;gradientColor=none;gradientDirection=north;dashed=1;" vertex="1" parent="nlorG5-sNRfyCdKsIS_2-1">
           <mxGeometry x="971" y="202" width="308" height="49" as="geometry" />
         </mxCell>
         <mxCell id="nlorG5-sNRfyCdKsIS_2-3" value="&lt;font color=&quot;#4d4d4d&quot;&gt;HTML&lt;/font&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;glass=0;sketch=0;fontSize=20;startSize=48;fillColor=#e1d5e7;gradientDirection=north;strokeColor=#9673a6;" vertex="1" parent="nlorG5-sNRfyCdKsIS_2-1">
