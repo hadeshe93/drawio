@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-09T09:47:55.821Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="iEVe0fqzf6Tz77bjZke5" version="16.4.7" type="github" pages="15">
+<mxfile host="app.diagrams.net" modified="2022-02-09T09:49:02.983Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="yE4MYVhXH_qD_giYTYPb" version="16.4.7" type="github" pages="15">
   <diagram id="yge_vaUGyjeqDlGonE7a" name="ws-cli project">
     <mxGraphModel dx="1426" dy="770" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2282,7 +2282,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Eg-IsPFc2DoOoUhgLK9u" name="vite css build">
-    <mxGraphModel dx="1634" dy="1594" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2301" dy="1827" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="n55Cpn3lSuybuBN-c7Ew-0" />
         <mxCell id="n55Cpn3lSuybuBN-c7Ew-1" parent="n55Cpn3lSuybuBN-c7Ew-0" />
@@ -3565,7 +3565,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="MaB8Nvquk8dtM3ih8Mnd-53" value="&lt;font style=&quot;font-size: 20px&quot;&gt;chunkToEmittedCssFileMap&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=20;fontColor=#EA6B66;" vertex="1" connectable="0" parent="MaB8Nvquk8dtM3ih8Mnd-52">
+        <mxCell id="MaB8Nvquk8dtM3ih8Mnd-53" value="&lt;font style=&quot;font-size: 20px&quot; color=&quot;#ff484c&quot;&gt;chunkToEmittedCssFileMap&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=20;fontColor=#EA6B66;" vertex="1" connectable="0" parent="MaB8Nvquk8dtM3ih8Mnd-52">
           <mxGeometry x="-0.013" y="-2" relative="1" as="geometry">
             <mxPoint x="50" y="-5" as="offset" />
           </mxGeometry>
@@ -3573,7 +3573,7 @@
         <mxCell id="MaB8Nvquk8dtM3ih8Mnd-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;fontSize=20;strokeWidth=2;" edge="1" parent="MaB8Nvquk8dtM3ih8Mnd-0" source="MaB8Nvquk8dtM3ih8Mnd-23" target="MaB8Nvquk8dtM3ih8Mnd-41">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="MaB8Nvquk8dtM3ih8Mnd-55" value="&lt;font color=&quot;#ea6b66&quot; style=&quot;font-size: 20px&quot;&gt;chunkToEmittedCssFileMap&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=20;" vertex="1" connectable="0" parent="MaB8Nvquk8dtM3ih8Mnd-54">
+        <mxCell id="MaB8Nvquk8dtM3ih8Mnd-55" value="&lt;font style=&quot;font-size: 20px&quot; color=&quot;#ff484c&quot;&gt;chunkToEmittedCssFileMap&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=20;" vertex="1" connectable="0" parent="MaB8Nvquk8dtM3ih8Mnd-54">
           <mxGeometry x="0.2965" y="1" relative="1" as="geometry">
             <mxPoint x="26" y="1" as="offset" />
           </mxGeometry>
