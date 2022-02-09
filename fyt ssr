@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-09T11:05:38.857Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="B-FPBeW3EdlljlaQkjuw" version="16.4.7" type="github" pages="15">
+<mxfile host="app.diagrams.net" modified="2022-02-09T11:06:27.974Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="9A6jKPhB60tKFXVkrjXi" version="16.4.7" type="github" pages="15">
   <diagram id="yge_vaUGyjeqDlGonE7a" name="ws-cli project">
     <mxGraphModel dx="1426" dy="770" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1940,13 +1940,16 @@
           <mxGeometry x="390" y="670" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="B32Qb86y14jwbAhq3KaC-19" value="" style="group" parent="B32Qb86y14jwbAhq3KaC-1" vertex="1" connectable="0">
-          <mxGeometry x="250" y="270" width="270" height="279" as="geometry" />
+          <mxGeometry x="250" y="432" width="270" height="279" as="geometry" />
         </mxCell>
         <mxCell id="B32Qb86y14jwbAhq3KaC-3" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;glass=0;strokeColor=#82b366;fillOpacity=50;" parent="B32Qb86y14jwbAhq3KaC-19" vertex="1">
           <mxGeometry width="270" height="279" as="geometry" />
         </mxCell>
         <mxCell id="B32Qb86y14jwbAhq3KaC-18" value="VIEWPORT" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;glass=0;fontSize=28;fontColor=#768075;" parent="B32Qb86y14jwbAhq3KaC-19" vertex="1">
           <mxGeometry x="65" y="139.5" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YSV2myswdeOFxQvBKTBB-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=24;fontColor=#1A1A1A;endArrow=none;endFill=0;startSize=48;strokeColor=#1A1A1A;strokeWidth=1;" edge="1" parent="B32Qb86y14jwbAhq3KaC-19" source="B32Qb86y14jwbAhq3KaC-18" target="B32Qb86y14jwbAhq3KaC-18">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="B32Qb86y14jwbAhq3KaC-21" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;Loading Video ...&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;glass=0;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=16;" parent="B32Qb86y14jwbAhq3KaC-1" vertex="1">
           <mxGeometry x="280" y="120" width="100" height="60" as="geometry" />
