@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-09T09:55:16.133Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="kndYVp45QjM6nuNlLiOR" version="16.4.7" type="github" pages="15">
+<mxfile host="app.diagrams.net" modified="2022-02-09T11:03:32.752Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="aOXpFZyVe6MKLMeeo0oS" version="16.4.7" type="github" pages="15">
   <diagram id="yge_vaUGyjeqDlGonE7a" name="ws-cli project">
     <mxGraphModel dx="1426" dy="770" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -781,7 +781,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="KmKhitVWe7orsCbyBNzt" name="optimization">
-    <mxGraphModel dx="1371" dy="882" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1584" dy="856" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="sxWaauNS_fwEMT1NgQR7-0" />
         <mxCell id="sxWaauNS_fwEMT1NgQR7-1" parent="sxWaauNS_fwEMT1NgQR7-0" />
@@ -840,7 +840,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="HzLB0YVKKZTfJ2ZEuopt" name="player-manager">
-    <mxGraphModel dx="2698" dy="2422" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4874" dy="3400" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="JgHKoNK4ajcP7v5tyrFj-0" />
         <mxCell id="JgHKoNK4ajcP7v5tyrFj-1" parent="JgHKoNK4ajcP7v5tyrFj-0" />
@@ -1667,7 +1667,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="8Emp5YtMJX06A7Q99TeL" name="intersection-watcher">
-    <mxGraphModel dx="1426" dy="770" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4753" dy="2567" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="N74vwd-kU91eVMEsF1QK-0" />
         <mxCell id="N74vwd-kU91eVMEsF1QK-1" parent="N74vwd-kU91eVMEsF1QK-0" />
@@ -1849,7 +1849,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="0u4ia1aIEskew43pxXeo" name="Vise Architecture">
-    <mxGraphModel dx="1234" dy="794" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1426" dy="770" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="rKcaFu_8g9CGqMJxE3ry-0" />
         <mxCell id="rKcaFu_8g9CGqMJxE3ry-1" parent="rKcaFu_8g9CGqMJxE3ry-0" />
@@ -1896,7 +1896,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="bXr52tcmcdBsaGuL3xLW" name="Much Players">
-    <mxGraphModel dx="1234" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1426" dy="770" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="B32Qb86y14jwbAhq3KaC-0" />
         <mxCell id="B32Qb86y14jwbAhq3KaC-1" parent="B32Qb86y14jwbAhq3KaC-0" />
