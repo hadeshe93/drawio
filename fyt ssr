@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-09T01:52:53.544Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="G3odXurDhpAxsuG4Gd0v" version="16.4.7" type="github" pages="15">
+<mxfile host="app.diagrams.net" modified="2022-02-09T01:53:49.759Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="4bEDh38xG2ng5Glv1PpH" version="16.4.7" type="github" pages="15">
   <diagram id="yge_vaUGyjeqDlGonE7a" name="ws-cli project">
     <mxGraphModel dx="1426" dy="770" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -3520,11 +3520,17 @@
         <mxCell id="OTJ_GQ6H0JTDJKI8JMqP-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;fontColor=#4D4D4D;endArrow=classic;endFill=1;startSize=48;strokeWidth=1;" edge="1" parent="OTJ_GQ6H0JTDJKI8JMqP-1" source="OTJ_GQ6H0JTDJKI8JMqP-11" target="OTJ_GQ6H0JTDJKI8JMqP-13">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="OTJ_GQ6H0JTDJKI8JMqP-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;fontColor=#4D4D4D;endArrow=classic;endFill=1;startSize=48;strokeWidth=1;" edge="1" parent="OTJ_GQ6H0JTDJKI8JMqP-1" source="OTJ_GQ6H0JTDJKI8JMqP-11" target="OTJ_GQ6H0JTDJKI8JMqP-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="OTJ_GQ6H0JTDJKI8JMqP-11" value="is dev mode?" style="rhombus;whiteSpace=wrap;html=1;rounded=0;glass=0;sketch=0;fontSize=12;fontColor=#4D4D4D;startSize=48;fillColor=none;gradientColor=none;gradientDirection=north;" vertex="1" parent="OTJ_GQ6H0JTDJKI8JMqP-1">
           <mxGeometry x="280" y="450" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="OTJ_GQ6H0JTDJKI8JMqP-13" value="return rendered html from subprocess" style="rounded=0;whiteSpace=wrap;html=1;glass=0;sketch=0;fontSize=12;fontColor=#4D4D4D;startSize=48;fillColor=none;gradientColor=none;gradientDirection=north;" vertex="1" parent="OTJ_GQ6H0JTDJKI8JMqP-1">
           <mxGeometry x="414" y="470" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="OTJ_GQ6H0JTDJKI8JMqP-15" value="get tab info" style="rounded=0;whiteSpace=wrap;html=1;glass=0;sketch=0;fontSize=12;fontColor=#4D4D4D;startSize=48;fillColor=none;gradientColor=none;gradientDirection=north;" vertex="1" parent="OTJ_GQ6H0JTDJKI8JMqP-1">
+          <mxGeometry x="240" y="564.5" width="160" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
