@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-09T01:58:31.903Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="IZB01SXFuA1fIxFJ05hP" version="16.4.7" type="github" pages="15">
+<mxfile host="app.diagrams.net" modified="2022-02-09T01:58:46.366Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="utwBTo5UKyWOXuzT9q2H" version="16.4.7" type="github" pages="15">
   <diagram id="yge_vaUGyjeqDlGonE7a" name="ws-cli project">
     <mxGraphModel dx="1426" dy="770" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -3606,6 +3606,9 @@
         </mxCell>
         <mxCell id="OTJ_GQ6H0JTDJKI8JMqP-30" value="response" style="ellipse;whiteSpace=wrap;html=1;rounded=0;glass=0;sketch=0;fontSize=12;fontColor=#4D4D4D;startSize=48;fillColor=none;gradientColor=none;gradientDirection=north;" vertex="1" parent="OTJ_GQ6H0JTDJKI8JMqP-1">
           <mxGeometry x="250" y="1040" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OTJ_GQ6H0JTDJKI8JMqP-36" value="Y" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;glass=0;sketch=0;fontSize=12;fontColor=#4D4D4D;startSize=48;" vertex="1" parent="OTJ_GQ6H0JTDJKI8JMqP-1">
+          <mxGeometry x="360" y="240" width="30" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
