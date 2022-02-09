@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-09T08:37:42.536Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="hLkn5W1ht3w5jWR0RcAd" version="16.4.7" type="github" pages="15">
+<mxfile host="app.diagrams.net" modified="2022-02-09T09:09:09.755Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="w6W49tuH0xOew1Z3Om0Y" version="16.4.7" type="github" pages="15">
   <diagram id="yge_vaUGyjeqDlGonE7a" name="ws-cli project">
     <mxGraphModel dx="1426" dy="770" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -689,7 +689,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="1hpERECmIlfXPfyDezAD" name="router matcher">
-    <mxGraphModel dx="1234" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1234" dy="794" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="5iSgGVLkPS1w3k422Y__-0" />
         <mxCell id="5iSgGVLkPS1w3k422Y__-1" parent="5iSgGVLkPS1w3k422Y__-0" />
@@ -757,10 +757,10 @@
           <mxGeometry x="847" y="170" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="gVwioNYCao50L_6xpUDp-0" value="Host" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;fontSize=16;strokeColor=default;" parent="5iSgGVLkPS1w3k422Y__-1" vertex="1">
-          <mxGeometry x="80" y="555" width="150" height="30" as="geometry" />
+          <mxGeometry x="179" y="555" width="88" height="30" as="geometry" />
         </mxCell>
         <mxCell id="gVwioNYCao50L_6xpUDp-1" value="+ Prefix Path" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=0;fontSize=16;strokeColor=#b85450;dashed=1;fillColor=#f8cecc;" parent="5iSgGVLkPS1w3k422Y__-1" vertex="1">
-          <mxGeometry x="230" y="555" width="180" height="30" as="geometry" />
+          <mxGeometry x="267" y="555" width="143" height="30" as="geometry" />
         </mxCell>
         <mxCell id="gVwioNYCao50L_6xpUDp-2" value="/vise/channels" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;fontSize=16;strokeColor=#1A1A1A;fillColor=none;" parent="5iSgGVLkPS1w3k422Y__-1" vertex="1">
           <mxGeometry x="410" y="555" width="150" height="30" as="geometry" />
@@ -769,13 +769,13 @@
           <mxGeometry x="560" y="555" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="gVwioNYCao50L_6xpUDp-4" value="Server Router" style="rounded=0;whiteSpace=wrap;html=1;glass=0;sketch=1;fontSize=16;strokeColor=#1A1A1A;fillColor=none;" parent="5iSgGVLkPS1w3k422Y__-1" vertex="1">
-          <mxGeometry x="230" y="490" width="480" height="40" as="geometry" />
+          <mxGeometry x="268" y="490" width="442" height="40" as="geometry" />
         </mxCell>
         <mxCell id="gVwioNYCao50L_6xpUDp-5" value="Vue Router" style="rounded=0;whiteSpace=wrap;html=1;glass=0;sketch=1;fontSize=16;strokeColor=#1A1A1A;fillColor=none;" parent="5iSgGVLkPS1w3k422Y__-1" vertex="1">
-          <mxGeometry x="230" y="610" width="480" height="40" as="geometry" />
+          <mxGeometry x="268" y="610" width="442" height="40" as="geometry" />
         </mxCell>
         <mxCell id="gVwioNYCao50L_6xpUDp-6" value="CDN Router" style="rounded=0;whiteSpace=wrap;html=1;glass=0;sketch=1;fontSize=16;strokeColor=#1A1A1A;fillColor=none;" parent="5iSgGVLkPS1w3k422Y__-1" vertex="1">
-          <mxGeometry x="230" y="680" width="480" height="40" as="geometry" />
+          <mxGeometry x="270" y="680" width="440" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
@@ -1896,7 +1896,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="bXr52tcmcdBsaGuL3xLW" name="Much Players">
-    <mxGraphModel dx="1426" dy="770" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1234" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="B32Qb86y14jwbAhq3KaC-0" />
         <mxCell id="B32Qb86y14jwbAhq3KaC-1" parent="B32Qb86y14jwbAhq3KaC-0" />
@@ -1964,7 +1964,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="W9MuKCiyOOU96Io5qtxX" name="own test env">
-    <mxGraphModel dx="1122" dy="722" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2742" dy="1764" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="MG-BlTurhBddOuKgMwqU-0" />
         <mxCell id="MG-BlTurhBddOuKgMwqU-1" parent="MG-BlTurhBddOuKgMwqU-0" />
@@ -2282,7 +2282,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Eg-IsPFc2DoOoUhgLK9u" name="vite css build">
-    <mxGraphModel dx="2621" dy="1827" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2045" dy="1859" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="n55Cpn3lSuybuBN-c7Ew-0" />
         <mxCell id="n55Cpn3lSuybuBN-c7Ew-1" parent="n55Cpn3lSuybuBN-c7Ew-0" />
@@ -3482,7 +3482,7 @@
         <mxCell id="2Dkaydifmse24lDp1QH7-9" value="&lt;font color=&quot;#4d4d4d&quot;&gt;Client DataRequest&lt;/font&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;glass=0;sketch=0;fontSize=20;fontColor=#A680B8;startSize=48;fillColor=#E6E6E6;gradientColor=none;gradientDirection=north;" vertex="1" parent="nlorG5-sNRfyCdKsIS_2-1">
           <mxGeometry x="1374" y="767" width="370" height="49" as="geometry" />
         </mxCell>
-        <mxCell id="2Dkaydifmse24lDp1QH7-10" value="" style="endArrow=none;dashed=1;html=1;rounded=0;fontSize=12;fontColor=#4D4D4D;startSize=48;strokeWidth=1;fillColor=#f8cecc;strokeColor=#b85450;exitX=0.916;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="nlorG5-sNRfyCdKsIS_2-1" source="2Dkaydifmse24lDp1QH7-9">
+        <mxCell id="2Dkaydifmse24lDp1QH7-10" value="" style="endArrow=none;dashed=1;html=1;rounded=0;fontSize=12;fontColor=#4D4D4D;startSize=48;strokeWidth=1;fillColor=#f8cecc;strokeColor=#1A1A1A;exitX=0.916;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="nlorG5-sNRfyCdKsIS_2-1" source="2Dkaydifmse24lDp1QH7-9">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1713" y="751" as="sourcePoint" />
             <mxPoint x="1713" y="558" as="targetPoint" />
