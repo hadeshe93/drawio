@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-09T09:46:38.924Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="_tdFnu71fs73Yc8N1LKW" version="16.4.7" type="github" pages="15">
+<mxfile host="app.diagrams.net" modified="2022-02-09T09:47:24.951Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="Cy21DG4HlfBixzHqoghK" version="16.4.7" type="github" pages="15">
   <diagram id="yge_vaUGyjeqDlGonE7a" name="ws-cli project">
     <mxGraphModel dx="1426" dy="770" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2282,7 +2282,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Eg-IsPFc2DoOoUhgLK9u" name="vite css build">
-    <mxGraphModel dx="1428" dy="1462" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1387" dy="1435" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="n55Cpn3lSuybuBN-c7Ew-0" />
         <mxCell id="n55Cpn3lSuybuBN-c7Ew-1" parent="n55Cpn3lSuybuBN-c7Ew-0" />
@@ -3448,28 +3448,28 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="MaB8Nvquk8dtM3ih8Mnd-16" value="&lt;font color=&quot;#1a1a1a&quot; style=&quot;font-size: 20px;&quot;&gt;是否默认分割 css？&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;sketch=0;fontSize=20;fontColor=#EA6B66;strokeColor=#666666;strokeWidth=2;fillColor=#FFFFFF;" vertex="1" parent="MaB8Nvquk8dtM3ih8Mnd-13">
-          <mxGeometry x="29.25" y="30" width="141" height="63" as="geometry" />
+          <mxGeometry x="24" y="33.88" width="141" height="73" as="geometry" />
         </mxCell>
         <mxCell id="MaB8Nvquk8dtM3ih8Mnd-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=20;strokeWidth=2;" edge="1" parent="MaB8Nvquk8dtM3ih8Mnd-13" source="MaB8Nvquk8dtM3ih8Mnd-18" target="MaB8Nvquk8dtM3ih8Mnd-19">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="MaB8Nvquk8dtM3ih8Mnd-18" value="将 chunk 下的 css 全部缓存到 outputToExtractedCSSMap" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontSize=20;fontColor=#1A1A1A;strokeColor=#666666;strokeWidth=2;fillColor=#FFFFFF;" vertex="1" parent="MaB8Nvquk8dtM3ih8Mnd-13">
-          <mxGeometry x="200.25" y="36.75" width="289.75" height="49.5" as="geometry" />
+          <mxGeometry x="200.25" y="36.75" width="289.75" height="67.25" as="geometry" />
         </mxCell>
         <mxCell id="MaB8Nvquk8dtM3ih8Mnd-19" value="返回 null" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontSize=20;fontColor=#1A1A1A;strokeColor=#666666;strokeWidth=2;fillColor=#FFFFFF;" vertex="1" parent="MaB8Nvquk8dtM3ih8Mnd-13">
-          <mxGeometry x="510" y="40.5" width="100" height="42" as="geometry" />
+          <mxGeometry x="510" y="50.81" width="100" height="39.13" as="geometry" />
         </mxCell>
         <mxCell id="MaB8Nvquk8dtM3ih8Mnd-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=20;fontColor=#A680B8;startSize=48;strokeWidth=2;" edge="1" parent="MaB8Nvquk8dtM3ih8Mnd-13" source="MaB8Nvquk8dtM3ih8Mnd-21" target="MaB8Nvquk8dtM3ih8Mnd-23">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="MaB8Nvquk8dtM3ih8Mnd-21" value="emitFile css asset" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontSize=20;fontColor=#1A1A1A;strokeColor=#666666;strokeWidth=2;fillColor=#FFFFFF;" vertex="1" parent="MaB8Nvquk8dtM3ih8Mnd-13">
-          <mxGeometry x="19.75" y="169" width="160" height="43" as="geometry" />
+          <mxGeometry x="14.5" y="161.5" width="160" height="57" as="geometry" />
         </mxCell>
         <mxCell id="MaB8Nvquk8dtM3ih8Mnd-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=20;strokeWidth=2;" edge="1" parent="MaB8Nvquk8dtM3ih8Mnd-13" source="MaB8Nvquk8dtM3ih8Mnd-23" target="MaB8Nvquk8dtM3ih8Mnd-24">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="MaB8Nvquk8dtM3ih8Mnd-23" value="将 chunk 和 asset 句柄缓存到&amp;nbsp;chunkToEmittedCssFileMap" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontSize=20;strokeColor=#b85450;strokeWidth=2;fillColor=#f8cecc;" vertex="1" parent="MaB8Nvquk8dtM3ih8Mnd-13">
-          <mxGeometry x="200.25" y="170" width="289.75" height="42" as="geometry" />
+          <mxGeometry x="200.25" y="158.5" width="289.75" height="63" as="geometry" />
         </mxCell>
         <mxCell id="MaB8Nvquk8dtM3ih8Mnd-24" value="返回 null" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontSize=20;fontColor=#1A1A1A;strokeColor=#666666;strokeWidth=2;fillColor=#FFFFFF;" vertex="1" parent="MaB8Nvquk8dtM3ih8Mnd-13">
           <mxGeometry x="510" y="169" width="100" height="42" as="geometry" />
