@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-10T03:16:09.368Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="_Aw1ZMKTgKzCa3jB_DRU" version="16.4.7" type="github" pages="15">
+<mxfile host="app.diagrams.net" modified="2022-02-10T03:17:28.954Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="hBNApt8aJgU1P8-SyXK9" version="16.4.7" type="github" pages="15">
   <diagram id="yge_vaUGyjeqDlGonE7a" name="ws-cli project">
     <mxGraphModel dx="1426" dy="770" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -3780,15 +3780,15 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Ho7mCKkJHCJYm9jOaczY-35" value="找到构建入口 html 对应的入口 chunk" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontSize=24;fontColor=#1A1A1A;strokeColor=#666666;strokeWidth=2;fillColor=#FFFFFF;" vertex="1" parent="Ho7mCKkJHCJYm9jOaczY-26">
-          <mxGeometry x="20" y="391" width="250" height="60" as="geometry" />
+          <mxGeometry x="20" y="380" width="250" height="71" as="geometry" />
         </mxCell>
         <mxCell id="Ho7mCKkJHCJYm9jOaczY-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=24;strokeWidth=2;" edge="1" parent="Ho7mCKkJHCJYm9jOaczY-26" source="Ho7mCKkJHCJYm9jOaczY-37" target="Ho7mCKkJHCJYm9jOaczY-38">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Ho7mCKkJHCJYm9jOaczY-37" value="将 chunk 中依赖导入的 js 和 css 均转成 tag 注入到 head" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontSize=24;strokeColor=#b85450;strokeWidth=2;fillColor=#f8cecc;" vertex="1" parent="Ho7mCKkJHCJYm9jOaczY-26">
-          <mxGeometry x="320" y="393.5" width="290" height="55" as="geometry" />
+        <mxCell id="Ho7mCKkJHCJYm9jOaczY-37" value="将其依赖的 js 和 css 均转成 tag 注入到 head" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontSize=24;strokeColor=#b85450;strokeWidth=2;fillColor=#f8cecc;" vertex="1" parent="Ho7mCKkJHCJYm9jOaczY-26">
+          <mxGeometry x="320" y="380" width="290" height="68.5" as="geometry" />
         </mxCell>
-        <mxCell id="Ho7mCKkJHCJYm9jOaczY-38" value="以 asset 形式 emitFile 创建 html 文件" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontSize=24;fontColor=#1A1A1A;strokeColor=#666666;strokeWidth=2;fillColor=#FFFFFF;" vertex="1" parent="Ho7mCKkJHCJYm9jOaczY-26">
+        <mxCell id="Ho7mCKkJHCJYm9jOaczY-38" value="emit html asset" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontSize=24;fontColor=#1A1A1A;strokeColor=#666666;strokeWidth=2;fillColor=#FFFFFF;" vertex="1" parent="Ho7mCKkJHCJYm9jOaczY-26">
           <mxGeometry x="320" y="482" width="290" height="58" as="geometry" />
         </mxCell>
         <mxCell id="Ho7mCKkJHCJYm9jOaczY-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=24;strokeWidth=2;" edge="1" parent="Ho7mCKkJHCJYm9jOaczY-26" source="Ho7mCKkJHCJYm9jOaczY-40" target="Ho7mCKkJHCJYm9jOaczY-42">
