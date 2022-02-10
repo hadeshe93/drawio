@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-10T03:18:56.271Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="jgBwUKwNPRaSNeUDvNaG" version="16.4.7" type="github" pages="15">
+<mxfile host="app.diagrams.net" modified="2022-02-10T03:19:25.481Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="aEuD7RVEYyB55K9uUIGc" version="16.4.7" type="github" pages="15">
   <diagram id="yge_vaUGyjeqDlGonE7a" name="ws-cli project">
     <mxGraphModel dx="1426" dy="770" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -3791,7 +3791,7 @@
         <mxCell id="Ho7mCKkJHCJYm9jOaczY-38" value="emit html asset" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontSize=24;fontColor=#1A1A1A;strokeColor=#666666;strokeWidth=2;fillColor=#FFFFFF;" vertex="1" parent="Ho7mCKkJHCJYm9jOaczY-26">
           <mxGeometry x="320" y="482" width="290" height="58" as="geometry" />
         </mxCell>
-        <mxCell id="Ho7mCKkJHCJYm9jOaczY-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=24;fontColor=#1A1A1A;endArrow=classic;endFill=1;startSize=48;strokeColor=#1A1A1A;strokeWidth=1;" edge="1" parent="Ho7mCKkJHCJYm9jOaczY-26" source="Ho7mCKkJHCJYm9jOaczY-40" target="Ho7mCKkJHCJYm9jOaczY-43">
+        <mxCell id="Ho7mCKkJHCJYm9jOaczY-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=24;fontColor=#1A1A1A;endArrow=classic;endFill=1;startSize=48;strokeColor=#1A1A1A;strokeWidth=2;" edge="1" parent="Ho7mCKkJHCJYm9jOaczY-26" source="Ho7mCKkJHCJYm9jOaczY-40" target="Ho7mCKkJHCJYm9jOaczY-43">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Ho7mCKkJHCJYm9jOaczY-40" value="遍历 chunks，创建依赖信息并缓存到变量" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontSize=24;strokeColor=#b85450;strokeWidth=2;fillColor=#f8cecc;" vertex="1" parent="Ho7mCKkJHCJYm9jOaczY-26">
@@ -3811,7 +3811,7 @@
         <mxCell id="Ho7mCKkJHCJYm9jOaczY-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=24;fontColor=#EA6B66;strokeWidth=2;" edge="1" parent="Ho7mCKkJHCJYm9jOaczY-46" source="Ho7mCKkJHCJYm9jOaczY-49" target="Ho7mCKkJHCJYm9jOaczY-51">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Ho7mCKkJHCJYm9jOaczY-49" value="&lt;font color=&quot;#1a1a1a&quot; style=&quot;font-size: 24px;&quot;&gt;判断构建配置中 manifest 配置是否打开？&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;sketch=0;fontSize=24;fontColor=#EA6B66;strokeColor=#666666;strokeWidth=2;fillColor=#FFFFFF;" vertex="1" parent="Ho7mCKkJHCJYm9jOaczY-46">
+        <mxCell id="Ho7mCKkJHCJYm9jOaczY-49" value="&lt;font color=&quot;#1a1a1a&quot; style=&quot;font-size: 24px&quot;&gt;判断 manifest 配置是否打开？&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;sketch=0;fontSize=24;fontColor=#EA6B66;strokeColor=#666666;strokeWidth=2;fillColor=#FFFFFF;" vertex="1" parent="Ho7mCKkJHCJYm9jOaczY-46">
           <mxGeometry x="10" y="751.5" width="172.3" height="127.5" as="geometry" />
         </mxCell>
         <mxCell id="Ho7mCKkJHCJYm9jOaczY-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=24;fontColor=#EA6B66;strokeWidth=2;" edge="1" parent="Ho7mCKkJHCJYm9jOaczY-46" source="Ho7mCKkJHCJYm9jOaczY-51" target="Ho7mCKkJHCJYm9jOaczY-52">
