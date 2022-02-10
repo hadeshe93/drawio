@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-10T03:19:25.481Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="aEuD7RVEYyB55K9uUIGc" version="16.4.7" type="github" pages="15">
+<mxfile host="app.diagrams.net" modified="2022-02-10T03:20:37.682Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="WnQMeLpukNjsnOzaWjZq" version="16.4.7" type="github" pages="15">
   <diagram id="yge_vaUGyjeqDlGonE7a" name="ws-cli project">
     <mxGraphModel dx="1426" dy="770" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -3817,10 +3817,10 @@
         <mxCell id="Ho7mCKkJHCJYm9jOaczY-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=24;fontColor=#EA6B66;strokeWidth=2;" edge="1" parent="Ho7mCKkJHCJYm9jOaczY-46" source="Ho7mCKkJHCJYm9jOaczY-51" target="Ho7mCKkJHCJYm9jOaczY-52">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Ho7mCKkJHCJYm9jOaczY-51" value="读取 manifest.json 并找到构建入口 index.html 的 css 依赖列表" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontSize=24;strokeColor=#9673a6;strokeWidth=2;fillColor=#e1d5e7;" vertex="1" parent="Ho7mCKkJHCJYm9jOaczY-46">
+        <mxCell id="Ho7mCKkJHCJYm9jOaczY-51" value="从 manifest.json 找到 html的 css 依赖列表" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontSize=24;strokeColor=#9673a6;strokeWidth=2;fillColor=#e1d5e7;" vertex="1" parent="Ho7mCKkJHCJYm9jOaczY-46">
           <mxGeometry x="230" y="780.5" width="290" height="69.5" as="geometry" />
         </mxCell>
-        <mxCell id="Ho7mCKkJHCJYm9jOaczY-52" value="读取所依赖的 css 文件内容进行合并后插入并替换掉原外链 link tag" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontSize=24;fontColor=#1A1A1A;strokeColor=#666666;strokeWidth=2;fillColor=#FFFFFF;" vertex="1" parent="Ho7mCKkJHCJYm9jOaczY-46">
+        <mxCell id="Ho7mCKkJHCJYm9jOaczY-52" value="读取合并 css 内容后插入并替换掉原外链 tag" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontSize=24;fontColor=#1A1A1A;strokeColor=#666666;strokeWidth=2;fillColor=#FFFFFF;" vertex="1" parent="Ho7mCKkJHCJYm9jOaczY-46">
           <mxGeometry x="230" y="888" width="290" height="70" as="geometry" />
         </mxCell>
         <mxCell id="Ho7mCKkJHCJYm9jOaczY-53" value="&lt;font color=&quot;#1a1a1a&quot; style=&quot;font-size: 24px;&quot;&gt;Y&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;glass=0;sketch=0;fontSize=24;fontColor=#FF484C;startSize=48;" vertex="1" parent="Ho7mCKkJHCJYm9jOaczY-46">
