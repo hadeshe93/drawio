@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-14T01:57:18.025Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="bCD4IpLOgO4DRbRzGxXN" version="16.5.5" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-02-14T01:57:41.475Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="ZCsqciogUXAH54eCEGXu" version="16.5.5" type="github" pages="2">
   <diagram id="jKlYN23QFyUXSluapt4Q" name="webpack4 - 初始化阶段">
     <mxGraphModel dx="1234" dy="1226" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -84,10 +84,8 @@
       <root>
         <mxCell id="Hm4QgeG025AQLClCK9z5-0" />
         <mxCell id="Hm4QgeG025AQLClCK9z5-1" parent="Hm4QgeG025AQLClCK9z5-0" />
-        <mxCell id="yfSMMRisLTQozOOm-SvH-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=14;" edge="1" parent="Hm4QgeG025AQLClCK9z5-1" source="yfSMMRisLTQozOOm-SvH-3">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="190" y="230" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="yfSMMRisLTQozOOm-SvH-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=14;" edge="1" parent="Hm4QgeG025AQLClCK9z5-1" source="yfSMMRisLTQozOOm-SvH-3" target="yfSMMRisLTQozOOm-SvH-27">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="yfSMMRisLTQozOOm-SvH-3" value="&lt;span style=&quot;font-size: 14px&quot;&gt;初始化 Compilation&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="Hm4QgeG025AQLClCK9z5-1">
           <mxGeometry x="105" y="160" width="170" height="40" as="geometry" />
@@ -100,6 +98,9 @@
         </mxCell>
         <mxCell id="yfSMMRisLTQozOOm-SvH-25" value="&lt;span style=&quot;font-size: 14px&quot;&gt;compiler.run&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="Hm4QgeG025AQLClCK9z5-1">
           <mxGeometry x="105" y="90" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yfSMMRisLTQozOOm-SvH-27" value="&lt;span style=&quot;font-size: 14px&quot;&gt;make&lt;br&gt;开始编译的 hook&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="Hm4QgeG025AQLClCK9z5-1">
+          <mxGeometry x="105" y="230" width="170" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
