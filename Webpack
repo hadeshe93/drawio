@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-14T02:38:53.844Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="M1-KzwfmSrt7dutfMoYp" version="16.5.5" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-02-14T02:41:26.877Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="tK9iz13JTGP6slW4SHsh" version="16.5.5" type="github" pages="3">
   <diagram id="jKlYN23QFyUXSluapt4Q" name="webpack4 - 初始化阶段">
     <mxGraphModel dx="1234" dy="1226" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -206,6 +206,14 @@
         <mxCell id="Fxuta90sgauZZoNMoraD-2" value="&lt;span style=&quot;font-size: 14px&quot;&gt;根据编译好的 module 创建 chunk，并生成对应的资源模块，准备输出&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="Hm4QgeG025AQLClCK9z5-1">
           <mxGeometry x="1340" y="360" width="170" height="70" as="geometry" />
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="e1qoEzAFqlaj5FrePHXk" name="webpack4 - 输出阶段">
+    <mxGraphModel dx="1234" dy="826" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="w7q4VikucfcIGZsKGf5E-0" />
+        <mxCell id="w7q4VikucfcIGZsKGf5E-1" parent="w7q4VikucfcIGZsKGf5E-0" />
       </root>
     </mxGraphModel>
   </diagram>
