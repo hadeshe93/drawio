@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-14T02:14:50.156Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="ksHzUPyEdiin6rvtxVv2" version="16.5.5" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-02-14T02:15:00.473Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="bZjj-OLJZ8nsSV-StH0k" version="16.5.5" type="github" pages="2">
   <diagram id="jKlYN23QFyUXSluapt4Q" name="webpack4 - 初始化阶段">
     <mxGraphModel dx="1234" dy="1226" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -158,11 +158,14 @@
         <mxCell id="yfSMMRisLTQozOOm-SvH-45" value="&lt;span style=&quot;font-size: 14px&quot;&gt;Parser.parse&lt;br&gt;生成 AST 并查询模块依赖&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="Hm4QgeG025AQLClCK9z5-1">
           <mxGeometry x="930" y="500" width="170" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="yfSMMRisLTQozOOm-SvH-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=14;" edge="1" parent="Hm4QgeG025AQLClCK9z5-1" source="yfSMMRisLTQozOOm-SvH-47" target="yfSMMRisLTQozOOm-SvH-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="yfSMMRisLTQozOOm-SvH-47" value="addChunk&lt;br&gt;创建入口 chunk" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="Hm4QgeG025AQLClCK9z5-1">
           <mxGeometry x="330" y="600" width="170" height="40" as="geometry" />
         </mxCell>
         <mxCell id="yfSMMRisLTQozOOm-SvH-48" value="buildChunkGraph&lt;br&gt;生成 chunk 图" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="Hm4QgeG025AQLClCK9z5-1">
-          <mxGeometry x="330" y="680" width="170" height="40" as="geometry" />
+          <mxGeometry x="330" y="670" width="170" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
