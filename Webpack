@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-14T02:38:45.036Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="t7SNtZYu6imknZkTSatd" version="16.5.5" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-02-14T02:38:53.844Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="M1-KzwfmSrt7dutfMoYp" version="16.5.5" type="github" pages="2">
   <diagram id="jKlYN23QFyUXSluapt4Q" name="webpack4 - 初始化阶段">
     <mxGraphModel dx="1234" dy="1226" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -191,8 +191,14 @@
         <mxCell id="yfSMMRisLTQozOOm-SvH-57" value="总结" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;sketch=0;fontSize=14;fillColor=none;" vertex="1" parent="Hm4QgeG025AQLClCK9z5-1">
           <mxGeometry x="1170" y="90" width="20" height="830" as="geometry" />
         </mxCell>
+        <mxCell id="Fxuta90sgauZZoNMoraD-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=14;" edge="1" parent="Hm4QgeG025AQLClCK9z5-1" source="Fxuta90sgauZZoNMoraD-0" target="Fxuta90sgauZZoNMoraD-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="Fxuta90sgauZZoNMoraD-0" value="&lt;span style=&quot;font-size: 14px&quot;&gt;实例化 compilation&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="Hm4QgeG025AQLClCK9z5-1">
           <mxGeometry x="1340" y="220" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Fxuta90sgauZZoNMoraD-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="Hm4QgeG025AQLClCK9z5-1" source="Fxuta90sgauZZoNMoraD-1" target="Fxuta90sgauZZoNMoraD-2">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Fxuta90sgauZZoNMoraD-1" value="&lt;span style=&quot;font-size: 14px&quot;&gt;执行 make hook 的回调&lt;br&gt;递归解析 module&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="Hm4QgeG025AQLClCK9z5-1">
           <mxGeometry x="1340" y="290" width="170" height="40" as="geometry" />
