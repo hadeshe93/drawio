@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-14T02:54:37.247Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="cGM5KfNFQ8hF9SRkyDbU" version="16.5.5" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-02-14T02:55:08.869Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="wvtCc4-rk1d7V_-pUbLx" version="16.5.5" type="github" pages="4">
   <diagram id="jKlYN23QFyUXSluapt4Q" name="webpack4 - 初始化阶段">
     <mxGraphModel dx="1234" dy="1226" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -315,8 +315,14 @@
         <mxCell id="OTrVmUJ6UD_b3-Gy8AgZ-21" value="&lt;span style=&quot;font-size: 14px&quot;&gt;将 chunks 转换成文件加入到输出列表&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="FLpZD6UszIFWYy9DrKJZ-1">
           <mxGeometry x="320" y="520" width="175" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="OTrVmUJ6UD_b3-Gy8AgZ-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;dashed=1;fontSize=14;" edge="1" parent="FLpZD6UszIFWYy9DrKJZ-1" source="OTrVmUJ6UD_b3-Gy8AgZ-23" target="OTrVmUJ6UD_b3-Gy8AgZ-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="OTrVmUJ6UD_b3-Gy8AgZ-23" value="&lt;span style=&quot;font-size: 14px&quot;&gt;写入 dist&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="FLpZD6UszIFWYy9DrKJZ-1">
           <mxGeometry x="105" y="590" width="175" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="OTrVmUJ6UD_b3-Gy8AgZ-24" value="&lt;span style=&quot;font-size: 14px&quot;&gt;确定文件最终路径并写入文件系统&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="FLpZD6UszIFWYy9DrKJZ-1">
+          <mxGeometry x="520" y="590" width="175" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
