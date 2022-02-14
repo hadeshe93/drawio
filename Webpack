@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-14T02:16:17.950Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="WCj202QleDKnlqkud98H" version="16.5.5" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-02-14T02:16:20.315Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="cO4E7dpUU9rvwF4nfp3H" version="16.5.5" type="github" pages="2">
   <diagram id="jKlYN23QFyUXSluapt4Q" name="webpack4 - 初始化阶段">
     <mxGraphModel dx="1234" dy="1226" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -175,6 +175,9 @@
         </mxCell>
         <mxCell id="yfSMMRisLTQozOOm-SvH-50" value="设置 module、chunk 的 id，并排序" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="Hm4QgeG025AQLClCK9z5-1">
           <mxGeometry x="330" y="740" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yfSMMRisLTQozOOm-SvH-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=14;" edge="1" parent="Hm4QgeG025AQLClCK9z5-1" source="yfSMMRisLTQozOOm-SvH-52" target="yfSMMRisLTQozOOm-SvH-54">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="yfSMMRisLTQozOOm-SvH-52" value="createHash&lt;br&gt;生成本次构建的 hash" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="Hm4QgeG025AQLClCK9z5-1">
           <mxGeometry x="330" y="810" width="170" height="40" as="geometry" />
