@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-14T01:30:12.453Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="D4CoMwk7NaDTkMHDFyGa" version="16.5.5" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-14T01:30:30.414Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="pgEN9iQ8eDrVkaqr1x5t" version="16.5.5" type="github">
   <diagram id="jKlYN23QFyUXSluapt4Q" name="webpack4流程">
     <mxGraphModel dx="1234" dy="826" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -16,14 +16,29 @@
         <mxCell id="_ssVRR36N8eoD_z6JOj1-2" value="&lt;span style=&quot;font-size: 14px&quot;&gt;合并 webpack 配置文件和命令行参数&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="105" y="160" width="170" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="_ssVRR36N8eoD_z6JOj1-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1" source="_ssVRR36N8eoD_z6JOj1-3" target="_ssVRR36N8eoD_z6JOj1-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_ssVRR36N8eoD_z6JOj1-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=14;dashed=1;" edge="1" parent="1" source="_ssVRR36N8eoD_z6JOj1-3" target="_ssVRR36N8eoD_z6JOj1-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="_ssVRR36N8eoD_z6JOj1-3" value="&lt;span style=&quot;font-size: 14px&quot;&gt;引入 webpack &amp;amp; 实例化 compiler&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="105" y="230" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_ssVRR36N8eoD_z6JOj1-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;dashed=1;fontSize=14;" edge="1" parent="1" source="_ssVRR36N8eoD_z6JOj1-6" target="_ssVRR36N8eoD_z6JOj1-7">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="_ssVRR36N8eoD_z6JOj1-6" value="&lt;span style=&quot;font-size: 14px&quot;&gt;new Compiler()&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="329" y="230" width="170" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="_ssVRR36N8eoD_z6JOj1-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;dashed=1;fontSize=14;" edge="1" parent="1" source="_ssVRR36N8eoD_z6JOj1-7" target="_ssVRR36N8eoD_z6JOj1-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="_ssVRR36N8eoD_z6JOj1-7" value="&lt;span style=&quot;font-size: 14px&quot;&gt;WebpackOptionsDefaulter 设置 options 的默认配置&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="329" y="310" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_ssVRR36N8eoD_z6JOj1-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;fontSize=14;" edge="1" parent="1" source="_ssVRR36N8eoD_z6JOj1-8" target="_ssVRR36N8eoD_z6JOj1-9">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="_ssVRR36N8eoD_z6JOj1-8" value="&lt;span style=&quot;font-size: 14px&quot;&gt;遍历 options.plugins &lt;br&gt;调用 plugin.apply 启用插件&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="329" y="390" width="170" height="40" as="geometry" />
