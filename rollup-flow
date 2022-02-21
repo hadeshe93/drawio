@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-21T03:52:48.227Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="V1Z_rF-TMp4zUueM8O9Z" version="16.5.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-21T03:56:35.564Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="nMr3MLGJ76prZ1ZiKMS_" version="16.5.6" type="github">
   <diagram id="xLWErusJNDSss17UKiQx" name="Page-1">
     <mxGraphModel dx="1234" dy="769" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -16,8 +16,38 @@
         <mxCell id="ljSgBqoRpyhSWx6QKmbX-2" value="&lt;font style=&quot;font-size: 14px&quot;&gt;rollupInternal()&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="150" y="200" width="120" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="ljSgBqoRpyhSWx6QKmbX-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=14;" edge="1" parent="1" source="ljSgBqoRpyhSWx6QKmbX-4" target="ljSgBqoRpyhSWx6QKmbX-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="ljSgBqoRpyhSWx6QKmbX-4" value="&lt;span style=&quot;font-size: 14px&quot;&gt;new Graph()&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="150" y="270" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ljSgBqoRpyhSWx6QKmbX-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=14;" edge="1" parent="1" source="ljSgBqoRpyhSWx6QKmbX-6" target="ljSgBqoRpyhSWx6QKmbX-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ljSgBqoRpyhSWx6QKmbX-6" value="&lt;span style=&quot;font-size: 14px&quot;&gt;hookParallel&lt;br&gt;buildStart&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="340" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ljSgBqoRpyhSWx6QKmbX-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1" source="ljSgBqoRpyhSWx6QKmbX-8" target="ljSgBqoRpyhSWx6QKmbX-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ljSgBqoRpyhSWx6QKmbX-8" value="&lt;span style=&quot;font-size: 14px&quot;&gt;graph.build()&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="410" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ljSgBqoRpyhSWx6QKmbX-10" value="&lt;span style=&quot;font-size: 14px&quot;&gt;hookParallel&lt;br&gt;buildEnd&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="480" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ljSgBqoRpyhSWx6QKmbX-12" value="&lt;span style=&quot;font-size: 14px&quot;&gt;new Bundle()&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="270" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ljSgBqoRpyhSWx6QKmbX-13" value="&lt;span style=&quot;font-size: 14px&quot;&gt;generate&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="340" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ljSgBqoRpyhSWx6QKmbX-14" value="&lt;span style=&quot;font-size: 14px&quot;&gt;write&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="410" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ljSgBqoRpyhSWx6QKmbX-15" value="&lt;span style=&quot;font-size: 14px&quot;&gt;close&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="480" width="120" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
