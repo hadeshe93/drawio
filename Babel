@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-28T04:16:42.681Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="4PakbwVLt-DtIxjRHzNn" version="16.5.6" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-02-28T04:19:21.359Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="TI3nSb2vEWg_68EAyJ7-" version="16.5.6" type="github" pages="2">
   <diagram id="NC0fr2rIsMNm2vCL2ssK" name="babel-flow">
     <mxGraphModel dx="1234" dy="394" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -75,65 +75,89 @@
       <root>
         <mxCell id="ndMBMrnFrnaHESgVYaps-0" />
         <mxCell id="ndMBMrnFrnaHESgVYaps-1" parent="ndMBMrnFrnaHESgVYaps-0" />
+        <mxCell id="DuV0pKM1d-OZzL5KUEsm-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=14;fontColor=#000000;" edge="1" parent="ndMBMrnFrnaHESgVYaps-1" source="DuV0pKM1d-OZzL5KUEsm-0" target="DuV0pKM1d-OZzL5KUEsm-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DuV0pKM1d-OZzL5KUEsm-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;fontColor=#000000;curved=1;" edge="1" parent="ndMBMrnFrnaHESgVYaps-1" source="DuV0pKM1d-OZzL5KUEsm-0" target="DuV0pKM1d-OZzL5KUEsm-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="DuV0pKM1d-OZzL5KUEsm-0" value="&lt;font style=&quot;font-size: 14px&quot;&gt;@babel/parser&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="ndMBMrnFrnaHESgVYaps-1">
           <mxGeometry y="440" width="100" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="DuV0pKM1d-OZzL5KUEsm-23" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;fontColor=#000000;" edge="1" parent="ndMBMrnFrnaHESgVYaps-1" source="DuV0pKM1d-OZzL5KUEsm-1" target="DuV0pKM1d-OZzL5KUEsm-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="DuV0pKM1d-OZzL5KUEsm-1" value="&lt;span style=&quot;font-size: 14px&quot;&gt;parse(code, options)&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="ndMBMrnFrnaHESgVYaps-1">
           <mxGeometry x="160" y="440" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DuV0pKM1d-OZzL5KUEsm-24" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;fontColor=#000000;" edge="1" parent="ndMBMrnFrnaHESgVYaps-1" source="DuV0pKM1d-OZzL5KUEsm-2" target="DuV0pKM1d-OZzL5KUEsm-3">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="DuV0pKM1d-OZzL5KUEsm-2" value="&lt;span style=&quot;font-size: 14px&quot;&gt;parseExpression(code, options)&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="ndMBMrnFrnaHESgVYaps-1">
           <mxGeometry x="160" y="510" width="240" height="40" as="geometry" />
         </mxCell>
         <mxCell id="DuV0pKM1d-OZzL5KUEsm-3" value="&lt;font style=&quot;font-size: 14px&quot;&gt;options&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="ndMBMrnFrnaHESgVYaps-1">
-          <mxGeometry y="600" width="100" height="40" as="geometry" />
+          <mxGeometry x="470" y="480" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="DuV0pKM1d-OZzL5KUEsm-4" value="&lt;font style=&quot;font-size: 14px&quot;&gt;allowImportExportEverywhere&lt;br&gt;是否允许在任何位置 import/export&lt;br&gt;默认为 false&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="ndMBMrnFrnaHESgVYaps-1">
-          <mxGeometry x="160" y="600" width="240" height="60" as="geometry" />
+          <mxGeometry x="810" y="600" width="240" height="60" as="geometry" />
         </mxCell>
         <mxCell id="DuV0pKM1d-OZzL5KUEsm-5" value="&lt;font style=&quot;font-size: 14px&quot;&gt;&lt;span&gt;allowAwaitOutsideFunction&lt;br&gt;&lt;/span&gt;是否允许在函数外 await&lt;br&gt;默认为 false&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="ndMBMrnFrnaHESgVYaps-1">
-          <mxGeometry x="160" y="690" width="240" height="60" as="geometry" />
+          <mxGeometry x="810" y="690" width="240" height="60" as="geometry" />
         </mxCell>
         <mxCell id="DuV0pKM1d-OZzL5KUEsm-6" value="&lt;font&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;allowReturnOutsideFunction&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;是否允许在函数外 return&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;默认为 false&lt;/span&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="ndMBMrnFrnaHESgVYaps-1">
-          <mxGeometry x="160" y="780" width="240" height="60" as="geometry" />
+          <mxGeometry x="810" y="780" width="240" height="60" as="geometry" />
         </mxCell>
         <mxCell id="DuV0pKM1d-OZzL5KUEsm-7" value="&lt;font&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;allowSuperOutsideMethod&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;是否允许在方法外调用 super&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;默认为 false&lt;/span&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="ndMBMrnFrnaHESgVYaps-1">
-          <mxGeometry x="160" y="870" width="240" height="60" as="geometry" />
+          <mxGeometry x="810" y="870" width="240" height="60" as="geometry" />
         </mxCell>
         <mxCell id="DuV0pKM1d-OZzL5KUEsm-8" value="&lt;font&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;allowUndeclaredExports&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;是否允许未声明的导出&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;默认为 false&lt;/span&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="ndMBMrnFrnaHESgVYaps-1">
-          <mxGeometry x="160" y="960" width="240" height="60" as="geometry" />
+          <mxGeometry x="810" y="960" width="240" height="60" as="geometry" />
         </mxCell>
         <mxCell id="DuV0pKM1d-OZzL5KUEsm-9" value="&lt;font&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;attachComment&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;是否保留注释&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;默认为 true&lt;/span&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="ndMBMrnFrnaHESgVYaps-1">
-          <mxGeometry x="160" y="1050" width="240" height="60" as="geometry" />
+          <mxGeometry x="810" y="1050" width="240" height="60" as="geometry" />
         </mxCell>
         <mxCell id="DuV0pKM1d-OZzL5KUEsm-10" value="&lt;font&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;createParenthesizedExpressions&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;是否创建括号表达式&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;默认为 false&lt;/span&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="ndMBMrnFrnaHESgVYaps-1">
-          <mxGeometry x="160" y="1140" width="240" height="60" as="geometry" />
+          <mxGeometry x="810" y="1140" width="240" height="60" as="geometry" />
         </mxCell>
         <mxCell id="DuV0pKM1d-OZzL5KUEsm-11" value="&lt;font&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;errorRecovery&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;是否在解析到错误时继续解析&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;默认为 false&lt;/span&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="ndMBMrnFrnaHESgVYaps-1">
-          <mxGeometry x="160" y="1230" width="240" height="60" as="geometry" />
+          <mxGeometry x="810" y="1230" width="240" height="60" as="geometry" />
         </mxCell>
         <mxCell id="DuV0pKM1d-OZzL5KUEsm-12" value="&lt;font&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;plugins&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;插件列表&lt;/span&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="ndMBMrnFrnaHESgVYaps-1">
-          <mxGeometry x="160" y="1320" width="240" height="60" as="geometry" />
+          <mxGeometry x="810" y="1320" width="240" height="60" as="geometry" />
         </mxCell>
         <mxCell id="DuV0pKM1d-OZzL5KUEsm-13" value="&lt;font style=&quot;font-size: 14px&quot;&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;sourceType&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;指明要解析的文件或代码的类型&lt;br&gt;&lt;/span&gt;可选：&quot;script&quot; / &quot;module&quot; / &quot;unambiguous&quot;&lt;br&gt;默认 &quot;script&quot;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="ndMBMrnFrnaHESgVYaps-1">
-          <mxGeometry x="160" y="1410" width="240" height="90" as="geometry" />
+          <mxGeometry x="470" y="600" width="240" height="90" as="geometry" />
         </mxCell>
         <mxCell id="DuV0pKM1d-OZzL5KUEsm-14" value="&lt;font&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;sourceFilename&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;指定要解析的入口源文件名&lt;/span&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="ndMBMrnFrnaHESgVYaps-1">
-          <mxGeometry x="160" y="1530" width="240" height="60" as="geometry" />
+          <mxGeometry x="470" y="720" width="240" height="60" as="geometry" />
         </mxCell>
         <mxCell id="DuV0pKM1d-OZzL5KUEsm-15" value="&lt;font&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;startColumn&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;指定要开始解析的列号&lt;/span&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="ndMBMrnFrnaHESgVYaps-1">
-          <mxGeometry x="160" y="1620" width="240" height="60" as="geometry" />
+          <mxGeometry x="470" y="810" width="240" height="60" as="geometry" />
         </mxCell>
         <mxCell id="DuV0pKM1d-OZzL5KUEsm-16" value="&lt;font&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;startLine&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;指定要开始解析的行号&lt;/span&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="ndMBMrnFrnaHESgVYaps-1">
-          <mxGeometry x="160" y="1710" width="240" height="60" as="geometry" />
+          <mxGeometry x="470" y="900" width="240" height="60" as="geometry" />
         </mxCell>
         <mxCell id="DuV0pKM1d-OZzL5KUEsm-17" value="&lt;font style=&quot;font-size: 14px&quot;&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;strictMode&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;是否以严格模式解析文件&lt;br&gt;&lt;/span&gt;默认是当文件声明了 &quot;use strict&quot; 才使用&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="ndMBMrnFrnaHESgVYaps-1">
-          <mxGeometry x="150" y="1800" width="260" height="60" as="geometry" />
+          <mxGeometry x="800" y="1410" width="260" height="60" as="geometry" />
         </mxCell>
         <mxCell id="DuV0pKM1d-OZzL5KUEsm-19" value="&lt;font style=&quot;font-size: 14px&quot;&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;ranges&lt;br&gt;&lt;/span&gt;添加 range 属性到每个节点&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="ndMBMrnFrnaHESgVYaps-1">
-          <mxGeometry x="160" y="1890" width="240" height="60" as="geometry" />
+          <mxGeometry x="810" y="1500" width="240" height="60" as="geometry" />
         </mxCell>
         <mxCell id="DuV0pKM1d-OZzL5KUEsm-20" value="&lt;font style=&quot;font-size: 14px&quot;&gt;tokens&lt;br&gt;添加所有被解析的 tokens 为 `tokens` 属性来添加到 File 节点&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="ndMBMrnFrnaHESgVYaps-1">
-          <mxGeometry x="160" y="1980" width="240" height="60" as="geometry" />
+          <mxGeometry x="810" y="1590" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DuV0pKM1d-OZzL5KUEsm-25" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;fontSize=14;fontColor=#000000;" vertex="1" parent="ndMBMrnFrnaHESgVYaps-1">
+          <mxGeometry x="420" y="600" width="20" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="DuV0pKM1d-OZzL5KUEsm-26" value="&lt;font style=&quot;font-size: 14px&quot;&gt;解析什么&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=none;" vertex="1" parent="ndMBMrnFrnaHESgVYaps-1">
+          <mxGeometry x="320" y="760" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DuV0pKM1d-OZzL5KUEsm-27" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;fontSize=14;fontColor=#000000;fillColor=none;" vertex="1" parent="ndMBMrnFrnaHESgVYaps-1">
+          <mxGeometry x="1080" y="600" width="20" height="1050" as="geometry" />
+        </mxCell>
+        <mxCell id="DuV0pKM1d-OZzL5KUEsm-28" value="&lt;font style=&quot;font-size: 14px&quot;&gt;怎么解析&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=none;" vertex="1" parent="ndMBMrnFrnaHESgVYaps-1">
+          <mxGeometry x="1110" y="1105" width="100" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
