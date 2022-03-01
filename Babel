@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-01T09:51:59.960Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="YKCPjbkGVqVJAYAikvnj" version="16.5.6" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-03-01T09:52:23.513Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="fguHytiJfO8NZFQJLJJo" version="16.5.6" type="github" pages="3">
   <diagram id="NC0fr2rIsMNm2vCL2ssK" name="babel-flow">
     <mxGraphModel dx="1234" dy="394" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -210,6 +210,12 @@
         </mxCell>
         <mxCell id="6DkISstNYInR23aWJrgs-14" value="espree@2&lt;br&gt;(eslint 的 parser)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontColor=#000000;fillColor=default;" vertex="1" parent="6DkISstNYInR23aWJrgs-1">
           <mxGeometry x="220" y="300" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="6DkISstNYInR23aWJrgs-17" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=14;fontColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="6DkISstNYInR23aWJrgs-1" source="6DkISstNYInR23aWJrgs-16" target="6DkISstNYInR23aWJrgs-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6DkISstNYInR23aWJrgs-16" value="@babel/parser" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontColor=#000000;fillColor=default;" vertex="1" parent="6DkISstNYInR23aWJrgs-1">
+          <mxGeometry x="410" y="300" width="150" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
