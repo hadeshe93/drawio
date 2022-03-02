@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-02T04:02:42.641Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="n5BpZIZ5RmLImz4W0gF7" version="16.5.6" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-03-02T04:03:50.028Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="0w94ZvRkXcL0LRXlMmeq" version="16.5.6" type="github" pages="2">
   <diagram id="xLWErusJNDSss17UKiQx" name="大致构建流程">
     <mxGraphModel dx="1634" dy="737" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -179,7 +179,7 @@
             <mxRectangle width="220" height="50" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9HgDBx2ZdaB8Qn1JWRte-52" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" vertex="1" parent="9HgDBx2ZdaB8Qn1JWRte-50">
+        <mxCell id="9HgDBx2ZdaB8Qn1JWRte-52" value="异步串行钩子，会 reduce 第一个参数 arg0，然后返回的参数继续被当做 arg0 传给下个插件&amp;nbsp;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" vertex="1" parent="9HgDBx2ZdaB8Qn1JWRte-50">
           <mxGeometry x="220" width="365" height="50" as="geometry">
             <mxRectangle width="365" height="50" as="alternateBounds" />
           </mxGeometry>
@@ -197,7 +197,7 @@
             <mxRectangle width="220" height="50" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9HgDBx2ZdaB8Qn1JWRte-56" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" vertex="1" parent="9HgDBx2ZdaB8Qn1JWRte-54">
+        <mxCell id="9HgDBx2ZdaB8Qn1JWRte-56" value="同步串行钩子，会 reduce 第一个参数 arg0，然后返回的参数继续被当做 arg0 传给下个插件&amp;nbsp;&amp;nbsp;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" vertex="1" parent="9HgDBx2ZdaB8Qn1JWRte-54">
           <mxGeometry x="220" width="365" height="50" as="geometry">
             <mxRectangle width="365" height="50" as="alternateBounds" />
           </mxGeometry>
@@ -215,7 +215,7 @@
             <mxRectangle width="220" height="50" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9HgDBx2ZdaB8Qn1JWRte-106" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" vertex="1" parent="9HgDBx2ZdaB8Qn1JWRte-104">
+        <mxCell id="9HgDBx2ZdaB8Qn1JWRte-106" value="异步串行钩子，某阶段的 hooks 各自执行并返回，rollup 内部会通过预置的 reduce 方法将该阶段的 hooks 返回的值处理后返回" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" vertex="1" parent="9HgDBx2ZdaB8Qn1JWRte-104">
           <mxGeometry x="220" width="365" height="50" as="geometry">
             <mxRectangle width="365" height="50" as="alternateBounds" />
           </mxGeometry>
@@ -233,7 +233,7 @@
             <mxRectangle width="220" height="50" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9HgDBx2ZdaB8Qn1JWRte-121" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" vertex="1" parent="9HgDBx2ZdaB8Qn1JWRte-119">
+        <mxCell id="9HgDBx2ZdaB8Qn1JWRte-121" value="同步串行钩子，某阶段的 hooks 各自执行并返回，rollup 内部会通过预置的 reduce 方法将该阶段的 hooks 返回的值处理后返回" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" vertex="1" parent="9HgDBx2ZdaB8Qn1JWRte-119">
           <mxGeometry x="220" width="365" height="50" as="geometry">
             <mxRectangle width="365" height="50" as="alternateBounds" />
           </mxGeometry>
@@ -251,7 +251,7 @@
             <mxRectangle width="220" height="50" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9HgDBx2ZdaB8Qn1JWRte-117" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" vertex="1" parent="9HgDBx2ZdaB8Qn1JWRte-115">
+        <mxCell id="9HgDBx2ZdaB8Qn1JWRte-117" value="异步串行钩子，忽略各钩子的返回值。即每个插件中的该钩子都会执行" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" vertex="1" parent="9HgDBx2ZdaB8Qn1JWRte-115">
           <mxGeometry x="220" width="365" height="50" as="geometry">
             <mxRectangle width="365" height="50" as="alternateBounds" />
           </mxGeometry>
@@ -269,7 +269,7 @@
             <mxRectangle width="220" height="50" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9HgDBx2ZdaB8Qn1JWRte-125" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" vertex="1" parent="9HgDBx2ZdaB8Qn1JWRte-123">
+        <mxCell id="9HgDBx2ZdaB8Qn1JWRte-125" value="同步串行钩子，忽略各钩子的返回值。即每个插件中的该钩子都会执行" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" vertex="1" parent="9HgDBx2ZdaB8Qn1JWRte-123">
           <mxGeometry x="220" width="365" height="50" as="geometry">
             <mxRectangle width="365" height="50" as="alternateBounds" />
           </mxGeometry>
