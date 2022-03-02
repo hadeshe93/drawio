@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-02T04:03:50.028Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="0w94ZvRkXcL0LRXlMmeq" version="16.5.6" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-03-02T04:05:45.731Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="NJbuvPCgW1SCoT53KeOE" version="16.5.6" type="github" pages="2">
   <diagram id="xLWErusJNDSss17UKiQx" name="大致构建流程">
     <mxGraphModel dx="1634" dy="737" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -130,7 +130,7 @@
             <mxRectangle width="365" height="50" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9HgDBx2ZdaB8Qn1JWRte-8" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" vertex="1" parent="9HgDBx2ZdaB8Qn1JWRte-5">
+        <mxCell id="9HgDBx2ZdaB8Qn1JWRte-8" value="`resolveId`, `load`, `shouldTransformCachedModule`, `resolveDynamicImport`, `resolveDynamicImport`, `resolveFileUrl`" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" vertex="1" parent="9HgDBx2ZdaB8Qn1JWRte-5">
           <mxGeometry x="585" width="295" height="50" as="geometry">
             <mxRectangle width="295" height="50" as="alternateBounds" />
           </mxGeometry>
@@ -148,7 +148,7 @@
             <mxRectangle width="365" height="50" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9HgDBx2ZdaB8Qn1JWRte-12" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" vertex="1" parent="9HgDBx2ZdaB8Qn1JWRte-9">
+        <mxCell id="9HgDBx2ZdaB8Qn1JWRte-12" value="`resolveImportMeta`" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" vertex="1" parent="9HgDBx2ZdaB8Qn1JWRte-9">
           <mxGeometry x="585" width="295" height="50" as="geometry">
             <mxRectangle width="295" height="50" as="alternateBounds" />
           </mxGeometry>
@@ -166,7 +166,7 @@
             <mxRectangle width="365" height="50" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9HgDBx2ZdaB8Qn1JWRte-16" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" vertex="1" parent="9HgDBx2ZdaB8Qn1JWRte-13">
+        <mxCell id="9HgDBx2ZdaB8Qn1JWRte-16" value="`buildStart`, `buildEnd`,&amp;nbsp;`closeBundle`, `moduleParsed`, `renderStart`" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" vertex="1" parent="9HgDBx2ZdaB8Qn1JWRte-13">
           <mxGeometry x="585" width="295" height="50" as="geometry">
             <mxRectangle width="295" height="50" as="alternateBounds" />
           </mxGeometry>
