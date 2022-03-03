@@ -1,10 +1,10 @@
-<mxfile host="app.diagrams.net" modified="2022-03-03T04:09:57.137Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="noySCDMrA8LlwgHLY7FH" version="16.5.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-03T04:12:10.060Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="TkmEDL38bTlM4O5MWRwI" version="16.5.6" type="github">
   <diagram id="j3xsVe9RIgCmoBzu5uWI" name="cli">
     <mxGraphModel dx="1634" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="ZVu2eNWjDJH1GugOJMz1-9" value="&lt;font style=&quot;font-size: 14px&quot;&gt;dirname: csr-vue2-wp&lt;br&gt;package: @hadeshe93/ csr-vue-wp&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ZVu2eNWjDJH1GugOJMz1-9" value="&lt;font style=&quot;font-size: 14px&quot;&gt;dirname: csr-vue2-wp&lt;br&gt;package: @hadeshe93/ csr-vue2-wp&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="420" y="200" width="250" height="40" as="geometry" />
         </mxCell>
         <mxCell id="ZVu2eNWjDJH1GugOJMz1-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1" source="ZVu2eNWjDJH1GugOJMz1-17" target="ZVu2eNWjDJH1GugOJMz1-35">
@@ -29,10 +29,10 @@
           <mxGeometry x="-80" y="120" width="430" height="40" as="geometry" />
         </mxCell>
         <mxCell id="ZVu2eNWjDJH1GugOJMz1-29" value="&lt;span style=&quot;font-size: 14px&quot;&gt;dirname: app-scaffolds&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="420" y="120" width="680" height="40" as="geometry" />
+          <mxGeometry x="420" y="120" width="790" height="40" as="geometry" />
         </mxCell>
         <mxCell id="ZVu2eNWjDJH1GugOJMz1-32" value="&lt;span style=&quot;font-size: 14px&quot;&gt;repo: hh-wise&lt;br&gt;monorepos&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-80" y="50" width="1180" height="40" as="geometry" />
+          <mxGeometry x="-80" y="50" width="1290" height="40" as="geometry" />
         </mxCell>
         <mxCell id="ZVu2eNWjDJH1GugOJMz1-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1" source="ZVu2eNWjDJH1GugOJMz1-35" target="ZVu2eNWjDJH1GugOJMz1-18">
           <mxGeometry relative="1" as="geometry" />
@@ -81,6 +81,12 @@
         </mxCell>
         <mxCell id="ZVu2eNWjDJH1GugOJMz1-44" value="&lt;font style=&quot;font-size: 14px&quot;&gt;extend&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="190" y="430" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ZVu2eNWjDJH1GugOJMz1-54" value="&lt;font style=&quot;font-size: 14px&quot;&gt;dirname: csr-solid-wp&lt;br&gt;package: @hadeshe93/ csr-solid-wp&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="690" y="200" width="250" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ZVu2eNWjDJH1GugOJMz1-55" value="&lt;font style=&quot;font-size: 14px&quot;&gt;dirname: csr-solid-vite&lt;br&gt;package: @hadeshe93/ csr-solid-vite&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="960" y="200" width="250" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
