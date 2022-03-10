@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-10T13:11:49.206Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="GSNlmkXrRNppf-S85h5A" version="16.5.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-10T13:16:38.554Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="Em3Di6BIvIl_j8eLJyG3" version="16.5.6" type="github">
   <diagram id="aAnO88tS1aP9BaZfbNjI" name="Page-1">
     <mxGraphModel dx="1554" dy="842" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -11,7 +11,16 @@
           <mxGeometry x="30" y="240" width="170" height="30" as="geometry" />
         </mxCell>
         <mxCell id="zhxxujPiesl0-yiJ-btO-4" value="subscibe key phase of http server in app" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="320" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zhxxujPiesl0-yiJ-btO-5" value="excute initialize contribution" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="30" y="290" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zhxxujPiesl0-yiJ-btO-6" value="create and init&amp;nbsp; ws server" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="340" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zhxxujPiesl0-yiJ-btO-7" value="excute initialize contribution" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="390" width="170" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
