@@ -1,36 +1,44 @@
-<mxfile host="app.diagrams.net" modified="2022-03-10T14:16:33.098Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="muGeTrtSabaPugZXv-te" version="16.5.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-14T07:16:49.641Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="C1y8dtPD-9oduJqtGHrB" version="17.1.0" type="github" pages="2">
   <diagram id="aAnO88tS1aP9BaZfbNjI" name="sumi app server">
     <mxGraphModel dx="1554" dy="842" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="zhxxujPiesl0-yiJ-btO-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="zhxxujPiesl0-yiJ-btO-1" target="zhxxujPiesl0-yiJ-btO-2">
+        <mxCell id="zhxxujPiesl0-yiJ-btO-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="zhxxujPiesl0-yiJ-btO-1" target="zhxxujPiesl0-yiJ-btO-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="zhxxujPiesl0-yiJ-btO-1" value="create http server" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="zhxxujPiesl0-yiJ-btO-1" value="create http server" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="30" y="190" width="170" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="zhxxujPiesl0-yiJ-btO-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="zhxxujPiesl0-yiJ-btO-2" target="zhxxujPiesl0-yiJ-btO-5">
+        <mxCell id="zhxxujPiesl0-yiJ-btO-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="zhxxujPiesl0-yiJ-btO-2" target="zhxxujPiesl0-yiJ-btO-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="zhxxujPiesl0-yiJ-btO-2" value="create sumi server app" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="zhxxujPiesl0-yiJ-btO-2" value="create sumi server app" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="30" y="240" width="170" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="zhxxujPiesl0-yiJ-btO-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zhxxujPiesl0-yiJ-btO-5" target="zhxxujPiesl0-yiJ-btO-6">
+        <mxCell id="zhxxujPiesl0-yiJ-btO-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="zhxxujPiesl0-yiJ-btO-5" target="zhxxujPiesl0-yiJ-btO-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="zhxxujPiesl0-yiJ-btO-5" value="excute initialize contribution" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="zhxxujPiesl0-yiJ-btO-5" value="excute initialize contribution" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="30" y="290" width="170" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="zhxxujPiesl0-yiJ-btO-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zhxxujPiesl0-yiJ-btO-6" target="zhxxujPiesl0-yiJ-btO-7">
+        <mxCell id="zhxxujPiesl0-yiJ-btO-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="zhxxujPiesl0-yiJ-btO-6" target="zhxxujPiesl0-yiJ-btO-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="zhxxujPiesl0-yiJ-btO-6" value="create and init&amp;nbsp; ws server" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="zhxxujPiesl0-yiJ-btO-6" value="create and init&amp;nbsp; ws server" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="30" y="340" width="170" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="zhxxujPiesl0-yiJ-btO-7" value="excute initialize contribution" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="zhxxujPiesl0-yiJ-btO-7" value="excute initialize contribution" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="30" y="390" width="170" height="30" as="geometry" />
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="h4Wh4rzAx8YHsvslle2g" name="Class ClientApp">
+    <mxGraphModel dx="1554" dy="842" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="xh-Hb8sckqqFZFxBDtet-0" />
+        <mxCell id="xh-Hb8sckqqFZFxBDtet-1" parent="xh-Hb8sckqqFZFxBDtet-0" />
       </root>
     </mxGraphModel>
   </diagram>
