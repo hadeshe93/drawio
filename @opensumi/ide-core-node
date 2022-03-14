@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-14T07:28:54.884Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="LjdKeIcOQgswH04tZHTA" version="17.1.0" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-03-14T07:45:13.991Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="Ukhum_Vk8TiPqv_LHYQD" version="17.1.0" type="github" pages="2">
   <diagram id="aAnO88tS1aP9BaZfbNjI" name="sumi app server">
     <mxGraphModel dx="1554" dy="842" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -92,6 +92,21 @@
         </mxCell>
         <mxCell id="xh-Hb8sckqqFZFxBDtet-21" value="每个模块可能有各自的贡献点，例如属于 ClientApp 模块的&amp;nbsp;ClientAppContribution 贡献点" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="xh-Hb8sckqqFZFxBDtet-1">
           <mxGeometry x="540" y="165" width="510" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xh-Hb8sckqqFZFxBDtet-22" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="xh-Hb8sckqqFZFxBDtet-1">
+          <mxGeometry x="-240" y="530" width="300" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="xh-Hb8sckqqFZFxBDtet-23" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="xh-Hb8sckqqFZFxBDtet-1">
+          <mxGeometry x="-230" y="540" width="280" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="xh-Hb8sckqqFZFxBDtet-24" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="xh-Hb8sckqqFZFxBDtet-1">
+          <mxGeometry x="-230" y="570" width="30" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="xh-Hb8sckqqFZFxBDtet-25" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="xh-Hb8sckqqFZFxBDtet-1">
+          <mxGeometry x="-190" y="570" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="xh-Hb8sckqqFZFxBDtet-26" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="xh-Hb8sckqqFZFxBDtet-1">
+          <mxGeometry x="-190" y="660" width="240" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
