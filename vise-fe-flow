@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-29T11:57:25.222Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="CcVbOhmiRRxHL2AdV5yY" version="17.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-29T11:57:47.626Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="HFTs1Bpft4fnd3uQSXDD" version="17.1.2" type="github">
   <diagram id="uaIJp33Wu-I8MSU5TuaB" name="Page-1">
     <mxGraphModel dx="1826" dy="1202" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -32,13 +32,13 @@
           <mxGeometry x="-200" y="225" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="wB5rHDri_XTpmFD7KZnF-10" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;" vertex="1" parent="1">
-          <mxGeometry x="-20" y="275" width="20" height="160" as="geometry" />
+          <mxGeometry x="-30" y="275" width="20" height="160" as="geometry" />
         </mxCell>
         <mxCell id="wB5rHDri_XTpmFD7KZnF-11" value="plugin-自定义" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-180" y="395" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="wB5rHDri_XTpmFD7KZnF-12" value="type TServerPlugin = () =&amp;gt; ({&lt;br&gt;&amp;nbsp; name: string;&lt;br&gt;&amp;nbsp; start: Function;&lt;br&gt;&amp;nbsp; build: Function;&lt;br&gt;&amp;nbsp; deploy: Function;&lt;br&gt;})" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="40" y="290" width="160" height="130" as="geometry" />
+          <mxGeometry x="20" y="290" width="160" height="130" as="geometry" />
         </mxCell>
         <mxCell id="wB5rHDri_XTpmFD7KZnF-13" value="plugin-vue" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-180" y="540" width="120" height="40" as="geometry" />
@@ -50,13 +50,13 @@
           <mxGeometry x="-200" y="490" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="wB5rHDri_XTpmFD7KZnF-16" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;" vertex="1" parent="1">
-          <mxGeometry x="-20" y="540" width="20" height="160" as="geometry" />
+          <mxGeometry x="-30" y="540" width="20" height="160" as="geometry" />
         </mxCell>
         <mxCell id="wB5rHDri_XTpmFD7KZnF-17" value="plugin-react" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-180" y="660" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="wB5rHDri_XTpmFD7KZnF-18" value="type TClientPlugin = () =&amp;gt; ({&lt;br&gt;&amp;nbsp; name: string;&lt;br&gt;&amp;nbsp; start: Function;&lt;br&gt;&amp;nbsp; build: Function;&lt;br&gt;})" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="40" y="555" width="160" height="130" as="geometry" />
+          <mxGeometry x="20" y="555" width="160" height="130" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
