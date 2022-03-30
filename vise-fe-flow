@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-30T04:57:26.509Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="ZfPw27Fq0xgKuuLKI0a0" version="17.1.2" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-03-30T05:00:16.068Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="SObqtpHX0-DK7VQ9KLF0" version="17.1.2" type="github" pages="3">
   <diagram id="uaIJp33Wu-I8MSU5TuaB" name="ssr 框架流程梳理">
     <mxGraphModel dx="1826" dy="804" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -196,15 +196,30 @@
     </mxGraphModel>
   </diagram>
   <diagram id="TWXqlluJ2ubAJWgfZcES" name="vise-tkoatty-flow">
-    <mxGraphModel dx="2626" dy="1604" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3026" dy="1604" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="KWCPz60V052auyXID6N1-0" />
         <mxCell id="KWCPz60V052auyXID6N1-1" parent="KWCPz60V052auyXID6N1-0" />
-        <mxCell id="KWCPz60V052auyXID6N1-2" value="tkoatty app init" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="KWCPz60V052auyXID6N1-1">
-          <mxGeometry x="-1050" y="-570" width="120" height="40" as="geometry" />
+        <mxCell id="KWCPz60V052auyXID6N1-2" value="init bundle" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="KWCPz60V052auyXID6N1-1">
+          <mxGeometry x="-1210" y="-620" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="KWCPz60V052auyXID6N1-3" value="bootstrap app" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="KWCPz60V052auyXID6N1-1">
-          <mxGeometry x="-1050" y="-500" width="120" height="40" as="geometry" />
+        <mxCell id="KWCPz60V052auyXID6N1-3" value="listen uncaughtException of process" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="KWCPz60V052auyXID6N1-1">
+          <mxGeometry x="-1210" y="-480" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KWCPz60V052auyXID6N1-4" value="tkoatty app" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="KWCPz60V052auyXID6N1-1">
+          <mxGeometry x="-1170" y="-680" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KWCPz60V052auyXID6N1-5" value="get app version and html template" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="KWCPz60V052auyXID6N1-1">
+          <mxGeometry x="-1420" y="-615" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KWCPz60V052auyXID6N1-6" value="listen unhandleRejection of process" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="KWCPz60V052auyXID6N1-1">
+          <mxGeometry x="-1210" y="-550" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KWCPz60V052auyXID6N1-7" value="report and kill subprocess" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="KWCPz60V052auyXID6N1-1">
+          <mxGeometry x="-1400" y="-545" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KWCPz60V052auyXID6N1-8" value="report and kill subprocess" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="KWCPz60V052auyXID6N1-1">
+          <mxGeometry x="-1400" y="-475" width="140" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
