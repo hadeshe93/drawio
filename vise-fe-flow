@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-30T05:05:28.197Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="gEPoCzOOCbF_Yc73Cf_K" version="17.1.2" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-03-30T05:05:49.310Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="ibboHeNPpeOiYJr56_uL" version="17.1.2" type="github" pages="3">
   <diagram id="uaIJp33Wu-I8MSU5TuaB" name="ssr 框架流程梳理">
     <mxGraphModel dx="1826" dy="804" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -200,8 +200,14 @@
       <root>
         <mxCell id="KWCPz60V052auyXID6N1-0" />
         <mxCell id="KWCPz60V052auyXID6N1-1" parent="KWCPz60V052auyXID6N1-0" />
+        <mxCell id="KWCPz60V052auyXID6N1-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="KWCPz60V052auyXID6N1-1" source="KWCPz60V052auyXID6N1-2" target="KWCPz60V052auyXID6N1-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="KWCPz60V052auyXID6N1-2" value="init bundle" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="KWCPz60V052auyXID6N1-1">
           <mxGeometry x="-1210" y="-620" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KWCPz60V052auyXID6N1-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="KWCPz60V052auyXID6N1-1" source="KWCPz60V052auyXID6N1-3" target="KWCPz60V052auyXID6N1-9">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="KWCPz60V052auyXID6N1-3" value="listen uncaughtException of process" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="KWCPz60V052auyXID6N1-1">
           <mxGeometry x="-1210" y="-480" width="120" height="40" as="geometry" />
@@ -212,6 +218,9 @@
         <mxCell id="KWCPz60V052auyXID6N1-5" value="get app version and html template" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="KWCPz60V052auyXID6N1-1">
           <mxGeometry x="-1420" y="-615" width="180" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="KWCPz60V052auyXID6N1-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="KWCPz60V052auyXID6N1-1" source="KWCPz60V052auyXID6N1-6" target="KWCPz60V052auyXID6N1-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="KWCPz60V052auyXID6N1-6" value="listen unhandleRejection of process" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="KWCPz60V052auyXID6N1-1">
           <mxGeometry x="-1210" y="-550" width="120" height="40" as="geometry" />
         </mxCell>
@@ -220,6 +229,9 @@
         </mxCell>
         <mxCell id="KWCPz60V052auyXID6N1-8" value="report and kill subprocess" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="KWCPz60V052auyXID6N1-1">
           <mxGeometry x="-1400" y="-475" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KWCPz60V052auyXID6N1-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="KWCPz60V052auyXID6N1-1" source="KWCPz60V052auyXID6N1-9" target="KWCPz60V052auyXID6N1-10">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="KWCPz60V052auyXID6N1-9" value="get trpc config" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="KWCPz60V052auyXID6N1-1">
           <mxGeometry x="-1210" y="-410" width="120" height="40" as="geometry" />
