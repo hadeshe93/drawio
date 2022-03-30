@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-30T09:32:42.585Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="_BHd1ivDpEyIFUP5cAGq" version="17.1.2" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-03-30T09:33:40.144Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="YvEHQoLs-d-RzoIlC0IP" version="17.1.2" type="github" pages="3">
   <diagram id="uaIJp33Wu-I8MSU5TuaB" name="ssr 框架流程梳理">
     <mxGraphModel dx="1826" dy="804" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -271,6 +271,15 @@
         </mxCell>
         <mxCell id="6fZWmpfaHBFDaGLeiJgf-29" value="start server app plugin &lt;br&gt;build" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Wb2SuTaresEVH2dL3s4f-1">
           <mxGeometry x="-497.5" y="310" width="135" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6fZWmpfaHBFDaGLeiJgf-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="Wb2SuTaresEVH2dL3s4f-1" source="6fZWmpfaHBFDaGLeiJgf-35" target="6fZWmpfaHBFDaGLeiJgf-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6fZWmpfaHBFDaGLeiJgf-35" value="build" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Wb2SuTaresEVH2dL3s4f-1">
+          <mxGeometry x="250" y="200" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6fZWmpfaHBFDaGLeiJgf-36" value="build server app" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Wb2SuTaresEVH2dL3s4f-1">
+          <mxGeometry x="255" y="260" width="110" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
