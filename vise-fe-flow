@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-30T09:31:35.425Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="n1X_6pmBseHBqJj77PYA" version="17.1.2" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-03-30T09:32:30.055Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="RJ7x-F9ragvOqiyPP2Xu" version="17.1.2" type="github" pages="3">
   <diagram id="uaIJp33Wu-I8MSU5TuaB" name="ssr 框架流程梳理">
     <mxGraphModel dx="1826" dy="804" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -200,10 +200,16 @@
         <mxCell id="6fZWmpfaHBFDaGLeiJgf-4" value="dev" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Wb2SuTaresEVH2dL3s4f-1">
           <mxGeometry x="-30" y="400" width="120" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="6fZWmpfaHBFDaGLeiJgf-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="Wb2SuTaresEVH2dL3s4f-1" source="6fZWmpfaHBFDaGLeiJgf-6" target="6fZWmpfaHBFDaGLeiJgf-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="6fZWmpfaHBFDaGLeiJgf-6" value="build" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Wb2SuTaresEVH2dL3s4f-1">
           <mxGeometry x="-30" y="200" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="6fZWmpfaHBFDaGLeiJgf-8" value="build client app" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Wb2SuTaresEVH2dL3s4f-1">
+        <mxCell id="6fZWmpfaHBFDaGLeiJgf-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="Wb2SuTaresEVH2dL3s4f-1" source="6fZWmpfaHBFDaGLeiJgf-8" target="6fZWmpfaHBFDaGLeiJgf-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6fZWmpfaHBFDaGLeiJgf-8" value="build client bundles" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Wb2SuTaresEVH2dL3s4f-1">
           <mxGeometry x="-25" y="260" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="6fZWmpfaHBFDaGLeiJgf-9" value="(noop)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Wb2SuTaresEVH2dL3s4f-1">
@@ -251,7 +257,7 @@
         <mxCell id="6fZWmpfaHBFDaGLeiJgf-26" value="依赖 1：render 方法&lt;br&gt;(返回 html string / stream)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="Wb2SuTaresEVH2dL3s4f-1">
           <mxGeometry x="544.62" y="290" width="168.75" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="6fZWmpfaHBFDaGLeiJgf-27" value="build server app" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Wb2SuTaresEVH2dL3s4f-1">
+        <mxCell id="6fZWmpfaHBFDaGLeiJgf-27" value="build server render bundle" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Wb2SuTaresEVH2dL3s4f-1">
           <mxGeometry x="-25" y="310" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="6fZWmpfaHBFDaGLeiJgf-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="Wb2SuTaresEVH2dL3s4f-1" source="6fZWmpfaHBFDaGLeiJgf-28" target="6fZWmpfaHBFDaGLeiJgf-29">
