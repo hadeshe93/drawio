@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-30T02:35:22.605Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="yOdFVAMWPcpJ_SrdSW3T" version="17.1.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-03-30T02:43:06.459Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="7bEjQVZ0FKDkqWEPntJR" version="17.1.2" type="github" pages="2">
   <diagram id="uaIJp33Wu-I8MSU5TuaB" name="ssr 框架流程梳理">
     <mxGraphModel dx="1826" dy="804" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -146,10 +146,31 @@
     </mxGraphModel>
   </diagram>
   <diagram id="ivMxVS7mmv4sUH370ej3" name="vise 模块梳理">
-    <mxGraphModel dx="1426" dy="804" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2226" dy="1204" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="Wb2SuTaresEVH2dL3s4f-0" />
         <mxCell id="Wb2SuTaresEVH2dL3s4f-1" parent="Wb2SuTaresEVH2dL3s4f-0" />
+        <mxCell id="Wb2SuTaresEVH2dL3s4f-2" value="vise cli" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Wb2SuTaresEVH2dL3s4f-1">
+          <mxGeometry x="-490" y="-70" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Wb2SuTaresEVH2dL3s4f-4" value="create" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Wb2SuTaresEVH2dL3s4f-1">
+          <mxGeometry x="-350" y="10" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="OzAc_lrWnw7aNZjpmbKG-1" value="dev" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Wb2SuTaresEVH2dL3s4f-1">
+          <mxGeometry x="-360" y="380" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="OzAc_lrWnw7aNZjpmbKG-2" value="build" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Wb2SuTaresEVH2dL3s4f-1">
+          <mxGeometry x="-350" y="200" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="OzAc_lrWnw7aNZjpmbKG-3" value="ssr dev proxy" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Wb2SuTaresEVH2dL3s4f-1">
+          <mxGeometry x="-355" y="460" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OzAc_lrWnw7aNZjpmbKG-4" value="render method" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Wb2SuTaresEVH2dL3s4f-1">
+          <mxGeometry x="-355" y="510" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OzAc_lrWnw7aNZjpmbKG-5" value="server" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Wb2SuTaresEVH2dL3s4f-1">
+          <mxGeometry x="-20" y="-70" width="120" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
