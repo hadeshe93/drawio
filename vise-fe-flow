@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-30T05:06:15.099Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="pOKCLLNLQfVfSywR_Cw5" version="17.1.2" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-03-30T05:07:02.014Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="jp2mzSQPRC_gFb2dlanB" version="17.1.2" type="github" pages="3">
   <diagram id="uaIJp33Wu-I8MSU5TuaB" name="ssr 框架流程梳理">
     <mxGraphModel dx="1826" dy="804" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -238,6 +238,12 @@
         </mxCell>
         <mxCell id="KWCPz60V052auyXID6N1-10" value="init atta report" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="KWCPz60V052auyXID6N1-1">
           <mxGeometry x="-1210" y="-340" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KWCPz60V052auyXID6N1-15" value="tkoatty app controller" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="KWCPz60V052auyXID6N1-1">
+          <mxGeometry x="-760" y="-680" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KWCPz60V052auyXID6N1-16" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="KWCPz60V052auyXID6N1-1">
+          <mxGeometry x="-735" y="-620" width="120" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
