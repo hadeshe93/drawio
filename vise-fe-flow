@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-30T08:59:51.493Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="Bo4jk3j3ct69_8KhMBpX" version="17.1.2" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-03-30T09:00:53.282Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="DPP6OGYMd4YXdYhahgyg" version="17.1.2" type="github" pages="3">
   <diagram id="uaIJp33Wu-I8MSU5TuaB" name="ssr 框架流程梳理">
     <mxGraphModel dx="1826" dy="804" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -163,10 +163,10 @@
           <mxGeometry x="-490" y="200" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="OzAc_lrWnw7aNZjpmbKG-3" value="ssr dev proxy" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Wb2SuTaresEVH2dL3s4f-1">
-          <mxGeometry x="-350" y="460" width="110" height="30" as="geometry" />
+          <mxGeometry x="-485" y="450" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="OzAc_lrWnw7aNZjpmbKG-4" value="render method" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Wb2SuTaresEVH2dL3s4f-1">
-          <mxGeometry x="-350" y="520" width="110" height="30" as="geometry" />
+          <mxGeometry x="-485" y="490" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="OzAc_lrWnw7aNZjpmbKG-5" value="server app" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Wb2SuTaresEVH2dL3s4f-1">
           <mxGeometry x="600" y="-70" width="120" height="40" as="geometry" />
@@ -187,10 +187,10 @@
           <mxGeometry x="760" y="200" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="OzAc_lrWnw7aNZjpmbKG-12" value="server render bundle output" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Wb2SuTaresEVH2dL3s4f-1">
-          <mxGeometry x="-350" y="250" width="110" height="30" as="geometry" />
+          <mxGeometry x="-485" y="250" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="OzAc_lrWnw7aNZjpmbKG-13" value="static bundle output" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Wb2SuTaresEVH2dL3s4f-1">
-          <mxGeometry x="-350" y="310" width="110" height="30" as="geometry" />
+          <mxGeometry x="-485" y="290" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="6fZWmpfaHBFDaGLeiJgf-1" value="app plugin vue3" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Wb2SuTaresEVH2dL3s4f-1">
           <mxGeometry x="-30" y="-70" width="120" height="40" as="geometry" />
@@ -204,8 +204,14 @@
         <mxCell id="6fZWmpfaHBFDaGLeiJgf-4" value="dev" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Wb2SuTaresEVH2dL3s4f-1">
           <mxGeometry x="-30" y="400" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="6fZWmpfaHBFDaGLeiJgf-5" value="不需要干啥" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Wb2SuTaresEVH2dL3s4f-1">
-          <mxGeometry y="480" width="80" height="30" as="geometry" />
+        <mxCell id="6fZWmpfaHBFDaGLeiJgf-6" value="build" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Wb2SuTaresEVH2dL3s4f-1">
+          <mxGeometry x="-30" y="200" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6fZWmpfaHBFDaGLeiJgf-8" value="启动构建" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Wb2SuTaresEVH2dL3s4f-1">
+          <mxGeometry x="-25" y="250" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6fZWmpfaHBFDaGLeiJgf-9" value="不需要干啥" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Wb2SuTaresEVH2dL3s4f-1">
+          <mxGeometry x="-25" y="450" width="110" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
