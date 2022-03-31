@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-31T02:12:12.790Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="n9zp5rTcOzymD0QGyv_j" version="17.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-31T02:13:05.485Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="0PsOK5UsytkALhzD7RP1" version="17.1.2" type="github">
   <diagram id="FZcACZ_yew65vdYL2Psw" name="redis">
     <mxGraphModel dx="2034" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -211,6 +211,11 @@
         <mxCell id="mb0S4uR2fmX7MLoB3Jqw-81" value="&lt;ul&gt;&lt;li&gt;数据冗余：主从复制实现了数据的热备份，是持久化之外的一种数据冗余方式&lt;/li&gt;&lt;li&gt;故障恢复：当主节点出现问题时，可以由从节点提供服务，实现快速的故障恢复，实际上是一种服务的冗余&lt;/li&gt;&lt;li&gt;负载均衡：在主从复制基础上，配合读写分离，可以由主节点提供写服务，从节点提供读服务（即读写时区分连接），分担服务端的负载；尤其是在写少读多的场景下，通过多个从节点分担读负载，可以大大提供 Redis 服务器的并发量&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="60" y="2025" width="710" height="95" as="geometry" />
         </mxCell>
+        <UserObject label="https://mmbiz.qpic.cn/mmbiz_png/Z6bicxIx5naJHFiasCRvu4qykX5fCDNOQedANPrcW3yf2HhKEZ3I3ZyW48iaEia45rbxR4Oxq1FwkQClDHFxxd0slA/640?wx_fmt=png&amp;wxfrom=5&amp;wx_lazy=1&amp;wx_co=1" link="https://mmbiz.qpic.cn/mmbiz_png/Z6bicxIx5naJHFiasCRvu4qykX5fCDNOQedANPrcW3yf2HhKEZ3I3ZyW48iaEia45rbxR4Oxq1FwkQClDHFxxd0slA/640?wx_fmt=png&amp;wxfrom=5&amp;wx_lazy=1&amp;wx_co=1" id="mb0S4uR2fmX7MLoB3Jqw-84">
+          <mxCell style="text;whiteSpace=wrap;html=1;fontSize=14;fontColor=#FF0000;" vertex="1" parent="1">
+            <mxGeometry x="810" y="2047.5" width="550" height="50" as="geometry" />
+          </mxCell>
+        </UserObject>
       </root>
     </mxGraphModel>
   </diagram>
