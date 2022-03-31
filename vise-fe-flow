@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-31T06:14:41.611Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="5tWmlD2Dbc8iWWVxC5EX" version="17.1.2" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-03-31T06:58:26.350Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="0mBMzhVJjmIG9QUnlv8d" version="17.1.2" type="github" pages="3">
   <diagram id="uaIJp33Wu-I8MSU5TuaB" name="ssr 框架流程梳理">
     <mxGraphModel dx="1826" dy="804" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -479,8 +479,20 @@
         <mxCell id="KWCPz60V052auyXID6N1-19" value="expand extra info in ctx" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="KWCPz60V052auyXID6N1-1">
           <mxGeometry x="-955" y="-410" width="120" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="Dx-vLwe9MI_fJ-gd7drS-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=14;fontColor=#FFFFFF;startArrow=none;startFill=0;endArrow=classic;endFill=1;dashed=1;" edge="1" parent="KWCPz60V052auyXID6N1-1" source="KWCPz60V052auyXID6N1-20" target="Dx-vLwe9MI_fJ-gd7drS-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="KWCPz60V052auyXID6N1-20" value="init only one rendering subprocess for single app&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="KWCPz60V052auyXID6N1-1">
           <mxGeometry x="-955" y="-340" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Dx-vLwe9MI_fJ-gd7drS-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=14;fontColor=#FFFFFF;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="KWCPz60V052auyXID6N1-1" source="Dx-vLwe9MI_fJ-gd7drS-1" target="Dx-vLwe9MI_fJ-gd7drS-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Dx-vLwe9MI_fJ-gd7drS-1" value="fork a render process" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="KWCPz60V052auyXID6N1-1">
+          <mxGeometry x="-740" y="-340" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Dx-vLwe9MI_fJ-gd7drS-2" value="master and slave process bind msg listener" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="KWCPz60V052auyXID6N1-1">
+          <mxGeometry x="-740" y="-270" width="120" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
