@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-31T02:01:20.383Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="yDIEZAboSOekgenDrlbM" version="17.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-31T02:04:13.650Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="aCSbIUI5BTAhd7F-WCyU" version="17.1.2" type="github">
   <diagram id="FZcACZ_yew65vdYL2Psw" name="redis">
     <mxGraphModel dx="2034" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -169,8 +169,20 @@
         <mxCell id="mb0S4uR2fmX7MLoB3Jqw-57" value="&lt;ul&gt;&lt;li&gt;持久化是可以禁用的，即让数据的生命周期只存在于服务器的运行时间里&lt;br&gt;&lt;/li&gt;&lt;li&gt;两种方式的持久化是可以同时存在的，但当 redis 重启时，AOF 会优先用于重建数据&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="230" y="1585" width="710" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="mb0S4uR2fmX7MLoB3Jqw-70" value="发布与订阅" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="mb0S4uR2fmX7MLoB3Jqw-70" value="订阅与发布" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="-240" y="1710" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="mb0S4uR2fmX7MLoB3Jqw-71" value="实现" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="-80" y="1710" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="mb0S4uR2fmX7MLoB3Jqw-72" value="&lt;ul&gt;&lt;li&gt;通过 PUBLISH 和 SUBSCRIBE 等命令实现了订阅与发布模式&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="60" y="1705" width="710" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="mb0S4uR2fmX7MLoB3Jqw-73" value="两种信息机制" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="-80" y="1800" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="mb0S4uR2fmX7MLoB3Jqw-74" value="&lt;ul&gt;&lt;li&gt;订阅/发布到频道&lt;/li&gt;&lt;li&gt;订阅/发布到模式&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="60" y="1795" width="710" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
