@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-31T01:31:05.163Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="_FL_wrAQ_VYkDCT7kdLZ" version="17.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-31T01:32:54.754Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="JEQk6SIrQMX2CIfmoOR1" version="17.1.2" type="github">
   <diagram id="FZcACZ_yew65vdYL2Psw" name="redis">
     <mxGraphModel dx="1634" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -16,7 +16,7 @@
         <mxCell id="mb0S4uR2fmX7MLoB3Jqw-5" value="Set (集合)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="90" y="290" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="mb0S4uR2fmX7MLoB3Jqw-6" value="Sorted Set&lt;br&gt;(有序集合)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="mb0S4uR2fmX7MLoB3Jqw-6" value="Zset&lt;br&gt;Sorted Set&lt;br&gt;(有序集合)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="90" y="390" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="mb0S4uR2fmX7MLoB3Jqw-7" value="Hash (哈希)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
