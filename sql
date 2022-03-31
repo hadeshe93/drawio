@@ -1,11 +1,26 @@
-<mxfile host="app.diagrams.net" modified="2022-03-31T01:32:54.754Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="JEQk6SIrQMX2CIfmoOR1" version="17.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-31T01:35:15.638Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="cLz2wm9AFpUU6TLQ122J" version="17.1.2" type="github">
   <diagram id="FZcACZ_yew65vdYL2Psw" name="redis">
     <mxGraphModel dx="1634" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="mb0S4uR2fmX7MLoB3Jqw-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;fontColor=#FF0000;" edge="1" parent="1" source="mb0S4uR2fmX7MLoB3Jqw-2" target="mb0S4uR2fmX7MLoB3Jqw-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mb0S4uR2fmX7MLoB3Jqw-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;fontColor=#FF0000;" edge="1" parent="1" source="mb0S4uR2fmX7MLoB3Jqw-2" target="mb0S4uR2fmX7MLoB3Jqw-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mb0S4uR2fmX7MLoB3Jqw-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;fontColor=#FF0000;" edge="1" parent="1" source="mb0S4uR2fmX7MLoB3Jqw-2" target="mb0S4uR2fmX7MLoB3Jqw-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mb0S4uR2fmX7MLoB3Jqw-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;fontColor=#FF0000;" edge="1" parent="1" source="mb0S4uR2fmX7MLoB3Jqw-2" target="mb0S4uR2fmX7MLoB3Jqw-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mb0S4uR2fmX7MLoB3Jqw-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;fontColor=#FF0000;" edge="1" parent="1" source="mb0S4uR2fmX7MLoB3Jqw-2" target="mb0S4uR2fmX7MLoB3Jqw-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="mb0S4uR2fmX7MLoB3Jqw-2" value="五大基本类型" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="-80" y="230" width="100" height="40" as="geometry" />
+          <mxGeometry x="-80" y="290" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="mb0S4uR2fmX7MLoB3Jqw-3" value="String (字符串)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="90" y="110" width="100" height="40" as="geometry" />
@@ -39,6 +54,27 @@
         </mxCell>
         <mxCell id="mb0S4uR2fmX7MLoB3Jqw-13" value="&lt;ul style=&quot;font-size: 14px&quot;&gt;&lt;li style=&quot;font-size: 14px&quot;&gt;键值对集合，是 String 类型的 k、v 映射表&lt;/li&gt;&lt;li style=&quot;font-size: 14px&quot;&gt;redis 本身就是一个 key-value 型数据库，所以 Hash 类型相当于在 value 中又套了一层 key-value 型数据&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="220" y="485" width="710" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="mb0S4uR2fmX7MLoB3Jqw-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;fontColor=#FF0000;" edge="1" parent="1" source="mb0S4uR2fmX7MLoB3Jqw-14" target="mb0S4uR2fmX7MLoB3Jqw-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mb0S4uR2fmX7MLoB3Jqw-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;fontColor=#FF0000;" edge="1" parent="1" source="mb0S4uR2fmX7MLoB3Jqw-14" target="mb0S4uR2fmX7MLoB3Jqw-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mb0S4uR2fmX7MLoB3Jqw-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;fontColor=#FF0000;" edge="1" parent="1" source="mb0S4uR2fmX7MLoB3Jqw-14" target="mb0S4uR2fmX7MLoB3Jqw-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mb0S4uR2fmX7MLoB3Jqw-14" value="三大特殊类型" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="-80" y="680" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="mb0S4uR2fmX7MLoB3Jqw-15" value="Geospatial&lt;br&gt;(地理位置)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="80" y="610" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="mb0S4uR2fmX7MLoB3Jqw-16" value="Hyperloglog&lt;br&gt;(基数)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="80" y="680" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="mb0S4uR2fmX7MLoB3Jqw-17" value="Bitmaps&lt;br&gt;(位存储)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="80" y="750" width="100" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
