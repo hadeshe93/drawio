@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-31T01:35:15.638Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="cLz2wm9AFpUU6TLQ122J" version="17.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-31T01:35:38.686Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="60y2kLA6bfYyHSoZsL03" version="17.1.2" type="github">
   <diagram id="FZcACZ_yew65vdYL2Psw" name="redis">
     <mxGraphModel dx="1634" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -37,8 +37,14 @@
         <mxCell id="mb0S4uR2fmX7MLoB3Jqw-7" value="Hash (哈希)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="90" y="490" width="100" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="mb0S4uR2fmX7MLoB3Jqw-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;fontColor=#FF0000;" edge="1" parent="1" source="mb0S4uR2fmX7MLoB3Jqw-8" target="mb0S4uR2fmX7MLoB3Jqw-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mb0S4uR2fmX7MLoB3Jqw-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;fontColor=#FF0000;" edge="1" parent="1" source="mb0S4uR2fmX7MLoB3Jqw-8" target="mb0S4uR2fmX7MLoB3Jqw-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="mb0S4uR2fmX7MLoB3Jqw-8" value="Redis, Remote Dictionary Server" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="-200" y="30" width="290" height="30" as="geometry" />
+          <mxGeometry x="-390" y="480" width="290" height="30" as="geometry" />
         </mxCell>
         <mxCell id="mb0S4uR2fmX7MLoB3Jqw-9" value="&lt;ul style=&quot;font-size: 14px&quot;&gt;&lt;li style=&quot;font-size: 14px&quot;&gt;最基础的数据结构，String 类型的值最大能存储 &lt;font color=&quot;#ff0000&quot;&gt;512MB&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;font-size: 14px&quot;&gt;简单字符串、复杂 xml / json 字符串、二进制图像或音频的字符串、数字字符串&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="210" y="105" width="560" height="50" as="geometry" />
