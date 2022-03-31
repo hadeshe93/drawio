@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-31T01:49:49.835Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="c8JbuVvP-phSL9Ct37Nu" version="17.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-31T01:53:04.989Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="dSmPema8fNILqZQL3nR5" version="17.1.2" type="github">
   <diagram id="FZcACZ_yew65vdYL2Psw" name="redis">
     <mxGraphModel dx="2034" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -124,11 +124,17 @@
         <mxCell id="mb0S4uR2fmX7MLoB3Jqw-51" value="持久化" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="-80" y="1540" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="mb0S4uR2fmX7MLoB3Jqw-52" value="方式1：快照（RDB 文件）" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="60" y="1490" width="180" height="40" as="geometry" />
+        <mxCell id="mb0S4uR2fmX7MLoB3Jqw-54" value="方式" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="60" y="1500" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="mb0S4uR2fmX7MLoB3Jqw-53" value="方式2：追加式文件（AOF 文件）" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="60" y="1590" width="180" height="40" as="geometry" />
+        <mxCell id="mb0S4uR2fmX7MLoB3Jqw-55" value="&lt;ul&gt;&lt;li&gt;方式1：快照（RDB 文件），会在一个特定的间隔保存那个时间点的数据快照&lt;br&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;text-align: center&quot;&gt;方式2：追加式文件（AOF 文件），&lt;/span&gt;会记录每一个服务器收到的写操作。在服务启动时，这些记录的操作会逐条执行从而重建出原来的数据。写操作命令记录的格式跟Redis协议一致，以追加的方式进行保存&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="230" y="1470" width="710" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="mb0S4uR2fmX7MLoB3Jqw-56" value="特点" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="60" y="1590" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="mb0S4uR2fmX7MLoB3Jqw-57" value="&lt;ul&gt;&lt;li&gt;持久化是可以禁用的，即让数据的生命周期只存在于服务器的运行时间里&lt;br&gt;&lt;/li&gt;&lt;li&gt;两种方式的持久化是可以同时存在的，但当 redis 重启时，AOF 会优先用于重建数据&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="230" y="1585" width="710" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
