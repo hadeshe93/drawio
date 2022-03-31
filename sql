@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-31T01:29:18.304Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="iOGY2sta_Fz0ts0vK-6O" version="17.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-31T01:31:05.163Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="_FL_wrAQ_VYkDCT7kdLZ" version="17.1.2" type="github">
   <diagram id="FZcACZ_yew65vdYL2Psw" name="redis">
     <mxGraphModel dx="1634" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -37,8 +37,8 @@
         <mxCell id="mb0S4uR2fmX7MLoB3Jqw-12" value="&lt;ul style=&quot;font-size: 14px&quot;&gt;&lt;li style=&quot;font-size: 14px&quot;&gt;集合类型的一部分，同样无序、不允许重复&lt;/li&gt;&lt;li style=&quot;font-size: 14px&quot;&gt;给每个元素多设置了 一个分数，利用该分数作为排序依据&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="210" y="385" width="650" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="mb0S4uR2fmX7MLoB3Jqw-13" value="&lt;ul style=&quot;font-size: 14px&quot;&gt;&lt;li style=&quot;font-size: 14px&quot;&gt;集合类型的一部分，同样无序、不允许重复&lt;/li&gt;&lt;li style=&quot;font-size: 14px&quot;&gt;给每个元素多设置了 一个分数，利用该分数作为排序依据&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="220" y="485" width="650" height="50" as="geometry" />
+        <mxCell id="mb0S4uR2fmX7MLoB3Jqw-13" value="&lt;ul style=&quot;font-size: 14px&quot;&gt;&lt;li style=&quot;font-size: 14px&quot;&gt;键值对集合，是 String 类型的 k、v 映射表&lt;/li&gt;&lt;li style=&quot;font-size: 14px&quot;&gt;redis 本身就是一个 key-value 型数据库，所以 Hash 类型相当于在 value 中又套了一层 key-value 型数据&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="220" y="485" width="710" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
