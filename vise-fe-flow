@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-01T03:54:49.899Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="as8zTbJiE8694Bh5Ywdt" version="17.1.2" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-04-01T03:55:38.431Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="Z3X-eZOtT3f9f23q61Ze" version="17.1.2" type="github" pages="4">
   <diagram id="uaIJp33Wu-I8MSU5TuaB" name="ssr 框架流程梳理">
     <mxGraphModel dx="1826" dy="804" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -404,8 +404,8 @@
         <mxCell id="2VLbW3JYjPFFD-S-g1gG-3" value="对外提供：initSSRDevProxy 方法" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="Wb2SuTaresEVH2dL3s4f-1">
           <mxGeometry x="-220" y="-10" width="160" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="2VLbW3JYjPFFD-S-g1gG-11" value="&lt;div&gt;server app plugin&lt;/div&gt;&lt;div&gt;(express / koa / egg)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#333333;fontSize=16;fontColor=#FFFFFF;" vertex="1" parent="Wb2SuTaresEVH2dL3s4f-1">
-          <mxGeometry x="1093.75" y="-180" width="160" height="50" as="geometry" />
+        <mxCell id="2VLbW3JYjPFFD-S-g1gG-11" value="@tencent/vise-server-plugin-[framework]" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#333333;fontSize=16;fontColor=#FFFFFF;" vertex="1" parent="Wb2SuTaresEVH2dL3s4f-1">
+          <mxGeometry x="880" y="-210" width="330" height="50" as="geometry" />
         </mxCell>
         <mxCell id="2VLbW3JYjPFFD-S-g1gG-12" value="..." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Wb2SuTaresEVH2dL3s4f-1">
           <mxGeometry x="450" y="280" width="93.75" height="30" as="geometry" />
