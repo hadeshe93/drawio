@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-01T10:59:25.258Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="QyqD79UygFdlspTuAYGq" version="17.1.2" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-04-01T11:06:59.990Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="wNEvlufFMModNUF8mc_5" version="17.1.2" type="github" pages="4">
   <diagram id="uaIJp33Wu-I8MSU5TuaB" name="ssr 框架流程梳理">
     <mxGraphModel dx="1826" dy="804" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -182,6 +182,9 @@
         </mxCell>
         <mxCell id="Wb2SuTaresEVH2dL3s4f-4" value="create 命令" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="Wb2SuTaresEVH2dL3s4f-1">
           <mxGeometry x="-485" y="-75" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="2VLbW3JYjPFFD-S-g1gG-39" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;dashed=1;fontSize=14;fontColor=#FFFFFF;startArrow=none;startFill=0;endArrow=classic;endFill=1;fillColor=#e51400;strokeColor=#B20000;" edge="1" parent="Wb2SuTaresEVH2dL3s4f-1" source="OzAc_lrWnw7aNZjpmbKG-1" target="2VLbW3JYjPFFD-S-g1gG-32">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="OzAc_lrWnw7aNZjpmbKG-1" value="dev 命令" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="Wb2SuTaresEVH2dL3s4f-1">
           <mxGeometry x="-490" y="400" width="120" height="40" as="geometry" />
