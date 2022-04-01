@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-01T08:20:08.786Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="lH2IBvZ4E9QcDR7x3rSS" version="17.1.2" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-04-01T10:59:25.258Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="QyqD79UygFdlspTuAYGq" version="17.1.2" type="github" pages="4">
   <diagram id="uaIJp33Wu-I8MSU5TuaB" name="ssr 框架流程梳理">
     <mxGraphModel dx="1826" dy="804" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -374,7 +374,7 @@
         </mxCell>
         <mxCell id="2VLbW3JYjPFFD-S-g1gG-7" value="&lt;font color=&quot;#000000&quot;&gt;依赖定制化的&lt;br&gt;vite config&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;fontColor=#FFFFFF;labelBackgroundColor=#D5E8D4;" vertex="1" connectable="0" parent="2VLbW3JYjPFFD-S-g1gG-5">
           <mxGeometry x="-0.0323" y="-2" relative="1" as="geometry">
-            <mxPoint x="-28" y="-2" as="offset" />
+            <mxPoint x="-38" y="-2" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="2VLbW3JYjPFFD-S-g1gG-1" value="对外提供：render 方法" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="Wb2SuTaresEVH2dL3s4f-1">
