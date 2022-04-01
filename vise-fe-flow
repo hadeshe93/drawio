@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-01T03:49:28.691Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="mRCXoWQoaeNXyEiZcOc_" version="17.1.2" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-04-01T03:50:30.993Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="78Pl-xmIs7MKLeAg0n62" version="17.1.2" type="github" pages="4">
   <diagram id="uaIJp33Wu-I8MSU5TuaB" name="ssr 框架流程梳理">
     <mxGraphModel dx="1826" dy="804" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -364,9 +364,6 @@
         <mxCell id="6fZWmpfaHBFDaGLeiJgf-89" value="运行时 / 构建时依赖" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="Wb2SuTaresEVH2dL3s4f-1">
           <mxGeometry x="793.13" y="90" width="137.5" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="6fZWmpfaHBFDaGLeiJgf-90" value="others" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#666;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="Wb2SuTaresEVH2dL3s4f-1">
-          <mxGeometry x="760" y="-80" width="203.75" height="50" as="geometry" />
-        </mxCell>
         <mxCell id="6fZWmpfaHBFDaGLeiJgf-91" value="vuex" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Wb2SuTaresEVH2dL3s4f-1">
           <mxGeometry x="870" y="-10" width="93.75" height="30" as="geometry" />
         </mxCell>
@@ -390,7 +387,7 @@
             <mxPoint x="-28" y="-2" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="2VLbW3JYjPFFD-S-g1gG-1" value="提供：render 方法" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="Wb2SuTaresEVH2dL3s4f-1">
+        <mxCell id="2VLbW3JYjPFFD-S-g1gG-1" value="对外提供：render 方法" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="Wb2SuTaresEVH2dL3s4f-1">
           <mxGeometry x="-220" y="-75" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="2VLbW3JYjPFFD-S-g1gG-2" value="对内提供 viseConfig 入参" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="Wb2SuTaresEVH2dL3s4f-1">
@@ -404,7 +401,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="2VLbW3JYjPFFD-S-g1gG-3" value="提供：initSSRDevProxy 方法" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="Wb2SuTaresEVH2dL3s4f-1">
+        <mxCell id="2VLbW3JYjPFFD-S-g1gG-3" value="对外提供：initSSRDevProxy 方法" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="Wb2SuTaresEVH2dL3s4f-1">
           <mxGeometry x="-220" y="-10" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="2VLbW3JYjPFFD-S-g1gG-11" value="&lt;div&gt;server app plugin&lt;/div&gt;&lt;div&gt;(express / koa / egg)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#333333;fontSize=16;fontColor=#FFFFFF;" vertex="1" parent="Wb2SuTaresEVH2dL3s4f-1">
