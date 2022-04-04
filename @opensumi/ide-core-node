@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-04T02:19:51.712Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="theiuH5XQI7qsCX2Emb2" version="17.1.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-04-04T02:20:33.906Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="dc7Q4M8deTgY7_OCG4Jx" version="17.1.2" type="github" pages="3">
   <diagram id="aAnO88tS1aP9BaZfbNjI" name="sumi app server">
     <mxGraphModel dx="1474" dy="826" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -188,6 +188,14 @@
         <mxCell id="K-2X4WnxYge1F4BWl83t-6" value="inject inner providers" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;" vertex="1" parent="xh-Hb8sckqqFZFxBDtet-1">
           <mxGeometry x="20" y="500" width="170" height="30" as="geometry" />
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="w02JpXZjEAJngaht9LJH" name="inject inner providers">
+    <mxGraphModel dx="1234" dy="826" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="xgIMeMzgeFTaB1UEqXVh-0" />
+        <mxCell id="xgIMeMzgeFTaB1UEqXVh-1" parent="xgIMeMzgeFTaB1UEqXVh-0" />
       </root>
     </mxGraphModel>
   </diagram>
