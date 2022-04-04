@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-04T02:20:33.906Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="dc7Q4M8deTgY7_OCG4Jx" version="17.1.2" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-04-04T02:23:34.261Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="PihzfctXUOWVStni70yx" version="17.1.2" type="github" pages="3">
   <diagram id="aAnO88tS1aP9BaZfbNjI" name="sumi app server">
     <mxGraphModel dx="1474" dy="826" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -196,6 +196,27 @@
       <root>
         <mxCell id="xgIMeMzgeFTaB1UEqXVh-0" />
         <mxCell id="xgIMeMzgeFTaB1UEqXVh-1" parent="xgIMeMzgeFTaB1UEqXVh-0" />
+        <mxCell id="xgIMeMzgeFTaB1UEqXVh-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="xgIMeMzgeFTaB1UEqXVh-1" source="xgIMeMzgeFTaB1UEqXVh-2" target="xgIMeMzgeFTaB1UEqXVh-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xgIMeMzgeFTaB1UEqXVh-2" value="create contribution providers" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="xgIMeMzgeFTaB1UEqXVh-1">
+          <mxGeometry x="260" y="240" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xgIMeMzgeFTaB1UEqXVh-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="xgIMeMzgeFTaB1UEqXVh-1" source="xgIMeMzgeFTaB1UEqXVh-3" target="xgIMeMzgeFTaB1UEqXVh-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xgIMeMzgeFTaB1UEqXVh-3" value="injector add inner providers" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="xgIMeMzgeFTaB1UEqXVh-1">
+          <mxGeometry x="260" y="320" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xgIMeMzgeFTaB1UEqXVh-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="xgIMeMzgeFTaB1UEqXVh-1" source="xgIMeMzgeFTaB1UEqXVh-6" target="xgIMeMzgeFTaB1UEqXVh-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xgIMeMzgeFTaB1UEqXVh-6" value="start" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="xgIMeMzgeFTaB1UEqXVh-1">
+          <mxGeometry x="260" y="160" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xgIMeMzgeFTaB1UEqXVh-8" value="end" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="xgIMeMzgeFTaB1UEqXVh-1">
+          <mxGeometry x="260" y="400" width="120" height="50" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
