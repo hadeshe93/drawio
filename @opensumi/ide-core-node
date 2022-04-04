@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-04T02:16:45.862Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="Aznwig9ZoZUCGf2JOpBK" version="17.1.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-04-04T02:19:51.712Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="theiuH5XQI7qsCX2Emb2" version="17.1.2" type="github" pages="2">
   <diagram id="aAnO88tS1aP9BaZfbNjI" name="sumi app server">
     <mxGraphModel dx="1474" dy="826" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -185,7 +185,7 @@
         <mxCell id="K-2X4WnxYge1F4BWl83t-4" value="add Value Provider: clientApp.config" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="xh-Hb8sckqqFZFxBDtet-1">
           <mxGeometry x="20" y="440" width="170" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="K-2X4WnxYge1F4BWl83t-6" value="injectInnerProviders" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="xh-Hb8sckqqFZFxBDtet-1">
+        <mxCell id="K-2X4WnxYge1F4BWl83t-6" value="inject inner providers" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;" vertex="1" parent="xh-Hb8sckqqFZFxBDtet-1">
           <mxGeometry x="20" y="500" width="170" height="30" as="geometry" />
         </mxCell>
       </root>
