@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-07T02:04:14.442Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="PSVWlU76c7W3HsWc9JE5" version="17.1.2" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-04-07T02:05:59.764Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="PFFNpzHHfJ0d_APFxphu" version="17.1.2" type="github" pages="4">
   <diagram id="aAnO88tS1aP9BaZfbNjI" name="sumi app server">
     <mxGraphModel dx="1474" dy="826" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -228,17 +228,29 @@
       <root>
         <mxCell id="-w2zKq8oOSb3XUqeTH12-0" />
         <mxCell id="-w2zKq8oOSb3XUqeTH12-1" parent="-w2zKq8oOSb3XUqeTH12-0" />
-        <mxCell id="-w2zKq8oOSb3XUqeTH12-2" value="Client" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="-w2zKq8oOSb3XUqeTH12-1">
-          <mxGeometry x="-420" y="50" width="80" height="380" as="geometry" />
+        <mxCell id="-w2zKq8oOSb3XUqeTH12-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="-w2zKq8oOSb3XUqeTH12-1">
+          <mxGeometry x="-500" y="50" width="160" height="380" as="geometry" />
         </mxCell>
-        <mxCell id="-w2zKq8oOSb3XUqeTH12-3" value="Server" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="-w2zKq8oOSb3XUqeTH12-1">
-          <mxGeometry x="760" y="50" width="80" height="380" as="geometry" />
+        <mxCell id="-w2zKq8oOSb3XUqeTH12-3" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="-w2zKq8oOSb3XUqeTH12-1">
+          <mxGeometry x="760" y="50" width="160" height="380" as="geometry" />
         </mxCell>
         <mxCell id="-w2zKq8oOSb3XUqeTH12-6" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="-w2zKq8oOSb3XUqeTH12-1">
           <mxGeometry x="-340" y="70" width="1100" height="340" as="geometry" />
         </mxCell>
         <mxCell id="-w2zKq8oOSb3XUqeTH12-9" value="WebSocket Communication" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="-w2zKq8oOSb3XUqeTH12-1">
           <mxGeometry x="125" y="70" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-w2zKq8oOSb3XUqeTH12-10" value="Channel Handler" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="-w2zKq8oOSb3XUqeTH12-1">
+          <mxGeometry x="-400" y="70" width="60" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="-w2zKq8oOSb3XUqeTH12-11" value="Client" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="-w2zKq8oOSb3XUqeTH12-1">
+          <mxGeometry x="-450" y="50" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-w2zKq8oOSb3XUqeTH12-12" value="Channel Handler" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="-w2zKq8oOSb3XUqeTH12-1">
+          <mxGeometry x="760" y="70" width="60" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="-w2zKq8oOSb3XUqeTH12-13" value="Server" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="-w2zKq8oOSb3XUqeTH12-1">
+          <mxGeometry x="810" y="50" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
