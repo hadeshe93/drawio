@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-08T11:10:13.291Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="ep5CE417KDse-6jqcvJp" version="17.1.2" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-04-08T11:20:53.981Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="FFk7Jxd4k0BLPlNJ_tlY" version="17.1.2" type="github" pages="5">
   <diagram id="aAnO88tS1aP9BaZfbNjI" name="sumi app server">
     <mxGraphModel dx="1426" dy="802" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -295,10 +295,76 @@
     </mxGraphModel>
   </diagram>
   <diagram id="VM7_JZNGW0D-s29NppOC" name="di">
-    <mxGraphModel dx="1426" dy="802" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1826" dy="802" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="y5mwjF5FAPPfYy-3e11O-0" />
         <mxCell id="y5mwjF5FAPPfYy-3e11O-1" parent="y5mwjF5FAPPfYy-3e11O-0" />
+        <mxCell id="y5mwjF5FAPPfYy-3e11O-4" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;fontSize=16;" vertex="1" parent="y5mwjF5FAPPfYy-3e11O-1">
+          <mxGeometry x="30" y="160" width="20" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="y5mwjF5FAPPfYy-3e11O-5" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;size=0.5;fontSize=16;" vertex="1" parent="y5mwjF5FAPPfYy-3e11O-1">
+          <mxGeometry x="210" y="160" width="20" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="y5mwjF5FAPPfYy-3e11O-7" value=":" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="y5mwjF5FAPPfYy-3e11O-1">
+          <mxGeometry x="100" y="185" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="y5mwjF5FAPPfYy-3e11O-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=16;" edge="1" parent="y5mwjF5FAPPfYy-3e11O-1" source="y5mwjF5FAPPfYy-3e11O-10" target="y5mwjF5FAPPfYy-3e11O-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y5mwjF5FAPPfYy-3e11O-10" value="key" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="y5mwjF5FAPPfYy-3e11O-1">
+          <mxGeometry x="40" y="185" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="y5mwjF5FAPPfYy-3e11O-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=16;" edge="1" parent="y5mwjF5FAPPfYy-3e11O-1" source="y5mwjF5FAPPfYy-3e11O-11" target="y5mwjF5FAPPfYy-3e11O-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="190" y="320" />
+              <mxPoint x="262" y="320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y5mwjF5FAPPfYy-3e11O-11" value="value" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="y5mwjF5FAPPfYy-3e11O-1">
+          <mxGeometry x="160" y="185" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="y5mwjF5FAPPfYy-3e11O-12" value="Token&lt;br&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;会被切片的类所对应的 token&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="y5mwjF5FAPPfYy-3e11O-1">
+          <mxGeometry x="-230" y="295" width="240" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="y5mwjF5FAPPfYy-3e11O-14" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;fontSize=16;" vertex="1" parent="y5mwjF5FAPPfYy-3e11O-1">
+          <mxGeometry x="260" y="280" width="20" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="y5mwjF5FAPPfYy-3e11O-15" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;size=0.5;fontSize=16;" vertex="1" parent="y5mwjF5FAPPfYy-3e11O-1">
+          <mxGeometry x="440" y="280" width="20" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="y5mwjF5FAPPfYy-3e11O-16" value=":" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="y5mwjF5FAPPfYy-3e11O-1">
+          <mxGeometry x="330" y="305" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="y5mwjF5FAPPfYy-3e11O-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=16;" edge="1" parent="y5mwjF5FAPPfYy-3e11O-1" source="y5mwjF5FAPPfYy-3e11O-17" target="y5mwjF5FAPPfYy-3e11O-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y5mwjF5FAPPfYy-3e11O-17" value="key" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="y5mwjF5FAPPfYy-3e11O-1">
+          <mxGeometry x="270" y="305" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="y5mwjF5FAPPfYy-3e11O-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="y5mwjF5FAPPfYy-3e11O-1" source="y5mwjF5FAPPfYy-3e11O-18" target="y5mwjF5FAPPfYy-3e11O-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y5mwjF5FAPPfYy-3e11O-18" value="value" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="y5mwjF5FAPPfYy-3e11O-1">
+          <mxGeometry x="390" y="305" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="y5mwjF5FAPPfYy-3e11O-21" value="MethodName&lt;br&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;会被 hook 的类内方法&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="y5mwjF5FAPPfYy-3e11O-1">
+          <mxGeometry x="70" y="440" width="190" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="y5mwjF5FAPPfYy-3e11O-23" value="IValidAspectHook[]&lt;br&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;不同 hook 方式的钩子函数&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="y5mwjF5FAPPfYy-3e11O-1">
+          <mxGeometry x="470" y="440" width="190" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="y5mwjF5FAPPfYy-3e11O-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=14;" edge="1" parent="y5mwjF5FAPPfYy-3e11O-1" source="y5mwjF5FAPPfYy-3e11O-25" target="y5mwjF5FAPPfYy-3e11O-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-110" y="200" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y5mwjF5FAPPfYy-3e11O-25" value="IHookMap&lt;br&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;例如：injector.hookStore.hooks&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="y5mwjF5FAPPfYy-3e11O-1">
+          <mxGeometry x="-230" y="90" width="240" height="50" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
