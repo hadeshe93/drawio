@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-09T02:01:44.104Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="sHBBr_tCfnclZntf3LGX" version="17.1.2" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-04-09T02:02:20.810Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="EMw3wH6YAqtVmKmBrFdQ" version="17.1.2" type="github" pages="5">
   <diagram id="aAnO88tS1aP9BaZfbNjI" name="sumi app server">
     <mxGraphModel dx="1426" dy="802" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -400,6 +400,11 @@
             <Array as="points">
               <mxPoint x="1165" y="620" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y5mwjF5FAPPfYy-3e11O-60" value="@OpenSumi/di 具体实现" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;" vertex="1" connectable="0" parent="y5mwjF5FAPPfYy-3e11O-45">
+          <mxGeometry x="-0.3581" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="y5mwjF5FAPPfYy-3e11O-30" value="Denpendency Injection&lt;br&gt;依赖注入" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="y5mwjF5FAPPfYy-3e11O-1">
