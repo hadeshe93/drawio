@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-09T02:02:24.271Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="Y7vVdsAY9SrUUfJcqQEn" version="17.1.2" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-04-09T02:04:30.927Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="3vMjERkW-hgc1CJmeb94" version="17.1.2" type="github" pages="5">
   <diagram id="aAnO88tS1aP9BaZfbNjI" name="sumi app server">
     <mxGraphModel dx="1426" dy="802" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -295,7 +295,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="VM7_JZNGW0D-s29NppOC" name="di">
-    <mxGraphModel dx="1954" dy="874" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1954" dy="874" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="y5mwjF5FAPPfYy-3e11O-0" />
         <mxCell id="y5mwjF5FAPPfYy-3e11O-1" parent="y5mwjF5FAPPfYy-3e11O-0" />
@@ -402,26 +402,21 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="y5mwjF5FAPPfYy-3e11O-60" value="@OpenSumi/di 具体实现" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;" vertex="1" connectable="0" parent="y5mwjF5FAPPfYy-3e11O-45">
-          <mxGeometry x="-0.3581" y="-1" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="y5mwjF5FAPPfYy-3e11O-30" value="Denpendency Injection&lt;br&gt;依赖注入" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="y5mwjF5FAPPfYy-3e11O-1">
           <mxGeometry x="1050" y="320" width="230" height="60" as="geometry" />
         </mxCell>
         <mxCell id="y5mwjF5FAPPfYy-3e11O-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;fontSize=14;" edge="1" parent="y5mwjF5FAPPfYy-3e11O-1" source="y5mwjF5FAPPfYy-3e11O-35" target="y5mwjF5FAPPfYy-3e11O-57">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1505" y="330" />
+              <mxPoint x="1585" y="465" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="y5mwjF5FAPPfYy-3e11O-35" value="IOC Container&lt;br&gt;控制反转容器" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="y5mwjF5FAPPfYy-3e11O-1">
-          <mxGeometry x="1390" y="200" width="230" height="60" as="geometry" />
+          <mxGeometry x="1470" y="200" width="230" height="60" as="geometry" />
         </mxCell>
         <mxCell id="y5mwjF5FAPPfYy-3e11O-38" value="Injector" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="y5mwjF5FAPPfYy-3e11O-1">
-          <mxGeometry x="1630" y="315" width="60" height="30" as="geometry" />
+          <mxGeometry x="1700" y="450" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="y5mwjF5FAPPfYy-3e11O-39" value="Autowired Decorator" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="y5mwjF5FAPPfYy-3e11O-1">
           <mxGeometry x="1380" y="510" width="180" height="30" as="geometry" />
@@ -469,7 +464,13 @@
           <mxGeometry x="1380" y="780" width="180" height="30" as="geometry" />
         </mxCell>
         <mxCell id="y5mwjF5FAPPfYy-3e11O-57" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;fontSize=14;" vertex="1" parent="y5mwjF5FAPPfYy-3e11O-1">
-          <mxGeometry x="1600" y="305" width="20" height="50" as="geometry" />
+          <mxGeometry x="1670" y="440" width="20" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="y5mwjF5FAPPfYy-3e11O-61" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=none;dashed=1;" vertex="1" parent="y5mwjF5FAPPfYy-3e11O-1">
+          <mxGeometry x="1230" y="410" width="590" height="430" as="geometry" />
+        </mxCell>
+        <mxCell id="y5mwjF5FAPPfYy-3e11O-62" value="&lt;span&gt;@OpenSumi/di 具体实现&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;fontSize=14;" vertex="1" parent="y5mwjF5FAPPfYy-3e11O-1">
+          <mxGeometry x="1650" y="810" width="170" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
