@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-08T11:20:59.260Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="UhsL6uxUk8LIPgX6HNsb" version="17.1.2" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-04-09T01:53:27.052Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="7Qw1RMnEA-oDEZP9FWhX" version="17.1.2" type="github" pages="5">
   <diagram id="aAnO88tS1aP9BaZfbNjI" name="sumi app server">
     <mxGraphModel dx="1426" dy="802" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -295,7 +295,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="VM7_JZNGW0D-s29NppOC" name="di">
-    <mxGraphModel dx="1826" dy="802" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1954" dy="874" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="y5mwjF5FAPPfYy-3e11O-0" />
         <mxCell id="y5mwjF5FAPPfYy-3e11O-1" parent="y5mwjF5FAPPfYy-3e11O-0" />
@@ -364,6 +364,42 @@
         </mxCell>
         <mxCell id="y5mwjF5FAPPfYy-3e11O-25" value="IHookMap&lt;br&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;例如：injector.hookStore.hooks&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="y5mwjF5FAPPfYy-3e11O-1">
           <mxGeometry x="-230" y="90" width="240" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="y5mwjF5FAPPfYy-3e11O-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=14;" edge="1" parent="y5mwjF5FAPPfYy-3e11O-1" source="y5mwjF5FAPPfYy-3e11O-28" target="y5mwjF5FAPPfYy-3e11O-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y5mwjF5FAPPfYy-3e11O-33" value="思路" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;" vertex="1" connectable="0" parent="y5mwjF5FAPPfYy-3e11O-31">
+          <mxGeometry x="-0.08" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y5mwjF5FAPPfYy-3e11O-28" value="Dependency Inversion Principle&lt;br&gt;依赖倒置原则" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="y5mwjF5FAPPfYy-3e11O-1">
+          <mxGeometry x="1050" y="90" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="y5mwjF5FAPPfYy-3e11O-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="y5mwjF5FAPPfYy-3e11O-1" source="y5mwjF5FAPPfYy-3e11O-29" target="y5mwjF5FAPPfYy-3e11O-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y5mwjF5FAPPfYy-3e11O-34" value="方法" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;" vertex="1" connectable="0" parent="y5mwjF5FAPPfYy-3e11O-32">
+          <mxGeometry y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y5mwjF5FAPPfYy-3e11O-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="y5mwjF5FAPPfYy-3e11O-1" source="y5mwjF5FAPPfYy-3e11O-29" target="y5mwjF5FAPPfYy-3e11O-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y5mwjF5FAPPfYy-3e11O-37" value="第三方容器" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;" vertex="1" connectable="0" parent="y5mwjF5FAPPfYy-3e11O-36">
+          <mxGeometry x="-0.0545" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y5mwjF5FAPPfYy-3e11O-29" value="Inversion Of Control&lt;br&gt;控制反转" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="y5mwjF5FAPPfYy-3e11O-1">
+          <mxGeometry x="1050" y="200" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="y5mwjF5FAPPfYy-3e11O-30" value="Denpendency Injection&lt;br&gt;依赖注入" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="y5mwjF5FAPPfYy-3e11O-1">
+          <mxGeometry x="1050" y="320" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="y5mwjF5FAPPfYy-3e11O-35" value="IOC Container&lt;br&gt;控制反转容器" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="y5mwjF5FAPPfYy-3e11O-1">
+          <mxGeometry x="1390" y="200" width="230" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
