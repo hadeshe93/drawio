@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-11T09:12:46.294Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="eMgnLTTpBAP4NjrY4933" version="17.1.2" type="github" pages="16">
+<mxfile host="app.diagrams.net" modified="2022-04-11T09:16:03.071Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="kWKQJNRU8ecW9Fs9RJuO" version="17.1.2" type="github" pages="16">
   <diagram id="yge_vaUGyjeqDlGonE7a" name="ws-cli project">
     <mxGraphModel dx="1426" dy="802" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -4428,7 +4428,7 @@
         <mxCell id="k-FeG8BFfL_QdAHW_ozA-14" value="&lt;div&gt;type ResolvedRequest = {&lt;/div&gt;&lt;div&gt;&amp;nbsp; original: RenderContext,&lt;/div&gt;&lt;div&gt;&amp;nbsp; resolved: RenderContext,&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="k-FeG8BFfL_QdAHW_ozA-1">
           <mxGeometry x="620" y="70" width="180" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="k-FeG8BFfL_QdAHW_ozA-16" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;fontSize=14;" edge="1" parent="k-FeG8BFfL_QdAHW_ozA-1">
+        <mxCell id="k-FeG8BFfL_QdAHW_ozA-16" value="" style="endArrow=none;html=1;strokeWidth=2;rounded=0;fontSize=14;strokeColor=#FF0000;" edge="1" parent="k-FeG8BFfL_QdAHW_ozA-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="240" y="300" as="sourcePoint" />
             <mxPoint x="240" y="50" as="targetPoint" />
@@ -4437,7 +4437,7 @@
         <mxCell id="k-FeG8BFfL_QdAHW_ozA-18" value="undefined" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="k-FeG8BFfL_QdAHW_ozA-1">
           <mxGeometry x="160" y="105" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="k-FeG8BFfL_QdAHW_ozA-19" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;fontSize=14;" edge="1" parent="k-FeG8BFfL_QdAHW_ozA-1">
+        <mxCell id="k-FeG8BFfL_QdAHW_ozA-19" value="" style="endArrow=none;html=1;strokeWidth=2;rounded=0;fontSize=14;strokeColor=#FF0000;" edge="1" parent="k-FeG8BFfL_QdAHW_ozA-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="810" y="300" as="sourcePoint" />
             <mxPoint x="810" y="50" as="targetPoint" />
@@ -4472,7 +4472,7 @@
         <mxCell id="k-FeG8BFfL_QdAHW_ozA-30" value="&lt;div&gt;type FindCacheResult = {&lt;/div&gt;&lt;div&gt;&amp;nbsp; content: string,&lt;/div&gt;&lt;div&gt;&amp;nbsp; renderBy: string,&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="k-FeG8BFfL_QdAHW_ozA-1">
           <mxGeometry x="1100" y="510" width="170" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="k-FeG8BFfL_QdAHW_ozA-31" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;fontSize=14;" edge="1" parent="k-FeG8BFfL_QdAHW_ozA-1">
+        <mxCell id="k-FeG8BFfL_QdAHW_ozA-31" value="" style="endArrow=none;html=1;strokeWidth=2;rounded=0;fontSize=14;strokeColor=#FF0000;" edge="1" parent="k-FeG8BFfL_QdAHW_ozA-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1200" y="680" as="sourcePoint" />
             <mxPoint x="940" y="540" as="targetPoint" />
@@ -4502,7 +4502,7 @@
         <mxCell id="k-FeG8BFfL_QdAHW_ozA-39" value="&lt;div&gt;type RenderContext = {&lt;/div&gt;&lt;div&gt;&amp;nbsp; request: HTTPRequest,&lt;/div&gt;&lt;div&gt;&amp;nbsp; extra: JSONObject,&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="k-FeG8BFfL_QdAHW_ozA-1">
           <mxGeometry x="290" y="630" width="170" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="k-FeG8BFfL_QdAHW_ozA-40" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;fontSize=14;" edge="1" parent="k-FeG8BFfL_QdAHW_ozA-1">
+        <mxCell id="k-FeG8BFfL_QdAHW_ozA-40" value="" style="endArrow=none;html=1;strokeWidth=2;rounded=0;fontSize=14;strokeColor=#FF0000;" edge="1" parent="k-FeG8BFfL_QdAHW_ozA-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="480" y="745" as="sourcePoint" />
             <mxPoint x="480" y="495" as="targetPoint" />
@@ -4547,6 +4547,12 @@
         </mxCell>
         <mxCell id="k-FeG8BFfL_QdAHW_ozA-55" value="undefined" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="k-FeG8BFfL_QdAHW_ozA-1">
           <mxGeometry x="270" y="960" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="k-FeG8BFfL_QdAHW_ozA-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;curved=1;dashed=1;" edge="1" parent="k-FeG8BFfL_QdAHW_ozA-1" source="k-FeG8BFfL_QdAHW_ozA-58" target="k-FeG8BFfL_QdAHW_ozA-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="k-FeG8BFfL_QdAHW_ozA-58" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=14;" vertex="1" parent="k-FeG8BFfL_QdAHW_ozA-1">
+          <mxGeometry x="1270" y="160" width="25" height="25" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
