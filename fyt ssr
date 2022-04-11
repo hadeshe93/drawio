@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-11T08:31:22.497Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="qYjvqod1Pfc3hflRRJPN" version="17.1.2" type="github" pages="16">
+<mxfile host="app.diagrams.net" modified="2022-04-11T08:38:06.764Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="_ScgcuYd14E78zYMCPd9" version="17.1.2" type="github" pages="16">
   <diagram id="yge_vaUGyjeqDlGonE7a" name="ws-cli project">
     <mxGraphModel dx="1426" dy="802" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -4385,7 +4385,7 @@
         </mxCell>
         <mxCell id="k-FeG8BFfL_QdAHW_ozA-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=14;" edge="1" parent="k-FeG8BFfL_QdAHW_ozA-1" source="k-FeG8BFfL_QdAHW_ozA-2">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="60" y="310" as="targetPoint" />
+            <mxPoint x="60" y="350" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="k-FeG8BFfL_QdAHW_ozA-2" value="&lt;div style=&quot;font-size: 14px;&quot;&gt;hooks.receiveRequest&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="k-FeG8BFfL_QdAHW_ozA-1">
@@ -4400,14 +4400,23 @@
             <mxPoint x="-20" y="174.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="k-FeG8BFfL_QdAHW_ozA-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="k-FeG8BFfL_QdAHW_ozA-1" source="k-FeG8BFfL_QdAHW_ozA-6" target="k-FeG8BFfL_QdAHW_ozA-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="k-FeG8BFfL_QdAHW_ozA-6" value="&lt;div style=&quot;font-size: 14px;&quot;&gt;hooks.receiveRequest&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="k-FeG8BFfL_QdAHW_ozA-1">
           <mxGeometry x="340" y="150" width="160" height="50" as="geometry" />
         </mxCell>
         <mxCell id="k-FeG8BFfL_QdAHW_ozA-8" value="&lt;div&gt;type HTTPResponse = {&lt;/div&gt;&lt;div&gt;&amp;nbsp; code: number,&lt;/div&gt;&lt;div&gt;&amp;nbsp; headers: HttpHeaders,&lt;/div&gt;&lt;div&gt;&amp;nbsp; body?: string,&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="k-FeG8BFfL_QdAHW_ozA-1">
-          <mxGeometry x="160" y="70" width="160" height="100" as="geometry" />
+          <mxGeometry x="-110" y="210" width="160" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="k-FeG8BFfL_QdAHW_ozA-11" value="undefined" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="k-FeG8BFfL_QdAHW_ozA-1">
-          <mxGeometry x="-30" y="230" width="90" height="30" as="geometry" />
+        <mxCell id="k-FeG8BFfL_QdAHW_ozA-12" value="&lt;div&gt;type ResolvedRequest = {&lt;/div&gt;&lt;div&gt;&amp;nbsp; original: RenderContext,&lt;/div&gt;&lt;div&gt;&amp;nbsp; resolved: RenderContext,&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="k-FeG8BFfL_QdAHW_ozA-1">
+          <mxGeometry x="150" y="70" width="180" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="k-FeG8BFfL_QdAHW_ozA-13" value="&lt;div style=&quot;font-size: 14px&quot;&gt;hooks.beforeUseCache&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="k-FeG8BFfL_QdAHW_ozA-1">
+          <mxGeometry x="700" y="150" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="k-FeG8BFfL_QdAHW_ozA-14" value="&lt;div&gt;type ResolvedRequest = {&lt;/div&gt;&lt;div&gt;&amp;nbsp; original: RenderContext,&lt;/div&gt;&lt;div&gt;&amp;nbsp; resolved: RenderContext,&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="k-FeG8BFfL_QdAHW_ozA-1">
+          <mxGeometry x="510" y="70" width="180" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
