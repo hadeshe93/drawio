@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-11T09:07:41.114Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="7WKtB-IUiYdOQksgupJn" version="17.1.2" type="github" pages="16">
+<mxfile host="app.diagrams.net" modified="2022-04-11T09:08:43.959Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="_oY0e3Hiw03CFGEQvzID" version="17.1.2" type="github" pages="16">
   <diagram id="yge_vaUGyjeqDlGonE7a" name="ws-cli project">
     <mxGraphModel dx="1426" dy="802" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -4535,11 +4535,19 @@
         <mxCell id="k-FeG8BFfL_QdAHW_ozA-48" value="&lt;div&gt;type RenderResult = {&lt;/div&gt;&lt;div&gt;&amp;nbsp; context: RenderContext,&lt;/div&gt;&lt;div&gt;&amp;nbsp; renderBy: string,&lt;/div&gt;&lt;div&gt;} &amp;amp; ({&lt;/div&gt;&lt;div&gt;&amp;nbsp; type: RenderResultType.error,&lt;/div&gt;&lt;div&gt;&amp;nbsp; error: RenderError,&lt;/div&gt;&lt;div&gt;} | {&lt;/div&gt;&lt;div&gt;&amp;nbsp; type: RenderResultType.render,&lt;/div&gt;&lt;div&gt;&amp;nbsp; ssrResult: SsrBundleSuccess,&lt;/div&gt;&lt;div&gt;&amp;nbsp; cacheInfo?: CacheInfo,&lt;/div&gt;&lt;div&gt;} | {&lt;/div&gt;&lt;div&gt;&amp;nbsp; type: RenderResultType.receiveRequest,&lt;/div&gt;&lt;div&gt;} | {&lt;/div&gt;&lt;div&gt;&amp;nbsp; type: RenderResultType.hitCache,&lt;/div&gt;&lt;div&gt;&amp;nbsp; content: string,&lt;/div&gt;&lt;div&gt;&amp;nbsp; cacheInfo: CacheInfo,&lt;/div&gt;&lt;div&gt;})&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="k-FeG8BFfL_QdAHW_ozA-1">
           <mxGeometry x="-510" y="670" width="290" height="310" as="geometry" />
         </mxCell>
+        <mxCell id="k-FeG8BFfL_QdAHW_ozA-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=14;" edge="1" parent="k-FeG8BFfL_QdAHW_ozA-1" source="k-FeG8BFfL_QdAHW_ozA-49">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="540" y="1035" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="k-FeG8BFfL_QdAHW_ozA-49" value="&lt;div style=&quot;font-size: 14px&quot;&gt;hooks.beforeResponse&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="k-FeG8BFfL_QdAHW_ozA-1">
           <mxGeometry x="180" y="1010" width="160" height="50" as="geometry" />
         </mxCell>
         <mxCell id="k-FeG8BFfL_QdAHW_ozA-51" value="&lt;div&gt;type RenderResult = {&lt;/div&gt;&lt;div&gt;&amp;nbsp; context: RenderContext,&lt;/div&gt;&lt;div&gt;&amp;nbsp; renderBy: string,&lt;/div&gt;&lt;div&gt;} &amp;amp; ({&lt;/div&gt;&lt;div&gt;&amp;nbsp; type: RenderResultType.error,&lt;/div&gt;&lt;div&gt;&amp;nbsp; error: RenderError,&lt;/div&gt;&lt;div&gt;} | {&lt;/div&gt;&lt;div&gt;&amp;nbsp; type: RenderResultType.render,&lt;/div&gt;&lt;div&gt;&amp;nbsp; ssrResult: SsrBundleSuccess,&lt;/div&gt;&lt;div&gt;&amp;nbsp; cacheInfo?: CacheInfo,&lt;/div&gt;&lt;div&gt;} | {&lt;/div&gt;&lt;div&gt;&amp;nbsp; type: RenderResultType.receiveRequest,&lt;/div&gt;&lt;div&gt;} | {&lt;/div&gt;&lt;div&gt;&amp;nbsp; type: RenderResultType.hitCache,&lt;/div&gt;&lt;div&gt;&amp;nbsp; content: string,&lt;/div&gt;&lt;div&gt;&amp;nbsp; cacheInfo: CacheInfo,&lt;/div&gt;&lt;div&gt;})&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="k-FeG8BFfL_QdAHW_ozA-1">
           <mxGeometry x="-120" y="1050" width="290" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="k-FeG8BFfL_QdAHW_ozA-53" value="&lt;div&gt;type HTTPResponse = {&lt;/div&gt;&lt;div&gt;&amp;nbsp; code: number,&lt;/div&gt;&lt;div&gt;&amp;nbsp; headers: HttpHeaders,&lt;/div&gt;&lt;div&gt;&amp;nbsp; body?: string,&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="k-FeG8BFfL_QdAHW_ozA-1">
+          <mxGeometry x="350" y="1060" width="170" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
