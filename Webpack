@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-21T02:27:27.060Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36" etag="yCihvKbznMkpWuBhsYAJ" version="17.4.4" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-04-21T02:27:48.504Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36" etag="TpmgOhPY35q6ReotUdXo" version="17.4.4" type="github" pages="4">
   <diagram id="jKlYN23QFyUXSluapt4Q" name="webpack4 - 初始化阶段">
     <mxGraphModel dx="1666" dy="1202" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -34,7 +34,7 @@
         <mxCell id="5VjC4zqPCsF2KH7FsC2Y-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="_ssVRR36N8eoD_z6JOj1-8" target="_ssVRR36N8eoD_z6JOj1-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="_ssVRR36N8eoD_z6JOj1-8" value="&lt;span style=&quot;font-size: 14px&quot;&gt;遍历 options.plugins &lt;br&gt;调用 plugin.apply 启用插件&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
+        <mxCell id="_ssVRR36N8eoD_z6JOj1-8" value="&lt;span style=&quot;font-size: 14px&quot;&gt;遍历 options.plugins&amp;nbsp;&lt;br&gt;以启用插件&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="329" y="300" width="170" height="40" as="geometry" />
         </mxCell>
         <mxCell id="_ssVRR36N8eoD_z6JOj1-9" value="&lt;span style=&quot;font-size: 14px&quot;&gt;WebpackOptionsApply 将 options 配置转化为插件并启用&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
