@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-21T02:28:36.452Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36" etag="EPYQTY9n87ks34i19Zz1" version="17.4.4" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-04-21T02:29:12.653Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36" etag="szi2Z4WPcoQpk0RYGO-s" version="17.4.4" type="github" pages="4">
   <diagram id="jKlYN23QFyUXSluapt4Q" name="webpack4 - 初始化阶段">
     <mxGraphModel dx="1666" dy="1202" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -61,7 +61,7 @@
         <mxCell id="_ssVRR36N8eoD_z6JOj1-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=14;" parent="1" source="_ssVRR36N8eoD_z6JOj1-20" target="_ssVRR36N8eoD_z6JOj1-23" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="_ssVRR36N8eoD_z6JOj1-20" value="&lt;span style=&quot;font-size: 14px&quot;&gt;初始化默认的和配置的插件&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
+        <mxCell id="_ssVRR36N8eoD_z6JOj1-20" value="&lt;span style=&quot;font-size: 14px&quot;&gt;启用配置和内置的插件&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="700" y="230" width="210" height="40" as="geometry" />
         </mxCell>
         <mxCell id="_ssVRR36N8eoD_z6JOj1-23" value="&lt;span style=&quot;font-size: 14px&quot;&gt;调用 compiler.run 方法开始编译&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
