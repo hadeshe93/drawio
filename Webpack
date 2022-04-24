@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-24T01:08:24.608Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36" etag="xtvcikHXKBxKKBDRejwU" version="17.4.4" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-04-24T01:10:19.470Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36" etag="SUwgtnOwfHc0KpCo2cbK" version="17.4.4" type="github" pages="5">
   <diagram id="jKlYN23QFyUXSluapt4Q" name="webpack4 - 初始化阶段">
     <mxGraphModel dx="1426" dy="802" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -342,6 +342,14 @@
         <mxCell id="OTrVmUJ6UD_b3-Gy8AgZ-24" value="&lt;span style=&quot;font-size: 14px&quot;&gt;确定文件最终路径并写入文件系统&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" parent="FLpZD6UszIFWYy9DrKJZ-1" vertex="1">
           <mxGeometry x="520" y="590" width="175" height="40" as="geometry" />
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="RmsdkjhiKBffjMbALbKA" name="webpack 5 编译流程">
+    <mxGraphModel dx="1426" dy="802" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
       </root>
     </mxGraphModel>
   </diagram>
