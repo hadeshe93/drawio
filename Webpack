@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-24T01:46:20.682Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36" etag="UXJ3bAoaUpokjjP-7k0V" version="17.4.4" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-04-24T01:58:43.016Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36" etag="74vhu1i4HFLv-AMlTbwL" version="17.4.4" type="github" pages="5">
   <diagram id="jKlYN23QFyUXSluapt4Q" name="webpack4 - 初始化阶段">
     <mxGraphModel dx="1426" dy="802" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -475,6 +475,51 @@
         </mxCell>
         <mxCell id="glOnfNDfSZg8cIcETtmg-1" value="&lt;b&gt;编译阶段（生图）&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="130" y="-10" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="glOnfNDfSZg8cIcETtmg-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=14;" edge="1" parent="1" source="glOnfNDfSZg8cIcETtmg-4" target="glOnfNDfSZg8cIcETtmg-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="glOnfNDfSZg8cIcETtmg-4" value="&lt;span style=&quot;font-size: 14px&quot;&gt;初始化 Compilation&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1250" y="160" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="glOnfNDfSZg8cIcETtmg-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=14;" edge="1" parent="1" source="glOnfNDfSZg8cIcETtmg-6" target="glOnfNDfSZg8cIcETtmg-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="glOnfNDfSZg8cIcETtmg-6" value="&lt;span style=&quot;font-size: 14px&quot;&gt;compiler.run&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1250" y="90" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="glOnfNDfSZg8cIcETtmg-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;dashed=1;" edge="1" parent="1" source="glOnfNDfSZg8cIcETtmg-8" target="glOnfNDfSZg8cIcETtmg-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="glOnfNDfSZg8cIcETtmg-8" value="&lt;span style=&quot;font-size: 14px&quot;&gt;make&lt;br&gt;开始编译的 hook&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1250" y="230" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="glOnfNDfSZg8cIcETtmg-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1" source="glOnfNDfSZg8cIcETtmg-9" target="glOnfNDfSZg8cIcETtmg-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="glOnfNDfSZg8cIcETtmg-9" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;addEntry&lt;br style=&quot;font-size: 14px;&quot;&gt;从 entry 入口开始编译&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;sketch=1;strokeColor=#b85450;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="1475" y="230" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="glOnfNDfSZg8cIcETtmg-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1" source="glOnfNDfSZg8cIcETtmg-11" target="glOnfNDfSZg8cIcETtmg-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="glOnfNDfSZg8cIcETtmg-11" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;factorizeModule&lt;/span&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;br style=&quot;font-size: 14px;&quot;&gt;实例化空 module&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="1475" y="300" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="glOnfNDfSZg8cIcETtmg-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=14;" edge="1" parent="1" source="glOnfNDfSZg8cIcETtmg-12" target="glOnfNDfSZg8cIcETtmg-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="glOnfNDfSZg8cIcETtmg-12" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;buildModule&lt;br style=&quot;font-size: 14px;&quot;&gt;编译 module&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="1475" y="370" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="glOnfNDfSZg8cIcETtmg-13" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;runLoaders&lt;br style=&quot;font-size: 14px;&quot;&gt;运行 loaders&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="1475" y="440" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="glOnfNDfSZg8cIcETtmg-18" value="parse&lt;br style=&quot;font-size: 14px;&quot;&gt;获得解析后的 ast" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="1475" y="510" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="glOnfNDfSZg8cIcETtmg-19" value="检查依赖列表" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="1475" y="580" width="170" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
