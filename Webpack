@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-24T01:45:01.209Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36" etag="t_cBOJwU1vLmQ_1mbi1-" version="17.4.4" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-04-24T01:46:10.912Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36" etag="_FY8MqDIpQljgJRmn34M" version="17.4.4" type="github" pages="5">
   <diagram id="jKlYN23QFyUXSluapt4Q" name="webpack4 - 初始化阶段">
     <mxGraphModel dx="1426" dy="802" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -213,7 +213,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="e1qoEzAFqlaj5FrePHXk" name="webpack4 - 输出阶段">
-    <mxGraphModel dx="1666" dy="1202" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1426" dy="1202" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="w7q4VikucfcIGZsKGf5E-0" />
         <mxCell id="w7q4VikucfcIGZsKGf5E-1" parent="w7q4VikucfcIGZsKGf5E-0" />
@@ -346,7 +346,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="RmsdkjhiKBffjMbALbKA" name="webpack 5 编译流程">
-    <mxGraphModel dx="1426" dy="802" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1426" dy="1202" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -472,6 +472,9 @@
         </mxCell>
         <mxCell id="6DJg2TYxlyHq3U-yEsgz-11" value="Y" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="190" y="720" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="glOnfNDfSZg8cIcETtmg-1" value="&lt;b&gt;编译阶段&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="130" y="-10" width="120" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
