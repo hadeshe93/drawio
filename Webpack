@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-24T02:03:47.365Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36" etag="zZ8IYydmU_Z19V5kTZbM" version="17.4.4" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-04-24T02:05:16.415Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36" etag="cQakSP0raOYFi286sH1n" version="17.4.4" type="github" pages="5">
   <diagram id="jKlYN23QFyUXSluapt4Q" name="webpack4 - 初始化阶段">
     <mxGraphModel dx="1426" dy="802" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -93,8 +93,8 @@
         <mxCell id="yfSMMRisLTQozOOm-SvH-3" value="&lt;span style=&quot;font-size: 14px&quot;&gt;初始化 Compilation&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" parent="Hm4QgeG025AQLClCK9z5-1" vertex="1">
           <mxGeometry x="105" y="160" width="170" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="yfSMMRisLTQozOOm-SvH-23" value="&lt;b&gt;编译阶段&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" parent="Hm4QgeG025AQLClCK9z5-1" vertex="1">
-          <mxGeometry x="130" y="40" width="120" height="30" as="geometry" />
+        <mxCell id="yfSMMRisLTQozOOm-SvH-23" value="&lt;b&gt;webpack 4 编译阶段&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" parent="Hm4QgeG025AQLClCK9z5-1" vertex="1">
+          <mxGeometry x="97" y="40" width="186" height="30" as="geometry" />
         </mxCell>
         <mxCell id="yfSMMRisLTQozOOm-SvH-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=14;" parent="Hm4QgeG025AQLClCK9z5-1" source="yfSMMRisLTQozOOm-SvH-25" target="yfSMMRisLTQozOOm-SvH-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
