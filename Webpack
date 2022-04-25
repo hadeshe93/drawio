@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-24T06:21:51.673Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36" etag="4S4yFjvO8WZ-HF--lHBs" version="17.4.4" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-04-25T01:19:08.135Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36" etag="58Imz46v8VpERdB18qgN" version="17.4.4" type="github" pages="6">
   <diagram id="jKlYN23QFyUXSluapt4Q" name="webpack4 - 初始化阶段">
     <mxGraphModel dx="1426" dy="802" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -575,7 +575,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Rs3ec6QMa5tjBgFaj37N-1" value="Text Editor" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="80" y="160" width="120" height="40" as="geometry" />
+          <mxGeometry x="80" y="150" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Rs3ec6QMa5tjBgFaj37N-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1" source="Rs3ec6QMa5tjBgFaj37N-2" target="Rs3ec6QMa5tjBgFaj37N-3">
           <mxGeometry relative="1" as="geometry" />
@@ -602,7 +602,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Rs3ec6QMa5tjBgFaj37N-5" value="HMR Server" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="360" y="160" width="160" height="40" as="geometry" />
+          <mxGeometry x="360" y="150" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Rs3ec6QMa5tjBgFaj37N-13" value="&amp;lt;html/&amp;gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="610" y="265" width="60" height="30" as="geometry" />
@@ -621,6 +621,9 @@
         </mxCell>
         <mxCell id="Rs3ec6QMa5tjBgFaj37N-23" value="Webpack Dev Server" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="335" y="40" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Rs3ec6QMa5tjBgFaj37N-24" value="save files" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="140" y="200" width="70" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
