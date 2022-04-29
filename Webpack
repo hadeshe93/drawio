@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-04-25T01:50:43.600Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36" etag="qKhTQsihXNvJdmuTCeRh" version="17.4.4" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-04-29T03:44:33.356Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="z7T3FhRcF49VTkgk-O9T" version="17.4.6" type="github" pages="7">
   <diagram id="jKlYN23QFyUXSluapt4Q" name="webpack4 - 初始化阶段">
-    <mxGraphModel dx="1426" dy="802" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1554" dy="874" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -25,19 +25,19 @@
         <mxCell id="_ssVRR36N8eoD_z6JOj1-3" value="&lt;span style=&quot;font-size: 14px&quot;&gt;引入 webpack &amp;amp; 实例化 compiler&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="105" y="230" width="170" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="5VjC4zqPCsF2KH7FsC2Y-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="_ssVRR36N8eoD_z6JOj1-6" target="_ssVRR36N8eoD_z6JOj1-8">
+        <mxCell id="5VjC4zqPCsF2KH7FsC2Y-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="_ssVRR36N8eoD_z6JOj1-6" target="_ssVRR36N8eoD_z6JOj1-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="_ssVRR36N8eoD_z6JOj1-6" value="&lt;span style=&quot;font-size: 14px&quot;&gt;new Compiler()&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="329" y="230" width="170" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="5VjC4zqPCsF2KH7FsC2Y-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="_ssVRR36N8eoD_z6JOj1-8" target="_ssVRR36N8eoD_z6JOj1-9">
+        <mxCell id="5VjC4zqPCsF2KH7FsC2Y-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="_ssVRR36N8eoD_z6JOj1-8" target="_ssVRR36N8eoD_z6JOj1-9" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="_ssVRR36N8eoD_z6JOj1-8" value="&lt;span style=&quot;font-size: 14px&quot;&gt;遍历 options.plugins&amp;nbsp;&lt;br&gt;以启用插件&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="329" y="300" width="170" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="5VjC4zqPCsF2KH7FsC2Y-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_ssVRR36N8eoD_z6JOj1-9" target="5VjC4zqPCsF2KH7FsC2Y-4">
+        <mxCell id="5VjC4zqPCsF2KH7FsC2Y-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="_ssVRR36N8eoD_z6JOj1-9" target="5VjC4zqPCsF2KH7FsC2Y-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="_ssVRR36N8eoD_z6JOj1-9" value="&lt;span style=&quot;font-size: 14px&quot;&gt;WebpackOptionsApply 根据 options 加载并启用内置插件&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
@@ -73,10 +73,10 @@
         <mxCell id="_ssVRR36N8eoD_z6JOj1-25" value="&lt;b&gt;初始化阶段&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="130" y="40" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="5VjC4zqPCsF2KH7FsC2Y-3" value="&lt;b&gt;初始化阶段概括&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="5VjC4zqPCsF2KH7FsC2Y-3" value="&lt;b&gt;初始化阶段概括&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="745" y="40" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="5VjC4zqPCsF2KH7FsC2Y-4" value="&lt;span style=&quot;font-size: 14px&quot;&gt;调用 compiler.run 方法开始编译&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="5VjC4zqPCsF2KH7FsC2Y-4" value="&lt;span style=&quot;font-size: 14px&quot;&gt;调用 compiler.run 方法开始编译&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="309.5" y="440" width="210" height="40" as="geometry" />
         </mxCell>
       </root>
@@ -682,6 +682,14 @@
         <mxCell id="Rs3ec6QMa5tjBgFaj37N-60" value="7" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="887.36" y="110" width="20" height="20" as="geometry" />
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="Ri39Jdtut4OX-wep5-U9" name="webpack-dev-middleware">
+    <mxGraphModel dx="1554" dy="874" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
       </root>
     </mxGraphModel>
   </diagram>
