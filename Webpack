@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-05T11:36:44.300Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="MRJ2ftj-TZWqef0IU62f" version="17.5.0" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2022-05-05T11:39:46.158Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="MfxoVSk-2gXlGwu0_4Ng" version="17.5.0" type="github" pages="7">
   <diagram id="jKlYN23QFyUXSluapt4Q" name="webpack4 - 初始化阶段">
     <mxGraphModel dx="1426" dy="802" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -691,6 +691,22 @@
         <mxCell id="20dWCTdLtFaBba82lDWs-2" value="&lt;font style=&quot;font-size: 18px&quot;&gt;webpack 热更新详细原理图&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="379.86" y="490" width="507.5" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="20dWCTdLtFaBba82lDWs-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=-0.03;entryY=0.25;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=14;" edge="1" parent="1" source="20dWCTdLtFaBba82lDWs-4" target="20dWCTdLtFaBba82lDWs-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="20dWCTdLtFaBba82lDWs-25" value="watch" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;" vertex="1" connectable="0" parent="20dWCTdLtFaBba82lDWs-16">
+          <mxGeometry x="0.5615" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="20dWCTdLtFaBba82lDWs-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=-0.03;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;fontSize=14;exitPerimeter=0;" edge="1" parent="1" source="20dWCTdLtFaBba82lDWs-8" target="20dWCTdLtFaBba82lDWs-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="20dWCTdLtFaBba82lDWs-24" value="notify" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;" vertex="1" connectable="0" parent="20dWCTdLtFaBba82lDWs-18">
+          <mxGeometry x="0.6193" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="20dWCTdLtFaBba82lDWs-4" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="270" y="990" width="270" height="100" as="geometry" />
         </mxCell>
@@ -717,6 +733,9 @@
         </mxCell>
         <mxCell id="20dWCTdLtFaBba82lDWs-15" value="webpack-dev-server/client/index.js" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="290" y="670" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="20dWCTdLtFaBba82lDWs-23" value="npm 包&lt;br&gt;chokidar" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="670" y="975" width="70" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
