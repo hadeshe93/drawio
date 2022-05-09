@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-09T02:28:51.559Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="DBYd41757lzK1TwE60HC" version="17.5.0" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2022-05-09T02:33:38.938Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="2oSy4CSlP67mCnJahwHy" version="17.5.0" type="github" pages="7">
   <diagram id="jKlYN23QFyUXSluapt4Q" name="webpack4 - 初始化阶段">
     <mxGraphModel dx="1554" dy="842" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -723,7 +723,7 @@
           <mxGeometry x="852.36" y="1110" width="80" height="100" as="geometry" />
         </mxCell>
         <mxCell id="20dWCTdLtFaBba82lDWs-10" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="230" y="550" width="800" height="430" as="geometry" />
+          <mxGeometry x="230" y="550" width="1180" height="430" as="geometry" />
         </mxCell>
         <mxCell id="20dWCTdLtFaBba82lDWs-12" value="Client Browser" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="920" y="950" width="110" height="30" as="geometry" />
@@ -816,7 +816,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="CqVBvw6wiH3C7cWElew1-24" value="browser reload" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="717.36" y="620" width="230" height="40" as="geometry" />
+          <mxGeometry x="1150" y="620" width="230" height="40" as="geometry" />
         </mxCell>
         <mxCell id="CqVBvw6wiH3C7cWElew1-29" value="5" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=14;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="560" y="665" width="20" height="20" as="geometry" />
