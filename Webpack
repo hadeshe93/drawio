@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-09T02:27:24.536Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="IwEy3L7Coxdcb89JAoII" version="17.5.0" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2022-05-09T02:28:33.223Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="3BicXntIWpoL_n8BG9fy" version="17.5.0" type="github" pages="7">
   <diagram id="jKlYN23QFyUXSluapt4Q" name="webpack4 - 初始化阶段">
     <mxGraphModel dx="1554" dy="842" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -846,6 +846,19 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="CqVBvw6wiH3C7cWElew1-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="CqVBvw6wiH3C7cWElew1-37" target="20dWCTdLtFaBba82lDWs-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="890" y="1060" />
+              <mxPoint x="473" y="1060" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CqVBvw6wiH3C7cWElew1-55" value="jsonp" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="CqVBvw6wiH3C7cWElew1-53">
+          <mxGeometry x="-0.931" y="-3" relative="1" as="geometry">
+            <mxPoint y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="CqVBvw6wiH3C7cWElew1-37" value="JsonpChunkLoadingRuntimeModule.js" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="717.36" y="850" width="230" height="40" as="geometry" />
         </mxCell>
@@ -877,6 +890,21 @@
         <mxCell id="CqVBvw6wiH3C7cWElew1-52" value="manifest" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="CqVBvw6wiH3C7cWElew1-50">
           <mxGeometry x="0.8407" y="1" relative="1" as="geometry">
             <mxPoint x="21" y="3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CqVBvw6wiH3C7cWElew1-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="495" y="1110" as="sourcePoint" />
+            <mxPoint x="912.3600000000001" y="890" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="495" y="1080" />
+              <mxPoint x="912" y="1080" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CqVBvw6wiH3C7cWElew1-56" value="newest modules" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="CqVBvw6wiH3C7cWElew1-54">
+          <mxGeometry x="0.8525" relative="1" as="geometry">
+            <mxPoint x="35" y="3" as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
