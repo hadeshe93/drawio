@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-10T02:36:57.990Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="4_KyQXRBtxsjtbIQNuzU" version="17.5.0" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2022-05-10T02:39:44.679Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="JUFppiDKQ3FUtWuhbPef" version="17.5.0" type="github" pages="7">
   <diagram id="jKlYN23QFyUXSluapt4Q" name="webpack4 - 初始化阶段">
     <mxGraphModel dx="1554" dy="842" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -558,7 +558,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="ladWkKj9jw7L6UrIeHUO" name="webpack 热更新原理">
-    <mxGraphModel dx="1426" dy="1202" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1426" dy="1202" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -604,7 +604,7 @@
         <mxCell id="Rs3ec6QMa5tjBgFaj37N-34" value="serve" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;fontSize=14;startArrow=none;startFill=0;" parent="1" source="Rs3ec6QMa5tjBgFaj37N-4" target="Rs3ec6QMa5tjBgFaj37N-14" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Rs3ec6QMa5tjBgFaj37N-4" value="Bundle Server" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
+        <mxCell id="Rs3ec6QMa5tjBgFaj37N-4" value="Webpack Dev Server" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="290" y="80" width="230" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Rs3ec6QMa5tjBgFaj37N-27" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;fontSize=14;startArrow=none;startFill=0;" parent="1" source="Rs3ec6QMa5tjBgFaj37N-5" target="Rs3ec6QMa5tjBgFaj37N-15" edge="1">
@@ -652,7 +652,7 @@
         <mxCell id="Rs3ec6QMa5tjBgFaj37N-21" value="Browser" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="707.36" y="40" width="130" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Rs3ec6QMa5tjBgFaj37N-23" value="Webpack Dev Server" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" parent="1" vertex="1">
+        <mxCell id="Rs3ec6QMa5tjBgFaj37N-23" value="Developer Enviroment" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="335" y="40" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Rs3ec6QMa5tjBgFaj37N-24" value="save files" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" parent="1" vertex="1">
