@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-10T02:41:38.474Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="ngB2gOWcZYxi_wMyJW_P" version="17.5.0" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2022-05-10T02:42:52.333Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="HerB4pnqdxa_EFfDQm_q" version="17.5.0" type="github" pages="7">
   <diagram id="jKlYN23QFyUXSluapt4Q" name="webpack4 - 初始化阶段">
     <mxGraphModel dx="1554" dy="842" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -685,7 +685,7 @@
           <mxGeometry x="379.86" y="-40" width="507.5" height="30" as="geometry" />
         </mxCell>
         <mxCell id="20dWCTdLtFaBba82lDWs-2" value="&lt;font style=&quot;font-size: 18px&quot;&gt;webpack 热更新详细原理图&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="379.86" y="490" width="507.5" height="30" as="geometry" />
+          <mxGeometry x="608.61" y="570" width="507.5" height="30" as="geometry" />
         </mxCell>
         <mxCell id="20dWCTdLtFaBba82lDWs-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=-0.03;entryY=0.25;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=14;" parent="1" source="20dWCTdLtFaBba82lDWs-4" target="20dWCTdLtFaBba82lDWs-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
