@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-10T02:24:17.742Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="6oOBPYo0c1OD20It0n4Y" version="17.5.0" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2022-05-10T02:25:37.911Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="SDjy3421q3J8tazQEd7T" version="17.5.0" type="github" pages="7">
   <diagram id="jKlYN23QFyUXSluapt4Q" name="webpack4 - 初始化阶段">
     <mxGraphModel dx="1554" dy="842" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -879,7 +879,7 @@
           <mxGeometry x="717.36" y="770" width="542.64" height="40" as="geometry" />
         </mxCell>
         <mxCell id="CqVBvw6wiH3C7cWElew1-36" value="6" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=14;fillColor=#e51400;strokeColor=#B20000;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="500" y="610" width="20" height="20" as="geometry" />
+          <mxGeometry x="907.36" y="740" width="20" height="20" as="geometry" />
         </mxCell>
         <mxCell id="CqVBvw6wiH3C7cWElew1-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="CqVBvw6wiH3C7cWElew1-37" target="20dWCTdLtFaBba82lDWs-4">
           <mxGeometry relative="1" as="geometry">
@@ -891,7 +891,7 @@
         </mxCell>
         <mxCell id="CqVBvw6wiH3C7cWElew1-51" value="fetch" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="CqVBvw6wiH3C7cWElew1-49">
           <mxGeometry x="-0.9491" y="-3" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint y="11" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="CqVBvw6wiH3C7cWElew1-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="CqVBvw6wiH3C7cWElew1-37" target="20dWCTdLtFaBba82lDWs-4">
@@ -904,7 +904,7 @@
         </mxCell>
         <mxCell id="CqVBvw6wiH3C7cWElew1-55" value="jsonp" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="CqVBvw6wiH3C7cWElew1-53">
           <mxGeometry x="-0.931" y="-3" relative="1" as="geometry">
-            <mxPoint y="-2" as="offset" />
+            <mxPoint y="14" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="CqVBvw6wiH3C7cWElew1-37" value="JsonpChunkLoadingRuntimeModule.js" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
@@ -994,6 +994,9 @@
         </mxCell>
         <mxCell id="CqVBvw6wiH3C7cWElew1-112" value="3&#39;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=14;fillColor=#e51400;strokeColor=#B20000;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="220" y="1030" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="CqVBvw6wiH3C7cWElew1-115" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;strokeColor=none;gradientDirection=east;glass=0;fillOpacity=15;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="870" y="735" width="210" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
