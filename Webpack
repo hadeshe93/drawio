@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-10T02:14:36.219Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="i_dSMMhOqdc7PIU5qm7b" version="17.5.0" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2022-05-10T02:15:50.364Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="1BTy52ky1kJyU3fp9AMk" version="17.5.0" type="github" pages="7">
   <diagram id="jKlYN23QFyUXSluapt4Q" name="webpack4 - 初始化阶段">
     <mxGraphModel dx="1554" dy="842" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -716,6 +716,11 @@
         <mxCell id="CqVBvw6wiH3C7cWElew1-94" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="20dWCTdLtFaBba82lDWs-4" target="20dWCTdLtFaBba82lDWs-26">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="CqVBvw6wiH3C7cWElew1-104" value="hooks tap" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="CqVBvw6wiH3C7cWElew1-94">
+          <mxGeometry x="-0.5333" y="1" relative="1" as="geometry">
+            <mxPoint y="3" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="20dWCTdLtFaBba82lDWs-4" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="270" y="1110" width="270" height="100" as="geometry" />
         </mxCell>
@@ -783,6 +788,11 @@
         </mxCell>
         <mxCell id="CqVBvw6wiH3C7cWElew1-95" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="20dWCTdLtFaBba82lDWs-26" target="20dWCTdLtFaBba82lDWs-4">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CqVBvw6wiH3C7cWElew1-105" value="hooks call" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="CqVBvw6wiH3C7cWElew1-95">
+          <mxGeometry x="-0.0667" y="1" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="20dWCTdLtFaBba82lDWs-26" value="webpack" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="270" y="1240" width="270" height="40" as="geometry" />
@@ -957,7 +967,7 @@
           <mxGeometry x="1320" y="670" width="20" height="20" as="geometry" />
         </mxCell>
         <mxCell id="CqVBvw6wiH3C7cWElew1-96" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;strokeColor=none;gradientDirection=east;glass=0;fillOpacity=15;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="300" y="1207.5" width="210" height="35" as="geometry" />
+          <mxGeometry x="310" y="1207.5" width="210" height="35" as="geometry" />
         </mxCell>
         <mxCell id="CqVBvw6wiH3C7cWElew1-97" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;strokeColor=none;gradientDirection=east;glass=0;fillOpacity=15;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="580" y="1120" width="210" height="80" as="geometry" />
