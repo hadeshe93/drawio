@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-23T02:59:20.891Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="kjBY1emw2Ix8o91dHzWE" version="18.0.2" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2022-05-23T03:05:06.463Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="BBAeY7yMWz0QyFamNsLi" version="18.0.2" type="github" pages="8">
   <diagram id="jKlYN23QFyUXSluapt4Q" name="webpack4 - 初始化阶段">
     <mxGraphModel dx="1426" dy="802" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1232,7 +1232,28 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="9X1Po9HzmKCdfQLartjQ-1" value="Pitching Loader 的熔断机制" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-120" y="50" width="180" height="30" as="geometry" />
+          <mxGeometry x="-120" y="10" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9X1Po9HzmKCdfQLartjQ-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="9X1Po9HzmKCdfQLartjQ-2" target="9X1Po9HzmKCdfQLartjQ-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9X1Po9HzmKCdfQLartjQ-2" value="开始" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-90" y="70" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="9X1Po9HzmKCdfQLartjQ-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9X1Po9HzmKCdfQLartjQ-3" target="9X1Po9HzmKCdfQLartjQ-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9X1Po9HzmKCdfQLartjQ-3" value="标记当前 loader 上的 pitch 已经被处理过" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="72.5" width="170" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="9X1Po9HzmKCdfQLartjQ-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="9X1Po9HzmKCdfQLartjQ-5" target="9X1Po9HzmKCdfQLartjQ-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9X1Po9HzmKCdfQLartjQ-5" value="loader 上是否存在 pitch 属性？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="65" y="160" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9X1Po9HzmKCdfQLartjQ-10" value="执行 loader 上定义的 pitch 函数" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="250" width="170" height="45" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
