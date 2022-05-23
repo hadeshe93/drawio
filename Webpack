@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-23T03:47:16.241Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="FYieLY9EjcjCmiaeUlCK" version="18.0.2" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2022-05-23T03:48:34.278Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="MSvvtHxximPCP4mw58yI" version="18.0.2" type="github" pages="9">
   <diagram id="jKlYN23QFyUXSluapt4Q" name="webpack4 - 初始化阶段">
     <mxGraphModel dx="1426" dy="802" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1415,8 +1415,29 @@
         <mxCell id="fmOBxTeMIRj2jFBqSRI9-21" value="根据 raw 参数转换文件内容格式（binary 或 string）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="55" y="580" width="170" height="45" as="geometry" />
         </mxCell>
+        <mxCell id="fmOBxTeMIRj2jFBqSRI9-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;" edge="1" parent="1" source="fmOBxTeMIRj2jFBqSRI9-23" target="fmOBxTeMIRj2jFBqSRI9-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="fmOBxTeMIRj2jFBqSRI9-23" value="执行当前 loader 上的 normal 函数" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="55" y="660" width="170" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="fmOBxTeMIRj2jFBqSRI9-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;" edge="1" parent="1" source="fmOBxTeMIRj2jFBqSRI9-25" target="fmOBxTeMIRj2jFBqSRI9-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fmOBxTeMIRj2jFBqSRI9-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=18;" edge="1" parent="1" source="fmOBxTeMIRj2jFBqSRI9-25" target="fmOBxTeMIRj2jFBqSRI9-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="720" y="770" />
+              <mxPoint x="720" y="45" />
+              <mxPoint x="140" y="45" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fmOBxTeMIRj2jFBqSRI9-25" value="&lt;div style=&quot;&quot;&gt;执行是否有异常？&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="60" y="740" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fmOBxTeMIRj2jFBqSRI9-26" value="执行结束回调，并传入异常" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="55" y="830" width="170" height="45" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
