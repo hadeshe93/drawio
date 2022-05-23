@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-23T03:05:06.463Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="BBAeY7yMWz0QyFamNsLi" version="18.0.2" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2022-05-23T03:09:21.009Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="AjDtcSi87Hm29wFNk80_" version="18.0.2" type="github" pages="8">
   <diagram id="jKlYN23QFyUXSluapt4Q" name="webpack4 - 初始化阶段">
     <mxGraphModel dx="1426" dy="802" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1249,11 +1249,58 @@
         <mxCell id="9X1Po9HzmKCdfQLartjQ-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="9X1Po9HzmKCdfQLartjQ-5" target="9X1Po9HzmKCdfQLartjQ-10">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="9X1Po9HzmKCdfQLartjQ-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="9X1Po9HzmKCdfQLartjQ-5" target="9X1Po9HzmKCdfQLartjQ-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="320" y="190" />
+              <mxPoint x="320" y="95" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="9X1Po9HzmKCdfQLartjQ-5" value="loader 上是否存在 pitch 属性？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="65" y="160" width="160" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="9X1Po9HzmKCdfQLartjQ-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="9X1Po9HzmKCdfQLartjQ-10" target="9X1Po9HzmKCdfQLartjQ-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="9X1Po9HzmKCdfQLartjQ-10" value="执行 loader 上定义的 pitch 函数" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="60" y="250" width="170" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="9X1Po9HzmKCdfQLartjQ-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="9X1Po9HzmKCdfQLartjQ-12" target="9X1Po9HzmKCdfQLartjQ-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9X1Po9HzmKCdfQLartjQ-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="9X1Po9HzmKCdfQLartjQ-12" target="9X1Po9HzmKCdfQLartjQ-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9X1Po9HzmKCdfQLartjQ-12" value="pitch 函数是否返回异常？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="65" y="330" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9X1Po9HzmKCdfQLartjQ-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="9X1Po9HzmKCdfQLartjQ-13" target="9X1Po9HzmKCdfQLartjQ-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9X1Po9HzmKCdfQLartjQ-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="9X1Po9HzmKCdfQLartjQ-13" target="9X1Po9HzmKCdfQLartjQ-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9X1Po9HzmKCdfQLartjQ-13" value="pitch 函数是否返回非 undefined 内容？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="65" y="420" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9X1Po9HzmKCdfQLartjQ-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="9X1Po9HzmKCdfQLartjQ-16" target="9X1Po9HzmKCdfQLartjQ-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9X1Po9HzmKCdfQLartjQ-16" value="开始执行前一个 normal loader" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="510" width="170" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="9X1Po9HzmKCdfQLartjQ-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="9X1Po9HzmKCdfQLartjQ-18" target="9X1Po9HzmKCdfQLartjQ-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9X1Po9HzmKCdfQLartjQ-18" value="开始执行下一个 pitching loader" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="427.5" width="170" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="9X1Po9HzmKCdfQLartjQ-21" value="执行回调，并传入异常" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="337.5" width="170" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="9X1Po9HzmKCdfQLartjQ-24" value="结束" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="600" width="90" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
