@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-24T02:48:38.647Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="TJEwBbFknZsrkBpVNDcr" version="18.1.1" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2022-05-24T02:54:01.225Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="EfBIBSiwcYrazgIMQmkk" version="18.1.1" type="github" pages="10">
   <diagram id="jKlYN23QFyUXSluapt4Q" name="webpack4 - 初始化阶段">
     <mxGraphModel dx="1426" dy="770" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1501,7 +1501,7 @@
         <mxCell id="GrGy9S0wqILASrvOJuLJ-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;" edge="1" parent="1" source="GrGy9S0wqILASrvOJuLJ-10" target="GrGy9S0wqILASrvOJuLJ-12">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="GrGy9S0wqILASrvOJuLJ-10" value="&lt;div style=&quot;&quot;&gt;同步返回标志位是否为真？&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+        <mxCell id="GrGy9S0wqILASrvOJuLJ-10" value="&lt;div style=&quot;&quot;&gt;loader 实体是否有通过 callback 来完成返回？&lt;br&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
           <mxGeometry x="65" y="160" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="GrGy9S0wqILASrvOJuLJ-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;" edge="1" parent="1" source="GrGy9S0wqILASrvOJuLJ-12" target="GrGy9S0wqILASrvOJuLJ-14">
