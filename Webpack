@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-24T02:54:49.399Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="lj5NbE-JVUL5jXCs15pk" version="18.1.1" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2022-05-24T02:55:23.486Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="UZf_akpy_4OOPykHZGPH" version="18.1.1" type="github" pages="10">
   <diagram id="jKlYN23QFyUXSluapt4Q" name="webpack4 - 初始化阶段">
     <mxGraphModel dx="1426" dy="770" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1484,7 +1484,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="GrGy9S0wqILASrvOJuLJ-3" value="开始" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-90" y="70" width="90" height="50" as="geometry" />
+          <mxGeometry x="-110" y="70" width="90" height="50" as="geometry" />
         </mxCell>
         <mxCell id="GrGy9S0wqILASrvOJuLJ-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="GrGy9S0wqILASrvOJuLJ-4" target="GrGy9S0wqILASrvOJuLJ-10">
           <mxGeometry relative="1" as="geometry" />
@@ -1492,16 +1492,10 @@
         <mxCell id="GrGy9S0wqILASrvOJuLJ-4" value="执行 loader 实体" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="60" y="72.5" width="170" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="GrGy9S0wqILASrvOJuLJ-8" value="&lt;div style=&quot;&quot;&gt;指向 loader 的游标已经小于 0？&lt;br&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="-295" y="260" width="160" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="GrGy9S0wqILASrvOJuLJ-9" value="执行结束回调" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-300" y="340" width="170" height="45" as="geometry" />
-        </mxCell>
         <mxCell id="GrGy9S0wqILASrvOJuLJ-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;" edge="1" parent="1" source="GrGy9S0wqILASrvOJuLJ-10" target="GrGy9S0wqILASrvOJuLJ-12">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="GrGy9S0wqILASrvOJuLJ-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;" edge="1" parent="1" source="GrGy9S0wqILASrvOJuLJ-10" target="GrGy9S0wqILASrvOJuLJ-29">
+        <mxCell id="GrGy9S0wqILASrvOJuLJ-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="GrGy9S0wqILASrvOJuLJ-10" target="GrGy9S0wqILASrvOJuLJ-31">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="GrGy9S0wqILASrvOJuLJ-10" value="&lt;div style=&quot;&quot;&gt;loader 实体是否有通过 callback 来完成返回？&lt;br&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
@@ -1546,8 +1540,11 @@
         <mxCell id="GrGy9S0wqILASrvOJuLJ-22" value="等待 Promise 解决" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="490" y="332.5" width="170" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="GrGy9S0wqILASrvOJuLJ-29" value="callbacl 中置位标志位和复位同步执行标志位" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="275" y="167.5" width="170" height="45" as="geometry" />
+        <mxCell id="GrGy9S0wqILASrvOJuLJ-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="GrGy9S0wqILASrvOJuLJ-31" target="GrGy9S0wqILASrvOJuLJ-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GrGy9S0wqILASrvOJuLJ-31" value="callbacl 中置位标志位和复位同步执行标志位" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-150" y="167.5" width="170" height="45" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
