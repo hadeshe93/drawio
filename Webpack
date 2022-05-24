@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-24T02:08:59.972Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="oIywhum2mqk3ElRNO0R2" version="18.1.1" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2022-05-24T02:42:41.485Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="9QEIf6wbUHax1rhGFl6x" version="18.1.1" type="github" pages="10">
   <diagram id="jKlYN23QFyUXSluapt4Q" name="webpack4 - 初始化阶段">
     <mxGraphModel dx="1426" dy="770" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1226,7 +1226,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="k1FwgJb-T_XDhn-wGjeI" name="webpack 4 Loader 流程">
+  <diagram id="k1FwgJb-T_XDhn-wGjeI" name="Pitching Loader 流程">
     <mxGraphModel dx="1826" dy="1170" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
@@ -1335,7 +1335,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="uDaLVG6lJbGi4-lLOajc" name="webpack 4 Normal Loader">
+  <diagram id="uDaLVG6lJbGi4-lLOajc" name="Normal Loader">
     <mxGraphModel dx="1826" dy="1170" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
@@ -1469,6 +1469,14 @@
         <mxCell id="fmOBxTeMIRj2jFBqSRI9-37" value="N" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="225" y="740" width="40" height="30" as="geometry" />
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="fnEkGC6LE4-4zDre6zu6" name="runSyncOrAsync 流程">
+    <mxGraphModel dx="1426" dy="770" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
       </root>
     </mxGraphModel>
   </diagram>
