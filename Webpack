@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-31T02:24:09.093Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="tceGlItAmAZuiCyPOV8-" version="18.1.1" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2022-05-31T02:25:55.827Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="AnucZjvwfkElAMkWRGOk" version="18.1.1" type="github" pages="10">
   <diagram id="jKlYN23QFyUXSluapt4Q" name="webpack4 - 初始化阶段">
     <mxGraphModel dx="1426" dy="802" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1498,6 +1498,9 @@
         <mxCell id="GrGy9S0wqILASrvOJuLJ-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=classic;endFill=1;" parent="1" source="GrGy9S0wqILASrvOJuLJ-10" target="GrGy9S0wqILASrvOJuLJ-31" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="Ir3k774fszuwDQiK_cDA-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;dashed=1;" edge="1" parent="1" source="GrGy9S0wqILASrvOJuLJ-10" target="Ir3k774fszuwDQiK_cDA-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="GrGy9S0wqILASrvOJuLJ-10" value="&lt;div style=&quot;&quot;&gt;loader 实体是否有通过 callback 来完成返回？&lt;br&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
           <mxGeometry x="65" y="160" width="160" height="60" as="geometry" />
         </mxCell>
@@ -1563,6 +1566,9 @@
         </mxCell>
         <mxCell id="GrGy9S0wqILASrvOJuLJ-39" value="N" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="360" y="385" width="35" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ir3k774fszuwDQiK_cDA-1" value="方式 1：this.callback()&lt;br&gt;方式2：const callback = this.async()" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="310" y="175" width="280" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
