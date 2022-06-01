@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-01T02:38:11.355Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="Vn_xPM7XYVTT1f8ZBkp0" version="18.1.3" type="github" pages="11">
+<mxfile host="app.diagrams.net" modified="2022-06-01T02:39:48.869Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="MWs_lPAy0Kz3aeFETiGF" version="18.1.3" type="github" pages="11">
   <diagram id="jKlYN23QFyUXSluapt4Q" name="webpack4 - 初始化阶段">
     <mxGraphModel dx="1426" dy="802" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1643,7 +1643,7 @@
         <mxCell id="Y4xbZZhXiqdh8QqKIao6-11" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;checkDependencies&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;fontSize=12;" vertex="1" parent="1">
           <mxGeometry x="570" y="560" width="170" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Oa12sQOV9CG4VWZYxUB2-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="1" source="Y4xbZZhXiqdh8QqKIao6-12" target="Oa12sQOV9CG4VWZYxUB2-1">
+        <mxCell id="9Acvo2ea0FRhKf6faa0u-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" edge="1" parent="1" source="Y4xbZZhXiqdh8QqKIao6-12" target="BcvDHe3RkxouJi5w6K1Y-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Y4xbZZhXiqdh8QqKIao6-12" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;iteratePitchingLoaders&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;fontSize=12;" vertex="1" parent="1">
@@ -1652,17 +1652,14 @@
         <mxCell id="Oa12sQOV9CG4VWZYxUB2-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="1" source="Oa12sQOV9CG4VWZYxUB2-1" target="Oa12sQOV9CG4VWZYxUB2-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Oa12sQOV9CG4VWZYxUB2-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;fontSize=12;" edge="1" parent="1" source="Oa12sQOV9CG4VWZYxUB2-1" target="Oa12sQOV9CG4VWZYxUB2-9">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="Oa12sQOV9CG4VWZYxUB2-1" value="当前 loader 上的 pitch 是否已被标记执行过？" style="rhombus;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1">
-          <mxGeometry x="1010" y="420" width="140" height="80" as="geometry" />
+          <mxGeometry x="1170" y="420" width="140" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Oa12sQOV9CG4VWZYxUB2-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" edge="1" parent="1" source="Oa12sQOV9CG4VWZYxUB2-5" target="Oa12sQOV9CG4VWZYxUB2-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Oa12sQOV9CG4VWZYxUB2-5" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;loadLoader&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;fontSize=12;" vertex="1" parent="1">
-          <mxGeometry x="1200" y="440" width="170" height="40" as="geometry" />
+          <mxGeometry x="1350" y="440" width="170" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Oa12sQOV9CG4VWZYxUB2-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="1" source="Oa12sQOV9CG4VWZYxUB2-8" target="Oa12sQOV9CG4VWZYxUB2-9">
           <mxGeometry relative="1" as="geometry" />
@@ -1671,7 +1668,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Oa12sQOV9CG4VWZYxUB2-8" value="当前 loader 上的 pitch 属性不为函数？" style="rhombus;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1">
-          <mxGeometry x="1410" y="420" width="140" height="80" as="geometry" />
+          <mxGeometry x="1560" y="420" width="140" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Oa12sQOV9CG4VWZYxUB2-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="1" source="Oa12sQOV9CG4VWZYxUB2-9" target="Y4xbZZhXiqdh8QqKIao6-12">
           <mxGeometry relative="1" as="geometry" />
@@ -1686,10 +1683,19 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Oa12sQOV9CG4VWZYxUB2-14" value="pitch 函数执行熔断？" style="rhombus;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1">
-          <mxGeometry x="1590" y="420" width="140" height="80" as="geometry" />
+          <mxGeometry x="1740" y="420" width="140" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Oa12sQOV9CG4VWZYxUB2-16" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;iterateNormalLoaders&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;fontSize=12;" vertex="1" parent="1">
-          <mxGeometry x="1575" y="530" width="170" height="40" as="geometry" />
+          <mxGeometry x="1725" y="540" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="9Acvo2ea0FRhKf6faa0u-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" edge="1" parent="1" source="BcvDHe3RkxouJi5w6K1Y-1" target="Oa12sQOV9CG4VWZYxUB2-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9Acvo2ea0FRhKf6faa0u-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="1" source="BcvDHe3RkxouJi5w6K1Y-1" target="Oa12sQOV9CG4VWZYxUB2-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BcvDHe3RkxouJi5w6K1Y-1" value="是否正向遍历完所有 loader 的 pitch 属性？" style="rhombus;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="990" y="420" width="140" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
