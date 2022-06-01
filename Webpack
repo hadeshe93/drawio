@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-01T02:51:04.961Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="Q78XCnqrKF22IiOExjQJ" version="18.1.3" type="github" pages="11">
+<mxfile host="app.diagrams.net" modified="2022-06-01T02:52:11.615Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="W8W8vdoRIxjEGAQjpkz4" version="18.1.3" type="github" pages="11">
   <diagram id="jKlYN23QFyUXSluapt4Q" name="webpack4 - 初始化阶段">
     <mxGraphModel dx="1426" dy="802" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1638,10 +1638,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Y4xbZZhXiqdh8QqKIao6-10" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;handleParseResult&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;fontSize=12;" vertex="1" parent="1">
-          <mxGeometry x="570" y="530" width="170" height="40" as="geometry" />
+          <mxGeometry x="570" y="560" width="170" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Y4xbZZhXiqdh8QqKIao6-11" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;checkDependencies&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;fontSize=12;" vertex="1" parent="1">
-          <mxGeometry x="570" y="590" width="170" height="40" as="geometry" />
+          <mxGeometry x="570" y="620" width="170" height="40" as="geometry" />
         </mxCell>
         <mxCell id="9Acvo2ea0FRhKf6faa0u-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" edge="1" parent="1" source="Y4xbZZhXiqdh8QqKIao6-12" target="BcvDHe3RkxouJi5w6K1Y-1">
           <mxGeometry relative="1" as="geometry" />
@@ -1688,15 +1688,18 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Oa12sQOV9CG4VWZYxUB2-14" value="pitch 函数执行熔断？" style="rhombus;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1">
-          <mxGeometry x="1755" y="510" width="140" height="80" as="geometry" />
+          <mxGeometry x="1755" y="540" width="140" height="80" as="geometry" />
         </mxCell>
         <mxCell id="TmhcH4ZHuu3FhZANurRG-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="1" source="Oa12sQOV9CG4VWZYxUB2-16" target="TmhcH4ZHuu3FhZANurRG-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Oa12sQOV9CG4VWZYxUB2-16" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;iterateNormalLoaders&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;fontSize=12;" vertex="1" parent="1">
-          <mxGeometry x="1545" y="530" width="170" height="40" as="geometry" />
+          <mxGeometry x="1545" y="560" width="170" height="40" as="geometry" />
         </mxCell>
         <mxCell id="9Acvo2ea0FRhKf6faa0u-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" edge="1" parent="1" source="BcvDHe3RkxouJi5w6K1Y-1" target="Oa12sQOV9CG4VWZYxUB2-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="17C2NniDG-v7Y1KcLDBh-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="1" source="BcvDHe3RkxouJi5w6K1Y-1" target="Oa12sQOV9CG4VWZYxUB2-16">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="BcvDHe3RkxouJi5w6K1Y-1" value="是否正向遍历完所有 loader 的 pitch 属性？" style="rhombus;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1">
@@ -1709,7 +1712,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="TmhcH4ZHuu3FhZANurRG-1" value="是否反向遍历完所有 loader 的 normal 属性？" style="rhombus;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1">
-          <mxGeometry x="1370" y="510" width="140" height="80" as="geometry" />
+          <mxGeometry x="1370" y="540" width="140" height="80" as="geometry" />
         </mxCell>
         <mxCell id="diTCUX3Lf3WKZt8Kp-33-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" edge="1" parent="1" source="QpcHcOi5INW79J7yYzm0-1" target="diTCUX3Lf3WKZt8Kp-33-1">
           <mxGeometry relative="1" as="geometry" />
@@ -1721,28 +1724,28 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="QpcHcOi5INW79J7yYzm0-1" value="&lt;div style=&quot;&quot;&gt;当前 loader 是否被标记为已执行过 normal 函数？&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="1370" y="620" width="140" height="80" as="geometry" />
+          <mxGeometry x="1370" y="650" width="140" height="80" as="geometry" />
         </mxCell>
         <mxCell id="QpcHcOi5INW79J7yYzm0-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="1" source="QpcHcOi5INW79J7yYzm0-4" target="Oa12sQOV9CG4VWZYxUB2-16">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="QpcHcOi5INW79J7yYzm0-4" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;游标 -1&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;fontSize=12;" vertex="1" parent="1">
-          <mxGeometry x="1545" y="640" width="170" height="40" as="geometry" />
+          <mxGeometry x="1545" y="670" width="170" height="40" as="geometry" />
         </mxCell>
         <mxCell id="KsQdCdGCfMLS7wQhzmlX-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" edge="1" parent="1" source="diTCUX3Lf3WKZt8Kp-33-1" target="XRW0Mdoe9ZFrg4h-cdSA-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="17C2NniDG-v7Y1KcLDBh-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=12;" edge="1" parent="1" source="diTCUX3Lf3WKZt8Kp-33-1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1630" y="680" as="targetPoint" />
+            <mxPoint x="1630" y="710" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1260" y="720" />
-              <mxPoint x="1630" y="720" />
+              <mxPoint x="1260" y="750" />
+              <mxPoint x="1630" y="750" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="diTCUX3Lf3WKZt8Kp-33-1" value="&lt;div style=&quot;&quot;&gt;当前 loader 上的 normal 函数是否有定义？&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="1195" y="620" width="130" height="80" as="geometry" />
+          <mxGeometry x="1195" y="650" width="130" height="80" as="geometry" />
         </mxCell>
         <mxCell id="XRW0Mdoe9ZFrg4h-cdSA-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="1" source="XRW0Mdoe9ZFrg4h-cdSA-1" target="Oa12sQOV9CG4VWZYxUB2-14">
           <mxGeometry relative="1" as="geometry" />
@@ -1753,13 +1756,19 @@
         <mxCell id="17C2NniDG-v7Y1KcLDBh-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="1" source="XRW0Mdoe9ZFrg4h-cdSA-8" target="QpcHcOi5INW79J7yYzm0-4">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1075" y="720" />
-              <mxPoint x="1630" y="720" />
+              <mxPoint x="1075" y="750" />
+              <mxPoint x="1630" y="750" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="XRW0Mdoe9ZFrg4h-cdSA-8" value="执行 normal 函数" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;fontSize=12;" vertex="1" parent="1">
-          <mxGeometry x="990" y="640" width="170" height="40" as="geometry" />
+          <mxGeometry x="990" y="670" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="17C2NniDG-v7Y1KcLDBh-7" value="Y" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1130" y="430" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="17C2NniDG-v7Y1KcLDBh-10" value="N" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="500" width="30" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
