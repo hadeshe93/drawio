@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-07T01:16:14.073Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="BYTVzHvpcGIA9IGUn6Rd" version="20.0.4" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-07-07T01:16:20.338Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="jS-0pJTg0d6M6zOpib-H" version="20.0.4" type="github" pages="5">
   <diagram id="4Hh4apjfrW1ldag-3NwE" name="01-从构建入口开始分析">
     <mxGraphModel dx="1426" dy="802" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2310,7 +2310,7 @@
         <mxCell id="59Q395B1rDl6A2TsJx0H-18" value="新节点没有子节点，但旧节点有？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="Ufq2rsztld6ZsIzywQ1o-1">
           <mxGeometry x="5990" y="340" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="59Q395B1rDl6A2TsJx0H-20" value="DOM 上移除掉旧节点下所有子节点" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Ufq2rsztld6ZsIzywQ1o-1">
+        <mxCell id="59Q395B1rDl6A2TsJx0H-20" value="DOM 上移除掉旧节点下的所有子节点" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Ufq2rsztld6ZsIzywQ1o-1">
           <mxGeometry x="5970" y="445" width="120" height="30" as="geometry" />
         </mxCell>
       </root>
