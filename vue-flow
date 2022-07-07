@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-07T01:24:00.032Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="ibeZfWxRYOFil_1tXNIl" version="20.0.4" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-07-07T01:25:15.545Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="Ig_UPDu4cj4wpJzAkfBm" version="20.0.4" type="github" pages="5">
   <diagram id="4Hh4apjfrW1ldag-3NwE" name="01-从构建入口开始分析">
     <mxGraphModel dx="1426" dy="802" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1496,7 +1496,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="4QzAng6JMfmqxXQ2uEe2" name="05-深入响应式原理">
-    <mxGraphModel dx="1426" dy="802" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1188" dy="668" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="Ufq2rsztld6ZsIzywQ1o-0" />
         <mxCell id="Ufq2rsztld6ZsIzywQ1o-1" parent="Ufq2rsztld6ZsIzywQ1o-0" />
@@ -2353,6 +2353,15 @@
         </mxCell>
         <mxCell id="59Q395B1rDl6A2TsJx0H-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="Ufq2rsztld6ZsIzywQ1o-1" source="59Q395B1rDl6A2TsJx0H-22" target="59Q395B1rDl6A2TsJx0H-24">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="59Q395B1rDl6A2TsJx0H-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="Ufq2rsztld6ZsIzywQ1o-1" source="59Q395B1rDl6A2TsJx0H-22" target="59Q395B1rDl6A2TsJx0H-35">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="6270" y="405" />
+              <mxPoint x="6270" y="695" />
+              <mxPoint x="5770" y="695" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="59Q395B1rDl6A2TsJx0H-22" value="旧节点是文本节点？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="Ufq2rsztld6ZsIzywQ1o-1">
           <mxGeometry x="6130" y="365" width="80" height="80" as="geometry" />
