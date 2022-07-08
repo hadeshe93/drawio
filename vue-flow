@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-08T00:11:55.270Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="1V4du3zg84Edc1VPLpQR" version="20.0.4" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-07-08T00:12:10.628Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="ushO1Iq109VxOxebYj1m" version="20.0.4" type="github" pages="5">
   <diagram id="4Hh4apjfrW1ldag-3NwE" name="01-从构建入口开始分析">
     <mxGraphModel dx="1426" dy="770" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2575,6 +2575,9 @@
         <mxCell id="Iv_JUGlmbaQ_x0HosP6L-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="Ufq2rsztld6ZsIzywQ1o-1" source="Iv_JUGlmbaQ_x0HosP6L-52" target="Iv_JUGlmbaQ_x0HosP6L-54">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="Iv_JUGlmbaQ_x0HosP6L-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="Ufq2rsztld6ZsIzywQ1o-1" source="Iv_JUGlmbaQ_x0HosP6L-52" target="Iv_JUGlmbaQ_x0HosP6L-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="Iv_JUGlmbaQ_x0HosP6L-52" value="oldEndVnode 和&amp;nbsp;newStartVnode 是否「相同」？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="Ufq2rsztld6ZsIzywQ1o-1">
           <mxGeometry x="7070" y="780" width="80" height="80" as="geometry" />
         </mxCell>
@@ -2601,17 +2604,35 @@
         <mxCell id="Iv_JUGlmbaQ_x0HosP6L-59" value="将 oldEndVnode.elm 挪动插到 oldStartVnode.elm 前面" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Ufq2rsztld6ZsIzywQ1o-1">
           <mxGeometry x="6766" y="805" width="120" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="Iv_JUGlmbaQ_x0HosP6L-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="Ufq2rsztld6ZsIzywQ1o-1" source="Iv_JUGlmbaQ_x0HosP6L-61" target="Iv_JUGlmbaQ_x0HosP6L-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Iv_JUGlmbaQ_x0HosP6L-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="Ufq2rsztld6ZsIzywQ1o-1" source="Iv_JUGlmbaQ_x0HosP6L-61" target="Iv_JUGlmbaQ_x0HosP6L-62">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="Iv_JUGlmbaQ_x0HosP6L-61" value="若旧节点数组中不存在对应新节点？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="Ufq2rsztld6ZsIzywQ1o-1">
           <mxGeometry x="7070" y="890" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Iv_JUGlmbaQ_x0HosP6L-62" value="创建节点并插入到 oldStartVnode.elm 前面" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Ufq2rsztld6ZsIzywQ1o-1">
           <mxGeometry x="6910" y="915" width="120" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="Iv_JUGlmbaQ_x0HosP6L-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="Ufq2rsztld6ZsIzywQ1o-1" source="Iv_JUGlmbaQ_x0HosP6L-63" target="Iv_JUGlmbaQ_x0HosP6L-67">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Iv_JUGlmbaQ_x0HosP6L-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="Ufq2rsztld6ZsIzywQ1o-1" source="Iv_JUGlmbaQ_x0HosP6L-63" target="Iv_JUGlmbaQ_x0HosP6L-64">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="Iv_JUGlmbaQ_x0HosP6L-63" value="vnodeToMove 和&amp;nbsp;newStartVnode 是否「相同」？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="Ufq2rsztld6ZsIzywQ1o-1">
           <mxGeometry x="7070" y="1000" width="80" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="Iv_JUGlmbaQ_x0HosP6L-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="Ufq2rsztld6ZsIzywQ1o-1" source="Iv_JUGlmbaQ_x0HosP6L-64" target="Iv_JUGlmbaQ_x0HosP6L-65">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="Iv_JUGlmbaQ_x0HosP6L-64" value="递归调用 patchVnode 方法" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Ufq2rsztld6ZsIzywQ1o-1">
           <mxGeometry x="6910" y="1025" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Iv_JUGlmbaQ_x0HosP6L-75" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="Ufq2rsztld6ZsIzywQ1o-1" source="Iv_JUGlmbaQ_x0HosP6L-65" target="Iv_JUGlmbaQ_x0HosP6L-66">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Iv_JUGlmbaQ_x0HosP6L-65" value="旧子节点数组的对应位置置空" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Ufq2rsztld6ZsIzywQ1o-1">
           <mxGeometry x="6766" y="1025" width="120" height="30" as="geometry" />
