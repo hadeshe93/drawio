@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-08T00:12:45.841Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="z3YqEVsff05yHKdtTWv-" version="20.0.4" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-07-08T00:15:33.872Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="cT5AHH_w8UfoF-Ft9uR1" version="20.0.4" type="github" pages="5">
   <diagram id="4Hh4apjfrW1ldag-3NwE" name="01-从构建入口开始分析">
     <mxGraphModel dx="1426" dy="770" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1496,7 +1496,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="4QzAng6JMfmqxXQ2uEe2" name="05-深入响应式原理">
-    <mxGraphModel dx="1426" dy="770" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1426" dy="1939" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="Ufq2rsztld6ZsIzywQ1o-0" />
         <mxCell id="Ufq2rsztld6ZsIzywQ1o-1" parent="Ufq2rsztld6ZsIzywQ1o-0" />
@@ -2448,23 +2448,29 @@
         <mxCell id="Iv_JUGlmbaQ_x0HosP6L-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="Ufq2rsztld6ZsIzywQ1o-1" source="Iv_JUGlmbaQ_x0HosP6L-2" target="Iv_JUGlmbaQ_x0HosP6L-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Iv_JUGlmbaQ_x0HosP6L-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="Ufq2rsztld6ZsIzywQ1o-1" source="Iv_JUGlmbaQ_x0HosP6L-2" target="Iv_JUGlmbaQ_x0HosP6L-8">
+        <mxCell id="Iv_JUGlmbaQ_x0HosP6L-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="Ufq2rsztld6ZsIzywQ1o-1" source="Iv_JUGlmbaQ_x0HosP6L-2" target="Iv_JUGlmbaQ_x0HosP6L-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Iv_JUGlmbaQ_x0HosP6L-2" value="旧子节点数组是否遍历完毕？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="Ufq2rsztld6ZsIzywQ1o-1">
           <mxGeometry x="7230" y="80" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="Iv_JUGlmbaQ_x0HosP6L-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="Ufq2rsztld6ZsIzywQ1o-1" source="Iv_JUGlmbaQ_x0HosP6L-3" target="Iv_JUGlmbaQ_x0HosP6L-6">
+        <mxCell id="Iv_JUGlmbaQ_x0HosP6L-87" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="Ufq2rsztld6ZsIzywQ1o-1" source="Iv_JUGlmbaQ_x0HosP6L-3" target="Iv_JUGlmbaQ_x0HosP6L-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Iv_JUGlmbaQ_x0HosP6L-3" value="新子节点数组是否遍历完毕？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="Ufq2rsztld6ZsIzywQ1o-1">
           <mxGeometry x="7390" y="80" width="80" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="Iv_JUGlmbaQ_x0HosP6L-88" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="Ufq2rsztld6ZsIzywQ1o-1" source="Iv_JUGlmbaQ_x0HosP6L-6" target="Iv_JUGlmbaQ_x0HosP6L-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="Iv_JUGlmbaQ_x0HosP6L-6" value="从 DOM 上移除所有剩余的旧子节点" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Ufq2rsztld6ZsIzywQ1o-1">
-          <mxGeometry x="7370" y="200" width="120" height="30" as="geometry" />
+          <mxGeometry x="7210" y="-30" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Iv_JUGlmbaQ_x0HosP6L-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="Ufq2rsztld6ZsIzywQ1o-1" source="Iv_JUGlmbaQ_x0HosP6L-8" target="Iv_JUGlmbaQ_x0HosP6L-1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Iv_JUGlmbaQ_x0HosP6L-8" value="添加所有剩余的新子节点到 DOM 上" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Ufq2rsztld6ZsIzywQ1o-1">
-          <mxGeometry x="7210" y="200" width="120" height="30" as="geometry" />
+          <mxGeometry x="7210" y="20" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Iv_JUGlmbaQ_x0HosP6L-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="Ufq2rsztld6ZsIzywQ1o-1" source="Iv_JUGlmbaQ_x0HosP6L-10" target="Iv_JUGlmbaQ_x0HosP6L-16">
           <mxGeometry relative="1" as="geometry" />
@@ -2474,6 +2480,9 @@
         </mxCell>
         <mxCell id="Iv_JUGlmbaQ_x0HosP6L-10" value="oldStartVnode 是否不存在？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="Ufq2rsztld6ZsIzywQ1o-1">
           <mxGeometry x="7070" y="200" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Iv_JUGlmbaQ_x0HosP6L-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="Ufq2rsztld6ZsIzywQ1o-1" source="Iv_JUGlmbaQ_x0HosP6L-16" target="Iv_JUGlmbaQ_x0HosP6L-1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Iv_JUGlmbaQ_x0HosP6L-16" value="oldStartIdx 游标+1" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Ufq2rsztld6ZsIzywQ1o-1">
           <mxGeometry x="6910" y="225" width="120" height="30" as="geometry" />
@@ -2486,6 +2495,9 @@
         </mxCell>
         <mxCell id="Iv_JUGlmbaQ_x0HosP6L-18" value="oldEndVnode 是否不存在？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="Ufq2rsztld6ZsIzywQ1o-1">
           <mxGeometry x="7070" y="315" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Iv_JUGlmbaQ_x0HosP6L-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="Ufq2rsztld6ZsIzywQ1o-1" source="Iv_JUGlmbaQ_x0HosP6L-20" target="Iv_JUGlmbaQ_x0HosP6L-1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Iv_JUGlmbaQ_x0HosP6L-20" value="oldEndVnode 游标-1" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Ufq2rsztld6ZsIzywQ1o-1">
           <mxGeometry x="6910" y="340" width="120" height="30" as="geometry" />
@@ -2510,6 +2522,9 @@
         </mxCell>
         <mxCell id="Iv_JUGlmbaQ_x0HosP6L-26" value="oldStartIdx 游标+1" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Ufq2rsztld6ZsIzywQ1o-1">
           <mxGeometry x="6766" y="455" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Iv_JUGlmbaQ_x0HosP6L-92" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="Ufq2rsztld6ZsIzywQ1o-1" source="Iv_JUGlmbaQ_x0HosP6L-27" target="Iv_JUGlmbaQ_x0HosP6L-1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Iv_JUGlmbaQ_x0HosP6L-27" value="newStartIdx 游标+1" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Ufq2rsztld6ZsIzywQ1o-1">
           <mxGeometry x="6766" y="505" width="120" height="30" as="geometry" />
@@ -2536,6 +2551,9 @@
         </mxCell>
         <mxCell id="Iv_JUGlmbaQ_x0HosP6L-32" value="oldEndIdx 游标-1" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Ufq2rsztld6ZsIzywQ1o-1">
           <mxGeometry x="6766" y="575" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Iv_JUGlmbaQ_x0HosP6L-94" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="Ufq2rsztld6ZsIzywQ1o-1" source="Iv_JUGlmbaQ_x0HosP6L-33" target="Iv_JUGlmbaQ_x0HosP6L-1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Iv_JUGlmbaQ_x0HosP6L-33" value="newEndIdx 游标-1" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Ufq2rsztld6ZsIzywQ1o-1">
           <mxGeometry x="6766" y="630" width="120" height="30" as="geometry" />
@@ -2643,11 +2661,11 @@
         <mxCell id="Iv_JUGlmbaQ_x0HosP6L-67" value="创建节点并插入到 oldStartVnode.elm 前面" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Ufq2rsztld6ZsIzywQ1o-1">
           <mxGeometry x="7050" y="1110" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Iv_JUGlmbaQ_x0HosP6L-77" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="Ufq2rsztld6ZsIzywQ1o-1" source="Iv_JUGlmbaQ_x0HosP6L-76" target="Iv_JUGlmbaQ_x0HosP6L-1">
+        <mxCell id="Iv_JUGlmbaQ_x0HosP6L-89" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="Ufq2rsztld6ZsIzywQ1o-1" source="Iv_JUGlmbaQ_x0HosP6L-76" target="Iv_JUGlmbaQ_x0HosP6L-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Iv_JUGlmbaQ_x0HosP6L-76" value="开始" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Ufq2rsztld6ZsIzywQ1o-1">
-          <mxGeometry x="7050" y="20" width="120" height="30" as="geometry" />
+          <mxGeometry x="6900" y="-30" width="120" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
