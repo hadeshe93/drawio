@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-08T00:05:31.639Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="kmkD9qZISJzXG4CckLg8" version="20.0.4" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-07-08T00:11:35.072Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="qEdsE2cQRrbpUcIMhcGP" version="20.0.4" type="github" pages="5">
   <diagram id="4Hh4apjfrW1ldag-3NwE" name="01-从构建入口开始分析">
     <mxGraphModel dx="1426" dy="770" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2600,6 +2600,27 @@
         </mxCell>
         <mxCell id="Iv_JUGlmbaQ_x0HosP6L-59" value="将 oldEndVnode.elm 挪动插到 oldStartVnode.elm 前面" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Ufq2rsztld6ZsIzywQ1o-1">
           <mxGeometry x="6766" y="805" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Iv_JUGlmbaQ_x0HosP6L-61" value="若旧节点数组中不存在对应新节点？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="Ufq2rsztld6ZsIzywQ1o-1">
+          <mxGeometry x="7070" y="890" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Iv_JUGlmbaQ_x0HosP6L-62" value="直接创建并加入到 DOM 中" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Ufq2rsztld6ZsIzywQ1o-1">
+          <mxGeometry x="6910" y="915" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Iv_JUGlmbaQ_x0HosP6L-63" value="vnodeToMove 和&amp;nbsp;newStartVnode 是否「相同」？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="Ufq2rsztld6ZsIzywQ1o-1">
+          <mxGeometry x="7070" y="1000" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Iv_JUGlmbaQ_x0HosP6L-64" value="递归调用 patchVnode 方法" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Ufq2rsztld6ZsIzywQ1o-1">
+          <mxGeometry x="6910" y="1025" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Iv_JUGlmbaQ_x0HosP6L-65" value="旧子节点数组的对应位置置空" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Ufq2rsztld6ZsIzywQ1o-1">
+          <mxGeometry x="6766" y="1025" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Iv_JUGlmbaQ_x0HosP6L-66" value="将对应旧子节点插入到 oldStartVnode.elm 前面" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Ufq2rsztld6ZsIzywQ1o-1">
+          <mxGeometry x="6616" y="1025" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Iv_JUGlmbaQ_x0HosP6L-67" value="创建节点并插入到 oldStartVnode.elm 前面" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Ufq2rsztld6ZsIzywQ1o-1">
+          <mxGeometry x="7050" y="1110" width="120" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
