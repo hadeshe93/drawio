@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-22T01:32:25.475Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="m3gfiK7svEKdf7dfduLP" version="20.0.4" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-07-22T01:33:59.310Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="PHB7EiTKuDdAVEwzRsbX" version="20.0.4" type="github" pages="6">
   <diagram id="4Hh4apjfrW1ldag-3NwE" name="01-从构建入口开始分析">
     <mxGraphModel dx="1426" dy="770" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1500,6 +1500,14 @@
       <root>
         <mxCell id="Ufq2rsztld6ZsIzywQ1o-0" />
         <mxCell id="Ufq2rsztld6ZsIzywQ1o-1" parent="Ufq2rsztld6ZsIzywQ1o-0" />
+        <mxCell id="5aO_e8dvPQImzoEcc-JH-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontColor=#FF0000;fillColor=#e1d5e7;strokeColor=#9673a6;dashed=1;" edge="1" parent="Ufq2rsztld6ZsIzywQ1o-1" source="QrNqtqZk_MHBmdQYdM6t-81" target="QrNqtqZk_MHBmdQYdM6t-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5aO_e8dvPQImzoEcc-JH-3" value="实例化" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#B5739D;" vertex="1" connectable="0" parent="5aO_e8dvPQImzoEcc-JH-0">
+          <mxGeometry x="-0.488" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="59Q395B1rDl6A2TsJx0H-47" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="Ufq2rsztld6ZsIzywQ1o-1" vertex="1">
           <mxGeometry x="5669" y="220" width="761" height="580" as="geometry" />
         </mxCell>
@@ -1515,6 +1523,11 @@
               <mxPoint x="1795" y="410" />
               <mxPoint x="1823" y="410" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5aO_e8dvPQImzoEcc-JH-2" value="定义" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#B5739D;" vertex="1" connectable="0" parent="QrNqtqZk_MHBmdQYdM6t-86">
+          <mxGeometry x="-0.5181" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="QrNqtqZk_MHBmdQYdM6t-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="Ufq2rsztld6ZsIzywQ1o-1" source="QrNqtqZk_MHBmdQYdM6t-23" target="QrNqtqZk_MHBmdQYdM6t-7" edge="1">
@@ -1948,6 +1961,11 @@
         </mxCell>
         <mxCell id="QrNqtqZk_MHBmdQYdM6t-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;dashed=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="Ufq2rsztld6ZsIzywQ1o-1" source="QrNqtqZk_MHBmdQYdM6t-81" target="QrNqtqZk_MHBmdQYdM6t-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5aO_e8dvPQImzoEcc-JH-1" value="&lt;font color=&quot;#b5739d&quot;&gt;定义&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#FF0000;" vertex="1" connectable="0" parent="QrNqtqZk_MHBmdQYdM6t-85">
+          <mxGeometry x="0.0634" y="-1" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="QrNqtqZk_MHBmdQYdM6t-81" value="defineReactive 函数" style="rounded=1;whiteSpace=wrap;html=1;direction=east;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="Ufq2rsztld6ZsIzywQ1o-1" vertex="1">
           <mxGeometry x="1660" y="510" width="180" height="30" as="geometry" />
