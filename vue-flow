@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-22T01:37:25.689Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="pogZz0G3C0mCOm-D_0Ic" version="20.0.4" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-07-22T01:38:11.707Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="SoCxddc9RmnKBRLs5J_I" version="20.0.4" type="github" pages="6">
   <diagram id="4Hh4apjfrW1ldag-3NwE" name="01-从构建入口开始分析">
     <mxGraphModel dx="1426" dy="770" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1963,7 +1963,7 @@
         <mxCell id="QrNqtqZk_MHBmdQYdM6t-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="Ufq2rsztld6ZsIzywQ1o-1" source="QrNqtqZk_MHBmdQYdM6t-78" target="QrNqtqZk_MHBmdQYdM6t-77" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="QrNqtqZk_MHBmdQYdM6t-78" value="&lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;每个&lt;/font&gt;&lt;/b&gt;&lt;br&gt;应用层 watch 的属性" style="rounded=1;whiteSpace=wrap;html=1;direction=east;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="Ufq2rsztld6ZsIzywQ1o-1" vertex="1">
+        <mxCell id="QrNqtqZk_MHBmdQYdM6t-78" value="&lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;每个&lt;/font&gt;&lt;/b&gt;&lt;br&gt;应用层 watch 的&lt;font color=&quot;#ff0000&quot;&gt;属性&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;direction=east;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="Ufq2rsztld6ZsIzywQ1o-1" vertex="1">
           <mxGeometry x="2820" y="500" width="130" height="30" as="geometry" />
         </mxCell>
         <mxCell id="QrNqtqZk_MHBmdQYdM6t-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;dashed=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="Ufq2rsztld6ZsIzywQ1o-1" source="QrNqtqZk_MHBmdQYdM6t-81" target="QrNqtqZk_MHBmdQYdM6t-3" edge="1">
